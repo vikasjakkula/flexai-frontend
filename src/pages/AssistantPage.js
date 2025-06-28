@@ -6,11 +6,6 @@ import LoadingPage from '../components/LoadingPage';
 
 const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000';
 
-// Debug logging
-console.log('[AssistantPage] Environment:', process.env.NODE_ENV);
-console.log('[AssistantPage] API_BASE_URL:', API_BASE_URL);
-console.log('[AssistantPage] REACT_APP_API_BASE_URL:', process.env.REACT_APP_API_BASE_URL);
-
 const AssistantPage = () => {
   const [messages, setMessages] = useState([]);
   const [inputMessage, setInputMessage] = useState('');
@@ -324,31 +319,97 @@ const AssistantPage = () => {
 
   return (
     <div style={{ minHeight: '100vh', background: '#f4fafd' }}>
-      <div style={{ maxWidth: '48rem', margin: '0 auto', height: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ 
+        maxWidth: '100%', 
+        margin: '0 auto', 
+        height: '100vh', 
+        display: 'flex', 
+        flexDirection: 'column',
+        padding: '0 0.5rem'
+      }}>
         {/* Header */}
-        <div style={{ background: '#1DA1F2', color: 'white', padding: '1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderRadius: '1.5rem 1.5rem 0 0' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <div style={{ width: '3rem', height: '3rem', background: '#fff', color: '#1DA1F2', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <MessageCircle style={{ width: '2rem', height: '2rem' }} />
+        <div style={{ 
+          background: '#1DA1F2', 
+          color: 'white', 
+          padding: '1rem', 
+          display: 'flex', 
+          alignItems: 'center', 
+          justifyContent: 'space-between', 
+          borderRadius: '1rem 1rem 0 0',
+          flexWrap: 'wrap',
+          gap: '0.5rem'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flex: 1, minWidth: 0 }}>
+            <div style={{ 
+              width: '2.5rem', 
+              height: '2.5rem', 
+              background: '#fff', 
+              color: '#1DA1F2', 
+              borderRadius: '50%', 
+              display: 'flex', 
+              alignItems: 'center', 
+              justifyContent: 'center',
+              flexShrink: 0
+            }}>
+              <MessageCircle style={{ width: '1.5rem', height: '1.5rem' }} />
             </div>
-            <div>
-              <h1 style={{ fontSize: '2rem', fontWeight: 'bold', color: 'white', margin: 0 }}>Flex.AI</h1>
-              <p style={{ color: 'white', margin: 0 }}>Your personal workout answers are here</p>
+            <div style={{ minWidth: 0 }}>
+              <h1 style={{ 
+                fontSize: '1.5rem', 
+                fontWeight: 'bold', 
+                color: 'white', 
+                margin: 0,
+                lineHeight: 1.2
+              }}>Flex.AI</h1>
+              <p style={{ 
+                color: 'white', 
+                margin: 0, 
+                fontSize: '0.875rem',
+                lineHeight: 1.2
+              }}>Your personal workout answers are here</p>
             </div>
           </div>
           <button
             onClick={clearChat}
-            style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', color: 'white', background: 'rgba(29,161,242,0.2)', border: 'none', borderRadius: '0.75rem', cursor: 'pointer' }}
+            style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '0.5rem', 
+              padding: '0.75rem', 
+              color: 'white', 
+              background: 'rgba(29,161,242,0.2)', 
+              border: 'none', 
+              borderRadius: '0.75rem', 
+              cursor: 'pointer',
+              flexShrink: 0
+            }}
             title="Clear chat"
           >
             <Trash2 style={{ width: '1.25rem', height: '1.25rem' }} />
             <span style={{ display: 'none' }}>Clear Chat</span>
           </button>
         </div>
+        
         {/* Quick Questions */}
-        <div style={{ background: '#fff', borderBottom: '1px solid #1DA1F2', padding: '1rem' }}>
-          <p style={{ color: '#1DA1F2', marginBottom: '0.75rem', fontSize: '1rem' }}>Quick starter:</p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+        <div style={{ 
+          background: '#fff', 
+          borderBottom: '1px solid #1DA1F2', 
+          padding: '0.75rem',
+          overflowX: 'auto'
+        }}>
+          <p style={{ 
+            color: '#1DA1F2', 
+            marginBottom: '0.5rem', 
+            fontSize: '0.875rem',
+            fontWeight: '500'
+          }}>Quick starter:</p>
+          <div style={{ 
+            display: 'flex', 
+            flexWrap: 'nowrap', 
+            gap: '0.5rem',
+            overflowX: 'auto',
+            paddingBottom: '0.25rem'
+          }}>
             {quickQuestions.map((item, index) => (
               <button
                 key={index}
@@ -356,30 +417,84 @@ const AssistantPage = () => {
                   setInputMessage(item.question);
                   handleSendMessage();
                 }}
-                style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', background: '#1DA1F2', color: 'white', border: 'none', borderRadius: '9999px', fontSize: '1rem', cursor: 'pointer' }}
+                style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: '0.5rem', 
+                  padding: '0.5rem 0.75rem', 
+                  background: '#1DA1F2', 
+                  color: 'white', 
+                  border: 'none', 
+                  borderRadius: '9999px', 
+                  fontSize: '0.875rem', 
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                  flexShrink: 0,
+                  minHeight: '44px'
+                }}
               >
-                <item.icon style={{ width: '1.25rem', height: '1.25rem', color: 'white' }} />
+                <item.icon style={{ width: '1rem', height: '1rem', color: 'white' }} />
                 <span>{item.text}</span>
               </button>
             ))}
           </div>
         </div>
+        
         {/* Messages Container */}
-        <div style={{ flex: 1, overflowY: 'auto', padding: '1.5rem', background: '#f4fafd' }}>
+        <div style={{ 
+          flex: 1, 
+          overflowY: 'auto', 
+          padding: '1rem', 
+          background: '#f4fafd',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '1rem'
+        }}>
           {messages.map((message) => (
             <div
               key={message.id}
-              style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', flexDirection: message.sender === 'user' ? 'row-reverse' : 'row' }}
+              style={{ 
+                display: 'flex', 
+                alignItems: 'flex-start', 
+                gap: '0.75rem', 
+                flexDirection: message.sender === 'user' ? 'row-reverse' : 'row',
+                maxWidth: '100%'
+              }}
             >
-              <div style={{ width: '2.5rem', height: '2.5rem', borderRadius: '50%', background: '#1DA1F2', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <div style={{ 
+                width: '2rem', 
+                height: '2rem', 
+                borderRadius: '50%', 
+                background: '#1DA1F2', 
+                color: 'white', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                flexShrink: 0
+              }}>
                 {message.sender === 'user' ? (
-                  <User style={{ width: '1.5rem', height: '1.5rem' }} />
+                  <User style={{ width: '1.25rem', height: '1.25rem' }} />
                 ) : (
-                  <Bot style={{ width: '1.5rem', height: '1.5rem' }} />
+                  <Bot style={{ width: '1.25rem', height: '1.25rem' }} />
                 )}
               </div>
-              <div style={{ maxWidth: '32rem', display: 'flex', flexDirection: 'column', alignItems: message.sender === 'user' ? 'flex-end' : 'flex-start' }}>
-                <div style={{ padding: '1rem 1.5rem', borderRadius: '1.5rem', background: '#1DA1F2', color: 'white', fontSize: '1rem', marginBottom: 0 }}>
+              <div style={{ 
+                maxWidth: 'calc(100% - 3rem)', 
+                display: 'flex', 
+                flexDirection: 'column', 
+                alignItems: message.sender === 'user' ? 'flex-end' : 'flex-start',
+                minWidth: 0
+              }}>
+                <div style={{ 
+                  padding: '0.75rem 1rem', 
+                  borderRadius: '1.25rem', 
+                  background: '#1DA1F2', 
+                  color: 'white', 
+                  fontSize: '0.875rem', 
+                  marginBottom: 0,
+                  maxWidth: '100%',
+                  wordWrap: 'break-word'
+                }}>
                   {message.sender === 'bot' ? (
                     <ReactMarkdown 
                       components={{
@@ -389,17 +504,17 @@ const AssistantPage = () => {
                         ul: ({children}) => <ul style={{ margin: '0.5rem 0', paddingLeft: '1.5rem' }}>{children}</ul>,
                         ol: ({children}) => <ol style={{ margin: '0.5rem 0', paddingLeft: '1.5rem' }}>{children}</ol>,
                         li: ({children}) => <li style={{ margin: '0.25rem 0' }}>{children}</li>,
-                        h1: ({children}) => <h1 style={{ fontSize: '1.5rem', margin: '0.5rem 0' }}>{children}</h1>,
-                        h2: ({children}) => <h2 style={{ fontSize: '1.25rem', margin: '0.5rem 0' }}>{children}</h2>,
-                        h3: ({children}) => <h3 style={{ fontSize: '1.1rem', margin: '0.5rem 0' }}>{children}</h3>,
-                        code: ({children}) => <code style={{ background: 'rgba(255,255,255,0.2)', padding: '0.2rem 0.4rem', borderRadius: '0.25rem', fontSize: '0.9rem' }}>{children}</code>,
-                        blockquote: ({children}) => <blockquote style={{ borderLeft: '3px solid rgba(255,255,255,0.5)', paddingLeft: '1rem', margin: '0.5rem 0', fontStyle: 'italic' }}>{children}</blockquote>,
-                        table: ({children}) => <table style={{ width: '100%', borderCollapse: 'collapse', margin: '0.5rem 0', background: 'rgba(255,255,255,0.1)', borderRadius: '0.5rem', overflow: 'hidden' }}>{children}</table>,
+                        h1: ({children}) => <h1 style={{ fontSize: '1.25rem', margin: '0.5rem 0' }}>{children}</h1>,
+                        h2: ({children}) => <h2 style={{ fontSize: '1.125rem', margin: '0.5rem 0' }}>{children}</h2>,
+                        h3: ({children}) => <h3 style={{ fontSize: '1rem', margin: '0.5rem 0' }}>{children}</h3>,
+                        code: ({children}) => <code style={{ background: 'rgba(255,255,255,0.2)', padding: '0.2rem 0.4rem', borderRadius: '0.25rem', fontSize: '0.8rem' }}>{children}</code>,
+                        blockquote: ({children}) => <blockquote style={{ borderLeft: '3px solid rgba(255,255,255,0.5)', paddingLeft: '0.75rem', margin: '0.5rem 0', fontStyle: 'italic' }}>{children}</blockquote>,
+                        table: ({children}) => <table style={{ width: '100%', borderCollapse: 'collapse', margin: '0.5rem 0', background: 'rgba(255,255,255,0.1)', borderRadius: '0.5rem', overflow: 'hidden', fontSize: '0.8rem' }}>{children}</table>,
                         thead: ({children}) => <thead style={{ background: 'rgba(255,255,255,0.2)' }}>{children}</thead>,
                         tbody: ({children}) => <tbody>{children}</tbody>,
                         tr: ({children}) => <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>{children}</tr>,
-                        th: ({children}) => <th style={{ padding: '0.75rem', textAlign: 'left', fontWeight: 'bold', fontSize: '0.9rem' }}>{children}</th>,
-                        td: ({children}) => <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>{children}</td>
+                        th: ({children}) => <th style={{ padding: '0.5rem', textAlign: 'left', fontWeight: 'bold', fontSize: '0.8rem' }}>{children}</th>,
+                        td: ({children}) => <td style={{ padding: '0.5rem', fontSize: '0.8rem' }}>{children}</td>
                       }}
                     >
                       {message.text}
@@ -408,51 +523,112 @@ const AssistantPage = () => {
                     <p style={{ margin: 0 }}>{message.text}</p>
                   )}
                 </div>
-                <p style={{ color: '#1DA1F2', fontSize: '0.85rem', margin: '0.5rem 0 0 0', padding: '0 0.5rem' }}>
+                <p style={{ 
+                  color: '#1DA1F2', 
+                  fontSize: '0.75rem', 
+                  margin: '0.25rem 0 0 0', 
+                  padding: '0 0.5rem' 
+                }}>
                   {formatTime(message.timestamp)}
                 </p>
               </div>
             </div>
           ))}
+          
           {/* Typing Indicator */}
           {isTyping && (
-            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-              <div style={{ width: '2.5rem', height: '2.5rem', borderRadius: '50%', background: '#1DA1F2', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Bot style={{ width: '1.5rem', height: '1.5rem' }} />
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+              <div style={{ 
+                width: '2rem', 
+                height: '2rem', 
+                borderRadius: '50%', 
+                background: '#1DA1F2', 
+                color: 'white', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                flexShrink: 0
+              }}>
+                <Bot style={{ width: '1.25rem', height: '1.25rem' }} />
               </div>
-              <div style={{ background: '#fff', border: '1px solid #1DA1F2', borderRadius: '1.5rem', padding: '1rem 1.5rem', boxShadow: '0 2px 8px rgba(29,161,242,0.08)' }}>
+              <div style={{ 
+                background: '#fff', 
+                border: '1px solid #1DA1F2', 
+                borderRadius: '1.25rem', 
+                padding: '0.75rem 1rem', 
+                boxShadow: '0 2px 8px rgba(29,161,242,0.08)' 
+              }}>
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
-                  <div style={{ width: '0.75rem', height: '0.75rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out' }}></div>
-                  <div style={{ width: '0.75rem', height: '0.75rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out', animationDelay: '0.1s' }}></div>
-                  <div style={{ width: '0.75rem', height: '0.75rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out', animationDelay: '0.2s' }}></div>
+                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out' }}></div>
+                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out', animationDelay: '0.1s' }}></div>
+                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out', animationDelay: '0.2s' }}></div>
                 </div>
               </div>
             </div>
           )}
           <div ref={messagesEndRef} />
         </div>
+        
         {/* Input Area */}
-        <div style={{ background: '#fff', borderTop: '1px solid #1DA1F2', padding: '1.5rem' }}>
-          <div style={{ display: 'flex', alignItems: 'flex-end', gap: '1rem' }}>
+        <div style={{ 
+          background: '#fff', 
+          borderTop: '1px solid #1DA1F2', 
+          padding: '1rem',
+          borderBottomLeftRadius: '1rem',
+          borderBottomRightRadius: '1rem'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'flex-end', gap: '0.75rem' }}>
             <div style={{ flex: 1, position: 'relative' }}>
               <textarea
                 value={inputMessage}
                 onChange={(e) => setInputMessage(e.target.value)}
                 onKeyPress={handleKeyPress}
                 placeholder="Ask Flex.Ai"
-                style={{ width: '100%', padding: '1rem 1.5rem', border: '1px solid #1DA1F2', borderRadius: '1.5rem', fontSize: '1rem', background: '#fff', color: '#1DA1F2', outline: 'none', resize: 'none', minHeight: '56px', maxHeight: '128px' }}
+                style={{ 
+                  width: '100%', 
+                  padding: '0.75rem 1rem', 
+                  border: '1px solid #1DA1F2', 
+                  borderRadius: '1.25rem', 
+                  fontSize: '0.875rem', 
+                  background: '#fff', 
+                  color: '#1DA1F2', 
+                  outline: 'none', 
+                  resize: 'none', 
+                  minHeight: '44px', 
+                  maxHeight: '120px',
+                  fontFamily: 'inherit'
+                }}
                 rows={1}
               />
             </div>
             <button
               onClick={handleSendMessage}
               disabled={!inputMessage.trim() || isTyping}
-              style={{ padding: '1rem', background: '#1DA1F2', color: 'white', border: 'none', borderRadius: '50%', cursor: 'pointer', fontSize: '1.25rem', opacity: !inputMessage.trim() || isTyping ? 0.5 : 1 }}
+              style={{ 
+                padding: '0.75rem', 
+                background: '#1DA1F2', 
+                color: 'white', 
+                border: 'none', 
+                borderRadius: '50%', 
+                cursor: 'pointer', 
+                fontSize: '1rem', 
+                opacity: !inputMessage.trim() || isTyping ? 0.5 : 1,
+                minWidth: '44px',
+                minHeight: '44px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}
             >
-              <Send style={{ width: '1.5rem', height: '1.5rem' }} />
+              <Send style={{ width: '1.25rem', height: '1.25rem' }} />
             </button>
           </div>
-          <p style={{ color: '#1DA1F2', fontSize: '0.9rem', marginTop: '1rem', textAlign: 'center' }}>
+          <p style={{ 
+            color: '#1DA1F2', 
+            fontSize: '0.75rem', 
+            marginTop: '0.75rem', 
+            textAlign: 'center' 
+          }}>
             {isApiAvailable ? "Powered by Google Gemini AI" : "Running in offline mode"}
           </p>
         </div>
