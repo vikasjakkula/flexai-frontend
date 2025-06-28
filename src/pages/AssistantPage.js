@@ -4,7 +4,7 @@ import { Send, Bot, User, Trash2, MessageCircle, Dumbbell, Heart, Target } from 
 import ReactMarkdown from 'react-markdown';
 import LoadingPage from '../components/LoadingPage';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000';
 
 const AssistantPage = () => {
   const [messages, setMessages] = useState([]);
