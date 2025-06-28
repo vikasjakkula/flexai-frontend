@@ -1,0 +1,455 @@
+.app-container {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 80px;
+  padding-bottom: 2rem;
+}
+
+.exercise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.exercise-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.app-container {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+}
+
+.exercise-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.exercise-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 340px;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.exercise-card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.exercise-card::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #FF0000, #FF7300, #FFFB00, #48FF00,
+    #00FFD5, #002BFF, #FF00C8, #FF0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.exercise-card:hover::before {
+  opacity: 1;
+}
+
+.exercise-card:hover::after {
+  opacity: 0.1;
+}
+
+.exercise-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.exercise-card:active::after {
+  background: transparent;
+}
+
+.exercise-card:active {
+  transform: translateY(-2px);
+}
+
+/* 
+  Project: CSS Glowing Button
+  Created: Sunday, 06 March 2022
+  Author: Jamshid Elmi 
+  Tutorial: https://youtu.be/b_8fHNIHFk4
+*/
+
+/* Glowing Button Styles */
+.btn {
+  margin: 100px;
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+}
+
+.btn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/* glow */
+.btn::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #FF0000, #FF7300, #FFFB00, #48FF00,
+    #00FFD5, #002BFF, #FF00C8, #FF0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height:  calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+@keyframes glowing {
+  0% {background-position: 0 0;}
+  50% {background-position: 400% 0;}
+  100% {background-position: 0 0;}
+}
+
+/* hover */
+.btn:hover::before {
+  opacity: 1;
+}
+
+.btn:active:after {
+  background: transparent;
+}
+
+.btn:active {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Main Navigation Button Styles - Sky Blue Only */
+.main-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(56, 189, 248, 0.15);
+}
+
+.main-nav-btn:hover {
+  background: #0ea5e9;
+  box-shadow: 0 4px 16px rgba(56, 189, 248, 0.25);
+  transform: translateY(-2px);
+}
+
+.main-nav-btn:active {
+  background: #38bdf8;
+  transform: scale(0.97);
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: all 0.2s;
+}
+
+.hamburger span {
+  width: 20px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.2s;
+  transform-origin: center;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
+}
+
+/* Dropdown Menu - Sky Blue Only, Simple Animation */
+.nav-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(56, 189, 248, 0.15);
+  padding: 8px 0;
+  min-width: 170px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+  z-index: 999;
+  margin-top: 8px;
+}
+
+.nav-dropdown.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.nav-dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+  background: none;
+  border: none;
+  text-align: left;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  border-radius: 8px;
+}
+
+.nav-dropdown-item:hover {
+  background: #e0f2fe;
+  color: #0ea5e9;
+  transform: translateX(4px);
+}
+
+.nav-icon {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.nav-dropdown-item:hover .nav-icon {
+  transform: scale(1.2);
+}
+
+/* Button Click Animation */
+.main-nav-btn:active {
+  animation: buttonPulse 0.3s ease;
+}
+
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Dropdown Animation Variants */
+.nav-dropdown-item:nth-child(1) { animation-delay: 0.1s; }
+.nav-dropdown-item:nth-child(2) { animation-delay: 0.2s; }
+.nav-dropdown-item:nth-child(3) { animation-delay: 0.3s; }
+.nav-dropdown-item:nth-child(4) { animation-delay: 0.4s; }
+
+.nav-dropdown.open .nav-dropdown-item {
+  animation: slideInFromTop 0.4s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pulse-blue-btn {
+  background: #1b9df3;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.8rem 2.2rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #1b9df355;
+  outline: none;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+  animation: pulse-blue 1.5s infinite;
+}
+
+.pulse-blue-btn:active,
+.pulse-blue-btn-anim {
+  animation: pulse-click 0.35s cubic-bezier(.4,2,.6,1);
+  opacity: 0.7;
+  transform: scale(1.12);
+}
+
+@keyframes pulse-blue {
+  0% {
+    box-shadow: 0 0 0 0 #1b9df355, 0 2px 8px #1b9df355;
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(27,157,243,0.08), 0 2px 8px #1b9df355;
+  }
+  100% {
+    box-shadow: 0 0 0 0 #1b9df355, 0 2px 8px #1b9df355;
+  }
+}
+
+@keyframes pulse-click {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.12);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.glow-btn {
+  --glow-color: rgb(135, 206, 250);
+  --glow-spread-color: rgba(100, 180, 255, 0.781);
+  --enhanced-glow-color: rgb(173, 216, 230);
+  --btn-color: rgb(30, 80, 120);
+  /* rest of your code remains the same */
+
+  border: 0.25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+}
+
+.glow-btn:after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: 0.7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.glow-btn:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+}
+
+.glow-btn:active {
+  box-shadow: 0 0 0.6em var(--glow-color),
+    0 2.5em 2em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+}

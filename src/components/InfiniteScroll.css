@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.scroll-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #f0faff, #ffffff);
+  padding: 20px 0;
+}
+
+.scroll-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.scroll-text {
+  white-space: nowrap;
+  font-size: 1.5rem;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding-right: 60px;
+}
+
+.scroll-blur-left,
+.scroll-blur-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.scroll-blur-left {
+  left: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(240, 250, 255, 0.2));
+  filter: blur(6px);
+}
+
+.scroll-blur-right {
+  right: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.95), rgba(240, 250, 255, 0.2));
+  filter: blur(6px);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
