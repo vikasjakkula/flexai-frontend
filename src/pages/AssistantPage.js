@@ -6,6 +6,11 @@ import LoadingPage from '../components/LoadingPage';
 
 const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000';
 
+// Debug logging
+console.log('[AssistantPage] Environment:', process.env.NODE_ENV);
+console.log('[AssistantPage] API_BASE_URL:', API_BASE_URL);
+console.log('[AssistantPage] REACT_APP_API_BASE_URL:', process.env.REACT_APP_API_BASE_URL);
+
 const AssistantPage = () => {
   const [messages, setMessages] = useState([]);
   const [inputMessage, setInputMessage] = useState('');

@@ -11,7 +11,7 @@ const Assistant = () => {
   const messagesEndRef = useRef(null);
 
   // Backend API base URL
-  const API_BASE_URL = 'http://localhost:5000';
+  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000';
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
