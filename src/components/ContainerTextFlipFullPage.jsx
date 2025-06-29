@@ -13,7 +13,7 @@ export default function ContainerTextFlipFullPage() {
           "relative max-w-2xl text-left text-4xl leading-normal font-bold tracking-tight text-zinc-700 md:text-7xl dark:text-zinc-100"
         )}
         layout>
-        <div className="inline-block">
+        <div className="inline-block" style={{ fontFamily: 'Raleway, Arial, sans-serif' }}>
           Make your websites look 10x <ContainerTextFlip words={words} />
         </div>
       </motion.h1>

@@ -6,9 +6,7 @@ import { Button } from '../components/ui/button';
 import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-with-collision";
 import { AnimatedTestimonials } from "../components/ui/animated-testimonials";
 import { PinContainer } from "../components/ui/3d-pin";
-import { ContainerTextFlip } from "../components/ui/container-text-flip";
-import { motion } from "motion/react";
-import { cn } from "../lib/utils";
+import HeroSection from "../components/HeroSection";
 
 
 const headingStyle = {
@@ -181,26 +179,6 @@ function AnimatedPinDemo() {
   );
 }
 
-function ContainerTextFlipDemo() {
-  const words = ["better", "modern", "beautiful", "awesome"];
-  return (
-    <div className="w-full flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
-      <motion.h1
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        className={cn(
-          "relative max-w-2xl text-left text-4xl leading-normal font-bold tracking-tight text-zinc-700 md:text-7xl dark:text-zinc-100"
-        )}
-        layout>
-        <div className="inline-block">
-          Make your websites look 10x <ContainerTextFlip words={words} />
-        </div>
-      </motion.h1>
-      <img src="/iconright.png" alt="icon right" className="w-40 h-40 md:w-60 md:h-60 object-contain" />
-    </div>
-  );
-}
-
 const Home = () => {
   const [showPopup, setShowPopup] = React.useState(false);
   const navigate = useNavigate();
@@ -234,8 +212,8 @@ const Home = () => {
 
   return (
     <div className="center-desktop" style={{ padding: '1rem 0', background: '#f4fafd', minHeight: '100vh' }}>
+      <HeroSection />
       <div style={headingStyle} className="section-center">
-        <ContainerTextFlipDemo />
         <img
           src={process.env.PUBLIC_URL + '/newflex.png'}
           alt="FLEX.AI Logo"
