@@ -7,7 +7,6 @@ import AssistantPage from './pages/AssistantPage';
 import LoadingPage from './components/LoadingPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { AlertDialogDemo } from './components/AlertDialogDemo';
 import './App.css';
 import './components/InfiniteScroll.css';
 import { ThemeProvider, useTheme } from './ThemeContext';
@@ -33,12 +32,6 @@ function AppContent() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/assistant" element={<AssistantPage />} />
         </Routes>
-        
-        {/* Alert Dialog Demo - You can place this anywhere or remove it */}
-        <div className="p-8">
-          <h2 className="text-xl font-semibold mb-4">Alert Dialog Test</h2>
-          <AlertDialogDemo />
-        </div>
       </main>
       <Footer />
     </div>

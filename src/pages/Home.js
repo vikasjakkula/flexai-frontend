@@ -6,7 +6,7 @@ import { Button } from '../components/ui/button';
 import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-with-collision";
 import { AnimatedTestimonials } from "../components/ui/animated-testimonials";
 import { PinContainer } from "../components/ui/3d-pin";
-import HeroSection from "../components/HeroSection";
+import HeroSection, { HeroSectionLeftImage } from "../components/HeroSection";
 
 
 const headingStyle = {
@@ -430,6 +430,7 @@ const Home = () => {
       <AnimatedPinDemo />
 
       <BackgroundBeamsWithCollisionDemo />
+      <HeroSectionLeftImage />
 
     </div>
   );
