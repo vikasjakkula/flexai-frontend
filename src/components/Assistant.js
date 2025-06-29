@@ -10,8 +10,10 @@ const Assistant = () => {
   const [sessionId, setSessionId] = useState(null);
   const messagesEndRef = useRef(null);
 
-  // Backend API base URL
-  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000';
+  // Backend API base URL - use relative path for Vercel deployment
+  const API_BASE_URL = process.env.NODE_ENV === 'production' 
+    ? '/api' 
+    : 'http://localhost:3000/api';
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -26,7 +28,7 @@ const Assistant = () => {
   const startNewChatSession = useCallback(async () => {
     console.log('[Assistant] Starting new chat session...');
     try {
-      const response = await fetch(`${API_BASE_URL}/api/chat/start`, {
+      const response = await fetch(`${API_BASE_URL}/chat/start`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -69,7 +71,7 @@ const Assistant = () => {
       throw new Error('No active chat session');
     }
     console.log('[Assistant] Sending message to API:', message, 'sessionId:', sessionId);
-    const response = await fetch(`${API_BASE_URL}/api/chat/message`, {
+    const response = await fetch(`${API_BASE_URL}/chat/message`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -162,7 +164,7 @@ const Assistant = () => {
     try {
       // Clear chat on backend if session exists
       if (sessionId) {
-        const response = await fetch(`${API_BASE_URL}/api/chat/${sessionId}`, {
+        const response = await fetch(`${API_BASE_URL}/chat/${sessionId}`, {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json',
@@ -219,40 +221,32 @@ const Assistant = () => {
 
         {/* Messages */}
         <div className="assistant-messages">
-          {messages.map((message) => (
-            <div
-              key={message.id}
-              className={`message-wrapper ${message.sender}`}
-            >
-              <div className={`message-avatar ${message.sender}`}>
-                {message.sender === 'bot' ? (
-                  <Bot className="w-3 h-3 text-white" />
-                ) : (
-                  <MessageCircle className="w-3 h-3 text-white" />
-                )}
-              </div>
-              <div className="message-content">
-                <div className={`message-bubble ${message.sender}`}>
-                  <p style={{ whiteSpace: 'pre-wrap' }}>{message.text}</p>
+          {messages.map(
+            (message) => (
+              <div
+                key={message.id}
+                className={`assistant-message ${
+                  message.sender === 'user' ? 'assistant-message-user' : 'assistant-message-bot'
+                }`}
+              >
+                <div className="assistant-message-content">
+                  <div className="assistant-message-text">
+                    {message.text}
+                  </div>
+                  <div className="assistant-message-time">
+                    {formatTime(message.timestamp)}
+                  </div>
                 </div>
-                <p className="message-timestamp">
-                  {formatTime(message.timestamp)}
-                </p>
               </div>
-            </div>
-          ))}
-
-          {/* Typing Indicator */}
+            )
+          )}
           {isTyping && (
-            <div className="typing-indicator">
-              <div className="message-avatar bot">
-                <Bot className="w-3 h-3 text-white" />
-              </div>
-              <div className="typing-bubble">
-                <div className="typing-dots">
-                  <div className="typing-dot"></div>
-                  <div className="typing-dot"></div>
-                  <div className="typing-dot"></div>
+            <div className="assistant-message assistant-message-bot">
+              <div className="assistant-message-content">
+                <div className="assistant-typing-indicator">
+                  <div className="assistant-typing-dot"></div>
+                  <div className="assistant-typing-dot"></div>
+                  <div className="assistant-typing-dot"></div>
                 </div>
               </div>
             </div>
@@ -260,7 +254,7 @@ const Assistant = () => {
           <div ref={messagesEndRef} />
         </div>
 
-        {/* Input */}
+        {/* Input Area */}
         <div className="assistant-input-area">
           <div className="assistant-input-wrapper">
             <input

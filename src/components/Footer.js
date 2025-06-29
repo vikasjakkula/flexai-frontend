@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Button } from './ui/button';
 
 const Footer = () => {
   return (
@@ -8,47 +9,47 @@ const Footer = () => {
         <div className="footer-content-row">
           <div className="footer-col">
             <div className="footer-title">CONNECT</div>
-            <div className="footer-link">Github</div>
-            <div className="footer-link">X (Twitter)</div>
-            <div className="footer-link">LinkedIn</div>
-            <div className="footer-link">YouTube</div>
+            <Button variant="link" className="footer-link">Github</Button>
+            <Button variant="link" className="footer-link">X (Twitter)</Button>
+            <Button variant="link" className="footer-link">LinkedIn</Button>
+            <Button variant="link" className="footer-link">YouTube</Button>
           </div>
           <div className="footer-col">
             <div className="footer-title">PILLARS</div>
-            <div className="footer-link">Iterate</div>
-            <div className="footer-link">Evaluate</div>
-            <div className="footer-link">Deploy</div>
-            <div className="footer-link">Monitor</div>
+            <Button variant="link" className="footer-link">Iterate</Button>
+            <Button variant="link" className="footer-link">Evaluate</Button>
+            <Button variant="link" className="footer-link">Deploy</Button>
+            <Button variant="link" className="footer-link">Monitor</Button>
           </div>
           <div className="footer-col">
             <div className="footer-title">PRODUCTS</div>
-            <div className="footer-link">Editor</div>
-            <div className="footer-link">Playground</div>
-            <div className="footer-link">Evaluations</div>
-            <div className="footer-link">Datasets</div>
-            <div className="footer-link">Deployments</div>
-            <div className="footer-link">Logs</div>
-            <div className="footer-link">Analytics</div>
-            <div className="footer-link">Gateway</div>
+            <Button variant="link" className="footer-link">Editor</Button>
+            <Button variant="link" className="footer-link">Playground</Button>
+            <Button variant="link" className="footer-link">Evaluations</Button>
+            <Button variant="link" className="footer-link">Datasets</Button>
+            <Button variant="link" className="footer-link">Deployments</Button>
+            <Button variant="link" className="footer-link">Logs</Button>
+            <Button variant="link" className="footer-link">Analytics</Button>
+            <Button variant="link" className="footer-link">Gateway</Button>
           </div>
           <div className="footer-col">
             <div className="footer-title">COMPANY</div>
-            <div className="footer-link">Labs</div>
-            <div className="footer-link">Applied</div>
-            <div className="footer-link">Pricing</div>
-            <div className="footer-link">Blog</div>
-            <div className="footer-link">Careers</div>
-            <div className="footer-link">Book a Demo</div>
-            <div className="footer-link">Wikipedia</div>
+            <Button variant="link" className="footer-link">Labs</Button>
+            <Button variant="link" className="footer-link">Applied</Button>
+            <Button variant="link" className="footer-link">Pricing</Button>
+            <Button variant="link" className="footer-link">Blog</Button>
+            <Button variant="link" className="footer-link">Careers</Button>
+            <Button variant="link" className="footer-link">Book a Demo</Button>
+            <Button variant="link" className="footer-link">Wikipedia</Button>
           </div>
           <div className="footer-col">
             <div className="footer-title">RESOURCES</div>
-            <div className="footer-link">Documentation</div>
-            <div className="footer-link">API Reference</div>
-            <div className="footer-link">DPA</div>
-            <div className="footer-link">Privacy Policy</div>
-            <div className="footer-link">Terms of Service</div>
-            <div className="footer-link">Report vulnerability</div>
+            <Button variant="link" className="footer-link">Documentation</Button>
+            <Button variant="link" className="footer-link">API Reference</Button>
+            <Button variant="link" className="footer-link">DPA</Button>
+            <Button variant="link" className="footer-link">Privacy Policy</Button>
+            <Button variant="link" className="footer-link">Terms of Service</Button>
+            <Button variant="link" className="footer-link">Report vulnerability</Button>
           </div>
         </div>
 

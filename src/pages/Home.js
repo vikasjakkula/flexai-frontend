@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import '../App.css'; // Corrected path for App.css
 import { useNavigate } from 'react-router-dom';
 import LoadingPage from '../components/LoadingPage';
+import { Button } from '../components/ui/button';
+import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-with-collision";
+import { AnimatedTestimonials } from "../components/ui/animated-testimonials";
+import { PinContainer } from "../components/ui/3d-pin";
+
 
 const headingStyle = {
   background: '#1b9df3',
@@ -90,6 +95,89 @@ const popupBtnStyle = {
   minWidth: '120px'
 };
 
+function BackgroundBeamsWithCollisionDemo() {
+  return (
+    <BackgroundBeamsWithCollision>
+      <div className="relative z-20 text-center">
+        <div className="text-2xl md:text-4xl lg:text-7xl font-bold text-black dark:text-white font-sans tracking-tight">
+          What's better than random workouts?
+        </div>
+        <div
+          className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
+          <div
+            className="bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4 text-2xl md:text-4xl lg:text-7xl font-bold font-sans tracking-tight"
+          >
+            FLEX.AI is here
+          </div>
+        </div>
+      </div>
+    </BackgroundBeamsWithCollision>
+  );
+}
+
+function AnimatedTestimonialsDemo() {
+  const testimonials = [
+    {
+      quote:
+        "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
+      name: "Sarah Chen",
+      designation: "Product Manager at TechFlow",
+      src: "/image1.png",
+    },
+    {
+      quote:
+        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
+      name: "Michael Rodriguez",
+      designation: "CTO at InnovateSphere",
+      src: "/image2.png",
+    },
+    {
+      quote:
+        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
+      name: "Emily Watson",
+      designation: "Operations Director at CloudScale",
+      src: "/image3.png",
+    },
+    {
+      quote:
+        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
+      name: "James Kim",
+      designation: "Engineering Lead at DataPro",
+      src: "/image4.png",
+    },
+    {
+      quote:
+        "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
+      name: "Lisa Thompson",
+      designation: "VP of Technology at FutureNet",
+      src: "/image5.png",
+    },
+  ];
+  return <AnimatedTestimonials testimonials={testimonials} />;
+}
+
+function AnimatedPinDemo() {
+  return (
+    <div className="h-[40rem] w-full flex items-center justify-center ">
+      <PinContainer title="/ui.aceternity.com" href="https://x.com/vikas_070v">
+        <div
+          className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+            Aceternity UI
+          </h3>
+          <div className="text-base !m-0 !p-0 font-normal">
+            <span className="text-slate-500 ">
+              Customizable Tailwind CSS and Framer Motion Components.
+            </span>
+          </div>
+          <div
+            className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+        </div>
+      </PinContainer>
+    </div>
+  );
+}
+
 const Home = () => {
   const [showPopup, setShowPopup] = React.useState(false);
   const navigate = useNavigate();
@@ -122,8 +210,8 @@ const Home = () => {
   if (loading) return <LoadingPage />;
 
   return (
-    <div style={{ padding: '1rem 0', background: '#f4fafd', minHeight: '100vh' }}>
-      <div style={headingStyle}>
+    <div className="center-desktop" style={{ padding: '1rem 0', background: '#f4fafd', minHeight: '100vh' }}>
+      <div style={headingStyle} className="section-center">
         <img
           src={process.env.PUBLIC_URL + '/newflex.png'}
           alt="FLEX.AI Logo"
@@ -143,14 +231,14 @@ const Home = () => {
         </div>
         <button
           className="glow-btn"
-          style={{ marginTop: '1rem' }}
           onClick={handleExplorePlans}
+          style={{ marginTop: '1rem' }}
         >
           Get Started
         </button>
       </div>
 
-      <div style={{ ...sectionStyle, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ ...sectionStyle }} className="section-center">
         <h2 style={{
           color: '#1b9df3',
           fontWeight: 800,
@@ -159,26 +247,23 @@ const Home = () => {
           textAlign: 'center',
           marginBottom: '1rem'
         }}>🔥 What We Offer 🔥</h2>
-
-        <div style={{ maxWidth: '750px', width: '100%' }}>
-          <ul style={{
-            listStyleType: 'none',
-            padding: 0,
-            margin: 0,
-            textAlign: 'left'
-          }}>
-            <li style={{ marginBottom: '0.75rem' }}><b>Smart Workout Routines:</b> Biceps, Triceps, Chest, Shoulders, Legs, Back, Abs, Warm-ups, Cool-downs, Core & 6-pack routines</li>
-            <li style={{ marginBottom: '0.75rem' }}><b>AI-Powered Exercise Suggestions:</b> Personalized plans for your fitness level, adjusts reps, rest, and sets for you</li>
-            <li style={{ marginBottom: '0.75rem' }}><b>HD Video Demonstrations:</b> Beginner to pro level tutorials</li>
-            <li style={{ marginBottom: '0.75rem' }}><b>Nutrition Guidance:</b> Pre/Post workout meals, high-protein diet plans</li>
-            <li style={{ marginBottom: '0.75rem' }}><b>Weekly Progress Tracking:</b> Weight, muscles, fat loss, and strength progress</li>
-            <li style={{ marginBottom: '0.75rem' }}><b>Goal-Based Programs:</b> Fat Burn | Muscle Gain | Endurance | Bulk-up, 30 / 60 / 90 Day Challenges</li>
-            <li style={{ marginBottom: '0.75rem' }}><b>Live Support Options:</b> Ask AI Trainer | Chat with Real Experts</li>
-          </ul>
-        </div>
+        <ul style={{
+          listStyleType: 'none',
+          padding: 0,
+          margin: 0,
+          textAlign: 'left'
+        }}>
+          <li style={{ marginBottom: '0.75rem' }}><b>Smart Workout Routines:</b> Biceps, Triceps, Chest, Shoulders, Legs, Back, Abs, Warm-ups, Cool-downs, Core & 6-pack routines</li>
+          <li style={{ marginBottom: '0.75rem' }}><b>AI-Powered Exercise Suggestions:</b> Personalized plans for your fitness level, adjusts reps, rest, and sets for you</li>
+          <li style={{ marginBottom: '0.75rem' }}><b>HD Video Demonstrations:</b> Beginner to pro level tutorials</li>
+          <li style={{ marginBottom: '0.75rem' }}><b>Nutrition Guidance:</b> Pre/Post workout meals, high-protein diet plans</li>
+          <li style={{ marginBottom: '0.75rem' }}><b>Weekly Progress Tracking:</b> Weight, muscles, fat loss, and strength progress</li>
+          <li style={{ marginBottom: '0.75rem' }}><b>Goal-Based Programs:</b> Fat Burn | Muscle Gain | Endurance | Bulk-up, 30 / 60 / 90 Day Challenges</li>
+          <li style={{ marginBottom: '0.75rem' }}><b>Live Support Options:</b> Ask AI Trainer | Chat with Real Experts</li>
+        </ul>
       </div>
 
-      <div style={{ ...sectionStyle, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ ...sectionStyle }} className="section-center">
         <h2 style={{
           color: '#1b9df3',
           fontWeight: 800,
@@ -187,23 +272,20 @@ const Home = () => {
           textAlign: 'center',
           marginBottom: '1rem'
         }}>Why Choose FLEX.AI?</h2>
-
-        <div style={{ maxWidth: '750px', width: '100%' }}>
-          <ul style={{
-            listStyleType: 'none',
-            padding: 0,
-            margin: 0,
-            textAlign: 'left'
-          }}>
-            <li style={{ marginBottom: '0.75rem' }}>✅ Fast, Easy-to-Use Interface</li>
-            <li style={{ marginBottom: '0.75rem' }}>✅ Scientifically Designed Routines</li>
-            <li style={{ marginBottom: '0.75rem' }}>✅ AI Personal Coach in Your Pocket</li>
-            <li style={{ marginBottom: '0.75rem' }}>✅ Track Your Visible Progress</li>
-          </ul>
-        </div>
+        <ul style={{
+          listStyleType: 'none',
+          padding: 0,
+          margin: 0,
+          textAlign: 'left'
+        }}>
+          <li style={{ marginBottom: '0.75rem' }}>✅ Fast, Easy-to-Use Interface</li>
+          <li style={{ marginBottom: '0.75rem' }}>✅ Scientifically Designed Routines</li>
+          <li style={{ marginBottom: '0.75rem' }}>✅ AI Personal Coach in Your Pocket</li>
+          <li style={{ marginBottom: '0.75rem' }}>✅ Track Your Visible Progress</li>
+        </ul>
       </div>
 
-      <div style={{ ...sectionStyle, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ ...sectionStyle }} className="section-center">
         <h2 style={{
           color: '#1b9df3',
           fontWeight: 800,
@@ -212,23 +294,20 @@ const Home = () => {
           textAlign: 'center',
           marginBottom: '1rem'
         }}>What Our Users Say ❤️‍🔥</h2>
-
-        <div style={{ maxWidth: '750px', width: '100%' }}>
-          <ul style={{
-            listStyleType: 'none',
-            padding: 0,
-            margin: 0,
-            textAlign: 'left'
-          }}>
-            <li style={{ marginBottom: '0.75rem' }}>⭐ "I never thought an app could replace a real trainer, but FLEX.AI proved me wrong!" – Anjali M.</li>
-            <li style={{ marginBottom: '0.75rem' }}>⭐ "Gained 5kg muscle in 45 days using FLEX.AI's custom plan. Super effective." – Rohan K.</li>
-            <li style={{ marginBottom: '0.75rem' }}>⭐ "The AI suggestions are accurate and keep me motivated. This is next-gen fitness." – Neha V.</li>
-            <li style={{ marginBottom: '0.75rem' }}>⭐ "From lazy to shredded! FLEX.AI is a beast mode unlocker." – Suresh R.</li>
-          </ul>
-        </div>
+        <ul style={{
+          listStyleType: 'none',
+          padding: 0,
+          margin: 0,
+          textAlign: 'left'
+        }}>
+          <li style={{ marginBottom: '0.75rem' }}>⭐ "I never thought an app could replace a real trainer, but FLEX.AI proved me wrong!" – Anjali M.</li>
+          <li style={{ marginBottom: '0.75rem' }}>⭐ "Gained 5kg muscle in 45 days using FLEX.AI's custom plan. Super effective." – Rohan K.</li>
+          <li style={{ marginBottom: '0.75rem' }}>⭐ "The AI suggestions are accurate and keep me motivated. This is next-gen fitness." – Neha V.</li>
+          <li style={{ marginBottom: '0.75rem' }}>⭐ "From lazy to shredded! FLEX.AI is a beast mode unlocker." – Suresh R.</li>
+        </ul>
       </div>
 
-      <div style={{ ...sectionStyle, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ ...sectionStyle }} className="section-center">
         <h2 style={{
           color: '#1b9df3',
           fontWeight: 800,
@@ -237,52 +316,37 @@ const Home = () => {
           textAlign: 'center',
           marginBottom: '1rem'
         }}>🚀 Ready to Transforming Your Body?</h2>
-
-        <div style={{ maxWidth: '750px', width: '100%' }}>
-          <ol style={{
-            listStyleType: 'decimal',
-            padding: 0,
-            margin: 0,
-            textAlign: 'left',
-            paddingLeft: '1.5rem'
-          }}>
-            <li style={{ marginBottom: '0.75rem' }}>Step 1: Enter your goal (Lose Fat, Build Muscle, etc.)</li>
-            <li style={{ marginBottom: '0.75rem' }}>Step 2: Select your level (Beginner / Intermediate / Pro)</li>
-            <li style={{ marginBottom: '0.75rem' }}>Step 3: Start Training with FLEX.AI</li>
-          </ol>
-        </div>
-        
-        <div style={{ 
-          display: 'flex', 
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: '1rem', 
-          marginTop: '1.5rem',
-          width: '100%',
-          maxWidth: '400px'
+        <ol style={{
+          listStyleType: 'decimal',
+          padding: 0,
+          margin: 0,
+          textAlign: 'left',
+          paddingLeft: '1.5rem'
         }}>
-          <button
-            className="pulse-blue-btn"
+          <li style={{ marginBottom: '0.75rem' }}>Step 1: Enter your goal (Lose Fat, Build Muscle, etc.)</li>
+          <li style={{ marginBottom: '0.75rem' }}>Step 2: Select your level (Beginner / Intermediate / Pro)</li>
+          <li style={{ marginBottom: '0.75rem' }}>Step 3: Start Training with FLEX.AI</li>
+        </ol>
+        <div className="action-btns">
+          <Button
             onClick={handleStartNow}
             style={{ width: '100%', maxWidth: '300px' }}
           >
-            [ START NOW ]
-          </button>
-          <button
-            className="pulse-blue-btn"
+            START NOW
+          </Button>
+          <Button
             onClick={() => navigate('/library')}
             onMouseUp={() => setTimeout(() => window.scrollTo(0, 0), 0)}
             style={{ width: '100%', maxWidth: '300px' }}
           >
-            [ JOIN AS A TRAINER ]
-          </button>
-          <button
-            className="pulse-blue-btn"
+            JOIN AS A TRAINER
+          </Button>
+          <Button
             onClick={handleExplorePlans}
             style={{ width: '100%', maxWidth: '300px' }}
           >
-            [ EXPLORE PLANS ]
-          </button>
+            EXPLORE PLANS
+          </Button>
         </div>
       </div>
 
@@ -290,7 +354,7 @@ const Home = () => {
       {showPopup && (
         <div style={modalStyle}>
           <div style={popupStyle}>
-            <button style={closeBtnStyle} onClick={handleClosePopup}>&times;</button>
+            <Button style={closeBtnStyle} onClick={handleClosePopup}>&times;</Button>
             <img src={process.env.PUBLIC_URL + '/GOAL.png'} alt="Choose Your Goal" style={{ width: '100%', maxWidth: '300px', margin: '0 auto 1rem auto', display: 'block' }} />
             <div style={{ 
               display: 'flex', 
@@ -299,32 +363,23 @@ const Home = () => {
               gap: '1rem', 
               marginTop: '1rem' 
             }}>
-              <button style={{...popupBtnStyle, width: '100%', maxWidth: '200px'}} onClick={handlePopupBtn} aria-label="Lose Fat">
+              <Button style={{...popupBtnStyle, width: '100%', maxWidth: '200px'}} onClick={handlePopupBtn} aria-label="Lose Fat">
                 <img src={process.env.PUBLIC_URL + '/loose fat.png'} alt="Lose Fat" style={{ width: '100px', height: 'auto', display: 'block' }} />
-              </button>
-              <button style={{...popupBtnStyle, width: '100%', maxWidth: '200px'}} onClick={handlePopupBtn} aria-label="Build Muscle">
+              </Button>
+              <Button style={{...popupBtnStyle, width: '100%', maxWidth: '200px'}} onClick={handlePopupBtn} aria-label="Build Muscle">
                 <img src={process.env.PUBLIC_URL + '/buildmusle.png'} alt="Build Muscle" style={{ width: '100px', height: 'auto', display: 'block' }} />
-              </button>
+              </Button>
             </div>
           </div>
         </div>
       )}
 
-      <div style={{ 
-        display: 'flex', 
-        flexDirection: 'column',
-        alignItems: 'center',
-        gap: '1rem', 
-        margin: '2rem 1rem', 
-        flexWrap: 'wrap' 
-      }}>
+      <div className="stats-row">
         {/* Card 1 */}
-        <div style={{ 
+        <div className="stat-card" style={{ 
           background: '#f8f9fa', 
           borderRadius: '1rem', 
           padding: '1.5rem', 
-          width: '100%', 
-          maxWidth: '320px', 
           boxShadow: '0 2px 12px rgba(0,0,0,0.04)', 
           textAlign: 'left' 
         }}>
@@ -333,12 +388,10 @@ const Home = () => {
           <div style={{ color: '#555', fontSize: '0.9rem', fontFamily: 'Raleway, Arial, sans-serif', lineHeight: 1.5 }}>Over a million professionals trust our apps for their daily workflows.</div>
         </div>
         {/* Card 2 */}
-        <div style={{ 
+        <div className="stat-card" style={{ 
           background: '#111827', 
           borderRadius: '1rem', 
           padding: '1.5rem', 
-          width: '100%', 
-          maxWidth: '320px', 
           color: 'white', 
           textAlign: 'left', 
           boxShadow: '0 2px 12px rgba(0,0,0,0.10)' 
@@ -348,12 +401,10 @@ const Home = () => {
           <div style={{ color: '#b3b3b3', fontSize: '0.9rem', fontFamily: 'Raleway, Arial, sans-serif', lineHeight: 1.5 }}>Flex.AI is the simplest way to create beautiful Figure.</div>
         </div>
         {/* Card 3 */}
-        <div style={{ 
+        <div className="stat-card" style={{ 
           background: '#5746ea', 
           borderRadius: '1rem', 
           padding: '1.5rem', 
-          width: '100%', 
-          maxWidth: '320px', 
           color: 'white', 
           textAlign: 'left', 
           boxShadow: '0 2px 12px rgba(0,0,0,0.08)' 
@@ -363,7 +414,21 @@ const Home = () => {
           <div style={{ color: '#e0e0ff', fontSize: '0.9rem', fontFamily: 'Raleway, Arial, sans-serif', lineHeight: 1.5 }}>Highly rated by fitness enthusiasts for clear guidance and real transformation results.</div>
         </div>
       </div>
-      
+
+      <AnimatedTestimonialsDemo />
+
+      <div style={{ fontWeight: 900, fontSize: '2.2rem', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>
+        Follow Me on x ( twitter )
+      </div>
+
+      <div style={{ fontWeight: 900, fontSize: '2.2rem', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>
+        To stay Updated ! Let connect here 
+      </div>
+
+      <AnimatedPinDemo />
+
+      <BackgroundBeamsWithCollisionDemo />
+
     </div>
   );
 };

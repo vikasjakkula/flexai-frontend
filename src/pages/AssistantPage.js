@@ -1,10 +1,13 @@
 // src/pages/AssistantPage.js
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { Send, Bot, User, Trash2, MessageCircle, Dumbbell, Heart, Target } from 'lucide-react';
+import { Send, Bot, User, Trash2, Dumbbell, Heart, Target } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import LoadingPage from '../components/LoadingPage';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000';
+// Backend API base URL - use relative path for Vercel deployment
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? '/api' 
+  : 'http://localhost:3000/api';
 
 const AssistantPage = () => {
   const [messages, setMessages] = useState([]);
@@ -23,7 +26,7 @@ const AssistantPage = () => {
   const startNewChatSession = useCallback(async () => {
     console.log('[AssistantPage] Starting new chat session...');
     try {
-      const response = await fetch(`${API_BASE_URL}/api/chat/start`, {
+      const response = await fetch(`${API_BASE_URL}/chat/start`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -71,7 +74,7 @@ const AssistantPage = () => {
   }, [startNewChatSession]);
 
   // Send message to backend
-  const sendMessageToAPI = async (message, onChunk = null) => {
+  const sendMessageToAPI = async (message, onChunk) => {
     if (!sessionId) {
       throw new Error('No active chat session');
     }
@@ -79,7 +82,7 @@ const AssistantPage = () => {
     
     // Try streaming first, fallback to regular request
     try {
-      const response = await fetch(`${API_BASE_URL}/api/chat/message`, {
+      const response = await fetch(`${API_BASE_URL}/chat/message`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -152,14 +155,14 @@ const AssistantPage = () => {
       } else {
         // Fallback to regular JSON response
         const data = await response.json();
-        console.log('[AssistantPage] Bot reply data:', data);
+        console.log('[AssistantPage] Regular bot reply data:', data);
         return data;
       }
     } catch (streamError) {
       console.warn('[AssistantPage] Streaming failed, falling back to regular request:', streamError);
       
       // Fallback to non-streaming request
-      const response = await fetch(`${API_BASE_URL}/api/chat/message`, {
+      const response = await fetch(`${API_BASE_URL}/chat/message`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -281,7 +284,7 @@ const AssistantPage = () => {
     console.log('[AssistantPage] Clearing chat...');
     try {
       if (sessionId) {
-        const response = await fetch(`${API_BASE_URL}/api/chat/${sessionId}`, {
+        const response = await fetch(`${API_BASE_URL}/chat/${sessionId}`, {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json',
@@ -304,280 +307,190 @@ const AssistantPage = () => {
   };
 
   const formatTime = (timestamp) => {
-    return timestamp instanceof Date
-      ? timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-      : new Date(timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    return timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
   };
 
-  const quickQuestions = [
-    { icon: Dumbbell, text: "Show me a beginner workout", question: "Can you give me a beginner-friendly workout routine?" },
-    { icon: Heart, text: "Cardio vs Strength?", question: "What's better for weight loss - cardio or strength training?" },
-    { icon: Target, text: "Nutrition tips", question: "What are the best nutrition tips for muscle building?" }
-  ];
-
-  if (loading) return <LoadingPage />;
+  if (loading) {
+    return <LoadingPage />;
+  }
 
   return (
-    <div style={{ minHeight: '100vh', background: '#f4fafd' }}>
+    <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', padding: '2rem 1rem' }}>
+      {/* Header */}
+      <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+        <h1 style={{ color: 'white', fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>
+          <Bot style={{ display: 'inline', marginRight: '0.5rem' }} />
+          FLEX.AI Assistant
+        </h1>
+        <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '1.1rem' }}>
+          Your AI-powered fitness companion
+        </p>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginTop: '1rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'white' }}>
+            <Dumbbell size={20} />
+            <span>Workouts</span>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'white' }}>
+            <Heart size={20} />
+            <span>Nutrition</span>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'white' }}>
+            <Target size={20} />
+            <span>Goals</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Chat Container */}
       <div style={{ 
-        maxWidth: '100%', 
+        maxWidth: '800px', 
         margin: '0 auto', 
-        height: '100vh', 
-        display: 'flex', 
-        flexDirection: 'column',
-        padding: '0 0.5rem'
+        background: 'white', 
+        borderRadius: '1rem', 
+        boxShadow: '0 10px 30px rgba(0,0,0,0.2)',
+        overflow: 'hidden'
       }}>
-        {/* Header */}
+        {/* Chat Header */}
         <div style={{ 
           background: '#1DA1F2', 
           color: 'white', 
-          padding: '1rem', 
-          display: 'flex', 
-          alignItems: 'center', 
-          justifyContent: 'space-between', 
-          borderRadius: '1rem 1rem 0 0',
-          flexWrap: 'wrap',
-          gap: '0.5rem'
+          padding: '1rem 1.5rem',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center'
         }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flex: 1, minWidth: 0 }}>
-            <div style={{ 
-              width: '2.5rem', 
-              height: '2.5rem', 
-              background: '#fff', 
-              color: '#1DA1F2', 
-              borderRadius: '50%', 
-              display: 'flex', 
-              alignItems: 'center', 
-              justifyContent: 'center',
-              flexShrink: 0
-            }}>
-              <MessageCircle style={{ width: '1.5rem', height: '1.5rem' }} />
-            </div>
-            <div style={{ minWidth: 0 }}>
-              <h1 style={{ 
-                fontSize: '1.5rem', 
-                fontWeight: 'bold', 
-                color: 'white', 
-                margin: 0,
-                lineHeight: 1.2
-              }}>Flex.AI</h1>
-              <p style={{ 
-                color: 'white', 
-                margin: 0, 
-                fontSize: '0.875rem',
-                lineHeight: 1.2
-              }}>Your personal workout answers are here</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+            <Bot size={24} />
+            <div>
+              <h3 style={{ margin: 0, fontSize: '1.1rem' }}>AI Fitness Assistant</h3>
+              <p style={{ margin: 0, fontSize: '0.8rem', opacity: 0.9 }}>
+                {isApiAvailable ? "🟢 Gemini AI Active" : "🔴 Offline Mode"}
+              </p>
             </div>
           </div>
           <button
             onClick={clearChat}
-            style={{ 
-              display: 'flex', 
-              alignItems: 'center', 
-              gap: '0.5rem', 
-              padding: '0.75rem', 
-              color: 'white', 
-              background: 'rgba(29,161,242,0.2)', 
-              border: 'none', 
-              borderRadius: '0.75rem', 
+            style={{
+              background: 'rgba(255,255,255,0.2)',
+              border: 'none',
+              color: 'white',
+              padding: '0.5rem',
+              borderRadius: '0.5rem',
               cursor: 'pointer',
-              flexShrink: 0
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.5rem'
             }}
             title="Clear chat"
           >
-            <Trash2 style={{ width: '1.25rem', height: '1.25rem' }} />
-            <span style={{ display: 'none' }}>Clear Chat</span>
+            <Trash2 size={16} />
+            Clear
           </button>
         </div>
-        
-        {/* Quick Questions */}
+
+        {/* Messages */}
         <div style={{ 
-          background: '#fff', 
-          borderBottom: '1px solid #1DA1F2', 
-          padding: '0.75rem',
-          overflowX: 'auto'
-        }}>
-          <p style={{ 
-            color: '#1DA1F2', 
-            marginBottom: '0.5rem', 
-            fontSize: '0.875rem',
-            fontWeight: '500'
-          }}>Quick starter:</p>
-          <div style={{ 
-            display: 'flex', 
-            flexWrap: 'nowrap', 
-            gap: '0.5rem',
-            overflowX: 'auto',
-            paddingBottom: '0.25rem'
-          }}>
-            {quickQuestions.map((item, index) => (
-              <button
-                key={index}
-                onClick={() => {
-                  setInputMessage(item.question);
-                  handleSendMessage();
-                }}
-                style={{ 
-                  display: 'flex', 
-                  alignItems: 'center', 
-                  gap: '0.5rem', 
-                  padding: '0.5rem 0.75rem', 
-                  background: '#1DA1F2', 
-                  color: 'white', 
-                  border: 'none', 
-                  borderRadius: '9999px', 
-                  fontSize: '0.875rem', 
-                  cursor: 'pointer',
-                  whiteSpace: 'nowrap',
-                  flexShrink: 0,
-                  minHeight: '44px'
-                }}
-              >
-                <item.icon style={{ width: '1rem', height: '1rem', color: 'white' }} />
-                <span>{item.text}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-        
-        {/* Messages Container */}
-        <div style={{ 
-          flex: 1, 
+          height: '500px', 
           overflowY: 'auto', 
-          padding: '1rem', 
-          background: '#f4fafd',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: '1rem'
+          padding: '1rem',
+          background: '#f8f9fa'
         }}>
           {messages.map((message) => (
             <div
               key={message.id}
-              style={{ 
-                display: 'flex', 
-                alignItems: 'flex-start', 
-                gap: '0.75rem', 
-                flexDirection: message.sender === 'user' ? 'row-reverse' : 'row',
-                maxWidth: '100%'
+              style={{
+                display: 'flex',
+                justifyContent: message.sender === 'user' ? 'flex-end' : 'flex-start',
+                marginBottom: '1rem'
               }}
             >
-              <div style={{ 
-                width: '2rem', 
-                height: '2rem', 
-                borderRadius: '50%', 
-                background: '#1DA1F2', 
-                color: 'white', 
-                display: 'flex', 
-                alignItems: 'center', 
-                justifyContent: 'center',
-                flexShrink: 0
+              <div style={{
+                maxWidth: '70%',
+                padding: '0.75rem 1rem',
+                borderRadius: '1rem',
+                background: message.sender === 'user' ? '#1DA1F2' : 'white',
+                color: message.sender === 'user' ? 'white' : '#333',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                position: 'relative'
               }}>
-                {message.sender === 'user' ? (
-                  <User style={{ width: '1.25rem', height: '1.25rem' }} />
-                ) : (
-                  <Bot style={{ width: '1.25rem', height: '1.25rem' }} />
-                )}
-              </div>
-              <div style={{ 
-                maxWidth: 'calc(100% - 3rem)', 
-                display: 'flex', 
-                flexDirection: 'column', 
-                alignItems: message.sender === 'user' ? 'flex-end' : 'flex-start',
-                minWidth: 0
-              }}>
-                <div style={{ 
-                  padding: '0.75rem 1rem', 
-                  borderRadius: '1.25rem', 
-                  background: '#1DA1F2', 
-                  color: 'white', 
-                  fontSize: '0.875rem', 
-                  marginBottom: 0,
-                  maxWidth: '100%',
-                  wordWrap: 'break-word'
-                }}>
-                  {message.sender === 'bot' ? (
-                    <ReactMarkdown 
-                      components={{
-                        p: ({children}) => <p style={{ margin: 0 }}>{children}</p>,
-                        strong: ({children}) => <strong style={{ fontWeight: 'bold' }}>{children}</strong>,
-                        em: ({children}) => <em style={{ fontStyle: 'italic' }}>{children}</em>,
-                        ul: ({children}) => <ul style={{ margin: '0.5rem 0', paddingLeft: '1.5rem' }}>{children}</ul>,
-                        ol: ({children}) => <ol style={{ margin: '0.5rem 0', paddingLeft: '1.5rem' }}>{children}</ol>,
-                        li: ({children}) => <li style={{ margin: '0.25rem 0' }}>{children}</li>,
-                        h1: ({children}) => <h1 style={{ fontSize: '1.25rem', margin: '0.5rem 0' }}>{children}</h1>,
-                        h2: ({children}) => <h2 style={{ fontSize: '1.125rem', margin: '0.5rem 0' }}>{children}</h2>,
-                        h3: ({children}) => <h3 style={{ fontSize: '1rem', margin: '0.5rem 0' }}>{children}</h3>,
-                        code: ({children}) => <code style={{ background: 'rgba(255,255,255,0.2)', padding: '0.2rem 0.4rem', borderRadius: '0.25rem', fontSize: '0.8rem' }}>{children}</code>,
-                        blockquote: ({children}) => <blockquote style={{ borderLeft: '3px solid rgba(255,255,255,0.5)', paddingLeft: '0.75rem', margin: '0.5rem 0', fontStyle: 'italic' }}>{children}</blockquote>,
-                        table: ({children}) => <table style={{ width: '100%', borderCollapse: 'collapse', margin: '0.5rem 0', background: 'rgba(255,255,255,0.1)', borderRadius: '0.5rem', overflow: 'hidden', fontSize: '0.8rem' }}>{children}</table>,
-                        thead: ({children}) => <thead style={{ background: 'rgba(255,255,255,0.2)' }}>{children}</thead>,
-                        tbody: ({children}) => <tbody>{children}</tbody>,
-                        tr: ({children}) => <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>{children}</tr>,
-                        th: ({children}) => <th style={{ padding: '0.5rem', textAlign: 'left', fontWeight: 'bold', fontSize: '0.8rem' }}>{children}</th>,
-                        td: ({children}) => <td style={{ padding: '0.5rem', fontSize: '0.8rem' }}>{children}</td>
-                      }}
-                    >
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>
+                  {message.sender === 'bot' && (
+                    <Bot size={16} style={{ marginTop: '2px', color: '#1DA1F2' }} />
+                  )}
+                  <div style={{ flex: 1 }}>
+                    <ReactMarkdown style={{ 
+                      margin: 0, 
+                      lineHeight: 1.5,
+                      fontSize: '0.95rem'
+                    }}>
                       {message.text}
                     </ReactMarkdown>
-                  ) : (
-                    <p style={{ margin: 0 }}>{message.text}</p>
+                    <p style={{ 
+                      margin: '0.5rem 0 0 0', 
+                      fontSize: '0.75rem', 
+                      opacity: 0.7,
+                      textAlign: 'right'
+                    }}>
+                      {formatTime(message.timestamp)}
+                    </p>
+                  </div>
+                  {message.sender === 'user' && (
+                    <User size={16} style={{ marginTop: '2px' }} />
                   )}
                 </div>
-                <p style={{ 
-                  color: '#1DA1F2', 
-                  fontSize: '0.75rem', 
-                  margin: '0.25rem 0 0 0', 
-                  padding: '0 0.5rem' 
-                }}>
-                  {formatTime(message.timestamp)}
-                </p>
               </div>
             </div>
           ))}
           
-          {/* Typing Indicator */}
           {isTyping && (
-            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-              <div style={{ 
-                width: '2rem', 
-                height: '2rem', 
-                borderRadius: '50%', 
-                background: '#1DA1F2', 
-                color: 'white', 
-                display: 'flex', 
-                alignItems: 'center', 
-                justifyContent: 'center',
-                flexShrink: 0
+            <div style={{
+              display: 'flex',
+              justifyContent: 'flex-start',
+              marginBottom: '1rem'
+            }}>
+              <div style={{
+                padding: '0.75rem 1rem',
+                borderRadius: '1rem',
+                background: 'white',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.5rem'
               }}>
-                <Bot style={{ width: '1.25rem', height: '1.25rem' }} />
-              </div>
-              <div style={{ 
-                background: '#fff', 
-                border: '1px solid #1DA1F2', 
-                borderRadius: '1.25rem', 
-                padding: '0.75rem 1rem', 
-                boxShadow: '0 2px 8px rgba(29,161,242,0.08)' 
-              }}>
-                <div style={{ display: 'flex', gap: '0.5rem' }}>
-                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out' }}></div>
-                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out', animationDelay: '0.1s' }}></div>
-                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#1DA1F2', borderRadius: '50%', animation: 'bounce 1.4s infinite ease-in-out', animationDelay: '0.2s' }}></div>
+                <Bot size={16} style={{ color: '#1DA1F2' }} />
+                <div style={{ display: 'flex', gap: '0.25rem' }}>
+                  <div style={{
+                    width: '8px',
+                    height: '8px',
+                    borderRadius: '50%',
+                    background: '#1DA1F2',
+                    animation: 'typing 1.4s infinite ease-in-out'
+                  }}></div>
+                  <div style={{
+                    width: '8px',
+                    height: '8px',
+                    borderRadius: '50%',
+                    background: '#1DA1F2',
+                    animation: 'typing 1.4s infinite ease-in-out 0.2s'
+                  }}></div>
+                  <div style={{
+                    width: '8px',
+                    height: '8px',
+                    borderRadius: '50%',
+                    background: '#1DA1F2',
+                    animation: 'typing 1.4s infinite ease-in-out 0.4s'
+                  }}></div>
                 </div>
               </div>
             </div>
           )}
+          
           <div ref={messagesEndRef} />
         </div>
-        
+
         {/* Input Area */}
-        <div style={{ 
-          background: '#fff', 
-          borderTop: '1px solid #1DA1F2', 
-          padding: '1rem',
-          borderBottomLeftRadius: '1rem',
-          borderBottomRightRadius: '1rem'
-        }}>
-          <div style={{ display: 'flex', alignItems: 'flex-end', gap: '0.75rem' }}>
+        <div style={{ background: '#fff', borderTop: '1px solid #1DA1F2', padding: '1.5rem' }}>
+          <div style={{ display: 'flex', alignItems: 'flex-end', gap: '1rem' }}>
             <div style={{ flex: 1, position: 'relative' }}>
               <textarea
                 value={inputMessage}
@@ -586,17 +499,16 @@ const AssistantPage = () => {
                 placeholder="Ask Flex.Ai"
                 style={{ 
                   width: '100%', 
-                  padding: '0.75rem 1rem', 
+                  padding: '1rem 1.5rem', 
                   border: '1px solid #1DA1F2', 
-                  borderRadius: '1.25rem', 
-                  fontSize: '0.875rem', 
+                  borderRadius: '1.5rem', 
+                  fontSize: '1rem', 
                   background: '#fff', 
                   color: '#1DA1F2', 
                   outline: 'none', 
                   resize: 'none', 
-                  minHeight: '44px', 
-                  maxHeight: '120px',
-                  fontFamily: 'inherit'
+                  minHeight: '56px', 
+                  maxHeight: '128px' 
                 }}
                 rows={1}
               />
@@ -605,34 +517,35 @@ const AssistantPage = () => {
               onClick={handleSendMessage}
               disabled={!inputMessage.trim() || isTyping}
               style={{ 
-                padding: '0.75rem', 
+                padding: '1rem', 
                 background: '#1DA1F2', 
                 color: 'white', 
                 border: 'none', 
                 borderRadius: '50%', 
                 cursor: 'pointer', 
-                fontSize: '1rem', 
-                opacity: !inputMessage.trim() || isTyping ? 0.5 : 1,
-                minWidth: '44px',
-                minHeight: '44px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
+                fontSize: '1.25rem', 
+                opacity: !inputMessage.trim() || isTyping ? 0.5 : 1 
               }}
             >
-              <Send style={{ width: '1.25rem', height: '1.25rem' }} />
+              <Send style={{ width: '1.5rem', height: '1.5rem' }} />
             </button>
           </div>
-          <p style={{ 
-            color: '#1DA1F2', 
-            fontSize: '0.75rem', 
-            marginTop: '0.75rem', 
-            textAlign: 'center' 
-          }}>
+          <p style={{ color: '#1DA1F2', fontSize: '0.9rem', marginTop: '1rem', textAlign: 'center' }}>
             {isApiAvailable ? "Powered by Google Gemini AI" : "Running in offline mode"}
           </p>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes typing {
+          0%, 60%, 100% {
+            transform: translateY(0);
+          }
+          30% {
+            transform: translateY(-10px);
+          }
+        }
+      `}</style>
     </div>
   );
 };
