@@ -6,6 +6,9 @@ import { Button } from '../components/ui/button';
 import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-with-collision";
 import { AnimatedTestimonials } from "../components/ui/animated-testimonials";
 import { PinContainer } from "../components/ui/3d-pin";
+import { ContainerTextFlip } from "../components/ui/container-text-flip";
+import { motion } from "motion/react";
+import { cn } from "../lib/utils";
 
 
 const headingStyle = {
@@ -159,21 +162,41 @@ function AnimatedTestimonialsDemo() {
 function AnimatedPinDemo() {
   return (
     <div className="h-[40rem] w-full flex items-center justify-center ">
-      <PinContainer title="/ui.aceternity.com" href="https://x.com/vikas_070v">
+      <PinContainer title="/x.com/vikas_070v" href="https://x.com/vikas_070v">
         <div
           className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-            Aceternity UI
+           TWITTER
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Customizable Tailwind CSS and Framer Motion Components.
+             WHO IS VIKAS ? GET ANSWER HERE ?
             </span>
           </div>
           <div
             className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
         </div>
       </PinContainer>
+    </div>
+  );
+}
+
+function ContainerTextFlipDemo() {
+  const words = ["better", "modern", "beautiful", "awesome"];
+  return (
+    <div className="w-full flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
+      <motion.h1
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        className={cn(
+          "relative max-w-2xl text-left text-4xl leading-normal font-bold tracking-tight text-zinc-700 md:text-7xl dark:text-zinc-100"
+        )}
+        layout>
+        <div className="inline-block">
+          Make your websites look 10x <ContainerTextFlip words={words} />
+        </div>
+      </motion.h1>
+      <img src="/iconright.png" alt="icon right" className="w-40 h-40 md:w-60 md:h-60 object-contain" />
     </div>
   );
 }
@@ -212,6 +235,7 @@ const Home = () => {
   return (
     <div className="center-desktop" style={{ padding: '1rem 0', background: '#f4fafd', minHeight: '100vh' }}>
       <div style={headingStyle} className="section-center">
+        <ContainerTextFlipDemo />
         <img
           src={process.env.PUBLIC_URL + '/newflex.png'}
           alt="FLEX.AI Logo"
