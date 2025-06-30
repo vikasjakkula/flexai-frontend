@@ -122,6 +122,12 @@ const Library = () => {
   const [videoExercise, setVideoExercise] = useState(null);
   const [videoGroup, setVideoGroup] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [mathScore] = useState(92);
+  const [physicsScore] = useState(85);
+  const [chemistryScore] = useState(78);
+  const [mathProgress, setMathProgress] = useState(0);
+  const [physicsProgress, setPhysicsProgress] = useState(0);
+  const [chemistryProgress, setChemistryProgress] = useState(0);
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -129,6 +135,19 @@ const Library = () => {
     const timer = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timer);
   }, []);
+
+  // Animate progress bars
+  useEffect(() => {
+    let math = 0, physics = 0, chemistry = 0;
+    const interval = setInterval(() => {
+      let updated = false;
+      if (math < mathScore) { math += 1; setMathProgress(math); updated = true; }
+      if (physics < physicsScore) { physics += 1; setPhysicsProgress(physics); updated = true; }
+      if (chemistry < chemistryScore) { chemistry += 1; setChemistryProgress(chemistry); updated = true; }
+      if (!updated) clearInterval(interval);
+    }, 12);
+    return () => clearInterval(interval);
+  }, [mathScore, physicsScore, chemistryScore]);
 
   if (loading) return <LoadingPage />;
 
@@ -150,6 +169,59 @@ const Library = () => {
 
   return (
     <div ref={containerRef} style={{ minHeight: '100vh', background: 'linear-gradient(120deg, #f8fbff 0%, #e3f0ff 100%)', padding: '0 0 48px 0' }}>
+      {/* Performance Analytics Section - right aligned */}
+      <div style={{ display: 'flex', justifyContent: 'flex-end', width: '100%', maxWidth: '100%', marginBottom: 0 }}>
+        <div className="p-6 rounded-lg shadow-lg" style={{ background: '#1b9df355', maxWidth: 650, width: 650, margin: '32px 32px 0 0' }}>
+          <h3 className="text-lg font-semibold mb-4" style={{ fontSize: '1.5rem', fontWeight: 800 }}>Your Performance Analytics</h3>
+          <div className="space-y-4 mb-6">
+            <div>
+              <div className="flex justify-between mb-1">
+                <span className="text-sm text-gray-600">calories burn</span>
+                <span className="text-sm font-medium text-gray-900">{mathProgress}%</span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-2">
+                <div className="bg-blue-600 h-2 rounded-full transition-all duration-1000 ease-out" style={{ width: `${mathProgress}%` }}></div>
+              </div>
+            </div>
+            <div>
+              <div className="flex justify-between mb-1">
+                <span className="text-sm text-gray-600">fat loosed</span>
+                <span className="text-sm font-medium text-gray-900">{physicsProgress}%</span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-2">
+                <div className="bg-blue-600 h-2 rounded-full transition-all duration-1000 ease-out" style={{ width: `${physicsProgress}%` }}></div>
+              </div>
+            </div>
+            <div>
+              <div className="flex justify-between mb-1">
+                <span className="text-sm text-gray-600">muscle growth</span>
+                <span className="text-sm font-medium text-gray-900">{chemistryProgress}%</span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-2">
+                <div className="bg-blue-600 h-2 rounded-full transition-all duration-1000 ease-out" style={{ width: `${chemistryProgress}%` }}></div>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-4 gap-4 text-center">
+            <div className="bg-blue-100 rounded-lg p-3">
+              <p className="text-blue-600 font-bold text-xl">87%</p>
+              <p className="text-gray-600 text-xs">Accuracy</p>
+            </div>
+            <div className="bg-blue-100 rounded-lg p-3">
+              <p className="text-blue-600 font-bold text-xl">142</p>
+              <p className="text-gray-600 text-xs">Score</p>
+            </div>
+            <div className="bg-blue-100 rounded-lg p-3">
+              <p className="text-blue-600 font-bold text-xl">32</p>
+              <p className="text-gray-600 text-xs">Mock Tests</p>
+            </div>
+            <div className="bg-blue-100 rounded-lg p-3">
+              <p className="text-blue-600 font-bold text-xl">2.5k</p>
+              <p className="text-gray-600 text-xs">Est. Rank</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div style={{ maxWidth: 700, margin: '0 auto', padding: '32px 16px 0 16px' }}>
         <img
           src={process.env.PUBLIC_URL + '/library.png'}

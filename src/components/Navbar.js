@@ -2,13 +2,20 @@
 import React, { useState } from 'react';
 // import flexLogo from '../assets/new.png'; // Remove image import
 import { Link, useNavigate } from 'react-router-dom';
-import { Menu, X, Moon, Sun } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
+import {
+  NavigationMenu,
+  NavigationMenuList,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  navigationMenuTriggerStyle,
+} from "./ui/navigation-menu";
 
 function Navbar() {
   const navigate = useNavigate();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   const handleLogoClick = () => {
     navigate('/');
@@ -22,20 +29,6 @@ function Navbar() {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
-
-  const handleThemeToggle = () => {
-    toggleTheme();
-  };
-
-  const NavLink = ({ to, children }) => (
-    <Link 
-      to={to} 
-      onClick={closeMobileMenu}
-      className={`relative text-lg font-medium ${theme === 'dark' ? 'text-white' : 'text-black'} hover:text-transparent bg-clip-text bg-gradient-to-r from-[#60a5fa] to-[#34d399] transition-colors duration-200 focus:outline-none after:content-[''] after:block after:h-0.5 after:w-full after:bg-gradient-to-r after:from-[#60a5fa] after:to-[#34d399] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-200 after:origin-center`}
-    >
-      {children}
-    </Link>
-  );
 
   return (
     <nav className={`navbar fixed-navbar w-full flex items-center justify-between px-4 md:px-8 py-4 ${theme}`}>
@@ -53,25 +46,32 @@ function Navbar() {
         />
       </div>
       
-      {/* Desktop Navigation */}
-      <div className="hidden md:flex items-center space-x-8">
-        {/* Theme Toggle Button (left to Home) */}
-        <button
-          onClick={handleThemeToggle}
-          aria-label="Toggle dark mode"
-          className="theme-toggle-btn mr-2 flex items-center justify-center focus:outline-none transition-colors duration-200"
-          style={{ marginRight: '0.5rem' }}
-        >
-          {theme === 'dark' ? (
-            <Sun size={22} className="text-yellow-400" />
-          ) : (
-            <Moon size={22} className="text-gray-600" />
-          )}
-        </button>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/library">Library</NavLink>
-        <NavLink to="/pricing">Pricing</NavLink>
-        <NavLink to="/assistant">Assistant</NavLink>
+      {/* Desktop Navigation with shadcn/ui navigation-menu */}
+      <div className="hidden md:flex items-center">
+        <NavigationMenu>
+          <NavigationMenuList className="gap-6">
+            <NavigationMenuItem>
+              <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                <Link to="/" onClick={closeMobileMenu}>Home</Link>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                <Link to="/library" onClick={closeMobileMenu}>Library</Link>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                <Link to="/pricing" onClick={closeMobileMenu}>Pricing</Link>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                <Link to="/assistant" onClick={closeMobileMenu}>Assistant</Link>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
       </div>
 
       {/* Mobile Menu Button */}
@@ -91,23 +91,30 @@ function Navbar() {
       {isMobileMenuOpen && (
         <div className={`absolute top-full left-0 right-0 ${theme === 'dark' ? 'bg-black' : 'bg-white'} shadow-lg border-t border-gray-700/30 md:hidden z-50`}>
           <div className="flex flex-col space-y-4 p-4">
-            {/* Theme Toggle in mobile menu */}
-            <button
-              onClick={handleThemeToggle}
-              aria-label="Toggle dark mode"
-              className="theme-toggle-btn mb-2 flex items-center justify-center focus:outline-none transition-colors duration-200"
-              style={{ alignSelf: 'flex-start' }}
-            >
-              {theme === 'dark' ? (
-                <Sun size={22} className="text-yellow-400" />
-              ) : (
-                <Moon size={22} className="text-gray-600" />
-              )}
-            </button>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/library">Library</NavLink>
-            <NavLink to="/pricing">Pricing</NavLink>
-            <NavLink to="/assistant">Assistant</NavLink>
+            <NavigationMenu>
+              <NavigationMenuList className="gap-4">
+                <NavigationMenuItem>
+                  <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                    <Link to="/" onClick={closeMobileMenu}>Home</Link>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                    <Link to="/library" onClick={closeMobileMenu}>Library</Link>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                    <Link to="/pricing" onClick={closeMobileMenu}>Pricing</Link>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                    <Link to="/assistant" onClick={closeMobileMenu}>Assistant</Link>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
           </div>
         </div>
       )}
