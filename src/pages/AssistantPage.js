@@ -5,9 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import LoadingPage from '../components/LoadingPage';
 
 // Backend API base URL - use relative path for Vercel deployment
-const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? '/api' 
-  : 'http://localhost:3000/api';
+const API_BASE_URL = 'http://localhost:5000/api';
 
 const AssistantPage = () => {
   const [messages, setMessages] = useState([]);

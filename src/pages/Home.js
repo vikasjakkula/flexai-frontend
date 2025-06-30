@@ -6,7 +6,8 @@ import { Button } from '../components/ui/button';
 import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-with-collision";
 import { AnimatedTestimonials } from "../components/ui/animated-testimonials";
 import { PinContainer } from "../components/ui/3d-pin";
-import HeroSection, { HeroSectionLeftImage } from "../components/HeroSection";
+import HeroSection, { HeroSectionLeftImage, FlexAiAudienceSection } from "../components/HeroSection";
+import { CardContainer, CardBody, CardItem } from "../components/ui/3d-card";
 
 
 const headingStyle = {
@@ -121,35 +122,35 @@ function AnimatedTestimonialsDemo() {
     {
       quote:
         "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-      name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
+      name: "vikas yadav",
+      designation: "student at 'NGIT' (Osmania University)",
       src: "/image1.png",
     },
     {
       quote:
         "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-      name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
+      name: "vikas yadav",
+      designation: "founder and ceo of flex.ai",
       src: "/image2.png",
     },
     {
       quote:
         "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "Emily Watson",
+      name: "vikas yadav",
       designation: "Operations Director at CloudScale",
       src: "/image3.png",
     },
     {
       quote:
         "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "James Kim",
+      name: "vikas yadav",
       designation: "Engineering Lead at DataPro",
       src: "/image4.png",
     },
     {
       quote:
         "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
-      name: "Lisa Thompson",
+      name: "vikas yadav",
       designation: "VP of Technology at FutureNet",
       src: "/image5.png",
     },
@@ -213,7 +214,7 @@ const Home = () => {
   return (
     <div className="center-desktop" style={{ padding: '1rem 0', background: '#f4fafd', minHeight: '100vh' }}>
       <HeroSection />
-      <div style={headingStyle} className="section-center">
+      <div style={{ ...headingStyle, maxWidth: '1200px', margin: '3rem auto 0 auto' }} className="section-center">
         <img
           src={process.env.PUBLIC_URL + '/newflex.png'}
           alt="FLEX.AI Logo"
@@ -378,43 +379,29 @@ const Home = () => {
 
       <div className="stats-row">
         {/* Card 1 */}
-        <div className="stat-card" style={{ 
-          background: '#f8f9fa', 
-          borderRadius: '1rem', 
-          padding: '1.5rem', 
-          boxShadow: '0 2px 12px rgba(0,0,0,0.04)', 
-          textAlign: 'left' 
-        }}>
-          <div style={{ fontWeight: 900, fontSize: '1.8rem', fontFamily: 'Raleway, Arial, sans-serif', color: '#222', marginBottom: '0.5rem' }}>1,00,000+</div>
-          <div style={{ fontWeight: 700, fontSize: '1rem', fontFamily: 'Raleway, Arial, sans-serif', color: '#222', marginBottom: '0.5rem' }}>Fitness Goals Achieved</div>
-          <div style={{ color: '#555', fontSize: '0.9rem', fontFamily: 'Raleway, Arial, sans-serif', lineHeight: 1.5 }}>Over a million professionals trust our apps for their daily workflows.</div>
-        </div>
+        <CardContainer>
+          <CardBody className="stat-card" style={{ background: '#f8f9fa', borderRadius: '1rem', padding: '1.5rem', boxShadow: '0 2px 12px rgba(0,0,0,0.04)', textAlign: 'left' }}>
+            <CardItem translateZ={50} className="text-3xl font-bold" style={{ color: '#222', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>1,00,000+</CardItem>
+            <CardItem translateZ={30} className="text-lg font-semibold" style={{ color: '#222', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>Fitness Goals Achieved</CardItem>
+            <CardItem translateZ={20} className="text-base" style={{ color: '#555', fontFamily: 'Raleway, Arial, sans-serif', fontSize: '0.9rem', lineHeight: 1.5 }}>Over a million professionals trust our apps for their daily workflows.</CardItem>
+          </CardBody>
+        </CardContainer>
         {/* Card 2 */}
-        <div className="stat-card" style={{ 
-          background: '#111827', 
-          borderRadius: '1rem', 
-          padding: '1.5rem', 
-          color: 'white', 
-          textAlign: 'left', 
-          boxShadow: '0 2px 12px rgba(0,0,0,0.10)' 
-        }}>
-          <div style={{ fontWeight: 900, fontSize: '1.8rem', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>13,00,000+<br/>BodyBuilder's Created</div>
-          <div style={{ fontWeight: 400, fontSize: '1rem', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>Users reached their muscle gain, weight loss, and endurance goals using FLEX.AI plans.</div>
-          <div style={{ color: '#b3b3b3', fontSize: '0.9rem', fontFamily: 'Raleway, Arial, sans-serif', lineHeight: 1.5 }}>Flex.AI is the simplest way to create beautiful Figure.</div>
-        </div>
+        <CardContainer>
+          <CardBody className="stat-card" style={{ background: '#111827', borderRadius: '1rem', padding: '1.5rem', color: 'white', textAlign: 'left', boxShadow: '0 2px 12px rgba(0,0,0,0.10)' }}>
+            <CardItem translateZ={50} className="text-3xl font-bold" style={{ fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>13,00,000+<br/>BodyBuilder's Created</CardItem>
+            <CardItem translateZ={30} className="text-lg font-semibold" style={{ fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>Users reached their muscle gain, weight loss, and endurance goals using FLEX.AI plans.</CardItem>
+            <CardItem translateZ={20} className="text-base" style={{ color: '#b3b3b3', fontFamily: 'Raleway, Arial, sans-serif', fontSize: '0.9rem', lineHeight: 1.5 }}>Flex.AI is the simplest way to create beautiful Figure.</CardItem>
+          </CardBody>
+        </CardContainer>
         {/* Card 3 */}
-        <div className="stat-card" style={{ 
-          background: '#5746ea', 
-          borderRadius: '1rem', 
-          padding: '1.5rem', 
-          color: 'white', 
-          textAlign: 'left', 
-          boxShadow: '0 2px 12px rgba(0,0,0,0.08)' 
-        }}>
-          <div style={{ fontWeight: 900, fontSize: '1.8rem', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>95%</div>
-          <div style={{ fontWeight: 700, fontSize: '1rem', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>Users Satisfaction</div>
-          <div style={{ color: '#e0e0ff', fontSize: '0.9rem', fontFamily: 'Raleway, Arial, sans-serif', lineHeight: 1.5 }}>Highly rated by fitness enthusiasts for clear guidance and real transformation results.</div>
-        </div>
+        <CardContainer>
+          <CardBody className="stat-card" style={{ background: '#5746ea', borderRadius: '1rem', padding: '1.5rem', color: 'white', textAlign: 'left', boxShadow: '0 2px 12px rgba(0,0,0,0.08)' }}>
+            <CardItem translateZ={50} className="text-3xl font-bold" style={{ fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>95%</CardItem>
+            <CardItem translateZ={30} className="text-lg font-semibold" style={{ fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>Users Satisfaction</CardItem>
+            <CardItem translateZ={20} className="text-base" style={{ color: '#b3b3b3', fontFamily: 'Raleway, Arial, sans-serif', fontSize: '0.9rem', lineHeight: 1.5 }}>Highly rated by fitness enthusiasts for clear guidance and real transformation results.</CardItem>
+          </CardBody>
+        </CardContainer>
       </div>
 
       <AnimatedTestimonialsDemo />
@@ -430,6 +417,7 @@ const Home = () => {
       <AnimatedPinDemo />
 
       <BackgroundBeamsWithCollisionDemo />
+      <FlexAiAudienceSection />
       <HeroSectionLeftImage />
 
     </div>
