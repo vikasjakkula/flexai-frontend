@@ -9,94 +9,6 @@ import { PinContainer } from "../components/ui/3d-pin";
 import HeroSection, { HeroSectionLeftImage, FlexAiAudienceSection } from "../components/HeroSection";
 import { CardContainer, CardBody, CardItem } from "../components/ui/3d-card";
 
-
-const headingStyle = {
-  background: '#1b9df3',
-  color: 'white',
-  padding: '1.5rem',
-  borderRadius: '1rem',
-  textAlign: 'center',
-  fontFamily: 'Raleway, Arial, sans-serif',
-  fontWeight: 900,
-  fontSize: '2rem',
-  letterSpacing: '1px',
-  marginBottom: '1.5rem',
-  boxShadow: '0 4px 24px rgba(27,157,243,0.15)',
-  margin: '0 1rem 1.5rem 1rem'
-};
-
-const sectionStyle = {
-  background: 'white',
-  borderRadius: '1rem',
-  padding: '1.5rem',
-  margin: '1.5rem 1rem',
-  maxWidth: '900px',
-  boxShadow: '0 2px 12px rgba(0,0,0,0.06)',
-  fontFamily: 'Poppins, Arial, sans-serif',
-  fontSize: '1rem',
-  lineHeight: 1.6
-};
-
-const modalStyle = {
-  position: 'fixed',
-  top: 0,
-  left: 0,
-  width: '100vw',
-  height: '100vh',
-  background: 'rgba(0,0,0,0.35)',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  zIndex: 1000,
-  padding: '1rem'
-};
-
-const popupStyle = {
-  background: 'white',
-  borderRadius: '1rem',
-  padding: '2rem 1.5rem 1.5rem 1.5rem',
-  minWidth: '280px',
-  maxWidth: '90vw',
-  boxShadow: '0 4px 24px rgba(27,157,243,0.15)',
-  position: 'relative',
-  textAlign: 'center',
-};
-
-const closeBtnStyle = {
-  position: 'absolute',
-  top: '0.75rem',
-  right: '1rem',
-  background: 'transparent',
-  border: 'none',
-  fontSize: '1.5rem',
-  color: '#1b9df3',
-  cursor: 'pointer',
-  fontWeight: 700,
-  zIndex: 1000,
-  padding: '0.5rem',
-  minWidth: '44px',
-  minHeight: '44px',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center'
-};
-
-const popupBtnStyle = {
-  background: '#1b9df3',
-  color: 'white',
-  border: 'none',
-  borderRadius: '2rem',
-  padding: '0.75rem 1.5rem',
-  fontWeight: 700,
-  fontSize: '1rem',
-  cursor: 'pointer',
-  margin: '0.75rem',
-  boxShadow: '0 2px 8px #1b9df355',
-  transition: 'background 0.2s, transform 0.2s',
-  minHeight: '44px',
-  minWidth: '120px'
-};
-
 function BackgroundBeamsWithCollisionDemo() {
   return (
     <BackgroundBeamsWithCollision>
@@ -212,141 +124,85 @@ const Home = () => {
   if (loading) return <LoadingPage />;
 
   return (
-    <div className="center-desktop" style={{ padding: '1rem 0', background: '#f4fafd', minHeight: '100vh' }}>
+    <div className="center-desktop py-4 bg-[#f4fafd] min-h-screen">
       <HeroSection />
-      <div style={{ ...headingStyle, maxWidth: '1200px', margin: '3rem auto 0 auto' }} className="section-center">
+      <div className="bg-[#1b9df3] text-white p-6 rounded-xl text-center font-raleway font-extrabold text-2xl tracking-wide mb-6 shadow-lg w-full mx-0 mt-12" style={{borderRadius: '1rem', maxWidth: '100vw'}}>
         <img
           src={process.env.PUBLIC_URL + '/newflex.png'}
           alt="FLEX.AI Logo"
-          style={{
-            height: '48px',
-            display: 'block',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            marginBottom: '0.5rem'
-          }}
+          className="h-12 mx-auto mb-2 block"
         />
-        <div style={{ fontSize: '1rem', fontWeight: 400, marginTop: '0.5rem', letterSpacing: 0 }}>
+        <div className="text-base font-normal mt-2 tracking-normal">
           Your Ultimate Gym Companion
         </div>
-        <div style={{ marginTop: '1rem', fontWeight: 600, fontSize: '0.9rem', letterSpacing: 1 }}>
+        <div className="mt-4 font-semibold text-sm tracking-wider">
           [ GO AHEAD AND START YOUR JOURNEY ]
         </div>
         <button
-          className="glow-btn"
+          className="glow-btn mt-4"
           onClick={handleExplorePlans}
-          style={{ marginTop: '1rem' }}
         >
           Get Started
         </button>
       </div>
 
-      <div style={{ ...sectionStyle }} className="section-center">
-        <h2 style={{
-          color: '#1b9df3',
-          fontWeight: 800,
-          fontSize: '1.5rem',
-          fontFamily: 'Raleway, Arial, sans-serif',
-          textAlign: 'center',
-          marginBottom: '1rem'
-        }}>🔥 What We Offer 🔥</h2>
-        <ul style={{
-          listStyleType: 'none',
-          padding: 0,
-          margin: 0,
-          textAlign: 'left'
-        }}>
-          <li style={{ marginBottom: '0.75rem' }}><b>Smart Workout Routines:</b> Biceps, Triceps, Chest, Shoulders, Legs, Back, Abs, Warm-ups, Cool-downs, Core & 6-pack routines</li>
-          <li style={{ marginBottom: '0.75rem' }}><b>AI-Powered Exercise Suggestions:</b> Personalized plans for your fitness level, adjusts reps, rest, and sets for you</li>
-          <li style={{ marginBottom: '0.75rem' }}><b>HD Video Demonstrations:</b> Beginner to pro level tutorials</li>
-          <li style={{ marginBottom: '0.75rem' }}><b>Nutrition Guidance:</b> Pre/Post workout meals, high-protein diet plans</li>
-          <li style={{ marginBottom: '0.75rem' }}><b>Weekly Progress Tracking:</b> Weight, muscles, fat loss, and strength progress</li>
-          <li style={{ marginBottom: '0.75rem' }}><b>Goal-Based Programs:</b> Fat Burn | Muscle Gain | Endurance | Bulk-up, 30 / 60 / 90 Day Challenges</li>
-          <li style={{ marginBottom: '0.75rem' }}><b>Live Support Options:</b> Ask AI Trainer | Chat with Real Experts</li>
+      <div className="section-center bg-white rounded-xl p-6 my-6 mx-4 max-w-[900px] shadow-md font-poppins text-base leading-relaxed">
+        <h2 className="text-[#1b9df3] font-extrabold text-xl font-raleway text-center mb-4">🔥 What We Offer 🔥</h2>
+        <ul className="list-none p-0 m-0 text-left">
+          <li className="mb-3"><b>Smart Workout Routines:</b> Biceps, Triceps, Chest, Shoulders, Legs, Back, Abs, Warm-ups, Cool-downs, Core & 6-pack routines</li>
+          <li className="mb-3"><b>AI-Powered Exercise Suggestions:</b> Personalized plans for your fitness level, adjusts reps, rest, and sets for you</li>
+          <li className="mb-3"><b>HD Video Demonstrations:</b> Beginner to pro level tutorials</li>
+          <li className="mb-3"><b>Nutrition Guidance:</b> Pre/Post workout meals, high-protein diet plans</li>
+          <li className="mb-3"><b>Weekly Progress Tracking:</b> Weight, muscles, fat loss, and strength progress</li>
+          <li className="mb-3"><b>Goal-Based Programs:</b> Fat Burn | Muscle Gain | Endurance | Bulk-up, 30 / 60 / 90 Day Challenges</li>
+          <li className="mb-3"><b>Live Support Options:</b> Ask AI Trainer | Chat with Real Experts</li>
         </ul>
       </div>
 
-      <div style={{ ...sectionStyle }} className="section-center">
-        <h2 style={{
-          color: '#1b9df3',
-          fontWeight: 800,
-          fontSize: '1.5rem',
-          fontFamily: 'Raleway, Arial, sans-serif',
-          textAlign: 'center',
-          marginBottom: '1rem'
-        }}>Why Choose FLEX.AI?</h2>
-        <ul style={{
-          listStyleType: 'none',
-          padding: 0,
-          margin: 0,
-          textAlign: 'left'
-        }}>
-          <li style={{ marginBottom: '0.75rem' }}>✅ Fast, Easy-to-Use Interface</li>
-          <li style={{ marginBottom: '0.75rem' }}>✅ Scientifically Designed Routines</li>
-          <li style={{ marginBottom: '0.75rem' }}>✅ AI Personal Coach in Your Pocket</li>
-          <li style={{ marginBottom: '0.75rem' }}>✅ Track Your Visible Progress</li>
+      <div className="section-center bg-white rounded-xl p-6 my-6 mx-4 max-w-[900px] shadow-md font-poppins text-base leading-relaxed">
+        <h2 className="text-[#1b9df3] font-extrabold text-xl font-raleway text-center mb-4">Why Choose FLEX.AI?</h2>
+        <ul className="list-none p-0 m-0 text-left">
+          <li className="mb-3">✅ Fast, Easy-to-Use Interface</li>
+          <li className="mb-3">✅ Scientifically Designed Routines</li>
+          <li className="mb-3">✅ AI Personal Coach in Your Pocket</li>
+          <li className="mb-3">✅ Track Your Visible Progress</li>
         </ul>
       </div>
 
-      <div style={{ ...sectionStyle }} className="section-center">
-        <h2 style={{
-          color: '#1b9df3',
-          fontWeight: 800,
-          fontSize: '1.5rem',
-          fontFamily: 'Raleway, Arial, sans-serif',
-          textAlign: 'center',
-          marginBottom: '1rem'
-        }}>What Our Users Say ❤️‍🔥</h2>
-        <ul style={{
-          listStyleType: 'none',
-          padding: 0,
-          margin: 0,
-          textAlign: 'left'
-        }}>
-          <li style={{ marginBottom: '0.75rem' }}>⭐ "I never thought an app could replace a real trainer, but FLEX.AI proved me wrong!" – Anjali M.</li>
-          <li style={{ marginBottom: '0.75rem' }}>⭐ "Gained 5kg muscle in 45 days using FLEX.AI's custom plan. Super effective." – Rohan K.</li>
-          <li style={{ marginBottom: '0.75rem' }}>⭐ "The AI suggestions are accurate and keep me motivated. This is next-gen fitness." – Neha V.</li>
-          <li style={{ marginBottom: '0.75rem' }}>⭐ "From lazy to shredded! FLEX.AI is a beast mode unlocker." – Suresh R.</li>
+      <div className="section-center bg-white rounded-xl p-6 my-6 mx-4 max-w-[900px] shadow-md font-poppins text-base leading-relaxed">
+        <h2 className="text-[#1b9df3] font-extrabold text-xl font-raleway text-center mb-4">What Our Users Say ❤️‍🔥</h2>
+        <ul className="list-none p-0 m-0 text-left">
+          <li className="mb-3">⭐ "I never thought an app could replace a real trainer, but FLEX.AI proved me wrong!" – Anjali M.</li>
+          <li className="mb-3">⭐ "Gained 5kg muscle in 45 days using FLEX.AI's custom plan. Super effective." – Rohan K.</li>
+          <li className="mb-3">⭐ "The AI suggestions are accurate and keep me motivated. This is next-gen fitness." – Neha V.</li>
+          <li className="mb-3">⭐ "From lazy to shredded! FLEX.AI is a beast mode unlocker." – Suresh R.</li>
         </ul>
       </div>
 
-      <div style={{ ...sectionStyle }} className="section-center">
-        <h2 style={{
-          color: '#1b9df3',
-          fontWeight: 800,
-          fontSize: '1.5rem',
-          fontFamily: 'Raleway, Arial, sans-serif',
-          textAlign: 'center',
-          marginBottom: '1rem'
-        }}>🚀 Ready to Transforming Your Body?</h2>
-        <ol style={{
-          listStyleType: 'decimal',
-          padding: 0,
-          margin: 0,
-          textAlign: 'left',
-          paddingLeft: '1.5rem'
-        }}>
-          <li style={{ marginBottom: '0.75rem' }}>Step 1: Enter your goal (Lose Fat, Build Muscle, etc.)</li>
-          <li style={{ marginBottom: '0.75rem' }}>Step 2: Select your level (Beginner / Intermediate / Pro)</li>
-          <li style={{ marginBottom: '0.75rem' }}>Step 3: Start Training with FLEX.AI</li>
+      <div className="section-center bg-white rounded-xl p-6 my-6 mx-4 max-w-[900px] shadow-md font-poppins text-base leading-relaxed">
+        <h2 className="text-[#1b9df3] font-extrabold text-xl font-raleway text-center mb-4">🚀 Ready to Transforming Your Body?</h2>
+        <ol className="list-decimal p-0 m-0 text-left pl-6">
+          <li className="mb-3">Step 1: Enter your goal (Lose Fat, Build Muscle, etc.)</li>
+          <li className="mb-3">Step 2: Select your level (Beginner / Intermediate / Pro)</li>
+          <li className="mb-3">Step 3: Start Training with FLEX.AI</li>
         </ol>
-        <div className="action-btns">
+        <div className="action-btns flex flex-col md:flex-row gap-4 mt-4">
           <Button
             onClick={handleStartNow}
-            style={{ width: '100%', maxWidth: '300px' }}
+            className="w-full max-w-xs"
           >
             START NOW
           </Button>
           <Button
             onClick={() => navigate('/library')}
             onMouseUp={() => setTimeout(() => window.scrollTo(0, 0), 0)}
-            style={{ width: '100%', maxWidth: '300px' }}
+            className="w-full max-w-xs"
           >
             JOIN AS A TRAINER
           </Button>
           <Button
             onClick={handleExplorePlans}
-            style={{ width: '100%', maxWidth: '300px' }}
+            className="w-full max-w-xs"
           >
             EXPLORE PLANS
           </Button>
@@ -355,64 +211,54 @@ const Home = () => {
 
       {/* Popup Modal for Step 1 */}
       {showPopup && (
-        <div style={modalStyle}>
-          <div style={popupStyle}>
-            <Button style={closeBtnStyle} onClick={handleClosePopup}>&times;</Button>
-            <img src={process.env.PUBLIC_URL + '/GOAL.png'} alt="Choose Your Goal" style={{ width: '100%', maxWidth: '300px', margin: '0 auto 1rem auto', display: 'block' }} />
-            <div style={{ 
-              display: 'flex', 
-              flexDirection: 'column',
-              alignItems: 'center',
-              gap: '1rem', 
-              marginTop: '1rem' 
-            }}>
-              <Button style={{...popupBtnStyle, width: '100%', maxWidth: '200px'}} onClick={handlePopupBtn} aria-label="Lose Fat">
-                <img src={process.env.PUBLIC_URL + '/loose fat.png'} alt="Lose Fat" style={{ width: '100px', height: 'auto', display: 'block' }} />
+        <div className="fixed inset-0 bg-black/35 flex items-center justify-center z-[1000] p-4">
+          <div className="bg-white rounded-xl p-8 min-w-[280px] max-w-[90vw] shadow-2xl relative text-center">
+            <Button className="absolute top-3 right-4 bg-transparent border-0 text-2xl text-[#1b9df3] font-bold z-[1000] p-2 min-w-[44px] min-h-[44px] flex items-center justify-center" onClick={handleClosePopup}>&times;</Button>
+            <img src={process.env.PUBLIC_URL + '/GOAL.png'} alt="Choose Your Goal" className="w-full max-w-[300px] mx-auto mb-4 block" />
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <Button className="bg-[#1b9df3] text-white rounded-full py-3 px-6 font-bold text-base cursor-pointer my-3 shadow-md transition w-full max-w-xs" onClick={handlePopupBtn} aria-label="Lose Fat">
+                <img src={process.env.PUBLIC_URL + '/loose fat.png'} alt="Lose Fat" className="w-[100px] h-auto block mx-auto" />
               </Button>
-              <Button style={{...popupBtnStyle, width: '100%', maxWidth: '200px'}} onClick={handlePopupBtn} aria-label="Build Muscle">
-                <img src={process.env.PUBLIC_URL + '/buildmusle.png'} alt="Build Muscle" style={{ width: '100px', height: 'auto', display: 'block' }} />
+              <Button className="bg-[#1b9df3] text-white rounded-full py-3 px-6 font-bold text-base cursor-pointer my-3 shadow-md transition w-full max-w-xs" onClick={handlePopupBtn} aria-label="Build Muscle">
+                <img src={process.env.PUBLIC_URL + '/buildmusle.png'} alt="Build Muscle" className="w-[100px] h-auto block mx-auto" />
               </Button>
             </div>
           </div>
         </div>
       )}
 
-      <div className="stats-row">
+      <div className="stats-row grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
         {/* Card 1 */}
         <CardContainer>
-          <CardBody className="stat-card" style={{ background: '#f8f9fa', borderRadius: '1rem', padding: '1.5rem', boxShadow: '0 2px 12px rgba(0,0,0,0.04)', textAlign: 'left' }}>
-            <CardItem translateZ={50} className="text-3xl font-bold" style={{ color: '#222', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>1,00,000+</CardItem>
-            <CardItem translateZ={30} className="text-lg font-semibold" style={{ color: '#222', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>Fitness Goals Achieved</CardItem>
-            <CardItem translateZ={20} className="text-base" style={{ color: '#555', fontFamily: 'Raleway, Arial, sans-serif', fontSize: '0.9rem', lineHeight: 1.5 }}>Over a million professionals trust our apps for their daily workflows.</CardItem>
+          <CardBody className="stat-card bg-[#f8f9fa] rounded-xl p-6 shadow-md text-left">
+            <CardItem translateZ={50} className="text-3xl font-bold text-[#222] font-raleway mb-2">1,00,000+</CardItem>
+            <CardItem translateZ={30} className="text-lg font-semibold text-[#222] font-raleway mb-2">Fitness Goals Achieved</CardItem>
+            <CardItem translateZ={20} className="text-base text-[#555] font-raleway text-sm leading-snug">Over a million professionals trust our apps for their daily workflows.</CardItem>
           </CardBody>
         </CardContainer>
         {/* Card 2 */}
         <CardContainer>
-          <CardBody className="stat-card" style={{ background: '#111827', borderRadius: '1rem', padding: '1.5rem', color: 'white', textAlign: 'left', boxShadow: '0 2px 12px rgba(0,0,0,0.10)' }}>
-            <CardItem translateZ={50} className="text-3xl font-bold" style={{ fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>13,00,000+<br/>BodyBuilder's Created</CardItem>
-            <CardItem translateZ={30} className="text-lg font-semibold" style={{ fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>Users reached their muscle gain, weight loss, and endurance goals using FLEX.AI plans.</CardItem>
-            <CardItem translateZ={20} className="text-base" style={{ color: '#b3b3b3', fontFamily: 'Raleway, Arial, sans-serif', fontSize: '0.9rem', lineHeight: 1.5 }}>Flex.AI is the simplest way to create beautiful Figure.</CardItem>
+          <CardBody className="stat-card bg-[#111827] rounded-xl p-6 text-white text-left shadow-lg">
+            <CardItem translateZ={50} className="text-3xl font-bold font-raleway mb-2">13,00,000+<br/>BodyBuilder's Created</CardItem>
+            <CardItem translateZ={30} className="text-lg font-semibold font-raleway mb-2">Users reached their muscle gain, weight loss, and endurance goals using FLEX.AI plans.</CardItem>
+            <CardItem translateZ={20} className="text-base text-[#b3b3b3] font-raleway text-sm leading-snug">Flex.AI is the simplest way to create beautiful Figure.</CardItem>
           </CardBody>
         </CardContainer>
         {/* Card 3 */}
         <CardContainer>
-          <CardBody className="stat-card" style={{ background: '#5746ea', borderRadius: '1rem', padding: '1.5rem', color: 'white', textAlign: 'left', boxShadow: '0 2px 12px rgba(0,0,0,0.08)' }}>
-            <CardItem translateZ={50} className="text-3xl font-bold" style={{ fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>95%</CardItem>
-            <CardItem translateZ={30} className="text-lg font-semibold" style={{ fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>Users Satisfaction</CardItem>
-            <CardItem translateZ={20} className="text-base" style={{ color: '#b3b3b3', fontFamily: 'Raleway, Arial, sans-serif', fontSize: '0.9rem', lineHeight: 1.5 }}>Highly rated by fitness enthusiasts for clear guidance and real transformation results.</CardItem>
+          <CardBody className="stat-card bg-[#5746ea] rounded-xl p-6 text-white text-left shadow-md">
+            <CardItem translateZ={50} className="text-3xl font-bold font-raleway mb-2">95%</CardItem>
+            <CardItem translateZ={30} className="text-lg font-semibold font-raleway mb-2">Users Satisfaction</CardItem>
+            <CardItem translateZ={20} className="text-base text-[#b3b3b3] font-raleway text-sm leading-snug">Highly rated by fitness enthusiasts for clear guidance and real transformation results.</CardItem>
           </CardBody>
         </CardContainer>
       </div>
 
       <AnimatedTestimonialsDemo />
 
-      <div style={{ fontWeight: 900, fontSize: '2.2rem', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>
-        Follow Me on x ( twitter )
-      </div>
+      <div className="font-extrabold text-3xl font-raleway mb-2">Follow Me on x ( twitter )</div>
 
-      <div style={{ fontWeight: 900, fontSize: '2.2rem', fontFamily: 'Raleway, Arial, sans-serif', marginBottom: '0.5rem' }}>
-        To stay Updated ! Let connect here 
-      </div>
+      <div className="font-extrabold text-3xl font-raleway mb-2">To stay Updated ! Let connect here </div>
 
       <AnimatedPinDemo />
 

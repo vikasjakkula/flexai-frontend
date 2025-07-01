@@ -12,6 +12,14 @@ import './components/InfiniteScroll.css';
 import { ThemeProvider, useTheme } from './ThemeContext';
 import AskQuestions from './pages/AskQuestions';
 import ReportBugs from './pages/ReportBugs';
+import Community from './pages/Community';
+import CommunityForum from './pages/CommunityForum';
+import CommunityPhotos from './pages/CommunityPhotos';
+import CommunityWorkouts from './pages/CommunityWorkouts';
+import Nutrition from './pages/Nutrition';
+import NutritionProtein from './pages/NutritionProtein';
+import NutritionMeals from './pages/NutritionMeals';
+import NutritionPlans from './pages/NutritionPlans';
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
@@ -35,6 +43,16 @@ function AppContent() {
           <Route path="/aicoach" element={<AICoachPage />} />
           <Route path="/contact/ask-questions" element={<AskQuestions />} />
           <Route path="/contact/report-bugs" element={<ReportBugs />} />
+          <Route path="/community" element={<Community />}>
+            <Route path="forum" element={<CommunityForum />} />
+            <Route path="photos" element={<CommunityPhotos />} />
+            <Route path="workouts" element={<CommunityWorkouts />} />
+          </Route>
+          <Route path="/nutrition" element={<Nutrition />}>
+            <Route path="protein" element={<NutritionProtein />} />
+            <Route path="meals" element={<NutritionMeals />} />
+            <Route path="plans" element={<NutritionPlans />} />
+          </Route>
         </Routes>
       </main>
       <Footer />

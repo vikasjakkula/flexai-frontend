@@ -153,15 +153,6 @@ function Navbar() {
           Pricing
         </Link>
 
-        {/* AI Coach (replaces Assistant) */}
-        <Link 
-          to="/aicoach" 
-          className={`animated-nav-link ${isActiveRoute('/aicoach') ? 'active' : ''}`}
-          onClick={closeMobileMenu}
-        >
-          AI Coach
-        </Link>
-
         {/* Contact Dropdown */}
         <div className="relative" ref={dropdownRef}>
           <motion.div
@@ -209,6 +200,30 @@ function Navbar() {
             )}
           </AnimatePresence>
         </div>
+        {/* Community Button */}
+        <Link 
+          to="/community" 
+          className={`animated-nav-link ${isActiveRoute('/community') ? 'active' : ''}`}
+          onClick={closeMobileMenu}
+        >
+          Community
+        </Link>
+        {/* Nutrition Button */}
+        <Link 
+          to="/nutrition" 
+          className={`animated-nav-link ${isActiveRoute('/nutrition') ? 'active' : ''}`}
+          onClick={closeMobileMenu}
+        >
+          Nutrition
+        </Link>
+        {/* AI Coach (replaces Assistant) */}
+        <Link 
+          to="/aicoach" 
+          className={`animated-nav-link ${isActiveRoute('/aicoach') ? 'active' : ''}`}
+          onClick={closeMobileMenu}
+        >
+          AI Coach
+        </Link>
       </div>
 
       {/* Mobile Menu Toggle */}
@@ -288,15 +303,6 @@ function Navbar() {
                 Pricing
               </Link>
               
-              {/* AI Coach (replaces Assistant) */}
-              <Link 
-                to="/aicoach" 
-                className={`animated-nav-link ${isActiveRoute('/aicoach') ? 'active' : ''}`}
-                onClick={closeMobileMenu}
-              >
-                AI Coach
-              </Link>
-
               {/* Contact Dropdown */}
               <div className="relative" ref={dropdownRef}>
                 <motion.div
@@ -337,6 +343,30 @@ function Navbar() {
                   )}
                 </AnimatePresence>
               </div>
+              {/* Community Button */}
+              <Link 
+                to="/community" 
+                className={`mobile-dropdown-item ${isActiveRoute('/community') ? 'active' : ''}`}
+                onClick={closeMobileMenu}
+              >
+                Community
+              </Link>
+              {/* Nutrition Button */}
+              <Link 
+                to="/nutrition" 
+                className={`mobile-dropdown-item ${isActiveRoute('/nutrition') ? 'active' : ''}`}
+                onClick={closeMobileMenu}
+              >
+                Nutrition
+              </Link>
+              {/* AI Coach (replaces Assistant) */}
+              <Link 
+                to="/aicoach" 
+                className={`mobile-dropdown-item ${isActiveRoute('/aicoach') ? 'active' : ''}`}
+                onClick={closeMobileMenu}
+              >
+                AI Coach
+              </Link>
             </div>
           </motion.div>
         )}
