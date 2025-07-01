@@ -128,31 +128,31 @@ function AnimatedTestimonialsDemo() {
     },
     {
       quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
+      "Flex.AI is built to provide a structured workout experience. The platform offers a complete library of guided exercise videos, making it easy to follow and stay consistent on your fitness journey." ,
       name: "vikas yadav",
       designation: "founder and ceo of flex.ai",
       src: "/image2.png",
     },
     {
       quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "vikas yadav",
-      designation: "Operations Director at CloudScale",
-      src: "/image3.png",
+        "Biomechanics meet your daily grind, Flex.ai rewires the disciplined mind.",
+      name: "Beginners",
+      designation: "starting one month ago !",
+      src: "/1stone.png",
     },
     {
       quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "vikas yadav",
-      designation: "Engineering Lead at DataPro",
-      src: "/image4.png",
+        "Trigger hypertrophy, ignite the flame, Flex.ais precision is changing the game.",
+      name: "Lifters",
+      designation: "done using a year",
+      src: "/2ndone.svg",
     },
     {
       quote:
-        "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
-      name: "vikas yadav",
-      designation: "VP of Technology at FutureNet",
-      src: "/image5.png",
+        "From eccentric reps to dynamic play, Flex.ai guides the modern way.",
+      name: "pros",
+      designation: "using flex.ai since 3yr's",
+      src: "/3rdone.svg",
     },
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;

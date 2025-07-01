@@ -1,31 +1,36 @@
 /* === Animate ONLY Home, Library, Pricing, Assistant === */
-
-.nav-item .nav-link:not(:last-child) {
+.nav-item .nav-link {
   position: relative;
   overflow: hidden;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px 16px;
+  transition: color 0.3s ease;
 }
 
-.nav-item .nav-link:not(:last-child)::before {
+.nav-item .nav-link::before {
   content: '';
   position: absolute;
-  left: 0;
-  bottom: 10px;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
   width: 100%;
   height: 2px;
-  background: linear-gradient(45deg, #60a5fa, #34d399);
-  transform: translateX(-100%);
+  background: linear-gradient(90deg, #60a5fa, #34d399);
   transition: transform 0.3s ease;
 }
 
-.nav-item .nav-link:not(:last-child):hover::before {
-  transform: translateX(0);
+.nav-item .nav-link:hover::before {
+  transform: translateX(-50%) scaleX(1);
 }
 
-.nav-item .nav-link:not(:last-child):hover {
+.nav-item .nav-link:hover {
   color: #34d399;
-  text-shadow: 0 0 8px rgba(52, 211, 153, 0.6);
+  text-shadow: 0 0 6px rgba(52, 211, 153, 0.5);
 }
 
+/* Fixed navbar styles */
 .fixed-navbar {
   position: fixed;
   top: 0;
@@ -39,15 +44,47 @@
   transition: background 0.3s, box-shadow 0.3s;
 }
 
-/* Add padding to body or main to prevent content underlap */
+/* Padding for content below navbar */
 body, .app-container main {
   padding-top: 80px !important;
 }
 
+/* Navbar when visible after scroll */
 .navbar-visible {
   background: linear-gradient(135deg, rgba(185, 28, 28, 0.95) 0%, rgba(239, 68, 68, 0.95) 50%, rgba(185, 28, 28, 0.95) 100%) !important;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4), 0 4px 16px 0 rgba(239, 68, 68, 0.15);
   border-radius: 0 0 18px 18px;
   backdrop-filter: blur(20px) saturate(180%);
   transition: background 0.4s cubic-bezier(.4,0,.2,1), box-shadow 0.4s, border-radius 0.4s;
+}
+
+.animated-nav-link {
+  position: relative;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px 16px;
+  transition: color 0.3s ease;
+}
+
+.animated-nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #60a5fa, #34d399);
+  transition: transform 0.3s ease;
+}
+
+.animated-nav-link:hover::before {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.animated-nav-link:hover {
+  color: #34d399;
+  text-shadow: 0 0 6px rgba(52, 211, 153, 0.5);
 }
