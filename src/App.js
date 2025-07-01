@@ -3,13 +3,15 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Home from './pages/Home';
 import Library from './pages/Library';
 import Pricing from './pages/Pricing';
-import AssistantPage from './pages/AssistantPage';
+import AICoachPage from './pages/AI Coach';
 import LoadingPage from './components/LoadingPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
 import './components/InfiniteScroll.css';
 import { ThemeProvider, useTheme } from './ThemeContext';
+import AskQuestions from './pages/AskQuestions';
+import ReportBugs from './pages/ReportBugs';
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,7 +32,9 @@ function AppContent() {
           <Route path="/" element={<Home />} />
           <Route path="/library" element={<Library />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/assistant" element={<AssistantPage />} />
+          <Route path="/aicoach" element={<AICoachPage />} />
+          <Route path="/contact/ask-questions" element={<AskQuestions />} />
+          <Route path="/contact/report-bugs" element={<ReportBugs />} />
         </Routes>
       </main>
       <Footer />

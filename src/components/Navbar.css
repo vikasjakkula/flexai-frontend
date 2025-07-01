@@ -1,90 +1,183 @@
-/* === Animate ONLY Home, Library, Pricing, Assistant === */
-.nav-item .nav-link {
-  position: relative;
-  overflow: hidden;
-  font-weight: 500;
-  font-size: 1rem;
-  padding: 10px 16px;
-  transition: color 0.3s ease;
+
+/* 
+  === Centered Main Navigation Buttons ===
+  Move Home, Library, Pricing, and Assistant buttons to the middle of the navbar.
+  Remove underline animation for these buttons.
+*/
+
+/* Container for centering main nav links (add this class to the nav container in your JSX) */
+.centered-nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0%;
 }
 
-.nav-item .nav-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6px;
-  left: 50%;
-  transform: translateX(-50%) scaleX(0);
-  transform-origin: center;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, #60a5fa, #34d399);
-  transition: transform 0.3s ease;
-}
-
-.nav-item .nav-link:hover::before {
-  transform: translateX(-50%) scaleX(1);
-}
-
-.nav-item .nav-link:hover {
-  color: #34d399;
-  text-shadow: 0 0 6px rgba(52, 211, 153, 0.5);
-}
-
-/* Fixed navbar styles */
-.fixed-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  z-index: 1002;
-  background: linear-gradient(135deg, #b91c1c 0%, #ef4444 50%, #b91c1c 100%) !important;
-  backdrop-filter: blur(16px) saturate(180%);
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 2px 8px 0 rgba(239, 68, 68, 0.1);
-  border-bottom: 1.5px solid rgba(239, 68, 68, 0.2);
-  transition: background 0.3s, box-shadow 0.3s;
-}
-
-/* Padding for content below navbar */
-body, .app-container main {
-  padding-top: 80px !important;
-}
-
-/* Navbar when visible after scroll */
-.navbar-visible {
-  background: linear-gradient(135deg, rgba(185, 28, 28, 0.95) 0%, rgba(239, 68, 68, 0.95) 50%, rgba(185, 28, 28, 0.95) 100%) !important;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4), 0 4px 16px 0 rgba(239, 68, 68, 0.15);
-  border-radius: 0 0 18px 18px;
-  backdrop-filter: blur(20px) saturate(180%);
-  transition: background 0.4s cubic-bezier(.4,0,.2,1), box-shadow 0.4s, border-radius 0.4s;
-}
-
+/* Main Navigation Link Styles */
 .animated-nav-link {
-  position: relative;
-  overflow: hidden;
   font-weight: 500;
   font-size: 1rem;
   padding: 10px 16px;
+  color: #6b7280; /* gray-500 */
   transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: none;
+  position: relative;
+  /* Remove underline animation: no ::before pseudo-element */
 }
 
-.animated-nav-link::before {
+/* Font Override for Main Buttons */
+.animated-nav-link.main-nav-btn {
+  font-weight: 900;
+  font-size: 2.2rem;
+  font-family: 'Raleway', Arial, sans-serif;
+  margin-bottom: 0.5rem;
+  background: none;
+  /* No underline, no border, just text */
+}
+
+/* Remove underline animation: no ::before, no hover underline */
+.animated-nav-link:hover {
+  color: #2d99f1ba;
+}
+
+/* Active State for Navigation Links (no underline) */
+.animated-nav-link.active {
+  color: #2d99f1ba;
+  font-weight: 600;
+}
+
+/* 
+  === Library Dropdown Trigger Styles ===
+  Styles for the Library dropdown trigger in the navbar.
+*/
+.library-dropdown-trigger {
+  position: relative;
+  cursor: pointer;
+}
+
+/* 
+  === Dropdown Item Styles ===
+  Styles for each item in the Library dropdown.
+*/
+.dropdown-item {
+  display: block;
+  padding: 12px 16px;
+  color: #6b7280;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin: 2px 0;
+}
+
+.dropdown-item::before {
   content: '';
   position: absolute;
-  bottom: 6px;
-  left: 50%;
-  transform: translateX(-50%) scaleX(0);
-  transform-origin: center;
+  top: 0;
+  left: -100%;
   width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, #60a5fa, #34d399);
-  transition: transform 0.3s ease;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.05), transparent);
+  transition: left 0.5s ease;
 }
 
-.animated-nav-link:hover::before {
-  transform: translateX(-50%) scaleX(1);
+.dropdown-item:hover {
+  color: #2d99f1ba;
+  transform: translateX(4px);
 }
 
-.animated-nav-link:hover {
-  color: #34d399;
-  text-shadow: 0 0 6px rgba(52, 211, 153, 0.5);
+.dropdown-item:hover::before {
+  left: 100%;
+}
+
+.dropdown-item.active {
+  color: #2d99f1ba;
+  font-weight: 600;
+  border-left: 3px solid #2d99f1ba;
+}
+
+/* 
+  === Mobile Menu Styles ===
+  Styles for the mobile navigation menu container.
+*/
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+/* 
+  === Mobile Library Dropdown Styles ===
+  Styles for the dropdown inside the mobile menu.
+*/
+.mobile-library-dropdown {
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 8px 0;
+}
+
+/* 
+  === Mobile Dropdown Item Styles ===
+  Styles for each item in the mobile Library dropdown.
+*/
+.mobile-dropdown-item {
+  display: block;
+  padding: 12px 24px;
+  color: #6b7280;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  margin: 4px 8px;
+}
+
+.mobile-dropdown-item:hover {
+  color: #2d99f1ba;
+}
+
+.mobile-dropdown-item.active {
+  color: #2d99f1ba;
+  font-weight: 600;
+  border-left: 3px solid #2d99f1ba;
+}
+
+/* 
+  === Mobile Library Dropdown Trigger Styles ===
+  Styles for the Library dropdown trigger in the mobile menu.
+*/
+.library-dropdown-trigger.mobile {
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+/* 
+  === Responsive Adjustments ===
+  Adjusts navigation link and mobile menu styles for screens <= 768px.
+*/
+@media (max-width: 768px) {
+  .centered-nav-links {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Reduce spacing between buttons */
+  }
+  .animated-nav-link {
+    width: auto;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-right: 0.5rem; /* Slight spacing between buttons */
+  }
+  .animated-nav-link:last-child {
+    margin-right: 0;
+  }
+  .mobile-menu {
+    border-radius: 0 0 12px 12px;
+  }
 }
