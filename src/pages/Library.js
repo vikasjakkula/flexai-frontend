@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import LoadingPage from '../components/LoadingPage';
 import { Calendar } from '../components/ui/calendar.tsx';
+import { useRequireAuth } from '../contexts/AuthContext';
 
 const gymVideo = process.env.PUBLIC_URL + '/videos/gym01.mp4';
 
@@ -118,6 +119,7 @@ const accordionStyle = {
 };
 
 const Library = () => {
+  useRequireAuth();
   const [open, setOpen] = useState(null);
   const [videoExercise, setVideoExercise] = useState(null);
   const [videoGroup, setVideoGroup] = useState(null);

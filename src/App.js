@@ -9,7 +9,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
 import './components/InfiniteScroll.css';
-import { ThemeProvider, useTheme } from './ThemeContext';
 import AskQuestions from './pages/AskQuestions';
 import ReportBugs from './pages/ReportBugs';
 import Community from './pages/Community';
@@ -25,10 +24,10 @@ import VideoLibrary from './pages/VideoLibrary';
 import FormCheckerAI from './pages/FormCheckerAI';
 import MyRoutines from './pages/MyRoutines';
 import ExerciseEncyclopedia from './pages/ExerciseEncyclopedia';
+import { AuthProvider } from './contexts/AuthContext';
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
-  const { theme } = useTheme();
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 2000);
@@ -38,7 +37,7 @@ function AppContent() {
   if (isLoading) return <LoadingPage />;
 
   return (
-    <div className={`app-container ${theme}`}>
+    <div className="app-container">
       <Navbar />
       <main style={{ paddingTop: '80px' }}>
         <Routes>
@@ -81,12 +80,12 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <ThemeProvider>
+    <AuthProvider>
       <Router>
         <ScrollToTop />
         <AppContent />
       </Router>
-    </ThemeProvider>
+    </AuthProvider>
   );
 }
 

@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import LoadingPage from '../components/LoadingPage';
 
 // Backend API base URL - use relative path for Vercel deployment
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://flexai-backend.onrender.com/api';
 
 const AssistantPage = () => {
   const [messages, setMessages] = useState([]);

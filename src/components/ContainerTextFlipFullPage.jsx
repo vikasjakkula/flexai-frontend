@@ -10,7 +10,7 @@ export default function ContainerTextFlipFullPage() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         className={cn(
-          "relative max-w-2xl text-left text-4xl leading-normal font-bold tracking-tight text-zinc-700 md:text-7xl dark:text-zinc-100"
+          "relative max-w-2xl text-left text-4xl leading-normal font-bold tracking-tight text-zinc-700 md:text-7xl"
         )}
         layout>
         <div className="inline-block" style={{ fontFamily: 'Raleway, Arial, sans-serif' }}>

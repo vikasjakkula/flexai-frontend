@@ -13,7 +13,7 @@ function BackgroundBeamsWithCollisionDemo() {
   return (
     <BackgroundBeamsWithCollision>
       <div className="relative z-20 text-center">
-        <div className="text-2xl md:text-4xl lg:text-7xl font-bold text-black dark:text-white font-sans tracking-tight">
+        <div className="text-2xl md:text-4xl lg:text-7xl font-bold text-black font-sans tracking-tight">
           What's better than random workouts?
         </div>
         <div

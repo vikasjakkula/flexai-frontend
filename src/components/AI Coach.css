@@ -467,24 +467,3 @@
     border-width: 2px;
   }
 }
-
-/* Dark Mode Support (Optional) */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-dark: #f9fafb;
-    --text-light: #d1d5db;
-    --bg-light: #111827;
-    --bg-white: #1f2937;
-    --border-light: #374151;
-  }
-  
-  .message-bubble.bot {
-    background: var(--bg-white);
-    color: var(--text-dark);
-    border-color: var(--border-light);
-  }
-  
-  .assistant-messages {
-    background: var(--bg-light);
-  }
-}

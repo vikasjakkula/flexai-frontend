@@ -1,44 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import LoadingPage from '../components/LoadingPage'; // Adjust path if needed
-import { createClient } from "@supabase/supabase-js";
-
-const supabase = createClient("https://gywajswoztldhjdwepkv.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5d2Fqc3dvenRsZGhqZHdlcGt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg1NDI3OTIsImV4cCI6MjA2NDExODc5Mn0.W1K-UrncnN57sC5xqjwKE2OWc2WHvQqIQh0F-nCSFQI");
-
-const handlePayment = async () => {
-  const res = await fetch("http://localhost:5000/api/createOrder", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ amount: 900 }),
-  });
-  const data = await res.json();
-
-  const options = {
-    key: "YOUR_RAZORPAY_KEY_ID", // Replace with your Razorpay Key
-    amount: 900 * 100,
-    currency: "INR",
-    name: "FLEX.AI",
-    description: "Complete Building Series Package",
-    order_id: data.orderId,
-    handler: async function (response) {
-      alert("Payment Success! Razorpay ID: " + response.razorpay_payment_id);
-      // Get user info from Supabase
-      const user = await supabase.auth.getUser();
-      // Store payment in Supabase
-      await supabase.from("payments").insert({
-        user_id: user.data.user.id,
-        razorpay_order_id: response.razorpay_order_id,
-        payment_status: "paid",
-        amount: 900,
-      });
-    },
-    theme: { color: "#3399cc" },
-  };
-
-  const rzp = new window.Razorpay(options);
-  rzp.open();
-};
+import { supabase } from '../lib/supabaseClient';
+import { useAuth } from '../contexts/AuthContext';
 
 const Pricing = () => {
+  const { user } = useAuth();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -140,6 +106,40 @@ const Pricing = () => {
     margin: '0.5rem 0 1rem 0',
     justifyContent: 'center',
     opacity: 0.7,
+  };
+
+  const handlePayment = async () => {
+    const res = await fetch("http://localhost:5000/api/createOrder", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ amount: 900 }),
+    });
+    const data = await res.json();
+
+    const options = {
+      key: "YOUR_RAZORPAY_KEY_ID", // Replace with your Razorpay Key
+      amount: 900 * 100,
+      currency: "INR",
+      name: "FLEX.AI",
+      description: "Complete Building Series Package",
+      order_id: data.orderId,
+      handler: async function (response) {
+        alert("Payment Success! Razorpay ID: " + response.razorpay_payment_id);
+        // Store payment in Supabase
+        if (user) {
+          await supabase.from("payments").insert({
+            user_id: user.id,
+            razorpay_order_id: response.razorpay_order_id,
+            payment_status: "paid",
+            amount: 900,
+          });
+        }
+      },
+      theme: { color: "#3399cc" },
+    };
+
+    const rzp = new window.Razorpay(options);
+    rzp.open();
   };
 
   return (
