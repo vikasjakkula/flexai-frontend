@@ -24,11 +24,12 @@ function Navbar() {
   const dropdownRef = useRef(null);
 
   const libraryOutlets = [
-    { name: 'Button 1', path: '/library/button1' },
-    { name: 'Button 2', path: '/library/button2' },
-    { name: 'Button 3', path: '/library/button3' },
-    { name: 'Button 4', path: '/library/button4' },
-    { name: 'Button 5', path: '/library/button5' },
+    { name: 'Calender', path: '/library/calender' },
+    { name: 'Workout Logs', path: '/library/workout-logs' },
+    { name: 'Video Library', path: '/library/video-library' },
+    { name: 'Form Checker AI', path: '/library/form-checker' },
+    { name: 'My Routines', path: '/library/routines' },
+    { name: 'Exercise Encyclopedia', path: '/library/exercises' },
   ];
 
   const handleLogoClick = () => {
@@ -38,6 +39,8 @@ function Navbar() {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsMobileLibraryOpen(false);
+    setActiveMenu(null);
   };
 
   const closeMobileMenu = () => {
@@ -226,43 +229,47 @@ function Navbar() {
         </Link>
       </div>
 
-      {/* Mobile Menu Toggle */}
+      {/* Hamburger Icon for Mobile Sidebar */}
       <button
         onClick={toggleMobileMenu}
-        className="md:hidden p-2 rounded-lg hover:bg-gray-700/20 transition-colors duration-200"
-        aria-label="Toggle mobile menu"
+        className="md:hidden p-2 rounded-lg hover:bg-gray-700/20 transition-colors duration-200 fixed top-4 right-4 z-[100]"
+        aria-label="Toggle sidebar"
+        style={{ position: 'fixed', top: 16, right: 16 }}
       >
         {isMobileMenuOpen ? (
-          <X size={24} className={theme === 'dark' ? 'text-white' : 'text-black'} />
+          <X size={28} className={theme === 'dark' ? 'text-white' : 'text-black'} />
         ) : (
-          <Menu size={24} className={theme === 'dark' ? 'text-white' : 'text-black'} />
+          <Menu size={28} className={theme === 'dark' ? 'text-white' : 'text-black'} />
         )}
       </button>
 
-      {/* Mobile Navigation Menu */}
+      {/* Mobile Sidebar */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.3 }}
-            className={`mobile-menu ${theme === 'dark' ? 'bg-black' : 'bg-white'} shadow-lg border-t border-gray-700/30 md:hidden z-50`}
+            initial={{ x: '100%' }}
+            animate={{ x: 0 }}
+            exit={{ x: '100%' }}
+            transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+            className={`mobile-sidebar ${theme === 'dark' ? 'bg-black' : 'bg-white'} shadow-2xl fixed top-0 right-0 h-full w-4/5 max-w-xs z-50 flex flex-col`}
+            style={{ zIndex: 9999 }}
           >
-            <div className="flex flex-col space-y-4 p-4">
+            <div className="flex flex-col space-y-4 p-6 pt-16 text-left">
               <Link 
                 to="/" 
                 className={`animated-nav-link ${isActiveRoute('/') && location.pathname === '/' ? 'active' : ''}`}
                 onClick={closeMobileMenu}
+                style={{ textAlign: 'left' }}
               >
                 Home
               </Link>
               
               {/* Mobile Library Section */}
-              <div className="w-full">
+              <div className="w-full text-left">
                 <div 
                   className={`animated-nav-link library-dropdown-trigger mobile ${isLibraryActive() ? 'active' : ''}`}
                   onClick={toggleMobileLibrary}
+                  style={{ textAlign: 'left' }}
                 >
                   <span>Library</span>
                   <ChevronDown 
@@ -286,6 +293,7 @@ function Navbar() {
                           to={outlet.path}
                           className={`mobile-dropdown-item ${isActiveRoute(outlet.path) ? 'active' : ''}`}
                           onClick={closeMobileMenu}
+                          style={{ textAlign: 'left' }}
                         >
                           {outlet.name}
                         </Link>
@@ -299,22 +307,24 @@ function Navbar() {
                 to="/pricing" 
                 className={`animated-nav-link ${isActiveRoute('/pricing') ? 'active' : ''}`}
                 onClick={closeMobileMenu}
+                style={{ textAlign: 'left' }}
               >
                 Pricing
               </Link>
               
               {/* Contact Dropdown */}
-              <div className="relative" ref={dropdownRef}>
-                <motion.div
+              <div className="w-full text-left">
+                <div
                   className={`animated-nav-link library-dropdown-trigger mobile ${isActiveRoute('/contact') ? 'active' : ''}`}
-                  onMouseEnter={() => setActiveMenu('contact')}
+                  onClick={() => setActiveMenu(activeMenu === 'contact' ? null : 'contact')}
+                  style={{ textAlign: 'left' }}
                 >
                   <span>Contact</span>
                   <ChevronDown 
                     size={16} 
                     className={`ml-1 transition-transform duration-300 ${activeMenu === 'contact' ? 'rotate-180' : ''}`} 
                   />
-                </motion.div>
+                </div>
                 
                 <AnimatePresence>
                   {activeMenu === 'contact' && (
@@ -329,6 +339,7 @@ function Navbar() {
                         to="/contact/report-bugs"
                         className={`mobile-dropdown-item ${isActiveRoute('/contact/report-bugs') ? 'active' : ''}`}
                         onClick={closeMobileMenu}
+                        style={{ textAlign: 'left' }}
                       >
                         Report Bugs
                       </Link>
@@ -336,6 +347,7 @@ function Navbar() {
                         to="/contact/ask-questions"
                         className={`mobile-dropdown-item ${isActiveRoute('/contact/ask-questions') ? 'active' : ''}`}
                         onClick={closeMobileMenu}
+                        style={{ textAlign: 'left' }}
                       >
                         Ask Questions
                       </Link>
@@ -348,6 +360,7 @@ function Navbar() {
                 to="/community" 
                 className={`mobile-dropdown-item ${isActiveRoute('/community') ? 'active' : ''}`}
                 onClick={closeMobileMenu}
+                style={{ textAlign: 'left' }}
               >
                 Community
               </Link>
@@ -356,6 +369,7 @@ function Navbar() {
                 to="/nutrition" 
                 className={`mobile-dropdown-item ${isActiveRoute('/nutrition') ? 'active' : ''}`}
                 onClick={closeMobileMenu}
+                style={{ textAlign: 'left' }}
               >
                 Nutrition
               </Link>
@@ -364,13 +378,34 @@ function Navbar() {
                 to="/aicoach" 
                 className={`mobile-dropdown-item ${isActiveRoute('/aicoach') ? 'active' : ''}`}
                 onClick={closeMobileMenu}
+                style={{ textAlign: 'left' }}
               >
                 AI Coach
               </Link>
             </div>
+            {/* Close button inside sidebar for convenience */}
+            <button
+              onClick={closeMobileMenu}
+              className="absolute top-4 right-4 p-2 rounded-lg hover:bg-gray-700/20 transition-colors duration-200"
+              aria-label="Close sidebar"
+            >
+              <X size={24} className={theme === 'dark' ? 'text-white' : 'text-black'} />
+            </button>
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Make GIF larger on mobile */}
+      <style>{`
+        @media (max-width: 768px) {
+          .centered-nav-links { display: none !important; }
+          .navbar video {
+            height: 70px !important;
+            width: auto !important;
+            max-width: 90vw;
+          }
+        }
+      `}</style>
     </nav>
   );
 }

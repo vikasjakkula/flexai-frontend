@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
-import Library from './pages/Library';
+import Library, { CalendarDemo } from './pages/Library';
 import Pricing from './pages/Pricing';
 import AICoachPage from './pages/AI Coach';
 import LoadingPage from './components/LoadingPage';
@@ -20,6 +20,11 @@ import Nutrition from './pages/Nutrition';
 import NutritionProtein from './pages/NutritionProtein';
 import NutritionMeals from './pages/NutritionMeals';
 import NutritionPlans from './pages/NutritionPlans';
+import WorkoutLogs from './pages/WorkoutLogs';
+import VideoLibrary from './pages/VideoLibrary';
+import FormCheckerAI from './pages/FormCheckerAI';
+import MyRoutines from './pages/MyRoutines';
+import ExerciseEncyclopedia from './pages/ExerciseEncyclopedia';
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
@@ -39,6 +44,12 @@ function AppContent() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/library" element={<Library />} />
+          <Route path="/library/calender" element={<CalendarDemo />} />
+          <Route path="/library/workout-logs" element={<WorkoutLogs />} />
+          <Route path="/library/video-library" element={<VideoLibrary />} />
+          <Route path="/library/form-checker" element={<FormCheckerAI />} />
+          <Route path="/library/routines" element={<MyRoutines />} />
+          <Route path="/library/exercises" element={<ExerciseEncyclopedia />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/aicoach" element={<AICoachPage />} />
           <Route path="/contact/ask-questions" element={<AskQuestions />} />

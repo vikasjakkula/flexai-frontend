@@ -1,4 +1,3 @@
-
 /* 
   === Centered Main Navigation Buttons ===
   Move Home, Library, Pricing, and Assistant buttons to the middle of the navbar.
@@ -180,4 +179,31 @@
   .mobile-menu {
     border-radius: 0 0 12px 12px;
   }
+}
+
+/* === Mobile Sidebar Styles === */
+.mobile-sidebar {
+  box-shadow: 0 0 32px 0 rgba(0,0,0,0.18);
+  border-radius: 16px 0 0 16px;
+  min-width: 240px;
+  max-width: 90vw;
+  width: 80vw;
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  transition: box-shadow 0.3s;
+}
+
+/* Optional: Overlay for sidebar */
+.mobile-sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.25);
+  z-index: 9998;
 }

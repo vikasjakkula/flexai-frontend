@@ -1,6 +1,7 @@
 // src/pages/Library.js
 import React, { useState, useRef, useEffect } from 'react';
 import LoadingPage from '../components/LoadingPage';
+import { Calendar } from '../components/ui/calendar.tsx';
 
 const gymVideo = process.env.PUBLIC_URL + '/videos/gym01.mp4';
 
@@ -292,4 +293,22 @@ const Library = () => {
   );
 };
 
+function CalendarDemo() {
+  const [date, setDate] = React.useState(new Date());
+  return (
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ width: '500px', maxWidth: '100vw', height: '500px', maxHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <Calendar
+          mode="single"
+          selected={date}
+          onSelect={setDate}
+          className="rounded-md border shadow-sm w-full h-full"
+          captionLayout="dropdown"
+        />
+      </div>
+    </div>
+  );
+}
+
 export default Library;
+export { CalendarDemo };
