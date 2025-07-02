@@ -1,9 +1,9 @@
 import React from 'react';
 
 const exercises = [
-  { name: 'Bench Press', img: '/library.png', primary: 'Chest', secondary: 'Triceps, Shoulders', tips: 'Keep your back tight and feet flat.' },
-  { name: 'Pull-Up', img: '/library.png', primary: 'Back', secondary: 'Biceps', tips: 'Go full range, avoid swinging.' },
-  { name: 'Squat', img: '/library.png', primary: 'Legs', secondary: 'Glutes, Core', tips: 'Keep chest up, knees out.' },
+  { name: 'Bench Press', img: '/1.png?updated', primary: 'Chest', secondary: 'Triceps, Shoulders', tips: 'Keep your back tight and feet flat.' },
+  { name: 'Pull-Up', img: '/2.png?updated', primary: 'Back', secondary: 'Biceps', tips: 'Go full range, avoid swinging.' },
+  { name: 'Squat', img: '/3.png?updated', primary: 'Legs', secondary: 'Glutes, Core', tips: 'Keep chest up, knees out.' },
 ];
 
 export default function ExerciseEncyclopedia() {
