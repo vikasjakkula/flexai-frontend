@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { getSocket } from '../lib/utils';
 
 export default function CommunityForum() {
   const [questions, setQuestions] = useState([
@@ -7,9 +8,22 @@ export default function CommunityForum() {
   ]);
   const [input, setInput] = useState('');
 
+  useEffect(() => {
+    const socket = getSocket();
+    // Listen for new questions from other users
+    socket.on('forum:newQuestion', (data) => {
+      setQuestions(prev => [{ text: data.text, comments: 0, likes: 0 }, ...prev]);
+    });
+    return () => {
+      socket.off('forum:newQuestion');
+    };
+  }, []);
+
   const handlePost = () => {
     if (input.trim()) {
       setQuestions([{ text: input, comments: 0, likes: 0 }, ...questions]);
+      // Emit to server for real-time update
+      getSocket().emit('forum:newQuestion', { text: input });
       setInput('');
     }
   };

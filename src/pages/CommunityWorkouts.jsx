@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { getSocket } from '../lib/utils';
 
 const dummyWorkouts = [
   { name: 'Chest Day' },
@@ -14,11 +15,28 @@ export default function CommunityWorkouts() {
   ]);
   const [inputs, setInputs] = useState(['', '', '']);
 
+  useEffect(() => {
+    const socket = getSocket();
+    // Listen for new comments from other users
+    socket.on('workout:newComment', ({ idx, comment }) => {
+      setComments(prev => {
+        const newComments = [...prev];
+        newComments[idx] = [comment, ...newComments[idx]];
+        return newComments;
+      });
+    });
+    return () => {
+      socket.off('workout:newComment');
+    };
+  }, []);
+
   const handlePost = idx => {
     if (inputs[idx].trim()) {
       const newComments = [...comments];
       newComments[idx] = [inputs[idx], ...newComments[idx]];
       setComments(newComments);
+      // Emit to server for real-time update
+      getSocket().emit('workout:newComment', { idx, comment: inputs[idx] });
       const newInputs = [...inputs];
       newInputs[idx] = '';
       setInputs(newInputs);
