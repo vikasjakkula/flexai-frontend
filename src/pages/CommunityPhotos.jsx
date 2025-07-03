@@ -1,6 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabaseClient';
 import { useAuth } from '../contexts/AuthContext';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '../components/ui/alert-dialog';
 
 export default function CommunityPhotos() {
   const { user } = useAuth();
@@ -66,6 +77,21 @@ export default function CommunityPhotos() {
     }
   };
 
+  const handleDelete = async (photo) => {
+    // Remove from storage
+    const urlParts = photo.url.split('/');
+    const filePath = decodeURIComponent(urlParts.slice(urlParts.indexOf('community-photos') + 1).join('/'));
+    await supabase.storage.from('community-photos').remove([filePath]);
+    // Remove from DB
+    const { error } = await supabase
+      .from('community_photos')
+      .delete()
+      .eq('id', photo.id);
+    if (!error) {
+      setPhotos(photos.filter(p => p.id !== photo.id));
+    }
+  };
+
   return (
     <div className="bg-white rounded-xl shadow p-4 flex flex-col gap-4">
       <div className="flex flex-col md:flex-row gap-2 mb-2 items-center">
@@ -81,9 +107,28 @@ export default function CommunityPhotos() {
       {error && <div className="text-red-500 text-sm">{error}</div>}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-2">
         {photos.map((p) => (
-          <div key={p.id} className="border rounded p-2 flex flex-col items-center bg-gray-50">
+          <div key={p.id} className="border rounded p-2 flex flex-col items-center bg-gray-50 relative">
             <img src={p.url} alt="progress" className="w-full h-32 object-cover rounded mb-1" />
             <div className="text-xs text-gray-600">{p.caption}</div>
+            {user && user.id === p.user_id && (
+              <AlertDialog>
+                <AlertDialogTrigger asChild>
+                  <button className="absolute top-2 right-2 px-2 py-1 text-xs bg-red-500 text-white rounded" title="Delete this photo">Delete</button>
+                </AlertDialogTrigger>
+                <AlertDialogContent>
+                  <AlertDialogHeader>
+                    <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+                    <AlertDialogDescription>
+                      This action cannot be undone. This will permanently delete your photo from the gallery.
+                    </AlertDialogDescription>
+                  </AlertDialogHeader>
+                  <AlertDialogFooter>
+                    <AlertDialogCancel>Cancel</AlertDialogCancel>
+                    <AlertDialogAction onClick={() => handleDelete(p)}>Delete</AlertDialogAction>
+                  </AlertDialogFooter>
+                </AlertDialogContent>
+              </AlertDialog>
+            )}
           </div>
         ))}
       </div>

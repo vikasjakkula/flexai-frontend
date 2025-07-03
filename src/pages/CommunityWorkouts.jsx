@@ -1,6 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabaseClient';
 import { useAuth } from '../contexts/AuthContext';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '../components/ui/alert-dialog';
 
 const dummyWorkouts = [
   { name: 'Chest Day' },
@@ -48,6 +59,18 @@ export default function CommunityWorkouts() {
     }
   };
 
+  const handleDelete = async (comment, workoutIdx) => {
+    const { error } = await supabase
+      .from('community_workout_comments')
+      .delete()
+      .eq('id', comment.id);
+    if (!error) {
+      const newComments = [...comments];
+      newComments[workoutIdx] = newComments[workoutIdx].filter(c => c.id !== comment.id);
+      setComments(newComments);
+    }
+  };
+
   return (
     <div className="flex flex-col gap-6">
       {dummyWorkouts.map((w, i) => (
@@ -65,9 +88,30 @@ export default function CommunityWorkouts() {
           </button>
           <div className="flex flex-col gap-1 mt-2">
             {comments[i].map((c) => (
-              <div key={c.id} className="text-sm text-gray-700 bg-gray-50 rounded px-2 py-1">
-                {c.comment}
-                <span className="ml-2 text-xs text-gray-400">by {c.user_id.slice(0, 6)}... {new Date(c.created_at).toLocaleString()}</span>
+              <div key={c.id} className="text-sm text-gray-700 bg-gray-50 rounded px-2 py-1 flex items-center justify-between">
+                <span>
+                  {c.comment}
+                  <span className="ml-2 text-xs text-gray-400">by {c.user_id.slice(0, 6)}... {new Date(c.created_at).toLocaleString()}</span>
+                </span>
+                {user && user.id === c.user_id && (
+                  <AlertDialog>
+                    <AlertDialogTrigger asChild>
+                      <button className="ml-2 px-2 py-1 text-xs bg-red-500 text-white rounded" title="Delete this comment">Delete</button>
+                    </AlertDialogTrigger>
+                    <AlertDialogContent>
+                      <AlertDialogHeader>
+                        <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+                        <AlertDialogDescription>
+                          This action cannot be undone. This will permanently delete your comment from the workout.
+                        </AlertDialogDescription>
+                      </AlertDialogHeader>
+                      <AlertDialogFooter>
+                        <AlertDialogCancel>Cancel</AlertDialogCancel>
+                        <AlertDialogAction onClick={() => handleDelete(c, i)}>Delete</AlertDialogAction>
+                      </AlertDialogFooter>
+                    </AlertDialogContent>
+                  </AlertDialog>
+                )}
               </div>
             ))}
           </div>
