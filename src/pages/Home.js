@@ -126,24 +126,35 @@ const Home = () => {
   return (
     <div className="center-desktop py-4 bg-[#f4fafd] min-h-screen">
       <HeroSection />
-      <div className="bg-[#1b9df3] text-white p-6 rounded-xl text-center font-raleway font-extrabold text-2xl tracking-wide mb-6 shadow-lg w-full mx-0 mt-12" style={{borderRadius: '1rem', maxWidth: '100vw'}}>
-        <img
-          src={process.env.PUBLIC_URL + '/newflex.png'}
-          alt="FLEX.AI Logo"
-          className="h-12 mx-auto mb-2 block"
-        />
-        <div className="text-base font-normal mt-2 tracking-normal">
-          Your Ultimate Gym Companion
+      <div className="relative w-full mb-6" style={{maxWidth: '100vw', borderRadius: '1rem'}}>
+        {/* Top Curve */}
+        <svg className="absolute top-0 left-0 w-full h-[100px]" viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0,100 Q720,0 1440,100 L1440,0 L0,0 Z" fill="#38bdf8" />
+        </svg>
+        {/* Main Content */}
+        <div className="bg-[#38bdf8] text-white p-6 pt-16 pb-16 text-center font-raleway font-extrabold text-2xl tracking-wide shadow-lg relative z-10 flex flex-col items-center justify-center" style={{borderRadius: '1rem', maxWidth: '100vw'}}>
+          <img
+            src={process.env.PUBLIC_URL + '/newflex.png'}
+            alt="FLEX.AI Logo"
+            className="h-12 mx-auto mb-2 block"
+          />
+          <div className="text-base font-normal mt-2 tracking-normal">
+            Your Ultimate Gym Companion
+          </div>
+          <div className="mt-4 font-semibold text-sm tracking-wider">
+            [ GO AHEAD AND START YOUR JOURNEY ]
+          </div>
+          <button
+            className="glow-btn mt-4"
+            onClick={handleExplorePlans}
+          >
+            Get Started
+          </button>
         </div>
-        <div className="mt-4 font-semibold text-sm tracking-wider">
-          [ GO AHEAD AND START YOUR JOURNEY ]
-        </div>
-        <button
-          className="glow-btn mt-4"
-          onClick={handleExplorePlans}
-        >
-          Get Started
-        </button>
+        {/* Bottom Curve */}
+        <svg className="absolute bottom-0 left-0 w-full h-[100px]" viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style={{transform: 'scaleY(-1)'}}>
+          <path d="M0,100 Q720,0 1440,100 L1440,0 L0,0 Z" fill="#38bdf8" />
+        </svg>
       </div>
 
       <div className="section-center bg-white rounded-xl p-6 my-6 mx-4 max-w-[900px] shadow-md font-poppins text-base leading-relaxed">

@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
 import './components/InfiniteScroll.css';
+import { ThemeProvider, useTheme } from './ThemeContext';
 import AskQuestions from './pages/AskQuestions';
 import ReportBugs from './pages/ReportBugs';
 import Community from './pages/Community';
@@ -24,45 +25,129 @@ import VideoLibrary from './pages/VideoLibrary';
 import FormCheckerAI from './pages/FormCheckerAI';
 import MyRoutines from './pages/MyRoutines';
 import ExerciseEncyclopedia from './pages/ExerciseEncyclopedia';
-import { AuthProvider } from './contexts/AuthContext';
+import { AuthProvider, useAuth } from './contexts/AuthContext';
+import ProtectedRoute from './components/ProtectedRoute';
+import Profile from './pages/Profile';
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
+  const { theme } = useTheme();
+  const { user } = useAuth();
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 2000);
+    const timer = setTimeout(() => setIsLoading(false), 1000);
     return () => clearTimeout(timer);
   }, []);
 
   if (isLoading) return <LoadingPage />;
 
   return (
-    <div className="app-container">
+    <div className={`app-container ${theme}`}>
       <Navbar />
       <main style={{ paddingTop: '80px' }}>
         <Routes>
+          {/* Public route */}
           <Route path="/" element={<Home />} />
-          <Route path="/library" element={<Library />} />
-          <Route path="/library/calender" element={<CalendarDemo />} />
-          <Route path="/library/workout-logs" element={<WorkoutLogs />} />
-          <Route path="/library/video-library" element={<VideoLibrary />} />
-          <Route path="/library/form-checker" element={<FormCheckerAI />} />
-          <Route path="/library/routines" element={<MyRoutines />} />
-          <Route path="/library/exercises" element={<ExerciseEncyclopedia />} />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="/aicoach" element={<AICoachPage />} />
-          <Route path="/contact/ask-questions" element={<AskQuestions />} />
-          <Route path="/contact/report-bugs" element={<ReportBugs />} />
-          <Route path="/community" element={<Community />}>
-            <Route path="forum" element={<CommunityForum />} />
-            <Route path="photos" element={<CommunityPhotos />} />
-            <Route path="workouts" element={<CommunityWorkouts />} />
+          
+          {/* Protected routes */}
+          <Route path="/library" element={
+            <ProtectedRoute>
+              <Library />
+            </ProtectedRoute>
+          } />
+          <Route path="/library/calender" element={
+            <ProtectedRoute>
+              <CalendarDemo />
+            </ProtectedRoute>
+          } />
+          <Route path="/library/workout-logs" element={
+            <ProtectedRoute>
+              <WorkoutLogs />
+            </ProtectedRoute>
+          } />
+          <Route path="/library/video-library" element={
+            <ProtectedRoute>
+              <VideoLibrary />
+            </ProtectedRoute>
+          } />
+          <Route path="/library/form-checker" element={
+            <ProtectedRoute>
+              <FormCheckerAI />
+            </ProtectedRoute>
+          } />
+          <Route path="/library/routines" element={
+            <ProtectedRoute>
+              <MyRoutines />
+            </ProtectedRoute>
+          } />
+          <Route path="/library/exercises" element={
+            <ProtectedRoute>
+              <ExerciseEncyclopedia />
+            </ProtectedRoute>
+          } />
+          <Route path="/pricing" element={
+            <ProtectedRoute>
+              <Pricing />
+            </ProtectedRoute>
+          } />
+          <Route path="/aicoach" element={
+            <ProtectedRoute>
+              <AICoachPage />
+            </ProtectedRoute>
+          } />
+          <Route path="/contact/ask-questions" element={
+            <ProtectedRoute>
+              <AskQuestions />
+            </ProtectedRoute>
+          } />
+          <Route path="/contact/report-bugs" element={
+            <ProtectedRoute>
+              <ReportBugs />
+            </ProtectedRoute>
+          } />
+          <Route path="/community" element={
+            <ProtectedRoute>
+              <Community />
+            </ProtectedRoute>
+          }>
+            <Route path="forum" element={
+              <ProtectedRoute>
+                <CommunityForum />
+              </ProtectedRoute>
+            } />
+            <Route path="photos" element={
+              <ProtectedRoute>
+                <CommunityPhotos />
+              </ProtectedRoute>
+            } />
+            <Route path="workouts" element={
+              <ProtectedRoute>
+                <CommunityWorkouts />
+              </ProtectedRoute>
+            } />
           </Route>
-          <Route path="/nutrition" element={<Nutrition />}>
-            <Route path="protein" element={<NutritionProtein />} />
-            <Route path="meals" element={<NutritionMeals />} />
-            <Route path="plans" element={<NutritionPlans />} />
+          <Route path="/nutrition" element={
+            <ProtectedRoute>
+              <Nutrition />
+            </ProtectedRoute>
+          }>
+            <Route path="protein" element={
+              <ProtectedRoute>
+                <NutritionProtein />
+              </ProtectedRoute>
+            } />
+            <Route path="meals" element={
+              <ProtectedRoute>
+                <NutritionMeals />
+              </ProtectedRoute>
+            } />
+            <Route path="plans" element={
+              <ProtectedRoute>
+                <NutritionPlans />
+              </ProtectedRoute>
+            } />
           </Route>
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </main>
       <Footer />
@@ -80,12 +165,14 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <AuthProvider>
-      <Router>
-        <ScrollToTop />
-        <AppContent />
-      </Router>
-    </AuthProvider>
+    <ThemeProvider>
+      <AuthProvider>
+        <Router>
+          <ScrollToTop />
+          <AppContent />
+        </Router>
+      </AuthProvider>
+    </ThemeProvider>
   );
 }
 

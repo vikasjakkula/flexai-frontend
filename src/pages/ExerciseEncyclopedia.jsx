@@ -1,4 +1,5 @@
 import React from 'react';
+import TraditionalDocWorkflowCard from '../components/TraditionalDocWorkflowCard';
 
 const exercises = [
   { name: 'Bench Press', img: '/1.png?updated', primary: 'Chest', secondary: 'Triceps, Shoulders', tips: 'Keep your back tight and feet flat.' },
@@ -9,6 +10,7 @@ const exercises = [
 export default function ExerciseEncyclopedia() {
   return (
     <div className="max-w-2xl mx-auto p-4">
+      <TraditionalDocWorkflowCard />
       <h2 className="text-xl font-bold mb-4">📚 Exercise Encyclopedia</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {exercises.map(ex => (

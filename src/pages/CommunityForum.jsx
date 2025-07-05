@@ -17,17 +17,37 @@ export default function CommunityForum() {
   const { user } = useAuth();
   const [questions, setQuestions] = useState([]);
   const [input, setInput] = useState('');
+  const [userMap, setUserMap] = useState({});
 
-  // Fetch questions on mount
+  // Fetch questions and user display names on mount
   useEffect(() => {
-    const fetchQuestions = async () => {
-      const { data, error } = await supabase
+    const fetchQuestionsAndUsers = async () => {
+      const { data: questionsData, error } = await supabase
         .from('community_questions')
         .select('id, text, created_at, user_id')
         .order('created_at', { ascending: false });
-      if (!error) setQuestions(data);
+      if (!error && questionsData) {
+        setQuestions(questionsData);
+        // Get unique user_ids
+        const userIds = [...new Set(questionsData.map(q => q.user_id))];
+        if (userIds.length > 0) {
+          // Fetch user profiles from auth.users
+          const { data: usersData } = await supabase
+            .from('profiles')
+            .select('id, full_name, email')
+            .in('id', userIds);
+          // Map user_id to display name
+          const map = {};
+          if (usersData) {
+            usersData.forEach(u => {
+              map[u.id] = u.full_name || u.email?.split('@')[0] || 'User';
+            });
+          }
+          setUserMap(map);
+        }
+      }
     };
-    fetchQuestions();
+    fetchQuestionsAndUsers();
   }, []);
 
   const handlePost = async () => {
@@ -39,6 +59,10 @@ export default function CommunityForum() {
       if (!error && data && data.length > 0) {
         setQuestions([data[0], ...questions]);
         setInput('');
+        // Optionally update userMap for the new user
+        if (!userMap[user.id]) {
+          setUserMap({ ...userMap, [user.id]: user.user_metadata?.name || user.email?.split('@')[0] || 'User' });
+        }
       }
     }
   };
@@ -97,7 +121,7 @@ export default function CommunityForum() {
               )}
             </div>
             <div className="flex gap-4 text-sm text-gray-500">
-              <span>Asked by: {q.user_id.slice(0, 6)}... {new Date(q.created_at).toLocaleString()}</span>
+              <span>Asked by: {userMap[q.user_id] || 'User'} {new Date(q.created_at).toLocaleString()}</span>
             </div>
           </div>
         ))}

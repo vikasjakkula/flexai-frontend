@@ -13,16 +13,20 @@ import {
   AlertDialogTrigger,
 } from '../components/ui/alert-dialog';
 
+// Add Tricep and Bicep to the workouts list
 const dummyWorkouts = [
   { name: 'Chest Day' },
   { name: 'Leg Day' },
   { name: 'Full Body' },
+  { name: 'Tricep' },
+  { name: 'Bicep' },
 ];
 
 export default function CommunityWorkouts() {
   const { user } = useAuth();
-  const [comments, setComments] = useState([[], [], []]);
-  const [inputs, setInputs] = useState(['', '', '']);
+  // Adjust state arrays to match the number of workouts
+  const [comments, setComments] = useState([[], [], [], [], []]);
+  const [inputs, setInputs] = useState(['', '', '', '', '']);
 
   // Fetch comments for each workout
   useEffect(() => {
@@ -91,7 +95,9 @@ export default function CommunityWorkouts() {
               <div key={c.id} className="text-sm text-gray-700 bg-gray-50 rounded px-2 py-1 flex items-center justify-between">
                 <span>
                   {c.comment}
-                  <span className="ml-2 text-xs text-gray-400">by {c.user_id.slice(0, 6)}... {new Date(c.created_at).toLocaleString()}</span>
+                  <span className="ml-2 text-xs text-gray-400">
+                    by {c.user_id.slice(0, 6)}... {new Date(c.created_at).toLocaleString()}
+                  </span>
                 </span>
                 {user && user.id === c.user_id && (
                   <AlertDialog>

@@ -4,6 +4,9 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './Navbar.css';
 import { useAuth } from '../contexts/AuthContext';
+import { useTheme } from '../ThemeContext';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const transition = {
   type: "spring",
@@ -13,6 +16,8 @@ const transition = {
   restDelta: 0.001,
   restSpeed: 0.001,
 };
+
+
 
 function Navbar() {
   const navigate = useNavigate();
@@ -77,8 +82,12 @@ function Navbar() {
     return location.pathname.startsWith('/library');
   };
 
+  const { theme, toggleTheme } = useTheme();
+
+  useEffect(() => { AOS.init(); }, []);
+
   return (
-    <nav className={`navbar fixed-navbar w-full flex items-center justify-between px-4 md:px-8 py-4`}
+    <nav role="navigation" className={`navbar fixed-navbar w-full flex items-center justify-between px-4 md:px-8 py-4`}
       onMouseLeave={() => setActiveMenu(null)}>
       <div className="flex items-center">
         <video
@@ -229,15 +238,20 @@ function Navbar() {
         >
           AI Coach
         </Link>
+        {/* Place this where the user icon should appear, between AI Coach and Google login/logout */}
+        <button
+          className="mx-2 p-2 rounded-full hover:bg-blue-100"
+          onClick={() => navigate('/profile')}
+          aria-label="Profile"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide-user text-blue-600"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
       </div>
 
-      {/* Supabase Google Login/Profile - right corner */}
-      <div className="ml-auto flex items-center gap-2">
+      {/* User Profile - right corner */}
+      <div className="ml-auto flex items-center gap-2 mobile-signin-hide">
         {loading && <span className="text-gray-500">Loading...</span>}
         {error && <span className="text-red-500 text-sm">{error}</span>}
-        {!user && !loading && (
-          <button onClick={signInWithGoogle} className="px-4 py-2 bg-blue-500 text-white rounded">Sign in with Google</button>
-        )}
         {user && (
           <div className="flex items-center gap-2 bg-white rounded shadow px-3 py-1">
             {user.user_metadata?.avatar_url && <img src={user.user_metadata.avatar_url} alt="avatar" className="w-8 h-8 rounded-full" />}
@@ -409,6 +423,17 @@ function Navbar() {
             >
               <X size={24} />
             </button>
+            {/* Mobile-only user profile card at bottom if logged in */}
+            {user && (
+              <div className="mobile-signin-bottom">
+                <div className="flex items-center gap-2 bg-white rounded shadow px-3 py-2">
+                  {user.user_metadata?.avatar_url && <img src={user.user_metadata.avatar_url} alt="avatar" className="w-8 h-8 rounded-full" />}
+                  <span className="font-medium text-gray-700 flex-1">{user.user_metadata?.name || user.email}</span>
+                  <button onClick={signOut} className="px-2 py-1 text-xs bg-red-500 text-white rounded">Logout</button>
+                </div>
+              </div>
+            )}
+
           </motion.div>
         )}
       </AnimatePresence>
@@ -424,6 +449,8 @@ function Navbar() {
           }
         }
       `}</style>
+
+     
     </nav>
   );
 }

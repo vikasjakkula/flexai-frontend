@@ -1,6 +1,6 @@
 /* 
   === Centered Main Navigation Buttons ===
-  Move Home, Library, Pricing, and Assistant buttons to the middle of the navbar.
+  Move Home, Library, Pricing, Contact, Community, Nutrition, and AI Coach buttons to the middle of the mobile sidebar.
   Remove underline animation for these buttons.
 */
 
@@ -179,6 +179,74 @@
   .mobile-menu {
     border-radius: 0 0 12px 12px;
   }
+  .navbar .mobile-signin-hide {
+    display: none !important;
+  }
+  .mobile-signin-bottom {
+    display: flex !important;
+    position: fixed;
+    left: 16px;
+    bottom: 16px;
+    z-index: 10001;
+    width: calc(100vw - 32px);
+    justify-content: flex-start;
+  }
+
+  /* Center the main nav buttons in the mobile sidebar */
+  .mobile-sidebar .centered-nav-links {
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100%;
+    height: 100%;
+    min-height: 60vh;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Center only the main nav links in the sidebar */
+  .mobile-sidebar .animated-nav-link,
+  .mobile-sidebar .library-dropdown-trigger,
+  .mobile-sidebar .dropdown-item {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+    border-radius: 8px !important;
+  }
+
+  /* Center Home, Library, Pricing, Contact, Community, Nutrition, AI Coach specifically */
+  .mobile-sidebar .animated-nav-link[href="/"],
+  .mobile-sidebar .animated-nav-link[href="/community"],
+  .mobile-sidebar .animated-nav-link[href="/nutrition"],
+  .mobile-sidebar .animated-nav-link[href="/aicoach"],
+  .mobile-sidebar .animated-nav-link[href="/pricing"],
+  .mobile-sidebar .animated-nav-link[href="/contact"],
+  .mobile-sidebar .library-dropdown-trigger {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+    display: flex;
+    padding-left: 0 !important;
+    border-radius: 8px !important;
+  }
+
+  /* Remove left border-radius override for these centered links */
+  .mobile-sidebar .animated-nav-link,
+  .mobile-sidebar .dropdown-item {
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+  }
 }
 
 /* === Mobile Sidebar Styles === */
@@ -206,4 +274,18 @@
   height: 100vh;
   background: rgba(0,0,0,0.25);
   z-index: 9998;
+}
+
+.navbar {
+  background: #fff !important;
+}
+
+/* Ensure mobile sidebar has the same white background as navbar */
+.mobile-sidebar {
+  background: #fff !important;
+}
+
+/* Default: hide mobile bottom sign-in on desktop */
+.mobile-signin-bottom {
+  display: none;
 }

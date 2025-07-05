@@ -117,7 +117,7 @@ const Pricing = () => {
     const data = await res.json();
 
     const options = {
-      key: "YOUR_RAZORPAY_KEY_ID", // Replace with your Razorpay Key
+      key: process.env.REACT_APP_RAZORPAY_KEY || 'rzp_test_oga7q8LT0P5fXf', // Replace with your Razorpay Key
       amount: 900 * 100,
       currency: "INR",
       name: "FLEX.AI",
