@@ -36,7 +36,7 @@ export function AuthProvider({ children }) {
     setError(null);
     setSuccess(null);
     setLoading(true);
-    const { error, data } = await supabase.auth.signInWithPassword({
+    const { error } = await supabase.auth.signInWithPassword({
       email,
       password
     });
@@ -58,7 +58,7 @@ export function AuthProvider({ children }) {
     setError(null);
     setSuccess(null);
     setLoading(true);
-    const { error, data } = await supabase.auth.signUp({
+    const { error } = await supabase.auth.signUp({
       email,
       password,
       options: {
