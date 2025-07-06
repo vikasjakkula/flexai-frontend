@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { Send, Bot, User, Trash2, Dumbbell, Heart, Target } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import LoadingPage from '../components/LoadingPage';
+import Footer from '../components/Footer';
 
 // Backend API base URL - use relative path for Vercel deployment
 const API_BASE_URL = 'https://flexai-backend.onrender.com/api';
@@ -293,17 +294,7 @@ const AssistantPage = () => {
   }
 
   return (
-    // Main container with gym video background
-    <div
-      style={{
-        minHeight: '100vh',
-        padding: '2rem 1rem',
-        position: 'relative',
-        color: '#f9fafb',
-        fontFamily: 'system-ui, sans-serif',
-        zIndex: 1
-      }}
-    >
+    <div className="flex flex-col min-h-screen">
       {/* 
         Video Background
         NOTE: The video will play on localhost:3000 if the file 'bgvideo.mp4' exists in your public directory.
@@ -604,6 +595,10 @@ const AssistantPage = () => {
           }
         `}
       </style>
+      <main className="flex-1">
+        {/* ...AI Coach chat content... */}
+      </main>
+      <Footer className="z-50" />
     </div>
   );
 };

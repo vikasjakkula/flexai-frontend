@@ -25,14 +25,13 @@ import VideoLibrary from './pages/VideoLibrary';
 import FormCheckerAI from './pages/FormCheckerAI';
 import MyRoutines from './pages/MyRoutines';
 import ExerciseEncyclopedia from './pages/ExerciseEncyclopedia';
-import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { AuthProvider } from './contexts/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Profile from './pages/Profile';
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
   const { theme } = useTheme();
-  const { user } = useAuth();
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 1000);

@@ -54,7 +54,7 @@ const Footer = () => {
         <hr className="border-t border-white opacity-30 my-8" />
         <div className="flex flex-col items-center">
           <img src={process.env.PUBLIC_URL + '/flex.png'} alt="Flex Logo" className="h-10 mb-2" />
-          <div className="text-sm text-gray-300">© 2025 Flex.AI. All rights reserved.</div>
+          <div className="text-sm text-gray-700">© 2025 Flex.AI. All rights reserved.</div>
         </div>
       </div>
     </footer>

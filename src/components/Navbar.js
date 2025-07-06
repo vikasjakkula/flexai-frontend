@@ -4,7 +4,6 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './Navbar.css';
 import { useAuth } from '../contexts/AuthContext';
-import { useTheme } from '../ThemeContext';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -28,7 +27,7 @@ function Navbar() {
   const dropdownRef = useRef(null);
 
   // Supabase Auth State
-  const { user, signInWithGoogle, signOut, loading, error } = useAuth();
+  const { user, signOut, loading, error } = useAuth();
 
   const libraryOutlets = [
     { name: 'Calender', path: '/library/calender' },
@@ -81,8 +80,6 @@ function Navbar() {
   const isLibraryActive = () => {
     return location.pathname.startsWith('/library');
   };
-
-  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => { AOS.init(); }, []);
 

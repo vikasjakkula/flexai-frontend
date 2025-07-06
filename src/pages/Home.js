@@ -8,6 +8,17 @@ import { AnimatedTestimonials } from "../components/ui/animated-testimonials";
 import { PinContainer } from "../components/ui/3d-pin";
 import HeroSection, { HeroSectionLeftImage, FlexAiAudienceSection } from "../components/HeroSection";
 import { CardContainer, CardBody, CardItem } from "../components/ui/3d-card";
+import {
+  AlertDialog,
+  AlertDialogTrigger,
+  AlertDialogContent,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogCancel,
+  AlertDialogAction
+} from '../components/AlertDialogDemo';
 
 function BackgroundBeamsWithCollisionDemo() {
   return (
@@ -96,6 +107,8 @@ const Home = () => {
   const [showPopup, setShowPopup] = React.useState(false);
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
+  const [showTrainerDialog, setShowTrainerDialog] = useState(false);
+  const [showPlansDialog, setShowPlansDialog] = useState(false);
 
   // Remove navigation from START NOW, open popup instead
   const handleStartNow = () => setShowPopup(true);
@@ -204,19 +217,54 @@ const Home = () => {
           >
             START NOW
           </Button>
-          <Button
-            onClick={() => navigate('/library')}
-            onMouseUp={() => setTimeout(() => window.scrollTo(0, 0), 0)}
-            className="w-full max-w-xs"
-          >
-            JOIN AS A TRAINER
-          </Button>
-          <Button
-            onClick={handleExplorePlans}
-            className="w-full max-w-xs"
-          >
-            EXPLORE PLANS
-          </Button>
+          <AlertDialog open={showTrainerDialog} onOpenChange={setShowTrainerDialog}>
+            <AlertDialogTrigger asChild>
+              <Button
+                className="w-full max-w-xs"
+                onClick={e => { e.preventDefault(); setShowTrainerDialog(true); }}
+              >
+                JOIN AS A TRAINER
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle>Are you sure?</AlertDialogTitle>
+                <AlertDialogDescription>
+                  You are about to join as a trainer. Continue?
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Cancel</AlertDialogCancel>
+                <AlertDialogAction onClick={() => { setShowTrainerDialog(false); navigate('/library'); setTimeout(() => window.scrollTo(0, 0), 0); }}>
+                  Continue
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
+          <AlertDialog open={showPlansDialog} onOpenChange={setShowPlansDialog}>
+            <AlertDialogTrigger asChild>
+              <Button
+                className="w-full max-w-xs"
+                onClick={e => { e.preventDefault(); setShowPlansDialog(true); }}
+              >
+                EXPLORE PLANS
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle>Are you sure?</AlertDialogTitle>
+                <AlertDialogDescription>
+                  You are about to explore plans. Continue?
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Cancel</AlertDialogCancel>
+                <AlertDialogAction onClick={() => { setShowPlansDialog(false); navigate('/pricing'); }}>
+                  Continue
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
         </div>
       </div>
 
