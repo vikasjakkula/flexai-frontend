@@ -1,4 +1,4 @@
-import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
+import { MdArrowBack, MdArrowForward } from "react-icons/md";
 import { motion, AnimatePresence } from "motion/react";
 import { useEffect, useState, useCallback } from "react";
 
@@ -133,13 +133,13 @@ export const AnimatedTestimonials = ({
             <button
               onClick={handlePrev}
               className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100">
-              <IconArrowLeft
+              <MdArrowBack
                 className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12 group-hover/button:text-blue-500" />
             </button>
             <button
               onClick={handleNext}
               className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100">
-              <IconArrowRight
+              <MdArrowForward
                 className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 group-hover/button:text-blue-500" />
             </button>
           </div>
