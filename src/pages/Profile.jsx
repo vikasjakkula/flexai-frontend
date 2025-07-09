@@ -2,16 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import { useAuth } from '../contexts/AuthContext';
 
-// Fallback user data in case not logged in (for dev/demo)
-const fallbackUser = {
-  name: 'John Doe',
-  age: 25,
-  phone: '+91-9876543210',
-  email: 'johndoe@gmail.com',
-  password: '********',
-  paymentId: 'pay_QpP4BZpynCWerf', // or null if not paid
-  photoURL: '', // fallback
-};
+
 
 const Profile = () => {
   // Get today's date and day
@@ -24,12 +15,12 @@ const Profile = () => {
 
   // Use Google user if available, else fallback
   const displayUser = {
-    name: user?.displayName || fallbackUser.name,
-    age: fallbackUser.age, // You may want to store age in your DB, Google doesn't provide it
-    phone: fallbackUser.phone, // Same as above
-    email: user?.email || fallbackUser.email,
-    password: fallbackUser.password,
-    paymentId: fallbackUser.paymentId,
+    name: user?.displayName || '',
+    age: '', // You may want to store age in your DB, Google doesn't provide it
+    phone: '', // Same as above
+    email: user?.email || '',
+    password: '',
+    paymentId: '',
     photoURL: user?.photoURL || '', // Google profile image
   };
 
@@ -40,10 +31,10 @@ const Profile = () => {
         <div className="relative mb-8">
           <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-20"></div>
           <div className="relative bg-white rounded-full p-2 shadow-xl flex items-center justify-center w-32 h-32">
-            {displayUser.photoURL ? (
+            {user?.user_metadata?.avatar_url ? (
               <img
-                src={displayUser.photoURL}
-                alt={displayUser.name}
+                src={user.user_metadata.avatar_url}
+                alt={user.user_metadata?.name || user.email}
                 className="w-28 h-28 rounded-full object-cover border-4 border-blue-200 shadow-lg"
                 referrerPolicy="no-referrer"
               />
@@ -68,7 +59,7 @@ const Profile = () => {
 
         {/* User Name from Google */}
         <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-          {displayUser.name}
+          {user?.user_metadata?.name || user.email}
         </h1>
         <p className="text-gray-600 mb-8 text-center">Your personal information and account details</p>
 
