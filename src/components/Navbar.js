@@ -7,6 +7,7 @@ import { useAuth } from '../contexts/AuthContext';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 const transition = {
   type: "spring",
   mass: 0.5,

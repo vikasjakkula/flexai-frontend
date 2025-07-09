@@ -28,6 +28,7 @@ import ExerciseEncyclopedia from './pages/ExerciseEncyclopedia';
 import { AuthProvider } from './contexts/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Profile from './pages/Profile';
+import ChatWidget from './components/ui/ChatWidget';
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
@@ -150,6 +151,7 @@ function AppContent() {
         </Routes>
       </main>
       <Footer />
+      <ChatWidget />
     </div>
   );
 }
