@@ -1,8 +1,44 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../components/Footer';
 import { useAuth } from '../contexts/AuthContext';
 
-
+const AlertDialog = ({
+  open,
+  onClose,
+  onConfirm,
+  title,
+  description,
+  confirmText = 'Confirm',
+  cancelText = 'Cancel',
+  confirmClass = '',
+}) => {
+  if (!open) return null;
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
+      <div className="bg-white rounded-xl shadow-2xl w-full max-w-md mx-4 p-6">
+        <h3 className="text-xl font-bold mb-2">{title}</h3>
+        <p className="text-gray-600 mb-6">{description}</p>
+        <div className="flex justify-end gap-3">
+          <button
+            className="px-4 py-2 rounded-lg bg-gray-100 text-gray-700 font-semibold hover:bg-gray-200 transition"
+            onClick={onClose}
+          >
+            {cancelText}
+          </button>
+          <button
+            className={`px-4 py-2 rounded-lg font-semibold transition ${confirmClass}`}
+            onClick={() => {
+              onConfirm();
+              onClose();
+            }}
+          >
+            {confirmText}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const Profile = () => {
   // Get today's date and day
@@ -22,6 +58,21 @@ const Profile = () => {
     password: '',
     paymentId: '',
     photoURL: user?.photoURL || '', // Google profile image
+  };
+
+  // AlertDialog state
+  const [editDialogOpen, setEditDialogOpen] = useState(false);
+  const [logoutDialogOpen, setLogoutDialogOpen] = useState(false);
+
+  // Dummy handlers for demonstration
+  const handleEditProfile = () => {
+    // TODO: Implement edit profile logic
+    // For now, just close dialog
+  };
+
+  const handleLogout = () => {
+    // TODO: Implement logout logic
+    // For now, just close dialog
   };
 
   return (
@@ -159,16 +210,41 @@ const Profile = () => {
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <button className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+          <button
+            className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+            onClick={() => setEditDialogOpen(true)}
+          >
             Edit Profile
           </button>
           <button
             className="px-6 py-3 bg-gradient-to-r from-red-500 to-red-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
-            onClick={() => {/* TODO: Add logout logic */}}
+            onClick={() => setLogoutDialogOpen(true)}
           >
             Logout
           </button>
         </div>
+        {/* Edit Profile AlertDialog */}
+        <AlertDialog
+          open={editDialogOpen}
+          onClose={() => setEditDialogOpen(false)}
+          onConfirm={handleEditProfile}
+          title="Edit Profile"
+          description="Are you sure you want to edit your profile? This action may allow you to update your personal information."
+          confirmText="Proceed"
+          cancelText="Cancel"
+          confirmClass="bg-blue-600 hover:bg-blue-700 text-white"
+        />
+        {/* Logout AlertDialog */}
+        <AlertDialog
+          open={logoutDialogOpen}
+          onClose={() => setLogoutDialogOpen(false)}
+          onConfirm={handleLogout}
+          title="Logout"
+          description="Are you sure you want to logout from your account?"
+          confirmText="Logout"
+          cancelText="Cancel"
+          confirmClass="bg-red-600 hover:bg-red-700 text-white"
+        />
       </div>
       <Footer />
     </div>
