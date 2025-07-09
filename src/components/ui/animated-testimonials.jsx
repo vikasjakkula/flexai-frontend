@@ -88,6 +88,7 @@ export const AnimatedTestimonials = ({
             }}
             animate={{
               y: 0,
+              
               opacity: 1,
             }}
             exit={{
