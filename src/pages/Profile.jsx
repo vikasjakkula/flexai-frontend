@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Footer from '../components/Footer';
 import { useAuth } from '../contexts/AuthContext';
 
 const AlertDialog = ({
@@ -109,7 +108,7 @@ const Profile = () => {
         </div>
 
         {/* User Name from Google */}
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+        <h1 className="text-4xl font-bold text-gray-900 mb-2">
           {user?.user_metadata?.name || user.email}
         </h1>
         <p className="text-gray-600 mb-8 text-center">Your personal information and account details</p>
@@ -117,7 +116,7 @@ const Profile = () => {
         {/* Profile Card */}
         <div className="w-full max-w-2xl bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl border border-white/20 overflow-hidden">
           {/* Card Header */}
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-8 py-6">
+          <div className="bg-gradient-to-r from-[rgb(28,155,235)] via-[rgb(135,206,250)] to-[#FFFF00] px-8 py-6 rounded-t-2xl">
             <h2 className="text-2xl font-bold text-white">Account Information</h2>
             <p className="text-blue-100 mt-1">Last updated: {dateString}</p>
           </div>
@@ -246,7 +245,6 @@ const Profile = () => {
           confirmClass="bg-red-600 hover:bg-red-700 text-white"
         />
       </div>
-      <Footer />
     </div>
   );
 };
