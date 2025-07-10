@@ -29,6 +29,7 @@ import { AuthProvider } from './contexts/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Profile from './pages/Profile';
 import ChatWidget from './components/ui/ChatWidget';
+import { Analytics } from "@vercel/analytics/react";
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
@@ -171,6 +172,7 @@ function App() {
         <Router>
           <ScrollToTop />
           <AppContent />
+          <Analytics />
         </Router>
       </AuthProvider>
     </ThemeProvider>
