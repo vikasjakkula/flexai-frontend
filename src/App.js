@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Home from './pages/Home';
 import Library, { CalendarDemo } from './pages/Library';
 import Pricing from './pages/Pricing';
-import AICoachPage from './pages/AI Coach';
 import LoadingPage from './components/LoadingPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -89,11 +88,6 @@ function AppContent() {
           <Route path="/pricing" element={
             <ProtectedRoute>
               <Pricing />
-            </ProtectedRoute>
-          } />
-          <Route path="/aicoach" element={
-            <ProtectedRoute>
-              <AICoachPage />
             </ProtectedRoute>
           } />
           <Route path="/contact/ask-questions" element={

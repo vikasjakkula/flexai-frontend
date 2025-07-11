@@ -227,14 +227,6 @@ function Navbar() {
         >
           Nutrition
         </Link>
-        {/* AI Coach (replaces Assistant) */}
-        <Link 
-          to="/aicoach" 
-          className={`animated-nav-link ${isActiveRoute('/aicoach') ? 'active' : ''}`}
-          onClick={closeMobileMenu}
-        >
-          AI Coach
-        </Link>
         {/* Place this where the user icon should appear, between AI Coach and Google login/logout */}
         <button
           className="mx-2 p-2 rounded-full hover:bg-blue-100"
@@ -249,11 +241,15 @@ function Navbar() {
       <div className="ml-auto flex items-center gap-2 mobile-signin-hide">
         {loading && <span className="text-gray-500">Loading...</span>}
         {error && <span className="text-red-500 text-sm">{error}</span>}
-        {user && (
-          <div className="flex items-center gap-2 bg-white rounded shadow px-3 py-1">
-            {user.user_metadata?.avatar_url && <img src={user.user_metadata.avatar_url} alt="avatar" className="w-8 h-8 rounded-full" />}
-            <span className="font-medium text-gray-700">{user.user_metadata?.name || user.email}</span>
-            <button onClick={signOut} className="ml-2 px-2 py-1 text-xs bg-red-500 text-white rounded">Logout</button>
+        {user && user.user_metadata?.avatar_url && (
+          <div className="flex items-center">
+            <img 
+              src={user.user_metadata.avatar_url} 
+              alt="avatar" 
+              className="w-10 h-10 rounded-full cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => navigate('/profile')}
+              title="Profile"
+            />
           </div>
         )}
       </div>
@@ -402,15 +398,6 @@ function Navbar() {
               >
                 Nutrition
               </Link>
-              {/* AI Coach (replaces Assistant) */}
-              <Link 
-                to="/aicoach" 
-                className={`mobile-dropdown-item ${isActiveRoute('/aicoach') ? 'active' : ''}`}
-                onClick={closeMobileMenu}
-                style={{ textAlign: 'left' }}
-              >
-                AI Coach
-              </Link>
             </div>
             {/* Close button inside sidebar for convenience */}
             <button
@@ -420,17 +407,6 @@ function Navbar() {
             >
               <X size={24} />
             </button>
-            {/* Mobile-only user profile card at bottom if logged in */}
-            {user && (
-              <div className="mobile-signin-bottom">
-                <div className="flex items-center gap-2 bg-white rounded shadow px-3 py-2">
-                  {user.user_metadata?.avatar_url && <img src={user.user_metadata.avatar_url} alt="avatar" className="w-8 h-8 rounded-full" />}
-                  <span className="font-medium text-gray-700 flex-1">{user.user_metadata?.name || user.email}</span>
-                  <button onClick={signOut} className="px-2 py-1 text-xs bg-red-500 text-white rounded">Logout</button>
-                </div>
-              </div>
-            )}
-
           </motion.div>
         )}
       </AnimatePresence>
