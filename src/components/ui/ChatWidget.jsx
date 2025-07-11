@@ -1,8 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useAuth } from '../../contexts/AuthContext';
 import './ChatWidget.css';
 
-const BOT_AVATAR = '🤖';
-const USER_AVATAR = '👤';
+const BOT_AVATAR = '🏋️‍♂️';
+
+function getUserAvatar(user) {
+  if (user && user.user_metadata && user.user_metadata.avatar_url) {
+    return <img src={user.user_metadata.avatar_url} alt="User" className="user-avatar-img" style={{ width: 28, height: 28, borderRadius: '50%' }} />;
+  }
+  return '👤';
+}
 
 const BOT_WELCOME = {
   type: 'bot',
@@ -23,6 +30,7 @@ export default function ChatWidget() {
   const [input, setInput] = useState('');
   const [typing, setTyping] = useState(false);
   const messagesEndRef = useRef(null);
+  const { user } = useAuth();
 
   useEffect(() => {
     if (open && messagesEndRef.current) {
@@ -80,7 +88,7 @@ export default function ChatWidget() {
         <div className="chat-messages">
           {messages.map((msg, i) => (
             <div key={i} className={`message ${msg.type}`}>
-              <div className="message-avatar">{msg.type === 'user' ? USER_AVATAR : BOT_AVATAR}</div>
+              <div className="message-avatar">{msg.type === 'user' ? getUserAvatar(user) : BOT_AVATAR}</div>
               <div className="message-content">
                 {msg.text.split('\n').map((line, idx) => (
                   <React.Fragment key={idx}>{line}<br /></React.Fragment>

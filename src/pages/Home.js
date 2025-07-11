@@ -170,65 +170,146 @@ const Home = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 px-4 max-w-5xl mx-auto">
         {/* What We Offer */}
-        <div className="bg-gradient-to-br from-blue-100 via-white to-purple-100 rounded-2xl shadow-xl p-8 flex flex-col items-start transition-transform hover:scale-[1.025] border border-blue-200">
-          <h2 className="text-black font-extrabold text-2xl font-raleway text-left mb-5">🔥 What We Offer 🔥</h2>
-          <ul className="space-y-4 text-black font-poppins text-base leading-relaxed">
-            <li><span className="font-bold">Smart Workout Routines:</span> Biceps, Triceps, Chest, Shoulders, Legs, Back, Abs, Warm-ups, Cool-downs, Core & 6-pack routines</li>
-            <li><span className="font-bold">AI-Powered Exercise Suggestions:</span> Personalized plans for your fitness level, adjusts reps, rest, and sets for you</li>
-            <li><span className="font-bold">HD Video Demonstrations:</span> Beginner to pro level tutorials</li>
-            <li><span className="font-bold">Nutrition Guidance:</span> Pre/Post workout meals, high-protein diet plans</li>
-            <li><span className="font-bold">Weekly Progress Tracking:</span> Weight, muscles, fat loss, and strength progress</li>
-            <li><span className="font-bold">Goal-Based Programs:</span> Fat Burn | Muscle Gain | Endurance | Bulk-up, 30 / 60 / 90 Day Challenges</li>
-            <li><span className="font-bold">Live Support Options:</span> Ask AI Trainer | Chat with Real Experts</li>
+        <div className="relative group rounded-3xl shadow-2xl p-10 flex flex-col items-start border border-blue-200 overflow-hidden bg-gradient-to-br from-blue-200 via-white to-purple-200 transition-transform hover:scale-[1.035] hover:shadow-3xl">
+          {/* Decorative Glow */}
+          <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-400 opacity-20 rounded-full blur-3xl z-0 group-hover:opacity-30 transition" />
+          <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-purple-400 opacity-20 rounded-full blur-3xl z-0 group-hover:opacity-30 transition" />
+          <h2 className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 font-extrabold text-3xl font-raleway text-left mb-6 drop-shadow-lg tracking-wide flex items-center gap-2">
+            <span role="img" aria-label="fire">🔥</span> What We Offer <span role="img" aria-label="fire">🔥</span>
+          </h2>
+          <ul className="relative z-10 space-y-5 text-black font-poppins text-lg leading-relaxed w-full">
+            <li className="flex items-start gap-3">
+              <span className="inline-block text-blue-500 text-xl mt-1">🏋️‍♂️</span>
+              <span>
+                <span className="font-bold text-blue-700">Smart Workout Routines:</span> <span className="text-gray-700">Biceps, Triceps, Chest, Shoulders, Legs, Back, Abs, Warm-ups, Cool-downs, Core & 6-pack routines</span>
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="inline-block text-purple-500 text-xl mt-1">🤖</span>
+              <span>
+                <span className="font-bold text-purple-700">AI-Powered Exercise Suggestions:</span> <span className="text-gray-700">Personalized plans for your fitness level, adjusts reps, rest, and sets for you</span>
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="inline-block text-pink-500 text-xl mt-1">🎥</span>
+              <span>
+                <span className="font-bold text-pink-700">HD Video Demonstrations:</span> <span className="text-gray-700">Beginner to pro level tutorials</span>
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="inline-block text-green-500 text-xl mt-1">🥗</span>
+              <span>
+                <span className="font-bold text-green-700">Nutrition Guidance:</span> <span className="text-gray-700">Pre/Post workout meals, high-protein diet plans</span>
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="inline-block text-yellow-500 text-xl mt-1">📈</span>
+              <span>
+                <span className="font-bold text-yellow-700">Weekly Progress Tracking:</span> <span className="text-gray-700">Weight, muscles, fat loss, and strength progress</span>
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="inline-block text-red-500 text-xl mt-1">🎯</span>
+              <span>
+                <span className="font-bold text-red-700">Goal-Based Programs:</span> <span className="text-gray-700">Fat Burn | Muscle Gain | Endurance | Bulk-up, 30 / 60 / 90 Day Challenges</span>
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="inline-block text-indigo-500 text-xl mt-1">💬</span>
+              <span>
+                <span className="font-bold text-indigo-700">Live Support Options:</span> <span className="text-gray-700">Ask AI Trainer | Chat with Real Experts</span>
+              </span>
+            </li>
           </ul>
         </div>
 
         {/* Why Choose FLEX.AI */}
-        <div className="bg-gradient-to-br from-yellow-100 via-white to-blue-100 rounded-2xl shadow-xl p-8 flex flex-col items-start transition-transform hover:scale-[1.025] border border-yellow-200">
-          <h2 className="text-black font-extrabold text-2xl font-raleway text-left mb-5">Why Choose FLEX.AI?</h2>
-          <ul className="space-y-4 text-black font-poppins text-base leading-relaxed">
-            <li>✅ Fast, Easy-to-Use Interface</li>
-            <li>✅ Scientifically Designed Routines</li>
-            <li>✅ AI Personal Coach in Your Pocket</li>
-            <li>✅ Track Your Visible Progress</li>
+        <div className="relative group rounded-3xl shadow-2xl p-10 flex flex-col items-start border border-yellow-200 overflow-hidden bg-gradient-to-br from-yellow-100 via-white to-blue-100 transition-transform hover:scale-[1.035] hover:shadow-3xl">
+          {/* Decorative Glow */}
+          <div className="absolute -top-10 -right-10 w-32 h-32 bg-yellow-300 opacity-20 rounded-full blur-2xl z-0 group-hover:opacity-30 transition" />
+          <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-blue-300 opacity-20 rounded-full blur-2xl z-0 group-hover:opacity-30 transition" />
+          <h2 className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-blue-500 to-purple-500 font-extrabold text-3xl font-raleway text-left mb-6 drop-shadow-lg tracking-wide">
+            Why Choose FLEX.AI?
+          </h2>
+          <ul className="relative z-10 space-y-5 text-black font-poppins text-lg leading-relaxed w-full">
+            <li className="flex items-center gap-3">
+              <span className="text-green-500 text-xl">✅</span>
+              <span className="text-gray-700">Fast, Easy-to-Use Interface</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-green-500 text-xl">✅</span>
+              <span className="text-gray-700">Scientifically Designed Routines</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-green-500 text-xl">✅</span>
+              <span className="text-gray-700">AI Personal Coach in Your Pocket</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-green-500 text-xl">✅</span>
+              <span className="text-gray-700">Track Your Visible Progress</span>
+            </li>
           </ul>
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 px-4 max-w-5xl mx-auto">
         {/* What Our Users Say */}
-        <div className="bg-gradient-to-br from-pink-100 via-white to-orange-100 rounded-2xl shadow-xl p-8 flex flex-col items-start transition-transform hover:scale-[1.025] border border-pink-200">
-          <h2 className="text-black font-extrabold text-2xl font-raleway text-left mb-5">What Our Users Say <span role="img" aria-label="fire-heart">❤️‍🔥</span></h2>
-          <ul className="space-y-4 text-black font-poppins text-base leading-relaxed">
-            <li>⭐ "I never thought an app could replace a real trainer, but FLEX.AI proved me wrong!" <span className="font-semibold">– Anjali M.</span></li>
-            <li>⭐ "Gained 5kg muscle in 45 days using FLEX.AI's custom plan. Super effective." <span className="font-semibold">– Rohan K.</span></li>
-            <li>⭐ "The AI suggestions are accurate and keep me motivated. This is next-gen fitness." <span className="font-semibold">– Neha V.</span></li>
-            <li>⭐ "From lazy to shredded! FLEX.AI is a beast mode unlocker." <span className="font-semibold">– Suresh R.</span></li>
+        <div className="relative group rounded-3xl shadow-2xl p-10 flex flex-col items-start border border-pink-200 overflow-hidden bg-gradient-to-br from-pink-100 via-white to-orange-100 transition-transform hover:scale-[1.035] hover:shadow-3xl">
+          {/* Decorative Glow */}
+          <div className="absolute -top-10 -left-10 w-32 h-32 bg-pink-300 opacity-20 rounded-full blur-2xl z-0 group-hover:opacity-30 transition" />
+          <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-orange-300 opacity-20 rounded-full blur-2xl z-0 group-hover:opacity-30 transition" />
+          <h2 className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 font-extrabold text-3xl font-raleway text-left mb-6 drop-shadow-lg tracking-wide flex items-center gap-2">
+            What Our Users Say <span role="img" aria-label="fire-heart">❤️‍🔥</span>
+          </h2>
+          <ul className="relative z-10 space-y-5 text-black font-poppins text-lg leading-relaxed w-full">
+            <li className="flex items-start gap-3">
+              <span className="text-yellow-500 text-xl">⭐</span>
+              <span className="text-gray-700">"I never thought an app could replace a real trainer, but FLEX.AI proved me wrong!" <span className="font-semibold text-pink-700">– Anjali M.</span></span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-yellow-500 text-xl">⭐</span>
+              <span className="text-gray-700">"Gained 5kg muscle in 45 days using FLEX.AI's custom plan. Super effective." <span className="font-semibold text-pink-700">– Rohan K.</span></span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-yellow-500 text-xl">⭐</span>
+              <span className="text-gray-700">"The AI suggestions are accurate and keep me motivated. This is next-gen fitness." <span className="font-semibold text-pink-700">– Neha V.</span></span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-yellow-500 text-xl">⭐</span>
+              <span className="text-gray-700">"From lazy to shredded! FLEX.AI is a beast mode unlocker." <span className="font-semibold text-pink-700">– Suresh R.</span></span>
+            </li>
           </ul>
         </div>
 
         {/* Ready to Transform */}
-        <div className="bg-gradient-to-br from-green-100 via-white to-blue-100 rounded-2xl shadow-xl p-8 flex flex-col items-start transition-transform hover:scale-[1.025] border border-green-200">
-          <h2 className="text-black font-extrabold text-2xl font-raleway text-left mb-5">🚀 Ready to Transform Your Body?</h2>
-          <ol className="list-decimal pl-6 space-y-4 text-black font-poppins text-base leading-relaxed">
-            <li>Step 1: Enter your goal (Lose Fat, Build Muscle, etc.)</li>
-            <li>Step 2: Select your level (Beginner / Intermediate / Pro)</li>
-            <li>Step 3: Start Training with FLEX.AI</li>
+        <div className="relative group rounded-3xl shadow-2xl p-10 flex flex-col items-start border border-green-200 overflow-hidden bg-gradient-to-br from-green-100 via-white to-blue-100 transition-transform hover:scale-[1.035] hover:shadow-3xl">
+          {/* Decorative Glow */}
+          <div className="absolute -top-10 -right-10 w-32 h-32 bg-green-300 opacity-20 rounded-full blur-2xl z-0 group-hover:opacity-30 transition" />
+          <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-blue-300 opacity-20 rounded-full blur-2xl z-0 group-hover:opacity-30 transition" />
+          <h2 className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 font-extrabold text-3xl font-raleway text-left mb-6 drop-shadow-lg tracking-wide flex items-center gap-2">
+            <span role="img" aria-label="rocket">🚀</span> Ready to Transform Your Body?
+          </h2>
+          <ol className="relative z-10 list-decimal pl-8 space-y-5 text-black font-poppins text-lg leading-relaxed w-full">
+            <li><span className="font-semibold text-blue-700">Step 1:</span> Enter your goal (Lose Fat, Build Muscle, etc.)</li>
+            <li><span className="font-semibold text-blue-700">Step 2:</span> Select your level (Beginner / Intermediate / Pro)</li>
+            <li><span className="font-semibold text-blue-700">Step 3:</span> Start Training with FLEX.AI</li>
           </ol>
-          <div className="action-btns flex flex-col md:flex-row gap-4 mt-6 w-full">
+          <div className="action-btns flex flex-col md:flex-row gap-4 mt-8 w-full relative z-10">
             <Button
               onClick={handleStartNow}
-              className="w-full max-w-xs bg-blue-600 text-white font-bold rounded-lg shadow hover:bg-blue-700 transition"
+              className="w-full max-w-xs bg-gradient-to-r from-blue-600 to-blue-400 text-white font-bold rounded-xl shadow-lg hover:from-blue-700 hover:to-blue-500 transition-all duration-200 border-2 border-blue-300"
+              style={{ boxShadow: '0 4px 24px 0 rgba(59,130,246,0.15)' }}
             >
-              START NOW
+              <span className="tracking-wider text-lg">START NOW</span>
             </Button>
             <AlertDialog open={showTrainerDialog} onOpenChange={setShowTrainerDialog}>
               <AlertDialogTrigger asChild>
                 <Button
-                  className="w-full max-w-xs bg-purple-600 text-white font-bold rounded-lg shadow hover:bg-purple-700 transition"
+                  className="w-full max-w-xs bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold rounded-xl shadow-lg hover:from-purple-700 hover:to-pink-600 transition-all duration-200 border-2 border-purple-300"
+                  style={{ boxShadow: '0 4px 24px 0 rgba(168,85,247,0.15)' }}
                   onClick={e => { e.preventDefault(); setShowTrainerDialog(true); }}
                 >
-                  JOIN AS A TRAINER
+                  <span className="tracking-wider text-lg">JOIN AS A TRAINER</span>
                 </Button>
               </AlertDialogTrigger>
               <AlertDialogContent>
@@ -249,10 +330,11 @@ const Home = () => {
             <AlertDialog open={showPlansDialog} onOpenChange={setShowPlansDialog}>
               <AlertDialogTrigger asChild>
                 <Button
-                  className="w-full max-w-xs bg-yellow-500 text-black font-bold rounded-lg shadow hover:bg-yellow-600 transition"
+                  className="w-full max-w-xs bg-gradient-to-r from-yellow-400 to-yellow-200 text-black font-bold rounded-xl shadow-lg hover:from-yellow-500 hover:to-yellow-300 transition-all duration-200 border-2 border-yellow-300"
+                  style={{ boxShadow: '0 4px 24px 0 rgba(251,191,36,0.15)' }}
                   onClick={e => { e.preventDefault(); setShowPlansDialog(true); }}
                 >
-                  EXPLORE PLANS
+                  <span className="tracking-wider text-lg">EXPLORE PLANS</span>
                 </Button>
               </AlertDialogTrigger>
               <AlertDialogContent>
