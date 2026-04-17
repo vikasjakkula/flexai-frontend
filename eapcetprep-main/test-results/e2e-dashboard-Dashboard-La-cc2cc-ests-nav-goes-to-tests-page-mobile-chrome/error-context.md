@@ -1,0 +1,84 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e7]:
+      - img [ref=e8]
+    - generic [ref=e11]:
+      - button "Open issues overlay" [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "0"
+          - generic [ref=e15]: "1"
+        - generic [ref=e16]: Issue
+      - button "Collapse issues badge" [ref=e17]:
+        - img [ref=e18]
+  - alert [ref=e20]
+  - generic [ref=e21]:
+    - banner [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e25]: eapcetpro
+        - generic [ref=e26]:
+          - button "Support" [ref=e27]:
+            - img [ref=e28]
+            - generic [ref=e30]: Support
+          - button "Notifications" [ref=e32]:
+            - img [ref=e33]
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Dashboard" [level=1] [ref=e38]
+        - generic [ref=e39]:
+          - heading "Recommended Tests" [level=2] [ref=e40]
+          - paragraph [ref=e41]: Try these free tests to get started!
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - heading "TS EAMCET 7 May 2024 Shift 1 Paper" [level=3] [ref=e45]
+                - generic [ref=e46]: FREE
+              - button "Start Test" [ref=e47]
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - heading "TS EAMCET 7 May 2024 Shift 2 Paper" [level=3] [ref=e50]
+                - generic [ref=e51]: FREE
+              - button "Start Test" [ref=e52]
+          - paragraph [ref=e53]: Latest 2025 Tests
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - heading "TG EAMCET 4 May 2025 Shift 1 Paper" [level=3] [ref=e57]
+                - generic [ref=e58]:
+                  - img [ref=e59]
+                  - generic [ref=e61]: Premium
+              - button "Unlock Test" [ref=e62]:
+                - img [ref=e63]
+                - text: Unlock Test
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - heading "TG EAMCET 4 May 2025 Shift 2 Paper" [level=3] [ref=e67]
+                - generic [ref=e68]:
+                  - img [ref=e69]
+                  - generic [ref=e71]: Premium
+              - button "Unlock Test" [ref=e72]:
+                - img [ref=e73]
+                - text: Unlock Test
+        - generic [ref=e75]:
+          - heading "Performance Overview" [level=2] [ref=e76]
+          - generic [ref=e77]: No analytics data available
+        - generic [ref=e78]:
+          - heading "Recent Tests" [level=2] [ref=e79]
+          - generic [ref=e80]: No tests taken yet
+    - navigation [ref=e81]:
+      - generic [ref=e82]:
+        - button "Home" [ref=e83]:
+          - img [ref=e84]
+          - generic [ref=e86]: Home
+        - button "Tests" [ref=e87]:
+          - img [ref=e88]
+          - generic [ref=e90]: Tests
+        - button "Performance" [ref=e91]:
+          - img [ref=e92]
+          - generic [ref=e94]: Performance
+        - button "Profile" [ref=e95]:
+          - img [ref=e96]
+          - generic [ref=e98]: Profile
+```

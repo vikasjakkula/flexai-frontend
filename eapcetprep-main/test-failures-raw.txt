@@ -1,0 +1,2133 @@
+﻿
+> test-results-output.txt:648:  1) [chromium] ΓÇ║ tests\api\affiliate.api.spec.ts:113:7 ΓÇ║ POST 
+/api/affiliate/auth/register ΓÇ║ returns error for existing affiliate user 
+  test-results-output.txt:649:
+  test-results-output.txt:650:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:651:
+  test-results-output.txt:652:    Expected value: [32m200[39m
+  test-results-output.txt:653:    Received array: [31m[400, 409, 500][39m
+  test-results-output.txt:654:
+  test-results-output.txt:655:      115 |       data: { phone: TEST_AFFILIATE.phone, password: 'TestPass123' },
+  test-results-output.txt:656:      116 |     });
+  test-results-output.txt:657:    > 117 |     expect([400, 409, 500]).toContain(res.status());
+  test-results-output.txt:658:          |                             ^
+  test-results-output.txt:659:      118 |   });
+  test-results-output.txt:660:      119 | });
+  test-results-output.txt:661:      120 |
+  test-results-output.txt:662:        at C:\Users\varun\avv\eapcetprep\tests\api\affiliate.api.spec.ts:117:29
+  test-results-output.txt:663:
+> test-results-output.txt:664:  2) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:10:7 ΓÇ║ GET /api/analytics/trends 
+ΓÇ║ returns score trends 
+  test-results-output.txt:665:
+  test-results-output.txt:666:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:667:
+  test-results-output.txt:668:    Expected: [32m200[39m
+  test-results-output.txt:669:    Received: [31m500[39m
+  test-results-output.txt:670:
+  test-results-output.txt:671:      13 |       headers: authHeaders(token),
+  test-results-output.txt:672:      14 |     });
+  test-results-output.txt:673:    > 15 |     expect(res.status()).toBe(200);
+  test-results-output.txt:674:         |                          ^
+  test-results-output.txt:675:      16 |     const body = await res.json();
+  test-results-output.txt:676:      17 |     expect(body.success).toBe(true);
+  test-results-output.txt:677:      18 |     expect(body).toHaveProperty('trends');
+  test-results-output.txt:678:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:15:26
+  test-results-output.txt:679:
+> test-results-output.txt:680:  3) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:21:7 ΓÇ║ GET /api/analytics/trends 
+ΓÇ║ respects limit parameter 
+  test-results-output.txt:681:
+  test-results-output.txt:682:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:683:
+  test-results-output.txt:684:    Expected: [32m200[39m
+  test-results-output.txt:685:    Received: [31m500[39m
+  test-results-output.txt:686:
+  test-results-output.txt:687:      24 |       headers: authHeaders(token),
+  test-results-output.txt:688:      25 |     });
+  test-results-output.txt:689:    > 26 |     expect(res.status()).toBe(200);
+  test-results-output.txt:690:         |                          ^
+  test-results-output.txt:691:      27 |     const body = await res.json();
+  test-results-output.txt:692:      28 |     if (body.trends) {
+  test-results-output.txt:693:      29 |       expect(body.trends.length).toBeLessThanOrEqual(3);
+  test-results-output.txt:694:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:26:26
+  test-results-output.txt:695:
+> test-results-output.txt:696:  4) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:40:7 ΓÇ║ GET 
+/api/analytics/section-wise ΓÇ║ returns section-wise performance 
+  test-results-output.txt:697:
+  test-results-output.txt:698:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:699:
+  test-results-output.txt:700:    Expected: [32m200[39m
+  test-results-output.txt:701:    Received: [31m500[39m
+  test-results-output.txt:702:
+  test-results-output.txt:703:      43 |       headers: authHeaders(token),
+  test-results-output.txt:704:      44 |     });
+  test-results-output.txt:705:    > 45 |     expect(res.status()).toBe(200);
+  test-results-output.txt:706:         |                          ^
+  test-results-output.txt:707:      46 |     const body = await res.json();
+  test-results-output.txt:708:      47 |     expect(body.success).toBe(true);
+  test-results-output.txt:709:      48 |     expect(body).toHaveProperty('performance');
+  test-results-output.txt:710:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:45:26
+  test-results-output.txt:711:
+> test-results-output.txt:712:  5) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:60:7 ΓÇ║ POST 
+/api/analytics/rank-estimate ΓÇ║ returns rank data for authenticated user 
+  test-results-output.txt:713:
+  test-results-output.txt:714:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:715:
+  test-results-output.txt:716:    Expected value: [32m500[39m
+  test-results-output.txt:717:    Received array: [31m[200, 403][39m
+  test-results-output.txt:718:
+  test-results-output.txt:719:      65 |     });
+  test-results-output.txt:720:      66 |     // May return 403 if user isn't PRO, which is also valid behavior
+  test-results-output.txt:721:    > 67 |     expect([200, 403]).toContain(res.status());
+  test-results-output.txt:722:         |                        ^
+  test-results-output.txt:723:      68 |   });
+  test-results-output.txt:724:      69 | });
+  test-results-output.txt:725:      70 |
+  test-results-output.txt:726:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:67:24
+  test-results-output.txt:727:
+> test-results-output.txt:728:  6) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:77:7 ΓÇ║ GET /api/test/analytics ΓÇ║ 
+returns 400 when attemptId is missing 
+  test-results-output.txt:729:
+  test-results-output.txt:730:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:731:
+  test-results-output.txt:732:    Expected value: [32m500[39m
+  test-results-output.txt:733:    Received array: [31m[400, 200][39m
+  test-results-output.txt:734:
+  test-results-output.txt:735:      80 |       headers: authHeaders(token),
+  test-results-output.txt:736:      81 |     });
+  test-results-output.txt:737:    > 82 |     expect([400, 200]).toContain(res.status());
+  test-results-output.txt:738:         |                        ^
+  test-results-output.txt:739:      83 |   });
+  test-results-output.txt:740:      84 |
+  test-results-output.txt:741:      85 |   test('returns analytics for specific attempt', async ({ request }) => {
+  test-results-output.txt:742:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:82:24
+  test-results-output.txt:743:
+> test-results-output.txt:744:  7) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:85:7 ΓÇ║ GET /api/test/analytics ΓÇ║ 
+returns analytics for specific attempt 
+  test-results-output.txt:745:
+  test-results-output.txt:746:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:747:
+  test-results-output.txt:748:    Expected value: [32m500[39m
+  test-results-output.txt:749:    Received array: [31m[200, 404][39m
+  test-results-output.txt:750:
+  test-results-output.txt:751:       95 |       headers: authHeaders(token),
+  test-results-output.txt:752:       96 |     });
+  test-results-output.txt:753:    >  97 |     expect([200, 404]).toContain(res.status());
+  test-results-output.txt:754:          |                        ^
+  test-results-output.txt:755:       98 |   });
+  test-results-output.txt:756:       99 | });
+  test-results-output.txt:757:      100 |
+  test-results-output.txt:758:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:97:24
+  test-results-output.txt:759:
+> test-results-output.txt:760:  8) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:107:7 ΓÇ║ GET 
+/api/test/analytics/averages ΓÇ║ returns user averages 
+  test-results-output.txt:761:
+  test-results-output.txt:762:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:763:
+  test-results-output.txt:764:    Expected: [32m200[39m
+  test-results-output.txt:765:    Received: [31m500[39m
+  test-results-output.txt:766:
+  test-results-output.txt:767:      110 |       headers: authHeaders(token),
+  test-results-output.txt:768:      111 |     });
+  test-results-output.txt:769:    > 112 |     expect(res.status()).toBe(200);
+  test-results-output.txt:770:          |                          ^
+  test-results-output.txt:771:      113 |     const body = await res.json();
+  test-results-output.txt:772:      114 |     expect(body.success).toBe(true);
+  test-results-output.txt:773:      115 |   });
+  test-results-output.txt:774:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:112:26
+  test-results-output.txt:775:
+> test-results-output.txt:776:  9) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:124:7 ΓÇ║ GET /api/test/performance 
+ΓÇ║ returns performance results and summary 
+  test-results-output.txt:777:
+  test-results-output.txt:778:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:779:
+  test-results-output.txt:780:    Expected: [32m200[39m
+  test-results-output.txt:781:    Received: [31m500[39m
+  test-results-output.txt:782:
+  test-results-output.txt:783:      127 |       headers: authHeaders(token),
+  test-results-output.txt:784:      128 |     });
+  test-results-output.txt:785:    > 129 |     expect(res.status()).toBe(200);
+  test-results-output.txt:786:          |                          ^
+  test-results-output.txt:787:      130 |     const body = await res.json();
+  test-results-output.txt:788:      131 |     expect(body.success).toBe(true);
+  test-results-output.txt:789:      132 |     expect(body).toHaveProperty('results');
+  test-results-output.txt:790:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:129:26
+  test-results-output.txt:791:
+> test-results-output.txt:792:  10) [chromium] ΓÇ║ tests\api\analytics.api.spec.ts:145:7 ΓÇ║ POST 
+/api/test/analytics/recalculate ΓÇ║ recalculates analytics for valid attempt 
+  test-results-output.txt:793:
+  test-results-output.txt:794:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:795:
+  test-results-output.txt:796:    Expected value: [32m500[39m
+  test-results-output.txt:797:    Received array: [31m[200, 404][39m
+  test-results-output.txt:798:
+  test-results-output.txt:799:      155 |       data: { attemptId },
+  test-results-output.txt:800:      156 |     });
+  test-results-output.txt:801:    > 157 |     expect([200, 404]).toContain(res.status());
+  test-results-output.txt:802:          |                        ^
+  test-results-output.txt:803:      158 |   });
+  test-results-output.txt:804:      159 | });
+  test-results-output.txt:805:      160 |
+  test-results-output.txt:806:        at C:\Users\varun\avv\eapcetprep\tests\api\analytics.api.spec.ts:157:24
+  test-results-output.txt:807:
+> test-results-output.txt:808:  11) [chromium] ΓÇ║ tests\api\auth.api.spec.ts:38:7 ΓÇ║ POST /api/auth/login ΓÇ║ 
+returns 200 and sets session cookie on valid credentials 
+  test-results-output.txt:809:
+  test-results-output.txt:810:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:811:
+  test-results-output.txt:812:    Expected: [32m200[39m
+  test-results-output.txt:813:    Received: [31m401[39m
+  test-results-output.txt:814:
+  test-results-output.txt:815:      40 |       data: { phone: TEST_USER.phone, password: TEST_USER.password },
+  test-results-output.txt:816:      41 |     });
+  test-results-output.txt:817:    > 42 |     expect(res.status()).toBe(200);
+  test-results-output.txt:818:         |                          ^
+  test-results-output.txt:819:      43 |     const body = await res.json();
+  test-results-output.txt:820:      44 |     expect(body.success).toBe(true);
+  test-results-output.txt:821:      45 |     const setCookie = res.headers()['set-cookie'] || '';
+  test-results-output.txt:822:        at C:\Users\varun\avv\eapcetprep\tests\api\auth.api.spec.ts:42:26
+  test-results-output.txt:823:
+> test-results-output.txt:824:  12) [chromium] ΓÇ║ tests\api\auth.api.spec.ts:49:7 ΓÇ║ POST /api/auth/login ΓÇ║ 
+session cookie is httpOnly 
+  test-results-output.txt:825:
+  test-results-output.txt:826:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:827:
+  test-results-output.txt:828:    Expected substring: [32m"httponly"[39m
+  test-results-output.txt:829:    Received string:    [31m""[39m
+  test-results-output.txt:830:
+  test-results-output.txt:831:      52 |     });
+  test-results-output.txt:832:      53 |     const setCookie = res.headers()['set-cookie'] || '';
+  test-results-output.txt:833:    > 54 |     expect(setCookie.toLowerCase()).toContain('httponly');
+  test-results-output.txt:834:         |                                     ^
+  test-results-output.txt:835:      55 |   });
+  test-results-output.txt:836:      56 |
+  test-results-output.txt:837:      57 |   test('returns 500 on internal server error (malformed JSON)', async ({ 
+request }) => {
+  test-results-output.txt:838:        at C:\Users\varun\avv\eapcetprep\tests\api\auth.api.spec.ts:54:37
+  test-results-output.txt:839:
+> test-results-output.txt:840:  13) [chromium] ΓÇ║ tests\api\auth.api.spec.ts:99:7 ΓÇ║ POST /api/auth/register ΓÇ║ 
+returns 400 when user already exists with phone 
+  test-results-output.txt:841:
+  test-results-output.txt:842:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:843:
+  test-results-output.txt:844:    Expected: [32m400[39m
+  test-results-output.txt:845:    Received: [31m200[39m
+  test-results-output.txt:846:
+  test-results-output.txt:847:      101 |       data: { phone: TEST_USER.phone, password: 'Pass123456' },
+  test-results-output.txt:848:      102 |     });
+  test-results-output.txt:849:    > 103 |     expect(res.status()).toBe(400);
+  test-results-output.txt:850:          |                          ^
+  test-results-output.txt:851:      104 |     const body = await res.json();
+  test-results-output.txt:852:      105 |     expect(body.error).toContain('already exists');
+  test-results-output.txt:853:      106 |   });
+  test-results-output.txt:854:        at C:\Users\varun\avv\eapcetprep\tests\api\auth.api.spec.ts:103:26
+  test-results-output.txt:855:
+> test-results-output.txt:856:  14) [chromium] ΓÇ║ tests\api\auth.api.spec.ts:147:7 ΓÇ║ GET /api/auth/check-session 
+ΓÇ║ returns authenticated: true when valid session exists 
+  test-results-output.txt:857:
+  test-results-output.txt:858:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:859:
+  test-results-output.txt:860:    Expected: [32mtrue[39m
+  test-results-output.txt:861:    Received: [31mfalse[39m
+  test-results-output.txt:862:
+  test-results-output.txt:863:      152 |     expect(res.status()).toBe(200);
+  test-results-output.txt:864:      153 |     const body = await res.json();
+  test-results-output.txt:865:    > 154 |     expect(body.authenticated).toBe(true);
+  test-results-output.txt:866:          |                                ^
+  test-results-output.txt:867:      155 |   });
+  test-results-output.txt:868:      156 |
+  test-results-output.txt:869:      157 |   test('returns authenticated: false for invalid token', async ({ request }) 
+=> {
+  test-results-output.txt:870:        at C:\Users\varun\avv\eapcetprep\tests\api\auth.api.spec.ts:154:32
+  test-results-output.txt:871:
+> test-results-output.txt:872:  15) [chromium] ΓÇ║ tests\api\auth.api.spec.ts:237:7 ΓÇ║ POST /api/auth/onboarding ΓÇ║ 
+successfully saves onboarding data 
+  test-results-output.txt:873:
+  test-results-output.txt:874:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:875:
+  test-results-output.txt:876:    Expected: [32m200[39m
+  test-results-output.txt:877:    Received: [31m500[39m
+  test-results-output.txt:878:
+  test-results-output.txt:879:      246 |       },
+  test-results-output.txt:880:      247 |     });
+  test-results-output.txt:881:    > 248 |     expect(res.status()).toBe(200);
+  test-results-output.txt:882:          |                          ^
+  test-results-output.txt:883:      249 |     const body = await res.json();
+  test-results-output.txt:884:      250 |     expect(body.success).toBe(true);
+  test-results-output.txt:885:      251 |   });
+  test-results-output.txt:886:        at C:\Users\varun\avv\eapcetprep\tests\api\auth.api.spec.ts:248:26
+  test-results-output.txt:887:
+> test-results-output.txt:888:  16) [chromium] ΓÇ║ tests\api\auth.api.spec.ts:260:7 ΓÇ║ GET /api/auth/user ΓÇ║ returns 
+user profile with tests_taken count 
+  test-results-output.txt:889:
+  test-results-output.txt:890:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:891:
+  test-results-output.txt:892:    Expected: [32m200[39m
+  test-results-output.txt:893:    Received: [31m500[39m
+  test-results-output.txt:894:
+  test-results-output.txt:895:      263 |       headers: authHeaders(token),
+  test-results-output.txt:896:      264 |     });
+  test-results-output.txt:897:    > 265 |     expect(res.status()).toBe(200);
+  test-results-output.txt:898:          |                          ^
+  test-results-output.txt:899:      266 |     const body = await res.json();
+  test-results-output.txt:900:      267 |     expect(body).toHaveProperty('phone');
+  test-results-output.txt:901:      268 |     expect(body).toHaveProperty('tests_taken');
+  test-results-output.txt:902:        at C:\Users\varun\avv\eapcetprep\tests\api\auth.api.spec.ts:265:26
+  test-results-output.txt:903:
+> test-results-output.txt:904:  17) [chromium] ΓÇ║ tests\api\auth.api.spec.ts:278:7 ΓÇ║ GET /api/auth/premium-check 
+ΓÇ║ returns isPremium field 
+  test-results-output.txt:905:
+  test-results-output.txt:906:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:907:
+  test-results-output.txt:908:    Expected: [32m200[39m
+  test-results-output.txt:909:    Received: [31m401[39m
+  test-results-output.txt:910:
+  test-results-output.txt:911:      281 |       headers: authHeaders(token),
+  test-results-output.txt:912:      282 |     });
+  test-results-output.txt:913:    > 283 |     expect(res.status()).toBe(200);
+  test-results-output.txt:914:          |                          ^
+  test-results-output.txt:915:      284 |     const body = await res.json();
+  test-results-output.txt:916:      285 |     expect(body).toHaveProperty('isPremium');
+  test-results-output.txt:917:      286 |     expect(typeof body.isPremium).toBe('boolean');
+  test-results-output.txt:918:        at C:\Users\varun\avv\eapcetprep\tests\api\auth.api.spec.ts:283:26
+  test-results-output.txt:919:
+> test-results-output.txt:920:  18) [chromium] ΓÇ║ tests\api\middleware.spec.ts:56:7 ΓÇ║ Authentication middleware ΓÇ║ 
+redirects to login for /payment without session (if not in public paths) 
+  test-results-output.txt:921:
+  test-results-output.txt:922:    [31mTest timeout of 60000ms exceeded.[39m
+  test-results-output.txt:923:
+  test-results-output.txt:924:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇ
+  test-results-output.txt:925:    
+test-results\api-middleware-Authenticat-bcf50-ion-if-not-in-public-paths--chromium\test-failed-1.png
+  test-results-output.txt:926:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:927:
+  test-results-output.txt:928:    Error Context: 
+test-results\api-middleware-Authenticat-bcf50-ion-if-not-in-public-paths--chromium\error-context.md
+  test-results-output.txt:929:
+> test-results-output.txt:930:  19) [chromium] ΓÇ║ tests\api\middleware.spec.ts:65:7 ΓÇ║ Authentication middleware ΓÇ║ 
+allows access to protected routes with valid session 
+  test-results-output.txt:931:
+  test-results-output.txt:932:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:933:
+  test-results-output.txt:934:    Expected substring: [32m"/dashboard"[39m
+  test-results-output.txt:935:    Received string:    [31m"http://localhost:3000/auth/login"[39m
+  test-results-output.txt:936:
+  test-results-output.txt:937:      77 |     await page.goto('/dashboard');
+  test-results-output.txt:938:      78 |     await page.waitForTimeout(3000);
+  test-results-output.txt:939:    > 79 |     expect(page.url()).toContain('/dashboard');
+  test-results-output.txt:940:         |                        ^
+  test-results-output.txt:941:      80 |   });
+  test-results-output.txt:942:      81 |
+  test-results-output.txt:943:      82 |   test('redirects for expired/invalid session', async ({ page }) => {
+  test-results-output.txt:944:        at C:\Users\varun\avv\eapcetprep\tests\api\middleware.spec.ts:79:24
+  test-results-output.txt:945:
+  test-results-output.txt:946:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇ
+  test-results-output.txt:947:    
+test-results\api-middleware-Authenticat-34ed5-d-routes-with-valid-session-chromium\test-failed-1.png
+  test-results-output.txt:948:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:949:
+  test-results-output.txt:950:    Error Context: 
+test-results\api-middleware-Authenticat-34ed5-d-routes-with-valid-session-chromium\error-context.md
+  test-results-output.txt:951:
+> test-results-output.txt:952:  20) [chromium] ΓÇ║ tests\api\middleware.spec.ts:104:7 ΓÇ║ Authentication middleware 
+ΓÇ║ public paths accessible without auth - login 
+  test-results-output.txt:953:
+  test-results-output.txt:954:    [31mTest timeout of 60000ms exceeded.[39m
+  test-results-output.txt:955:
+  test-results-output.txt:956:    Error: page.goto: Test timeout of 60000ms exceeded.
+  test-results-output.txt:957:    Call log:
+  test-results-output.txt:958:    [2m  - navigating to "http://localhost:3000/auth/login", waiting until "load"[22m
+  test-results-output.txt:959:
+  test-results-output.txt:960:
+  test-results-output.txt:961:      103 |
+  test-results-output.txt:962:      104 |   test('public paths accessible without auth - login', async ({ page }) => {
+  test-results-output.txt:963:    > 105 |     await page.goto('/auth/login');
+  test-results-output.txt:964:          |                ^
+  test-results-output.txt:965:      106 |     await page.waitForTimeout(1000);
+  test-results-output.txt:966:      107 |     expect(page.url()).toContain('/auth/login');
+  test-results-output.txt:967:      108 |   });
+  test-results-output.txt:968:        at C:\Users\varun\avv\eapcetprep\tests\api\middleware.spec.ts:105:16
+  test-results-output.txt:969:
+  test-results-output.txt:970:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇ
+  test-results-output.txt:971:    
+test-results\api-middleware-Authenticat-a8eb0-ssible-without-auth---login-chromium\test-failed-1.png
+  test-results-output.txt:972:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:973:
+  test-results-output.txt:974:    Error Context: 
+test-results\api-middleware-Authenticat-a8eb0-ssible-without-auth---login-chromium\error-context.md
+  test-results-output.txt:975:
+> test-results-output.txt:976:  21) [chromium] ΓÇ║ tests\api\middleware.spec.ts:140:7 ΓÇ║ Affiliate tracking via 
+middleware ΓÇ║ sets affiliate cookies on ?ref=CODE parameter 
+  test-results-output.txt:977:
+  test-results-output.txt:978:    [31mTest timeout of 60000ms exceeded.[39m
+  test-results-output.txt:979:
+  test-results-output.txt:980:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇ
+  test-results-output.txt:981:    
+test-results\api-middleware-Affiliate-t-0a34d-okies-on-ref-CODE-parameter-chromium\test-failed-1.png
+  test-results-output.txt:982:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:983:
+  test-results-output.txt:984:    Error Context: 
+test-results\api-middleware-Affiliate-t-0a34d-okies-on-ref-CODE-parameter-chromium\error-context.md
+  test-results-output.txt:985:
+> test-results-output.txt:986:  22) [chromium] ΓÇ║ tests\api\other.api.spec.ts:32:7 ΓÇ║ POST /api/support/create ΓÇ║ 
+creates support ticket successfully 
+  test-results-output.txt:987:
+  test-results-output.txt:988:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:989:
+  test-results-output.txt:990:    Expected: [32m200[39m
+  test-results-output.txt:991:    Received: [31m401[39m
+  test-results-output.txt:992:
+  test-results-output.txt:993:      40 |       },
+  test-results-output.txt:994:      41 |     });
+  test-results-output.txt:995:    > 42 |     expect(res.status()).toBe(200);
+  test-results-output.txt:996:         |                          ^
+  test-results-output.txt:997:      43 |     const body = await res.json();
+  test-results-output.txt:998:      44 |     expect(body.success).toBe(true);
+  test-results-output.txt:999:      45 |     expect(body).toHaveProperty('ticket');
+  test-results-output.txt:1000:        at C:\Users\varun\avv\eapcetprep\tests\api\other.api.spec.ts:42:26
+  test-results-output.txt:1001:
+> test-results-output.txt:1002:  23) [chromium] ΓÇ║ tests\api\other.api.spec.ts:59:7 ΓÇ║ POST 
+/api/user/update-pwa-installed ΓÇ║ updates pwa_installed flag to true 
+  test-results-output.txt:1003:
+  test-results-output.txt:1004:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1005:
+  test-results-output.txt:1006:    Expected: [32m200[39m
+  test-results-output.txt:1007:    Received: [31m500[39m
+  test-results-output.txt:1008:
+  test-results-output.txt:1009:      63 |       data: { pwa_installed: true },
+  test-results-output.txt:1010:      64 |     });
+  test-results-output.txt:1011:    > 65 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1012:         |                          ^
+  test-results-output.txt:1013:      66 |     const body = await res.json();
+  test-results-output.txt:1014:      67 |     expect(body.success).toBe(true);
+  test-results-output.txt:1015:      68 |     expect(body.pwa_installed).toBe(true);
+  test-results-output.txt:1016:        at C:\Users\varun\avv\eapcetprep\tests\api\other.api.spec.ts:65:26
+  test-results-output.txt:1017:
+> test-results-output.txt:1018:  24) [chromium] ΓÇ║ tests\api\other.api.spec.ts:71:7 ΓÇ║ POST 
+/api/user/update-pwa-installed ΓÇ║ updates pwa_installed flag to false 
+  test-results-output.txt:1019:
+  test-results-output.txt:1020:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1021:
+  test-results-output.txt:1022:    Expected: [32m200[39m
+  test-results-output.txt:1023:    Received: [31m500[39m
+  test-results-output.txt:1024:
+  test-results-output.txt:1025:      75 |       data: { pwa_installed: false },
+  test-results-output.txt:1026:      76 |     });
+  test-results-output.txt:1027:    > 77 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1028:         |                          ^
+  test-results-output.txt:1029:      78 |     const body = await res.json();
+  test-results-output.txt:1030:      79 |     expect(body.pwa_installed).toBe(false);
+  test-results-output.txt:1031:      80 |   });
+  test-results-output.txt:1032:        at C:\Users\varun\avv\eapcetprep\tests\api\other.api.spec.ts:77:26
+  test-results-output.txt:1033:
+> test-results-output.txt:1034:  25) [chromium] ΓÇ║ tests\api\payments.api.spec.ts:10:7 ΓÇ║ POST 
+/api/payments/create-order ΓÇ║ creates order with default PRO tier 
+  test-results-output.txt:1035:
+  test-results-output.txt:1036:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1037:
+  test-results-output.txt:1038:    Expected: [32m200[39m
+  test-results-output.txt:1039:    Received: [31m401[39m
+  test-results-output.txt:1040:
+  test-results-output.txt:1041:      14 |       data: {},
+  test-results-output.txt:1042:      15 |     });
+  test-results-output.txt:1043:    > 16 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1044:         |                          ^
+  test-results-output.txt:1045:      17 |     const body = await res.json();
+  test-results-output.txt:1046:      18 |     expect(body).toHaveProperty('orderId');
+  test-results-output.txt:1047:      19 |     expect(body).toHaveProperty('amount');
+  test-results-output.txt:1048:        at C:\Users\varun\avv\eapcetprep\tests\api\payments.api.spec.ts:16:26
+  test-results-output.txt:1049:
+> test-results-output.txt:1050:  26) [chromium] ΓÇ║ tests\api\payments.api.spec.ts:24:7 ΓÇ║ POST 
+/api/payments/create-order ΓÇ║ creates order with BASIC tier 
+  test-results-output.txt:1051:
+  test-results-output.txt:1052:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1053:
+  test-results-output.txt:1054:    Expected: [32m200[39m
+  test-results-output.txt:1055:    Received: [31m401[39m
+  test-results-output.txt:1056:
+  test-results-output.txt:1057:      28 |       data: { tier: 'BASIC' },
+  test-results-output.txt:1058:      29 |     });
+  test-results-output.txt:1059:    > 30 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1060:         |                          ^
+  test-results-output.txt:1061:      31 |     const body = await res.json();
+  test-results-output.txt:1062:      32 |     expect(body.planTier).toBe('BASIC');
+  test-results-output.txt:1063:      33 |     expect(body.amount).toBe(19900);
+  test-results-output.txt:1064:        at C:\Users\varun\avv\eapcetprep\tests\api\payments.api.spec.ts:30:26
+  test-results-output.txt:1065:
+> test-results-output.txt:1066:  27) [chromium] ΓÇ║ tests\api\payments.api.spec.ts:36:7 ΓÇ║ POST 
+/api/payments/create-order ΓÇ║ returns orderId, amount, currency 
+  test-results-output.txt:1067:
+  test-results-output.txt:1068:    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+  test-results-output.txt:1069:
+  test-results-output.txt:1070:    Received: [31mundefined[39m
+  test-results-output.txt:1071:
+  test-results-output.txt:1072:      41 |     });
+  test-results-output.txt:1073:      42 |     const body = await res.json();
+  test-results-output.txt:1074:    > 43 |     expect(body.orderId).toBeTruthy();
+  test-results-output.txt:1075:         |                          ^
+  test-results-output.txt:1076:      44 |     expect(body.amount).toBe(29900);
+  test-results-output.txt:1077:      45 |     expect(body.currency).toBe('INR');
+  test-results-output.txt:1078:      46 |     expect(body).toHaveProperty('receipt');
+  test-results-output.txt:1079:        at C:\Users\varun\avv\eapcetprep\tests\api\payments.api.spec.ts:43:26
+  test-results-output.txt:1080:
+> test-results-output.txt:1081:  28) [chromium] ΓÇ║ tests\api\payments.api.spec.ts:92:7 ΓÇ║ POST 
+/api/payments/share-link ΓÇ║ creates share link with token and URL 
+  test-results-output.txt:1082:
+  test-results-output.txt:1083:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1084:
+  test-results-output.txt:1085:    Expected: [32m200[39m
+  test-results-output.txt:1086:    Received: [31m500[39m
+  test-results-output.txt:1087:
+  test-results-output.txt:1088:       96 |       data: { tier: 'PRO' },
+  test-results-output.txt:1089:       97 |     });
+  test-results-output.txt:1090:    >  98 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1091:          |                          ^
+  test-results-output.txt:1092:       99 |     const body = await res.json();
+  test-results-output.txt:1093:      100 |     expect(body).toHaveProperty('url');
+  test-results-output.txt:1094:      101 |     expect(body).toHaveProperty('token');
+  test-results-output.txt:1095:        at C:\Users\varun\avv\eapcetprep\tests\api\payments.api.spec.ts:98:26
+  test-results-output.txt:1096:
+> test-results-output.txt:1097:  29) [chromium] ΓÇ║ tests\api\payments.api.spec.ts:111:7 ΓÇ║ GET 
+/api/payments/share-link/[token] ΓÇ║ returns share link details for valid token 
+  test-results-output.txt:1098:
+  test-results-output.txt:1099:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1100:
+  test-results-output.txt:1101:    Expected: [32m200[39m
+  test-results-output.txt:1102:    Received: [31m404[39m
+  test-results-output.txt:1103:
+  test-results-output.txt:1104:      118 |
+  test-results-output.txt:1105:      119 |     const res = await request.get(`/api/payments/share-link/${shareToken}`);
+  test-results-output.txt:1106:    > 120 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1107:          |                          ^
+  test-results-output.txt:1108:      121 |     const body = await res.json();
+  test-results-output.txt:1109:      122 |     expect(body).toHaveProperty('user');
+  test-results-output.txt:1110:      123 |     expect(body).toHaveProperty('planTier');
+  test-results-output.txt:1111:        at C:\Users\varun\avv\eapcetprep\tests\api\payments.api.spec.ts:120:26
+  test-results-output.txt:1112:
+> test-results-output.txt:1113:  30) [chromium] ΓÇ║ tests\api\payments.api.spec.ts:134:7 ΓÇ║ POST 
+/api/payments/create-order-for-share ΓÇ║ creates order for valid share link 
+  test-results-output.txt:1114:
+  test-results-output.txt:1115:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1116:
+  test-results-output.txt:1117:    Expected: [32m200[39m
+  test-results-output.txt:1118:    Received: [31m400[39m
+  test-results-output.txt:1119:
+  test-results-output.txt:1120:      143 |       data: { token: shareToken },
+  test-results-output.txt:1121:      144 |     });
+  test-results-output.txt:1122:    > 145 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1123:          |                          ^
+  test-results-output.txt:1124:      146 |     const body = await res.json();
+  test-results-output.txt:1125:      147 |     expect(body).toHaveProperty('orderId');
+  test-results-output.txt:1126:      148 |     expect(body).toHaveProperty('amount');
+  test-results-output.txt:1127:        at C:\Users\varun\avv\eapcetprep\tests\api\payments.api.spec.ts:145:26
+  test-results-output.txt:1128:
+> test-results-output.txt:1129:  31) [chromium] ΓÇ║ tests\api\test.api.spec.ts:10:7 ΓÇ║ GET /api/test/list ΓÇ║ returns 
+tests grouped by year for TS state 
+  test-results-output.txt:1130:
+  test-results-output.txt:1131:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1132:
+  test-results-output.txt:1133:    Expected: [32m200[39m
+  test-results-output.txt:1134:    Received: [31m500[39m
+  test-results-output.txt:1135:
+  test-results-output.txt:1136:      13 |       headers: authHeaders(token),
+  test-results-output.txt:1137:      14 |     });
+  test-results-output.txt:1138:    > 15 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1139:         |                          ^
+  test-results-output.txt:1140:      16 |     const body = await res.json();
+  test-results-output.txt:1141:      17 |     expect(body.success).toBe(true);
+  test-results-output.txt:1142:      18 |     expect(body).toHaveProperty('tests');
+  test-results-output.txt:1143:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:15:26
+  test-results-output.txt:1144:
+> test-results-output.txt:1145:  32) [chromium] ΓÇ║ tests\api\test.api.spec.ts:22:7 ΓÇ║ GET /api/test/list ΓÇ║ returns 
+tests grouped by year for AP state 
+  test-results-output.txt:1146:
+  test-results-output.txt:1147:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1148:
+  test-results-output.txt:1149:    Expected: [32m200[39m
+  test-results-output.txt:1150:    Received: [31m500[39m
+  test-results-output.txt:1151:
+  test-results-output.txt:1152:      25 |       headers: authHeaders(token),
+  test-results-output.txt:1153:      26 |     });
+  test-results-output.txt:1154:    > 27 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1155:         |                          ^
+  test-results-output.txt:1156:      28 |     const body = await res.json();
+  test-results-output.txt:1157:      29 |     expect(body.success).toBe(true);
+  test-results-output.txt:1158:      30 |   });
+  test-results-output.txt:1159:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:27:26
+  test-results-output.txt:1160:
+> test-results-output.txt:1161:  33) [chromium] ΓÇ║ tests\api\test.api.spec.ts:45:7 ΓÇ║ GET /api/test/list ΓÇ║ handles 
+empty / invalid state param 
+  test-results-output.txt:1162:
+  test-results-output.txt:1163:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1164:
+  test-results-output.txt:1165:    Expected: [32m200[39m
+  test-results-output.txt:1166:    Received: [31m500[39m
+  test-results-output.txt:1167:
+  test-results-output.txt:1168:      48 |       headers: authHeaders(token),
+  test-results-output.txt:1169:      49 |     });
+  test-results-output.txt:1170:    > 50 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1171:         |                          ^
+  test-results-output.txt:1172:      51 |     const body = await res.json();
+  test-results-output.txt:1173:      52 |     expect(body.tests).toBeDefined();
+  test-results-output.txt:1174:      53 |   });
+  test-results-output.txt:1175:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:50:26
+  test-results-output.txt:1176:
+> test-results-output.txt:1177:  34) [chromium] ΓÇ║ tests\api\test.api.spec.ts:64:7 ΓÇ║ POST /api/test/start ΓÇ║ 
+returns 400 when testId is missing 
+  test-results-output.txt:1178:
+  test-results-output.txt:1179:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1180:
+  test-results-output.txt:1181:    Expected: [32m400[39m
+  test-results-output.txt:1182:    Received: [31m500[39m
+  test-results-output.txt:1183:
+  test-results-output.txt:1184:      68 |       data: {},
+  test-results-output.txt:1185:      69 |     });
+  test-results-output.txt:1186:    > 70 |     expect(res.status()).toBe(400);
+  test-results-output.txt:1187:         |                          ^
+  test-results-output.txt:1188:      71 |   });
+  test-results-output.txt:1189:      72 |
+  test-results-output.txt:1190:      73 |   test('allows free tests for non-premium users', async ({ request }) => {
+  test-results-output.txt:1191:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:70:26
+  test-results-output.txt:1192:
+> test-results-output.txt:1193:  35) [chromium] ΓÇ║ tests\api\test.api.spec.ts:73:7 ΓÇ║ POST /api/test/start ΓÇ║ 
+allows free tests for non-premium users 
+  test-results-output.txt:1194:
+  test-results-output.txt:1195:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:1196:
+  test-results-output.txt:1197:    Expected value: [32m500[39m
+  test-results-output.txt:1198:    Received array: [31m[200, 201][39m
+  test-results-output.txt:1199:
+  test-results-output.txt:1200:      77 |       data: { testId: FREE_TEST_IDS[0] },
+  test-results-output.txt:1201:      78 |     });
+  test-results-output.txt:1202:    > 79 |     expect([200, 201]).toContain(res.status());
+  test-results-output.txt:1203:         |                        ^
+  test-results-output.txt:1204:      80 |     const body = await res.json();
+  test-results-output.txt:1205:      81 |     expect(body.success).toBe(true);
+  test-results-output.txt:1206:      82 |     expect(body).toHaveProperty('attemptId');
+  test-results-output.txt:1207:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:79:24
+  test-results-output.txt:1208:
+> test-results-output.txt:1209:  36) [chromium] ΓÇ║ tests\api\test.api.spec.ts:102:7 ΓÇ║ POST /api/test/start ΓÇ║ 
+returns 403 for non-premium user on premium test 
+  test-results-output.txt:1210:
+  test-results-output.txt:1211:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:1212:
+  test-results-output.txt:1213:    Expected value: [32m500[39m
+  test-results-output.txt:1214:    Received array: [31m[403, 402][39m
+  test-results-output.txt:1215:
+  test-results-output.txt:1216:      106 |       data: { testId: 1 },
+  test-results-output.txt:1217:      107 |     });
+  test-results-output.txt:1218:    > 108 |     expect([403, 402]).toContain(res.status());
+  test-results-output.txt:1219:          |                        ^
+  test-results-output.txt:1220:      109 |   });
+  test-results-output.txt:1221:      110 | });
+  test-results-output.txt:1222:      111 |
+  test-results-output.txt:1223:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:108:24
+  test-results-output.txt:1224:
+> test-results-output.txt:1225:  37) [chromium] ΓÇ║ tests\api\test.api.spec.ts:126:7 ΓÇ║ GET 
+/api/test/attempt/[attemptId] ΓÇ║ returns attempt with test data 
+  test-results-output.txt:1226:
+  test-results-output.txt:1227:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1228:
+  test-results-output.txt:1229:    Expected: [32m200[39m
+  test-results-output.txt:1230:    Received: [31m500[39m
+  test-results-output.txt:1231:
+  test-results-output.txt:1232:      135 |       headers: authHeaders(token),
+  test-results-output.txt:1233:      136 |     });
+  test-results-output.txt:1234:    > 137 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1235:          |                          ^
+  test-results-output.txt:1236:      138 |     const body = await res.json();
+  test-results-output.txt:1237:      139 |     expect(body.success).toBe(true);
+  test-results-output.txt:1238:      140 |     expect(body).toHaveProperty('attempt');
+  test-results-output.txt:1239:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:137:26
+  test-results-output.txt:1240:
+> test-results-output.txt:1241:  38) [chromium] ΓÇ║ tests\api\test.api.spec.ts:153:7 ΓÇ║ PUT 
+/api/test/attempt/[attemptId]/save ΓÇ║ saves answers and current question 
+  test-results-output.txt:1242:
+  test-results-output.txt:1243:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1244:
+  test-results-output.txt:1245:    Expected: [32m200[39m
+  test-results-output.txt:1246:    Received: [31m500[39m
+  test-results-output.txt:1247:
+  test-results-output.txt:1248:      169 |       },
+  test-results-output.txt:1249:      170 |     });
+  test-results-output.txt:1250:    > 171 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1251:          |                          ^
+  test-results-output.txt:1252:      172 |     const body = await res.json();
+  test-results-output.txt:1253:      173 |     expect(body.success).toBe(true);
+  test-results-output.txt:1254:      174 |   });
+  test-results-output.txt:1255:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:171:26
+  test-results-output.txt:1256:
+> test-results-output.txt:1257:  39) [chromium] ΓÇ║ tests\api\test.api.spec.ts:198:7 ΓÇ║ 
+/api/test/attempt/[attemptId]/time ΓÇ║ POST saves question times 
+  test-results-output.txt:1258:
+  test-results-output.txt:1259:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+  test-results-output.txt:1260:
+  test-results-output.txt:1261:    Expected value: [32m500[39m
+  test-results-output.txt:1262:    Received array: [31m[200, 201][39m
+  test-results-output.txt:1263:
+  test-results-output.txt:1264:      208 |       data: { times: { '1': 30, '2': 45 } },
+  test-results-output.txt:1265:      209 |     });
+  test-results-output.txt:1266:    > 210 |     expect([200, 201]).toContain(res.status());
+  test-results-output.txt:1267:          |                        ^
+  test-results-output.txt:1268:      211 |   });
+  test-results-output.txt:1269:      212 |
+  test-results-output.txt:1270:      213 |   test('GET returns times for attempt', async ({ request }) => {
+  test-results-output.txt:1271:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:210:24
+  test-results-output.txt:1272:
+> test-results-output.txt:1273:  40) [chromium] ΓÇ║ tests\api\test.api.spec.ts:213:7 ΓÇ║ 
+/api/test/attempt/[attemptId]/time ΓÇ║ GET returns times for attempt 
+  test-results-output.txt:1274:
+  test-results-output.txt:1275:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1276:
+  test-results-output.txt:1277:    Expected: [32m200[39m
+  test-results-output.txt:1278:    Received: [31m500[39m
+  test-results-output.txt:1279:
+  test-results-output.txt:1280:      222 |       headers: authHeaders(token),
+  test-results-output.txt:1281:      223 |     });
+  test-results-output.txt:1282:    > 224 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1283:          |                          ^
+  test-results-output.txt:1284:      225 |     const body = await res.json();
+  test-results-output.txt:1285:      226 |     expect(body.success).toBe(true);
+  test-results-output.txt:1286:      227 |   });
+  test-results-output.txt:1287:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:224:26
+  test-results-output.txt:1288:
+> test-results-output.txt:1289:  41) [chromium] ΓÇ║ tests\api\test.api.spec.ts:236:7 ΓÇ║ GET /api/test/results ΓÇ║ 
+returns list of user results 
+  test-results-output.txt:1290:
+  test-results-output.txt:1291:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1292:
+  test-results-output.txt:1293:    Expected: [32m200[39m
+  test-results-output.txt:1294:    Received: [31m500[39m
+  test-results-output.txt:1295:
+  test-results-output.txt:1296:      239 |       headers: authHeaders(token),
+  test-results-output.txt:1297:      240 |     });
+  test-results-output.txt:1298:    > 241 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1299:          |                          ^
+  test-results-output.txt:1300:      242 |     const body = await res.json();
+  test-results-output.txt:1301:      243 |     expect(body.success).toBe(true);
+  test-results-output.txt:1302:      244 |     expect(Array.isArray(body.results)).toBe(true);
+  test-results-output.txt:1303:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:241:26
+  test-results-output.txt:1304:
+> test-results-output.txt:1305:  42) [chromium] ΓÇ║ tests\api\test.api.spec.ts:247:7 ΓÇ║ GET /api/test/results ΓÇ║ 
+respects limit parameter 
+  test-results-output.txt:1306:
+  test-results-output.txt:1307:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  test-results-output.txt:1308:
+  test-results-output.txt:1309:    Expected: [32m200[39m
+  test-results-output.txt:1310:    Received: [31m500[39m
+  test-results-output.txt:1311:
+  test-results-output.txt:1312:      250 |       headers: authHeaders(token),
+  test-results-output.txt:1313:      251 |     });
+  test-results-output.txt:1314:    > 252 |     expect(res.status()).toBe(200);
+  test-results-output.txt:1315:          |                          ^
+  test-results-output.txt:1316:      253 |     const body = await res.json();
+  test-results-output.txt:1317:      254 |     expect(body.results.length).toBeLessThanOrEqual(2);
+  test-results-output.txt:1318:      255 |   });
+  test-results-output.txt:1319:        at C:\Users\varun\avv\eapcetprep\tests\api\test.api.spec.ts:252:26
+  test-results-output.txt:1320:
+> test-results-output.txt:1321:  43) [chromium] ΓÇ║ tests\e2e\affiliate.spec.ts:14:7 ΓÇ║ Referral Redirect 
+(/ref/[code]) ΓÇ║ handles invalid affiliate code gracefully 
+  test-results-output.txt:1322:
+  test-results-output.txt:1323:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1324:
+  test-results-output.txt:1325:    Locator:  locator('body')
+  test-results-output.txt:1326:    Expected: visible
+  test-results-output.txt:1327:    Received: hidden
+  test-results-output.txt:1328:    Timeout:  5000ms
+  test-results-output.txt:1329:
+  test-results-output.txt:1330:    Call log:
+  test-results-output.txt:1331:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1332:    [2m  - waiting for locator('body')[22m
+  test-results-output.txt:1333:    [2m    7 ├ù locator resolved to <body 
+class="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable 
+antialiased">ΓÇª</body>[22m
+  test-results-output.txt:1334:    [2m      - unexpected value "hidden"[22m
+  test-results-output.txt:1335:
+  test-results-output.txt:1336:
+  test-results-output.txt:1337:      17 |     // Should not crash; either redirects or shows error
+  test-results-output.txt:1338:      18 |     const content = page.locator('body');
+  test-results-output.txt:1339:    > 19 |     await expect(content).toBeVisible();
+  test-results-output.txt:1340:         |                           ^
+  test-results-output.txt:1341:      20 |   });
+  test-results-output.txt:1342:      21 | });
+  test-results-output.txt:1343:      22 |
+  test-results-output.txt:1344:        at C:\Users\varun\avv\eapcetprep\tests\e2e\affiliate.spec.ts:19:27
+  test-results-output.txt:1345:
+  test-results-output.txt:1346:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1347:    
+test-results\e2e-affiliate-Referral-Red-fb5bc-d-affiliate-code-gracefully-chromium\test-failed-1.png
+  test-results-output.txt:1348:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1349:
+  test-results-output.txt:1350:    Error Context: 
+test-results\e2e-affiliate-Referral-Red-fb5bc-d-affiliate-code-gracefully-chromium\error-context.md
+  test-results-output.txt:1351:
+> test-results-output.txt:1352:  44) [chromium] ΓÇ║ tests\e2e\affiliate.spec.ts:69:7 ΓÇ║ Affiliate Auth - Register 
+Page ΓÇ║ shows validation for short password 
+  test-results-output.txt:1353:
+  test-results-output.txt:1354:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1355:
+  test-results-output.txt:1356:    Locator: getByText(/6|short|minimum|longer/i)
+  test-results-output.txt:1357:    Expected: visible
+  test-results-output.txt:1358:    Timeout: 5000ms
+  test-results-output.txt:1359:    Error: element(s) not found
+  test-results-output.txt:1360:
+  test-results-output.txt:1361:    Call log:
+  test-results-output.txt:1362:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1363:    [2m  - waiting for getByText(/6|short|minimum|longer/i)[22m
+  test-results-output.txt:1364:
+  test-results-output.txt:1365:
+  test-results-output.txt:1366:      78 |     await page.waitForTimeout(1000);
+  test-results-output.txt:1367:      79 |     const error = page.getByText(/6|short|minimum|longer/i);
+  test-results-output.txt:1368:    > 80 |     await expect(error).toBeVisible();
+  test-results-output.txt:1369:         |                         ^
+  test-results-output.txt:1370:      81 |   });
+  test-results-output.txt:1371:      82 |
+  test-results-output.txt:1372:      83 |   test('shows login link', async ({ page }) => {
+  test-results-output.txt:1373:        at C:\Users\varun\avv\eapcetprep\tests\e2e\affiliate.spec.ts:80:25
+  test-results-output.txt:1374:
+  test-results-output.txt:1375:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1376:    
+test-results\e2e-affiliate-Affiliate-Au-a437f-lidation-for-short-password-chromium\test-failed-1.png
+  test-results-output.txt:1377:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1378:
+  test-results-output.txt:1379:    Error Context: 
+test-results\e2e-affiliate-Affiliate-Au-a437f-lidation-for-short-password-chromium\error-context.md
+  test-results-output.txt:1380:
+> test-results-output.txt:1381:  45) [chromium] ΓÇ║ tests\e2e\auth.spec.ts:14:7 ΓÇ║ Login Page ΓÇ║ shows validation 
+error for empty phone 
+  test-results-output.txt:1382:
+  test-results-output.txt:1383:    [31mTest timeout of 60000ms exceeded.[39m
+  test-results-output.txt:1384:
+  test-results-output.txt:1385:    Error: locator.click: Test timeout of 60000ms exceeded.
+  test-results-output.txt:1386:    Call log:
+  test-results-output.txt:1387:    [2m  - waiting for getByRole('button', { name: /login|sign in|continue/i })[22m
+  test-results-output.txt:1388:    [2m    - locator resolved to <button disabled type="submit" class="w-full flex 
+justify-center py-2.5 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 
+hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 
+disabled:cursor-not-allowed">Sign in</button>[22m
+  test-results-output.txt:1389:    [2m  - attempting click action[22m
+  test-results-output.txt:1390:    [2m    2 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1391:    [2m      - element is not enabled[22m
+  test-results-output.txt:1392:    [2m    - retrying click action[22m
+  test-results-output.txt:1393:    [2m    - waiting 20ms[22m
+  test-results-output.txt:1394:    [2m    2 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1395:    [2m      - element is not enabled[22m
+  test-results-output.txt:1396:    [2m    - retrying click action[22m
+  test-results-output.txt:1397:    [2m      - waiting 100ms[22m
+  test-results-output.txt:1398:    [2m    68 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1399:    [2m       - element is not enabled[22m
+  test-results-output.txt:1400:    [2m     - retrying click action[22m
+  test-results-output.txt:1401:    [2m       - waiting 500ms[22m
+  test-results-output.txt:1402:
+  test-results-output.txt:1403:
+  test-results-output.txt:1404:      16 |     await passwordInput.fill('somepassword');
+  test-results-output.txt:1405:      17 |     const submitBtn = page.getByRole('button', { name: /login|sign 
+in|continue/i });
+  test-results-output.txt:1406:    > 18 |     await submitBtn.click();
+  test-results-output.txt:1407:         |                     ^
+  test-results-output.txt:1408:      19 |     await page.waitForTimeout(1000);
+  test-results-output.txt:1409:      20 |     const error = page.getByText(/phone|required|enter/i);
+  test-results-output.txt:1410:      21 |     await expect(error).toBeVisible();
+  test-results-output.txt:1411:        at C:\Users\varun\avv\eapcetprep\tests\e2e\auth.spec.ts:18:21
+> test-results-output.txt:1419:  46) [chromium] ΓÇ║ tests\e2e\auth.spec.ts:24:7 ΓÇ║ Login Page ΓÇ║ shows validation 
+error for empty password 
+  test-results-output.txt:1420:
+  test-results-output.txt:1421:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1422:
+  test-results-output.txt:1423:    Locator: getByText(/password|required|enter/i)
+  test-results-output.txt:1424:    Expected: visible
+  test-results-output.txt:1425:    Error: strict mode violation: getByText(/password|required|enter/i) resolved to 3 
+elements:
+> test-results-output.txt:1426:        1) <p class="mt-1 text-sm text-gray-500">Please enter a valid 10-digit phone 
+number</p> aka getByText('Please enter a valid 10-digit')
+> test-results-output.txt:1427:        2) <label for="password" class="block text-sm font-medium 
+text-gray-900">Password</label> aka getByText('Password', { exact: true })
+> test-results-output.txt:1428:        3) <button type="button" class="text-sm font-medium text-blue-600 
+hover:text-blue-500">Forgot password?</button> aka getByRole('button', { name: 'Forgot password?' })
+  test-results-output.txt:1429:
+  test-results-output.txt:1430:    Call log:
+  test-results-output.txt:1431:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1432:    [2m  - waiting for getByText(/password|required|enter/i)[22m
+  test-results-output.txt:1433:
+  test-results-output.txt:1434:
+  test-results-output.txt:1435:      29 |     await page.waitForTimeout(1000);
+  test-results-output.txt:1436:      30 |     const error = page.getByText(/password|required|enter/i);
+  test-results-output.txt:1437:    > 31 |     await expect(error).toBeVisible();
+  test-results-output.txt:1438:         |                         ^
+  test-results-output.txt:1439:      32 |   });
+  test-results-output.txt:1440:      33 |
+  test-results-output.txt:1441:      34 |   test('shows error for invalid credentials', async ({ page }) => {
+  test-results-output.txt:1442:        at C:\Users\varun\avv\eapcetprep\tests\e2e\auth.spec.ts:31:25
+  test-results-output.txt:1443:
+  test-results-output.txt:1444:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1445:    
+test-results\e2e-auth-Login-Page-shows--39585-on-error-for-empty-password-chromium\test-failed-1.png
+  test-results-output.txt:1446:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1447:
+  test-results-output.txt:1448:    Error Context: 
+test-results\e2e-auth-Login-Page-shows--39585-on-error-for-empty-password-chromium\error-context.md
+  test-results-output.txt:1449:
+> test-results-output.txt:1450:  47) [chromium] ΓÇ║ tests\e2e\auth.spec.ts:58:7 ΓÇ║ Login Page ΓÇ║ successfully logs 
+in with valid credentials 
+  test-results-output.txt:1451:
+  test-results-output.txt:1452:    TimeoutError: page.waitForURL: Timeout 10000ms exceeded.
+  test-results-output.txt:1453:    =========================== logs ===========================
+  test-results-output.txt:1454:    waiting for navigation until "load"
+  test-results-output.txt:1455:    ============================================================
+  test-results-output.txt:1456:
+  test-results-output.txt:1457:      63 |     const submitBtn = page.getByRole('button', { name: /login|sign 
+in|continue/i });
+  test-results-output.txt:1458:      64 |     await submitBtn.click();
+  test-results-output.txt:1459:    > 65 |     await page.waitForURL(/dashboard|onboarding/, { timeout: 10000 });
+  test-results-output.txt:1460:         |                ^
+  test-results-output.txt:1461:      66 |     expect(page.url()).toMatch(/dashboard|onboarding/);
+  test-results-output.txt:1462:      67 |   });
+  test-results-output.txt:1463:      68 |
+  test-results-output.txt:1464:        at C:\Users\varun\avv\eapcetprep\tests\e2e\auth.spec.ts:65:16
+  test-results-output.txt:1465:
+  test-results-output.txt:1466:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1467:    
+test-results\e2e-auth-Login-Page-succes-1436f-s-in-with-valid-credentials-chromium\test-failed-1.png
+  test-results-output.txt:1468:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1469:
+  test-results-output.txt:1470:    Error Context: 
+test-results\e2e-auth-Login-Page-succes-1436f-s-in-with-valid-credentials-chromium\error-context.md
+  test-results-output.txt:1471:
+> test-results-output.txt:1472:  48) [chromium] ΓÇ║ tests\e2e\auth.spec.ts:87:7 ΓÇ║ Register Page ΓÇ║ shows validation 
+for invalid phone (not 10 digits) 
+  test-results-output.txt:1473:
+  test-results-output.txt:1474:    [31mTest timeout of 60000ms exceeded.[39m
+  test-results-output.txt:1475:
+  test-results-output.txt:1476:    Error: locator.click: Test timeout of 60000ms exceeded.
+  test-results-output.txt:1477:    Call log:
+  test-results-output.txt:1478:    [2m  - waiting for getByRole('button', { name: /register|sign up|continue|create/i 
+})[22m
+  test-results-output.txt:1479:    [2m    - locator resolved to <button disabled type="submit" class="w-full flex 
+justify-center py-2.5 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 
+hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 
+disabled:cursor-not-allowed">Continue</button>[22m
+  test-results-output.txt:1480:    [2m  - attempting click action[22m
+  test-results-output.txt:1481:    [2m    2 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1482:    [2m      - element is not enabled[22m
+  test-results-output.txt:1483:    [2m    - retrying click action[22m
+  test-results-output.txt:1484:    [2m    - waiting 20ms[22m
+  test-results-output.txt:1485:    [2m    2 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1486:    [2m      - element is not enabled[22m
+  test-results-output.txt:1487:    [2m    - retrying click action[22m
+  test-results-output.txt:1488:    [2m      - waiting 100ms[22m
+  test-results-output.txt:1489:    [2m    96 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1490:    [2m       - element is not enabled[22m
+  test-results-output.txt:1491:    [2m     - retrying click action[22m
+  test-results-output.txt:1492:    [2m       - waiting 500ms[22m
+  test-results-output.txt:1493:
+  test-results-output.txt:1494:
+  test-results-output.txt:1495:      91 |     await passwordInput.fill('ValidPass123');
+  test-results-output.txt:1496:      92 |     const submitBtn = page.getByRole('button', { name: /register|sign 
+up|continue|create/i });
+  test-results-output.txt:1497:    > 93 |     await submitBtn.click();
+  test-results-output.txt:1498:         |                     ^
+  test-results-output.txt:1499:      94 |     await page.waitForTimeout(1000);
+  test-results-output.txt:1500:      95 |     const error = page.getByText(/10.digit|valid|phone/i);
+  test-results-output.txt:1501:      96 |     await expect(error).toBeVisible();
+  test-results-output.txt:1502:        at C:\Users\varun\avv\eapcetprep\tests\e2e\auth.spec.ts:93:21
+> test-results-output.txt:1510:  49) [chromium] ΓÇ║ tests\e2e\auth.spec.ts:99:7 ΓÇ║ Register Page ΓÇ║ shows validation 
+for short password 
+  test-results-output.txt:1511:
+  test-results-output.txt:1512:    [31mTest timeout of 60000ms exceeded.[39m
+  test-results-output.txt:1513:
+  test-results-output.txt:1514:    Error: locator.click: Test timeout of 60000ms exceeded.
+  test-results-output.txt:1515:    Call log:
+  test-results-output.txt:1516:    [2m  - waiting for getByRole('button', { name: /register|sign up|continue|create/i 
+})[22m
+  test-results-output.txt:1517:    [2m    - locator resolved to <button disabled type="submit" class="w-full flex 
+justify-center py-2.5 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 
+hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 
+disabled:cursor-not-allowed">Continue</button>[22m
+  test-results-output.txt:1518:    [2m  - attempting click action[22m
+  test-results-output.txt:1519:    [2m    2 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1520:    [2m      - element is not enabled[22m
+  test-results-output.txt:1521:    [2m    - retrying click action[22m
+  test-results-output.txt:1522:    [2m    - waiting 20ms[22m
+  test-results-output.txt:1523:    [2m    2 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1524:    [2m      - element is not enabled[22m
+  test-results-output.txt:1525:    [2m    - retrying click action[22m
+  test-results-output.txt:1526:    [2m      - waiting 100ms[22m
+  test-results-output.txt:1527:    [2m    94 ├ù waiting for element to be visible, enabled and stable[22m
+  test-results-output.txt:1528:    [2m       - element is not enabled[22m
+  test-results-output.txt:1529:    [2m     - retrying click action[22m
+  test-results-output.txt:1530:    [2m       - waiting 500ms[22m
+  test-results-output.txt:1531:
+  test-results-output.txt:1532:
+  test-results-output.txt:1533:      103 |     await passwordInput.fill('12');
+  test-results-output.txt:1534:      104 |     const submitBtn = page.getByRole('button', { name: /register|sign 
+up|continue|create/i });
+  test-results-output.txt:1535:    > 105 |     await submitBtn.click();
+  test-results-output.txt:1536:          |                     ^
+  test-results-output.txt:1537:      106 |     await page.waitForTimeout(1000);
+  test-results-output.txt:1538:      107 |     const error = page.getByText(/6 char|short|longer|minimum/i);
+  test-results-output.txt:1539:      108 |     await expect(error).toBeVisible();
+  test-results-output.txt:1540:        at C:\Users\varun\avv\eapcetprep\tests\e2e\auth.spec.ts:105:21
+> test-results-output.txt:1548:  50) [chromium] ΓÇ║ tests\e2e\auth.spec.ts:111:7 ΓÇ║ Register Page ΓÇ║ shows error for 
+existing user ΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1549:
+  test-results-output.txt:1550:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1551:
+  test-results-output.txt:1552:    Locator: getByText(/already exists|already registered|login/i)
+  test-results-output.txt:1553:    Expected: visible
+  test-results-output.txt:1554:    Timeout: 5000ms
+  test-results-output.txt:1555:    Error: element(s) not found
+  test-results-output.txt:1556:
+  test-results-output.txt:1557:    Call log:
+  test-results-output.txt:1558:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1559:    [2m  - waiting for getByText(/already exists|already registered|login/i)[22m
+  test-results-output.txt:1560:
+  test-results-output.txt:1561:
+  test-results-output.txt:1562:      118 |     await page.waitForTimeout(2000);
+  test-results-output.txt:1563:      119 |     const error = page.getByText(/already exists|already 
+registered|login/i);
+  test-results-output.txt:1564:    > 120 |     await expect(error).toBeVisible();
+  test-results-output.txt:1565:          |                         ^
+  test-results-output.txt:1566:      121 |   });
+  test-results-output.txt:1567:      122 |
+  test-results-output.txt:1568:      123 |   test('shows Login link', async ({ page }) => {
+  test-results-output.txt:1569:        at C:\Users\varun\avv\eapcetprep\tests\e2e\auth.spec.ts:120:25
+  test-results-output.txt:1570:
+  test-results-output.txt:1571:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1572:    
+test-results\e2e-auth-Register-Page-shows-error-for-existing-user-chromium\test-failed-1.png
+  test-results-output.txt:1573:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1574:
+  test-results-output.txt:1575:    Error Context: 
+test-results\e2e-auth-Register-Page-shows-error-for-existing-user-chromium\error-context.md
+  test-results-output.txt:1576:
+> test-results-output.txt:1577:  51) [chromium] ΓÇ║ tests\e2e\auth.spec.ts:141:7 ΓÇ║ Forgot Password Flow ΓÇ║ shows 
+error for non-existent phone 
+  test-results-output.txt:1578:
+  test-results-output.txt:1579:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1580:
+  test-results-output.txt:1581:    Locator: getByText(/not found|invalid|error|exist/i)
+  test-results-output.txt:1582:    Expected: visible
+  test-results-output.txt:1583:    Timeout: 5000ms
+  test-results-output.txt:1584:    Error: element(s) not found
+  test-results-output.txt:1585:
+  test-results-output.txt:1586:    Call log:
+  test-results-output.txt:1587:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1588:    [2m  - waiting for getByText(/not found|invalid|error|exist/i)[22m
+  test-results-output.txt:1589:
+  test-results-output.txt:1590:
+  test-results-output.txt:1591:      150 |     await page.waitForTimeout(2000);
+  test-results-output.txt:1592:      151 |     const error = page.getByText(/not found|invalid|error|exist/i);
+  test-results-output.txt:1593:    > 152 |     await expect(error).toBeVisible();
+  test-results-output.txt:1594:          |                         ^
+  test-results-output.txt:1595:      153 |   });
+  test-results-output.txt:1596:      154 | });
+  test-results-output.txt:1597:      155 |
+  test-results-output.txt:1598:        at C:\Users\varun\avv\eapcetprep\tests\e2e\auth.spec.ts:152:25
+  test-results-output.txt:1599:
+  test-results-output.txt:1600:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1601:    
+test-results\e2e-auth-Forgot-Password-F-eb99a-rror-for-non-existent-phone-chromium\test-failed-1.png
+  test-results-output.txt:1602:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1603:
+  test-results-output.txt:1604:    Error Context: 
+test-results\e2e-auth-Forgot-Password-F-eb99a-rror-for-non-existent-phone-chromium\error-context.md
+  test-results-output.txt:1605:
+> test-results-output.txt:1606:  52) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:11:7 ΓÇ║ Dashboard - Main Page ΓÇ║ 
+displays performance overview cards when authenticated 
+  test-results-output.txt:1607:
+  test-results-output.txt:1608:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThan[2m([22m[32mexpected[39m[2m)[22m
+  test-results-output.txt:1609:
+  test-results-output.txt:1610:    Expected: > [32m0[39m
+  test-results-output.txt:1611:    Received:   [31m0[39m
+  test-results-output.txt:1612:
+  test-results-output.txt:1613:      16 |     const cards = page.locator('[class*="card"], [class*="stat"], 
+[class*="metric"]');
+  test-results-output.txt:1614:      17 |     const count = await cards.count();
+  test-results-output.txt:1615:    > 18 |     expect(count).toBeGreaterThan(0);
+  test-results-output.txt:1616:         |                   ^
+  test-results-output.txt:1617:      19 |   });
+  test-results-output.txt:1618:      20 |
+  test-results-output.txt:1619:      21 |   test('shows loading shimmer while fetching', async ({ page, request }) => {
+  test-results-output.txt:1620:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:18:19
+  test-results-output.txt:1621:
+  test-results-output.txt:1622:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1623:    
+test-results\e2e-dashboard-Dashboard----c1f8b-ew-cards-when-authenticated-chromium\test-failed-1.png
+  test-results-output.txt:1624:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1625:
+  test-results-output.txt:1626:    Error Context: 
+test-results\e2e-dashboard-Dashboard----c1f8b-ew-cards-when-authenticated-chromium\error-context.md
+  test-results-output.txt:1627:
+> test-results-output.txt:1628:  53) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:30:7 ΓÇ║ Dashboard - Main Page ΓÇ║ 
+displays test scores chart or empty state 
+  test-results-output.txt:1629:
+  test-results-output.txt:1630:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1631:
+  test-results-output.txt:1632:    Locator: locator('main, [class*="dashboard"]').first()
+  test-results-output.txt:1633:    Expected: visible
+  test-results-output.txt:1634:    Timeout: 5000ms
+  test-results-output.txt:1635:    Error: element(s) not found
+  test-results-output.txt:1636:
+  test-results-output.txt:1637:    Call log:
+  test-results-output.txt:1638:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1639:    [2m  - waiting for locator('main, [class*="dashboard"]').first()[22m
+  test-results-output.txt:1640:
+  test-results-output.txt:1641:
+  test-results-output.txt:1642:      33 |     await page.waitForTimeout(3000);
+  test-results-output.txt:1643:      34 |     const content = page.locator('main, [class*="dashboard"]');
+  test-results-output.txt:1644:    > 35 |     await expect(content.first()).toBeVisible();
+  test-results-output.txt:1645:         |                                   ^
+  test-results-output.txt:1646:      36 |   });
+  test-results-output.txt:1647:      37 |
+  test-results-output.txt:1648:      38 |   test('View All Tests link navigates to tests page', async ({ page, request 
+}) => {
+  test-results-output.txt:1649:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:35:35
+  test-results-output.txt:1650:
+  test-results-output.txt:1651:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1652:    
+test-results\e2e-dashboard-Dashboard----925e5-scores-chart-or-empty-state-chromium\test-failed-1.png
+  test-results-output.txt:1653:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1654:
+  test-results-output.txt:1655:    Error Context: 
+test-results\e2e-dashboard-Dashboard----925e5-scores-chart-or-empty-state-chromium\error-context.md
+  test-results-output.txt:1656:
+> test-results-output.txt:1657:  54) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:58:7 ΓÇ║ Dashboard - Tests Page ΓÇ║ 
+displays TS/AP tabs ΓöÇ
+  test-results-output.txt:1658:
+  test-results-output.txt:1659:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1660:
+  test-results-output.txt:1661:    Locator: getByRole('button', { name: /TS/i }).or(getByText(/TS EAPCET|TS 
+EAMCET/i)).first()
+  test-results-output.txt:1662:    Expected: visible
+  test-results-output.txt:1663:    Timeout: 5000ms
+  test-results-output.txt:1664:    Error: element(s) not found
+  test-results-output.txt:1665:
+  test-results-output.txt:1666:    Call log:
+  test-results-output.txt:1667:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1668:    [2m  - waiting for getByRole('button', { name: /TS/i }).or(getByText(/TS EAPCET|TS 
+EAMCET/i)).first()[22m
+  test-results-output.txt:1669:
+  test-results-output.txt:1670:
+  test-results-output.txt:1671:      58 |   test('displays TS/AP tabs', async ({ page }) => {
+  test-results-output.txt:1672:      59 |     const tsTab = page.getByRole('button', { name: /TS/i 
+}).or(page.getByText(/TS EAPCET|TS EAMCET/i)).first();
+  test-results-output.txt:1673:    > 60 |     await expect(tsTab).toBeVisible();
+  test-results-output.txt:1674:         |                         ^
+  test-results-output.txt:1675:      61 |   });
+  test-results-output.txt:1676:      62 |
+  test-results-output.txt:1677:      63 |   test('shows tests grouped by year', async ({ page }) => {
+  test-results-output.txt:1678:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:60:25
+  test-results-output.txt:1679:
+  test-results-output.txt:1680:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1681:    
+test-results\e2e-dashboard-Dashboard---Tests-Page-displays-TS-AP-tabs-chromium\test-failed-1.png
+  test-results-output.txt:1682:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1683:
+  test-results-output.txt:1684:    Error Context: 
+test-results\e2e-dashboard-Dashboard---Tests-Page-displays-TS-AP-tabs-chromium\error-context.md
+  test-results-output.txt:1685:
+> test-results-output.txt:1686:  55) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:63:7 ΓÇ║ Dashboard - Tests Page ΓÇ║ 
+shows tests grouped by year 
+  test-results-output.txt:1687:
+  test-results-output.txt:1688:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1689:
+  test-results-output.txt:1690:    Locator: getByText(/2024|2023|2025/).first()
+  test-results-output.txt:1691:    Expected: visible
+  test-results-output.txt:1692:    Timeout: 5000ms
+  test-results-output.txt:1693:    Error: element(s) not found
+  test-results-output.txt:1694:
+  test-results-output.txt:1695:    Call log:
+  test-results-output.txt:1696:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1697:    [2m  - waiting for getByText(/2024|2023|2025/).first()[22m
+  test-results-output.txt:1698:
+  test-results-output.txt:1699:
+  test-results-output.txt:1700:      63 |   test('shows tests grouped by year', async ({ page }) => {
+  test-results-output.txt:1701:      64 |     const yearText = page.getByText(/2024|2023|2025/).first();
+  test-results-output.txt:1702:    > 65 |     await expect(yearText).toBeVisible();
+  test-results-output.txt:1703:         |                            ^
+  test-results-output.txt:1704:      66 |   });
+  test-results-output.txt:1705:      67 |
+  test-results-output.txt:1706:      68 |   test('shows status badges on tests', async ({ page }) => {
+  test-results-output.txt:1707:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:65:28
+  test-results-output.txt:1708:
+  test-results-output.txt:1709:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1710:    
+test-results\e2e-dashboard-Dashboard----8d110-shows-tests-grouped-by-year-chromium\test-failed-1.png
+  test-results-output.txt:1711:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1712:
+  test-results-output.txt:1713:    Error Context: 
+test-results\e2e-dashboard-Dashboard----8d110-shows-tests-grouped-by-year-chromium\error-context.md
+  test-results-output.txt:1714:
+> test-results-output.txt:1715:  56) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:91:7 ΓÇ║ Dashboard - Analytics Page 
+ΓÇ║ page loads successfully 
+  test-results-output.txt:1716:
+  test-results-output.txt:1717:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1718:
+  test-results-output.txt:1719:    Locator: locator('main, [class*="analytics"]').first()
+  test-results-output.txt:1720:    Expected: visible
+  test-results-output.txt:1721:    Timeout: 5000ms
+  test-results-output.txt:1722:    Error: element(s) not found
+  test-results-output.txt:1723:
+  test-results-output.txt:1724:    Call log:
+  test-results-output.txt:1725:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1726:    [2m  - waiting for locator('main, [class*="analytics"]').first()[22m
+  test-results-output.txt:1727:
+  test-results-output.txt:1728:
+  test-results-output.txt:1729:      91 |   test('page loads successfully', async ({ page }) => {
+  test-results-output.txt:1730:      92 |     const content = page.locator('main, [class*="analytics"]');
+  test-results-output.txt:1731:    > 93 |     await expect(content.first()).toBeVisible();
+  test-results-output.txt:1732:         |                                   ^
+  test-results-output.txt:1733:      94 |   });
+  test-results-output.txt:1734:      95 |
+  test-results-output.txt:1735:      96 |   test('shows empty state or analytics content', async ({ page }) => {
+  test-results-output.txt:1736:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:93:35
+  test-results-output.txt:1737:
+  test-results-output.txt:1738:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1739:    
+test-results\e2e-dashboard-Dashboard----67290-age-page-loads-successfully-chromium\test-failed-1.png
+  test-results-output.txt:1740:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1741:
+  test-results-output.txt:1742:    Error Context: 
+test-results\e2e-dashboard-Dashboard----67290-age-page-loads-successfully-chromium\error-context.md
+  test-results-output.txt:1743:
+> test-results-output.txt:1744:  57) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:96:7 ΓÇ║ Dashboard - Analytics Page 
+ΓÇ║ shows empty state or analytics content 
+  test-results-output.txt:1745:
+  test-results-output.txt:1746:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1747:
+  test-results-output.txt:1748:    Locator: getByText(/analytics|performance|score|no tests|take a test/i).first()
+  test-results-output.txt:1749:    Expected: visible
+  test-results-output.txt:1750:    Timeout: 5000ms
+  test-results-output.txt:1751:    Error: element(s) not found
+  test-results-output.txt:1752:
+  test-results-output.txt:1753:    Call log:
+  test-results-output.txt:1754:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1755:    [2m  - waiting for getByText(/analytics|performance|score|no tests|take a 
+test/i).first()[22m
+  test-results-output.txt:1756:
+  test-results-output.txt:1757:
+  test-results-output.txt:1758:       96 |   test('shows empty state or analytics content', async ({ page }) => {
+  test-results-output.txt:1759:       97 |     const anyContent = page.getByText(/analytics|performance|score|no 
+tests|take a test/i).first();
+  test-results-output.txt:1760:    >  98 |     await expect(anyContent).toBeVisible();
+  test-results-output.txt:1761:          |                              ^
+  test-results-output.txt:1762:       99 |   });
+  test-results-output.txt:1763:      100 | });
+  test-results-output.txt:1764:      101 |
+  test-results-output.txt:1765:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:98:30
+  test-results-output.txt:1766:
+  test-results-output.txt:1767:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1768:    
+test-results\e2e-dashboard-Dashboard----2e38e--state-or-analytics-content-chromium\test-failed-1.png
+  test-results-output.txt:1769:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1770:
+  test-results-output.txt:1771:    Error Context: 
+test-results\e2e-dashboard-Dashboard----2e38e--state-or-analytics-content-chromium\error-context.md
+  test-results-output.txt:1772:
+> test-results-output.txt:1773:  58) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:109:7 ΓÇ║ Dashboard - Performance Page 
+ΓÇ║ page loads successfully 
+  test-results-output.txt:1774:
+  test-results-output.txt:1775:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1776:
+  test-results-output.txt:1777:    Locator: locator('main').first()
+  test-results-output.txt:1778:    Expected: visible
+  test-results-output.txt:1779:    Timeout: 5000ms
+  test-results-output.txt:1780:    Error: element(s) not found
+  test-results-output.txt:1781:
+  test-results-output.txt:1782:    Call log:
+  test-results-output.txt:1783:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1784:    [2m  - waiting for locator('main').first()[22m
+  test-results-output.txt:1785:
+  test-results-output.txt:1786:
+  test-results-output.txt:1787:      109 |   test('page loads successfully', async ({ page }) => {
+  test-results-output.txt:1788:      110 |     const content = page.locator('main');
+  test-results-output.txt:1789:    > 111 |     await expect(content.first()).toBeVisible();
+  test-results-output.txt:1790:          |                                   ^
+  test-results-output.txt:1791:      112 |   });
+  test-results-output.txt:1792:      113 |
+  test-results-output.txt:1793:      114 |   test('shows summary cards or empty state', async ({ page }) => {
+  test-results-output.txt:1794:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:111:35
+  test-results-output.txt:1795:
+  test-results-output.txt:1796:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1797:    
+test-results\e2e-dashboard-Dashboard----dae86-age-page-loads-successfully-chromium\test-failed-1.png
+  test-results-output.txt:1798:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1799:
+  test-results-output.txt:1800:    Error Context: 
+test-results\e2e-dashboard-Dashboard----dae86-age-page-loads-successfully-chromium\error-context.md
+  test-results-output.txt:1801:
+> test-results-output.txt:1802:  59) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:114:7 ΓÇ║ Dashboard - Performance Page 
+ΓÇ║ shows summary cards or empty state 
+  test-results-output.txt:1803:
+  test-results-output.txt:1804:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1805:
+  test-results-output.txt:1806:    Locator: getByText(/performance|score|accuracy|no tests|take/i).first()
+  test-results-output.txt:1807:    Expected: visible
+  test-results-output.txt:1808:    Timeout: 5000ms
+  test-results-output.txt:1809:    Error: element(s) not found
+  test-results-output.txt:1810:
+  test-results-output.txt:1811:    Call log:
+  test-results-output.txt:1812:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1813:    [2m  - waiting for getByText(/performance|score|accuracy|no 
+tests|take/i).first()[22m
+  test-results-output.txt:1814:
+  test-results-output.txt:1815:
+  test-results-output.txt:1816:      114 |   test('shows summary cards or empty state', async ({ page }) => {
+  test-results-output.txt:1817:      115 |     const anyContent = page.getByText(/performance|score|accuracy|no 
+tests|take/i).first();
+  test-results-output.txt:1818:    > 116 |     await expect(anyContent).toBeVisible();
+  test-results-output.txt:1819:          |                              ^
+  test-results-output.txt:1820:      117 |   });
+  test-results-output.txt:1821:      118 | });
+  test-results-output.txt:1822:      119 |
+  test-results-output.txt:1823:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:116:30
+  test-results-output.txt:1824:
+  test-results-output.txt:1825:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1826:    
+test-results\e2e-dashboard-Dashboard----e28a6-ummary-cards-or-empty-state-chromium\test-failed-1.png
+  test-results-output.txt:1827:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1828:
+  test-results-output.txt:1829:    Error Context: 
+test-results\e2e-dashboard-Dashboard----e28a6-ummary-cards-or-empty-state-chromium\error-context.md
+  test-results-output.txt:1830:
+> test-results-output.txt:1831:  60) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:127:7 ΓÇ║ Dashboard - Profile Page ΓÇ║ 
+displays user phone number 
+  test-results-output.txt:1832:
+  test-results-output.txt:1833:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1834:
+  test-results-output.txt:1835:    Locator: getByText(/0001/).first()
+  test-results-output.txt:1836:    Expected: visible
+  test-results-output.txt:1837:    Timeout: 5000ms
+  test-results-output.txt:1838:    Error: element(s) not found
+  test-results-output.txt:1839:
+  test-results-output.txt:1840:    Call log:
+  test-results-output.txt:1841:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1842:    [2m  - waiting for getByText(/0001/).first()[22m
+  test-results-output.txt:1843:
+  test-results-output.txt:1844:
+  test-results-output.txt:1845:      127 |   test('displays user phone number', async ({ page }) => {
+  test-results-output.txt:1846:      128 |     const phoneText = page.getByText(new RegExp(TEST_USER.phone.slice(-4)));
+  test-results-output.txt:1847:    > 129 |     await expect(phoneText.first()).toBeVisible();
+  test-results-output.txt:1848:          |                                     ^
+  test-results-output.txt:1849:      130 |   });
+  test-results-output.txt:1850:      131 |
+  test-results-output.txt:1851:      132 |   test('shows membership status', async ({ page }) => {
+  test-results-output.txt:1852:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:129:37
+  test-results-output.txt:1853:
+  test-results-output.txt:1854:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1855:    
+test-results\e2e-dashboard-Dashboard----23f6e--displays-user-phone-number-chromium\test-failed-1.png
+  test-results-output.txt:1856:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1857:
+  test-results-output.txt:1858:    Error Context: 
+test-results\e2e-dashboard-Dashboard----23f6e--displays-user-phone-number-chromium\error-context.md
+  test-results-output.txt:1859:
+> test-results-output.txt:1860:  61) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:162:7 ΓÇ║ Dashboard - Result Page ΓÇ║ 
+shows error or content for invalid resultId 
+  test-results-output.txt:1861:
+  test-results-output.txt:1862:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1863:
+  test-results-output.txt:1864:    Locator: locator('main').first()
+  test-results-output.txt:1865:    Expected: visible
+  test-results-output.txt:1866:    Timeout: 5000ms
+  test-results-output.txt:1867:    Error: element(s) not found
+  test-results-output.txt:1868:
+  test-results-output.txt:1869:    Call log:
+  test-results-output.txt:1870:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1871:    [2m  - waiting for locator('main').first()[22m
+  test-results-output.txt:1872:
+  test-results-output.txt:1873:
+  test-results-output.txt:1874:      165 |     await page.waitForTimeout(3000);
+  test-results-output.txt:1875:      166 |     const content = page.locator('main');
+  test-results-output.txt:1876:    > 167 |     await expect(content.first()).toBeVisible();
+  test-results-output.txt:1877:          |                                   ^
+  test-results-output.txt:1878:      168 |   });
+  test-results-output.txt:1879:      169 | });
+  test-results-output.txt:1880:      170 |
+  test-results-output.txt:1881:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:167:35
+  test-results-output.txt:1882:
+  test-results-output.txt:1883:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1884:    
+test-results\e2e-dashboard-Dashboard----0a711-ontent-for-invalid-resultId-chromium\test-failed-1.png
+  test-results-output.txt:1885:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1886:
+  test-results-output.txt:1887:    Error Context: 
+test-results\e2e-dashboard-Dashboard----0a711-ontent-for-invalid-resultId-chromium\error-context.md
+  test-results-output.txt:1888:
+> test-results-output.txt:1889:  62) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:178:7 ΓÇ║ Dashboard Layout - 
+Navigation ΓÇ║ navigation items are visible (Home, Tests, Performance, Profile) 
+  test-results-output.txt:1890:
+  test-results-output.txt:1891:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1892:
+  test-results-output.txt:1893:    Locator: getByRole('link', { name: /home/i }).or(getByText(/home/i)).first()
+  test-results-output.txt:1894:    Expected: visible
+  test-results-output.txt:1895:    Timeout: 5000ms
+  test-results-output.txt:1896:    Error: element(s) not found
+  test-results-output.txt:1897:
+  test-results-output.txt:1898:    Call log:
+  test-results-output.txt:1899:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1900:    [2m  - waiting for getByRole('link', { name: /home/i 
+}).or(getByText(/home/i)).first()[22m
+  test-results-output.txt:1901:
+  test-results-output.txt:1902:
+  test-results-output.txt:1903:      179 |     const homeNav = page.getByRole('link', { name: /home/i 
+}).or(page.getByText(/home/i)).first();
+  test-results-output.txt:1904:      180 |     const testsNav = page.getByRole('link', { name: /tests/i }).first();
+  test-results-output.txt:1905:    > 181 |     await expect(homeNav).toBeVisible();
+  test-results-output.txt:1906:          |                           ^
+  test-results-output.txt:1907:      182 |     await expect(testsNav).toBeVisible();
+  test-results-output.txt:1908:      183 |   });
+  test-results-output.txt:1909:      184 |
+  test-results-output.txt:1910:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:181:27
+  test-results-output.txt:1911:
+  test-results-output.txt:1912:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1913:    
+test-results\e2e-dashboard-Dashboard-La-f4c94--Tests-Performance-Profile--chromium\test-failed-1.png
+  test-results-output.txt:1914:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1915:
+  test-results-output.txt:1916:    Error Context: 
+test-results\e2e-dashboard-Dashboard-La-f4c94--Tests-Performance-Profile--chromium\error-context.md
+  test-results-output.txt:1917:
+> test-results-output.txt:1918:  63) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:185:7 ΓÇ║ Dashboard Layout - 
+Navigation ΓÇ║ clicking Tests nav goes to tests page 
+  test-results-output.txt:1919:
+  test-results-output.txt:1920:    [31mTest timeout of 60000ms exceeded.[39m
+  test-results-output.txt:1921:
+  test-results-output.txt:1922:    Error: locator.click: Test timeout of 60000ms exceeded.
+  test-results-output.txt:1923:    Call log:
+  test-results-output.txt:1924:    [2m  - waiting for getByRole('link', { name: /tests/i }).first()[22m
+  test-results-output.txt:1925:
+  test-results-output.txt:1926:
+  test-results-output.txt:1927:      185 |   test('clicking Tests nav goes to tests page', async ({ page }) => {
+  test-results-output.txt:1928:      186 |     const testsNav = page.getByRole('link', { name: /tests/i }).first();
+  test-results-output.txt:1929:    > 187 |     await testsNav.click();
+  test-results-output.txt:1930:          |                    ^
+  test-results-output.txt:1931:      188 |     await page.waitForURL(/tests/, { timeout: 5000 });
+  test-results-output.txt:1932:      189 |     expect(page.url()).toContain('tests');
+  test-results-output.txt:1933:      190 |   });
+  test-results-output.txt:1934:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:187:20
+  test-results-output.txt:1935:
+  test-results-output.txt:1936:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1937:    
+test-results\e2e-dashboard-Dashboard-La-cc2cc-ests-nav-goes-to-tests-page-chromium\test-failed-1.png
+  test-results-output.txt:1938:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1939:
+  test-results-output.txt:1940:    Error Context: 
+test-results\e2e-dashboard-Dashboard-La-cc2cc-ests-nav-goes-to-tests-page-chromium\error-context.md
+  test-results-output.txt:1941:
+> test-results-output.txt:1942:  64) [chromium] ΓÇ║ tests\e2e\dashboard.spec.ts:192:7 ΓÇ║ Dashboard Layout - 
+Navigation ΓÇ║ clicking Profile nav goes to profile page 
+  test-results-output.txt:1943:
+  test-results-output.txt:1944:    [31mTest timeout of 60000ms exceeded.[39m
+  test-results-output.txt:1945:
+  test-results-output.txt:1946:    Error: locator.click: Test timeout of 60000ms exceeded.
+  test-results-output.txt:1947:    Call log:
+  test-results-output.txt:1948:    [2m  - waiting for getByRole('link', { name: /profile/i }).first()[22m
+  test-results-output.txt:1949:
+  test-results-output.txt:1950:
+  test-results-output.txt:1951:      192 |   test('clicking Profile nav goes to profile page', async ({ page }) => {
+  test-results-output.txt:1952:      193 |     const profileNav = page.getByRole('link', { name: /profile/i }).first();
+  test-results-output.txt:1953:    > 194 |     await profileNav.click();
+  test-results-output.txt:1954:          |                      ^
+  test-results-output.txt:1955:      195 |     await page.waitForURL(/profile/, { timeout: 5000 });
+  test-results-output.txt:1956:      196 |     expect(page.url()).toContain('profile');
+  test-results-output.txt:1957:      197 |   });
+  test-results-output.txt:1958:        at C:\Users\varun\avv\eapcetprep\tests\e2e\dashboard.spec.ts:194:22
+  test-results-output.txt:1959:
+  test-results-output.txt:1960:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1961:    
+test-results\e2e-dashboard-Dashboard-La-cd026-le-nav-goes-to-profile-page-chromium\test-failed-1.png
+  test-results-output.txt:1962:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1963:
+  test-results-output.txt:1964:    Error Context: 
+test-results\e2e-dashboard-Dashboard-La-cd026-le-nav-goes-to-profile-page-chromium\error-context.md
+  test-results-output.txt:1965:
+> test-results-output.txt:1966:  65) [chromium] ΓÇ║ tests\e2e\landing.spec.ts:74:7 ΓÇ║ Landing Page ΓÇ║ login and 
+register links are present 
+  test-results-output.txt:1967:
+  test-results-output.txt:1968:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:1969:
+  test-results-output.txt:1970:    Locator: getByRole('link', { name: /login|sign in/i }).first()
+  test-results-output.txt:1971:    Expected: visible
+  test-results-output.txt:1972:    Timeout: 5000ms
+  test-results-output.txt:1973:    Error: element(s) not found
+  test-results-output.txt:1974:
+  test-results-output.txt:1975:    Call log:
+  test-results-output.txt:1976:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:1977:    [2m  - waiting for getByRole('link', { name: /login|sign in/i }).first()[22m
+  test-results-output.txt:1978:
+  test-results-output.txt:1979:
+  test-results-output.txt:1980:      75 |     const loginLink = page.getByRole('link', { name: /login|sign in/i 
+}).first();
+  test-results-output.txt:1981:      76 |     const registerLink = page.getByRole('link', { name: /register|sign 
+up|get started/i }).first();
+  test-results-output.txt:1982:    > 77 |     await expect(loginLink).toBeVisible();
+  test-results-output.txt:1983:         |                             ^
+  test-results-output.txt:1984:      78 |     await expect(registerLink).toBeVisible();
+  test-results-output.txt:1985:      79 |   });
+  test-results-output.txt:1986:      80 | });
+  test-results-output.txt:1987:        at C:\Users\varun\avv\eapcetprep\tests\e2e\landing.spec.ts:77:29
+  test-results-output.txt:1988:
+  test-results-output.txt:1989:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:1990:    
+test-results\e2e-landing-Landing-Page-l-4dcca--register-links-are-present-chromium\test-failed-1.png
+  test-results-output.txt:1991:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:1992:
+  test-results-output.txt:1993:    Error Context: 
+test-results\e2e-landing-Landing-Page-l-4dcca--register-links-are-present-chromium\error-context.md
+  test-results-output.txt:1994:
+> test-results-output.txt:1995:  66) [chromium] ΓÇ║ tests\e2e\onboarding.spec.ts:16:7 ΓÇ║ Onboarding Flow ΓÇ║ step 2: 
+exam type selection (TS/AP) 
+  test-results-output.txt:1996:
+  test-results-output.txt:1997:    Error: locator.click: Error: strict mode violation: getByRole('button', { name: 
+/continue|next/i }) resolved to 2 elements:
+> test-results-output.txt:1998:        1) <button class="bg-blue-600 text-white px-6 py-3 rounded-md font-medium 
+hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 
+disabled:cursor-not-allowed transition whitespace-nowrap flex-shrink-0">Continue</button> aka getByRole('button', { 
+name: 'Continue' })
+> test-results-output.txt:1999:        2) <button data-indicator-status="true" data-nextjs-dev-tools-button="true" 
+aria-label="Open Next.js Dev Tools">ΓÇª</button> aka getByRole('button', { name: 'Open Next.js Dev Tools' })
+  test-results-output.txt:2000:
+  test-results-output.txt:2001:    Call log:
+  test-results-output.txt:2002:    [2m  - waiting for getByRole('button', { name: /continue|next/i })[22m
+  test-results-output.txt:2003:
+  test-results-output.txt:2004:
+  test-results-output.txt:2005:      21 |
+  test-results-output.txt:2006:      22 |     const continueBtn = page.getByRole('button', { name: /continue|next/i });
+  test-results-output.txt:2007:    > 23 |     await continueBtn.click();
+  test-results-output.txt:2008:         |                       ^
+  test-results-output.txt:2009:      24 |     await page.waitForTimeout(500);
+  test-results-output.txt:2010:      25 |
+  test-results-output.txt:2011:      26 |     const tsOption = page.getByText(/TS EAPCET|TS 
+EAMCET|Telangana/i).first();
+  test-results-output.txt:2012:        at C:\Users\varun\avv\eapcetprep\tests\e2e\onboarding.spec.ts:23:23
+  test-results-output.txt:2013:
+  test-results-output.txt:2014:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2015:    
+test-results\e2e-onboarding-Onboarding--a6a98--exam-type-selection-TS-AP--chromium\test-failed-1.png
+  test-results-output.txt:2016:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2017:
+  test-results-output.txt:2018:    Error Context: 
+test-results\e2e-onboarding-Onboarding--a6a98--exam-type-selection-TS-AP--chromium\error-context.md
+  test-results-output.txt:2019:
+> test-results-output.txt:2020:  67) [chromium] ΓÇ║ tests\e2e\onboarding.spec.ts:33:7 ΓÇ║ Onboarding Flow ΓÇ║ back 
+button works between steps 
+  test-results-output.txt:2021:
+  test-results-output.txt:2022:    Error: locator.click: Error: strict mode violation: getByRole('button', { name: 
+/continue|next/i }) resolved to 2 elements:
+> test-results-output.txt:2023:        1) <button class="bg-blue-600 text-white px-6 py-3 rounded-md font-medium 
+hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 
+disabled:cursor-not-allowed transition whitespace-nowrap flex-shrink-0">Continue</button> aka getByRole('button', { 
+name: 'Continue' })
+> test-results-output.txt:2024:        2) <button data-indicator-status="true" data-nextjs-dev-tools-button="true" 
+aria-label="Open Next.js Dev Tools">ΓÇª</button> aka getByRole('button', { name: 'Open Next.js Dev Tools' })
+  test-results-output.txt:2025:
+  test-results-output.txt:2026:    Call log:
+  test-results-output.txt:2027:    [2m  - waiting for getByRole('button', { name: /continue|next/i })[22m
+  test-results-output.txt:2028:
+  test-results-output.txt:2029:
+  test-results-output.txt:2030:      37 |     await nameInput.fill('Test Student');
+  test-results-output.txt:2031:      38 |     const continueBtn = page.getByRole('button', { name: /continue|next/i });
+  test-results-output.txt:2032:    > 39 |     await continueBtn.click();
+  test-results-output.txt:2033:         |                       ^
+  test-results-output.txt:2034:      40 |     await page.waitForTimeout(500);
+  test-results-output.txt:2035:      41 |
+  test-results-output.txt:2036:      42 |     const backBtn = page.getByRole('button', { name: /back|previous/i 
+}).or(page.getByText(/back/i));
+  test-results-output.txt:2037:        at C:\Users\varun\avv\eapcetprep\tests\e2e\onboarding.spec.ts:39:23
+  test-results-output.txt:2038:
+  test-results-output.txt:2039:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2040:    
+test-results\e2e-onboarding-Onboarding--9b659--button-works-between-steps-chromium\test-failed-1.png
+  test-results-output.txt:2041:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2042:
+  test-results-output.txt:2043:    Error Context: 
+test-results\e2e-onboarding-Onboarding--9b659--button-works-between-steps-chromium\error-context.md
+  test-results-output.txt:2044:
+> test-results-output.txt:2045:  68) [chromium] ΓÇ║ tests\e2e\onboarding.spec.ts:50:7 ΓÇ║ Onboarding Flow ΓÇ║ continue 
+button disabled until selection made 
+  test-results-output.txt:2046:
+  test-results-output.txt:2047:    Error: locator.isDisabled: Error: strict mode violation: getByRole('button', { 
+name: /continue|next/i }) resolved to 2 elements:
+> test-results-output.txt:2048:        1) <button disabled class="bg-blue-600 text-white px-6 py-3 rounded-md 
+font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 
+disabled:opacity-50 disabled:cursor-not-allowed transition whitespace-nowrap flex-shrink-0">Continue</button> aka 
+getByRole('button', { name: 'Continue' })
+> test-results-output.txt:2049:        2) <button data-indicator-status="true" data-nextjs-dev-tools-button="true" 
+aria-label="Open Next.js Dev Tools">ΓÇª</button> aka getByRole('button', { name: 'Open Next.js Dev Tools' })
+  test-results-output.txt:2050:
+  test-results-output.txt:2051:    Call log:
+  test-results-output.txt:2052:    [2m  - waiting for getByRole('button', { name: /continue|next/i })[22m
+  test-results-output.txt:2053:
+  test-results-output.txt:2054:
+  test-results-output.txt:2055:      55 |     const nameValue = await nameInput.inputValue();
+  test-results-output.txt:2056:      56 |     if (!nameValue) {
+  test-results-output.txt:2057:    > 57 |       const isDisabled = await continueBtn.isDisabled();
+  test-results-output.txt:2058:         |                                            ^
+  test-results-output.txt:2059:      58 |       expect(isDisabled).toBe(true);
+  test-results-output.txt:2060:      59 |     }
+  test-results-output.txt:2061:      60 |   });
+  test-results-output.txt:2062:        at C:\Users\varun\avv\eapcetprep\tests\e2e\onboarding.spec.ts:57:44
+  test-results-output.txt:2063:
+  test-results-output.txt:2064:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2065:    
+test-results\e2e-onboarding-Onboarding--e3312-sabled-until-selection-made-chromium\test-failed-1.png
+  test-results-output.txt:2066:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2067:
+  test-results-output.txt:2068:    Error Context: 
+test-results\e2e-onboarding-Onboarding--e3312-sabled-until-selection-made-chromium\error-context.md
+  test-results-output.txt:2069:
+> test-results-output.txt:2070:  69) [chromium] ΓÇ║ tests\e2e\onboarding.spec.ts:64:7 ΓÇ║ Onboarding Summary ΓÇ║ 
+displays action plan when navigated 
+  test-results-output.txt:2071:
+  test-results-output.txt:2072:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:2073:
+  test-results-output.txt:2074:    Locator: getByText(/plan|summary|ready|action|goal/i).first()
+  test-results-output.txt:2075:    Expected: visible
+  test-results-output.txt:2076:    Timeout: 5000ms
+  test-results-output.txt:2077:    Error: element(s) not found
+  test-results-output.txt:2078:
+  test-results-output.txt:2079:    Call log:
+  test-results-output.txt:2080:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:2081:    [2m  - waiting for getByText(/plan|summary|ready|action|goal/i).first()[22m
+  test-results-output.txt:2082:
+  test-results-output.txt:2083:
+  test-results-output.txt:2084:      67 |     await page.waitForTimeout(2000);
+  test-results-output.txt:2085:      68 |     const heading = 
+page.getByText(/plan|summary|ready|action|goal/i).first();
+  test-results-output.txt:2086:    > 69 |     await expect(heading).toBeVisible();
+  test-results-output.txt:2087:         |                           ^
+  test-results-output.txt:2088:      70 |   });
+  test-results-output.txt:2089:      71 | });
+  test-results-output.txt:2090:      72 |
+  test-results-output.txt:2091:        at C:\Users\varun\avv\eapcetprep\tests\e2e\onboarding.spec.ts:69:27
+  test-results-output.txt:2092:
+  test-results-output.txt:2093:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2094:    
+test-results\e2e-onboarding-Onboarding--15d2e--action-plan-when-navigated-chromium\test-failed-1.png
+  test-results-output.txt:2095:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2096:
+  test-results-output.txt:2097:    Error Context: 
+test-results\e2e-onboarding-Onboarding--15d2e--action-plan-when-navigated-chromium\error-context.md
+  test-results-output.txt:2098:
+> test-results-output.txt:2099:  70) [chromium] ΓÇ║ tests\e2e\onboarding.spec.ts:85:7 ΓÇ║ Onboarding Paywall ΓÇ║ try 
+for free link is present 
+  test-results-output.txt:2100:
+  test-results-output.txt:2101:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:2102:
+  test-results-output.txt:2103:    Locator: getByText(/free|skip|later|try/i).first()
+  test-results-output.txt:2104:    Expected: visible
+  test-results-output.txt:2105:    Timeout: 5000ms
+  test-results-output.txt:2106:    Error: element(s) not found
+  test-results-output.txt:2107:
+  test-results-output.txt:2108:    Call log:
+  test-results-output.txt:2109:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:2110:    [2m  - waiting for getByText(/free|skip|later|try/i).first()[22m
+  test-results-output.txt:2111:
+  test-results-output.txt:2112:
+  test-results-output.txt:2113:      88 |     await page.waitForTimeout(2000);
+  test-results-output.txt:2114:      89 |     const freeLink = page.getByText(/free|skip|later|try/i).first();
+  test-results-output.txt:2115:    > 90 |     await expect(freeLink).toBeVisible();
+  test-results-output.txt:2116:         |                            ^
+  test-results-output.txt:2117:      91 |   });
+  test-results-output.txt:2118:      92 | });
+  test-results-output.txt:2119:      93 |
+  test-results-output.txt:2120:        at C:\Users\varun\avv\eapcetprep\tests\e2e\onboarding.spec.ts:90:28
+  test-results-output.txt:2121:
+  test-results-output.txt:2122:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2123:    
+test-results\e2e-onboarding-Onboarding--e2e8f-ry-for-free-link-is-present-chromium\test-failed-1.png
+  test-results-output.txt:2124:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2125:
+  test-results-output.txt:2126:    Error Context: 
+test-results\e2e-onboarding-Onboarding--e2e8f-ry-for-free-link-is-present-chromium\error-context.md
+  test-results-output.txt:2127:
+> test-results-output.txt:2128:  71) [chromium] ΓÇ║ tests\e2e\payment.spec.ts:11:7 ΓÇ║ Payment Page ΓÇ║ displays BASIC 
+and PRO plan cards 
+  test-results-output.txt:2129:
+  test-results-output.txt:2130:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:2131:
+  test-results-output.txt:2132:    Locator: getByText(/basic/i).first()
+  test-results-output.txt:2133:    Expected: visible
+  test-results-output.txt:2134:    Timeout: 5000ms
+  test-results-output.txt:2135:    Error: element(s) not found
+  test-results-output.txt:2136:
+  test-results-output.txt:2137:    Call log:
+  test-results-output.txt:2138:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:2139:    [2m  - waiting for getByText(/basic/i).first()[22m
+  test-results-output.txt:2140:
+  test-results-output.txt:2141:
+  test-results-output.txt:2142:      12 |     const basic = page.getByText(/basic/i).first();
+  test-results-output.txt:2143:      13 |     const pro = page.getByText(/pro/i).first();
+  test-results-output.txt:2144:    > 14 |     await expect(basic).toBeVisible();
+  test-results-output.txt:2145:         |                         ^
+  test-results-output.txt:2146:      15 |     await expect(pro).toBeVisible();
+  test-results-output.txt:2147:      16 |   });
+  test-results-output.txt:2148:      17 |
+  test-results-output.txt:2149:        at C:\Users\varun\avv\eapcetprep\tests\e2e\payment.spec.ts:14:25
+  test-results-output.txt:2150:
+  test-results-output.txt:2151:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2152:    
+test-results\e2e-payment-Payment-Page-displays-BASIC-and-PRO-plan-cards-chromium\test-failed-1.png
+  test-results-output.txt:2153:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2154:
+  test-results-output.txt:2155:    Error Context: 
+test-results\e2e-payment-Payment-Page-displays-BASIC-and-PRO-plan-cards-chromium\error-context.md
+  test-results-output.txt:2156:
+> test-results-output.txt:2157:  72) [chromium] ΓÇ║ tests\e2e\payment.spec.ts:18:7 ΓÇ║ Payment Page ΓÇ║ shows pricing 
+Γé╣199 and Γé╣299 ΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2158:
+  test-results-output.txt:2159:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:2160:
+  test-results-output.txt:2161:    Locator: getByText(/Γé╣199/).first()
+  test-results-output.txt:2162:    Expected: visible
+  test-results-output.txt:2163:    Timeout: 5000ms
+  test-results-output.txt:2164:    Error: element(s) not found
+  test-results-output.txt:2165:
+  test-results-output.txt:2166:    Call log:
+  test-results-output.txt:2167:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:2168:    [2m  - waiting for getByText(/Γé╣199/).first()[22m
+  test-results-output.txt:2169:
+  test-results-output.txt:2170:
+  test-results-output.txt:2171:      17 |
+  test-results-output.txt:2172:      18 |   test('shows pricing Γé╣199 and Γé╣299', async ({ page }) => {
+  test-results-output.txt:2173:    > 19 |     await expect(page.getByText(/Γé╣199/).first()).toBeVisible();
+  test-results-output.txt:2174:         |                                                  ^
+  test-results-output.txt:2175:      20 |     await expect(page.getByText(/Γé╣299/).first()).toBeVisible();
+  test-results-output.txt:2176:      21 |   });
+  test-results-output.txt:2177:      22 |
+  test-results-output.txt:2178:        at C:\Users\varun\avv\eapcetprep\tests\e2e\payment.spec.ts:19:50
+  test-results-output.txt:2179:
+  test-results-output.txt:2180:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2181:    
+test-results\e2e-payment-Payment-Page-shows-pricing-Γé╣199-and-Γé╣299-chromium\test-failed-1.png
+  test-results-output.txt:2182:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2183:
+  test-results-output.txt:2184:    Error Context: 
+test-results\e2e-payment-Payment-Page-shows-pricing-Γé╣199-and-Γé╣299-chromium\error-context.md
+  test-results-output.txt:2185:
+> test-results-output.txt:2186:  73) [chromium] ΓÇ║ tests\e2e\payment.spec.ts:61:7 ΓÇ║ Payment Success Page ΓÇ║ 
+displays success message 
+  test-results-output.txt:2187:
+  test-results-output.txt:2188:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:2189:
+  test-results-output.txt:2190:    Locator: getByText(/success|thank|congrat|payment.*complete/i).first()
+  test-results-output.txt:2191:    Expected: visible
+  test-results-output.txt:2192:    Timeout: 5000ms
+  test-results-output.txt:2193:    Error: element(s) not found
+  test-results-output.txt:2194:
+  test-results-output.txt:2195:    Call log:
+  test-results-output.txt:2196:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:2197:    [2m  - waiting for 
+getByText(/success|thank|congrat|payment.*complete/i).first()[22m
+  test-results-output.txt:2198:
+  test-results-output.txt:2199:
+  test-results-output.txt:2200:      64 |     await page.waitForTimeout(2000);
+  test-results-output.txt:2201:      65 |     const success = 
+page.getByText(/success|thank|congrat|payment.*complete/i).first();
+  test-results-output.txt:2202:    > 66 |     await expect(success).toBeVisible();
+  test-results-output.txt:2203:         |                           ^
+  test-results-output.txt:2204:      67 |   });
+  test-results-output.txt:2205:      68 |
+  test-results-output.txt:2206:      69 |   test('auto-redirects to dashboard', async ({ page, request }) => {
+  test-results-output.txt:2207:        at C:\Users\varun\avv\eapcetprep\tests\e2e\payment.spec.ts:66:27
+  test-results-output.txt:2208:
+  test-results-output.txt:2209:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2210:    
+test-results\e2e-payment-Payment-Success-Page-displays-success-message-chromium\test-failed-1.png
+  test-results-output.txt:2211:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2212:
+  test-results-output.txt:2213:    Error Context: 
+test-results\e2e-payment-Payment-Success-Page-displays-success-message-chromium\error-context.md
+  test-results-output.txt:2214:
+> test-results-output.txt:2215:  74) [chromium] ΓÇ║ tests\e2e\payment.spec.ts:69:7 ΓÇ║ Payment Success Page ΓÇ║ 
+auto-redirects to dashboard 
+  test-results-output.txt:2216:
+  test-results-output.txt:2217:    TimeoutError: page.waitForURL: Timeout 15000ms exceeded.
+  test-results-output.txt:2218:    =========================== logs ===========================
+  test-results-output.txt:2219:    waiting for navigation until "load"
+  test-results-output.txt:2220:      navigated to "http://localhost:3000/auth/login"
+  test-results-output.txt:2221:    ============================================================
+  test-results-output.txt:2222:
+  test-results-output.txt:2223:      70 |     await loginAndSetCookie(page, request);
+  test-results-output.txt:2224:      71 |     await page.goto('/payment/success');
+  test-results-output.txt:2225:    > 72 |     await page.waitForURL(/dashboard/, { timeout: 15000 });
+  test-results-output.txt:2226:         |                ^
+  test-results-output.txt:2227:      73 |     expect(page.url()).toContain('dashboard');
+  test-results-output.txt:2228:      74 |   });
+  test-results-output.txt:2229:      75 | });
+  test-results-output.txt:2230:        at C:\Users\varun\avv\eapcetprep\tests\e2e\payment.spec.ts:72:16
+  test-results-output.txt:2231:
+  test-results-output.txt:2232:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2233:    
+test-results\e2e-payment-Payment-Success-Page-auto-redirects-to-dashboard-chromium\test-failed-1.png
+  test-results-output.txt:2234:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2235:
+  test-results-output.txt:2236:    Error Context: 
+test-results\e2e-payment-Payment-Success-Page-auto-redirects-to-dashboard-chromium\error-context.md
+  test-results-output.txt:2237:
+> test-results-output.txt:2238:  75) [chromium] ΓÇ║ tests\e2e\payment.spec.ts:90:7 ΓÇ║ Payment Failure Page ΓÇ║ try 
+again button is visible 
+  test-results-output.txt:2239:
+  test-results-output.txt:2240:    Error: page.evaluate: SecurityError: Failed to read the 'localStorage' property 
+from 'Window': Access is denied for this document.
+  test-results-output.txt:2241:        at UtilityScript.evaluate (<anonymous>:292:16)
+  test-results-output.txt:2242:        at UtilityScript.<anonymous> (<anonymous>:1:44)
+  test-results-output.txt:2243:        at UtilityScript.evaluate (<anonymous>:292:16)
+  test-results-output.txt:2244:        at UtilityScript.<anonymous> (<anonymous>:1:44)
+  test-results-output.txt:2245:        at C:\Users\varun\avv\eapcetprep\tests\e2e\payment.spec.ts:92:16
+  test-results-output.txt:2246:
+  test-results-output.txt:2247:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2248:    
+test-results\e2e-payment-Payment-Failure-Page-try-again-button-is-visible-chromium\test-failed-1.png
+  test-results-output.txt:2249:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2250:
+> test-results-output.txt:2251:  76) [chromium] ΓÇ║ tests\e2e\static-pages.spec.ts:134:7 ΓÇ║ Refund Policy Page ΓÇ║ 
+loads and displays content 
+  test-results-output.txt:2252:
+  test-results-output.txt:2253:    [31mTest timeout of 60000ms exceeded while setting up "page".[39m
+  test-results-output.txt:2254:
+  test-results-output.txt:2255:    Error: browserContext.newPage: Test timeout of 60000ms exceeded.
+  test-results-output.txt:2256:
+> test-results-output.txt:2257:  77) [chromium] ΓÇ║ tests\e2e\test-taking.spec.ts:82:7 ΓÇ║ Test Taking UI ΓÇ║ question 
+text renders ΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2258:
+  test-results-output.txt:2259:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:2260:
+  test-results-output.txt:2261:    Locator: locator('[class*="question"], [class*="Question"]').first()
+  test-results-output.txt:2262:    Expected: visible
+  test-results-output.txt:2263:    Timeout: 5000ms
+  test-results-output.txt:2264:    Error: element(s) not found
+  test-results-output.txt:2265:
+  test-results-output.txt:2266:    Call log:
+  test-results-output.txt:2267:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:2268:    [2m  - waiting for locator('[class*="question"], [class*="Question"]').first()[22m
+  test-results-output.txt:2269:
+  test-results-output.txt:2270:
+  test-results-output.txt:2271:      83 |     await page.waitForTimeout(3000);
+  test-results-output.txt:2272:      84 |     const questionContent = page.locator('[class*="question"], 
+[class*="Question"]').first();
+  test-results-output.txt:2273:    > 85 |     await expect(questionContent).toBeVisible();
+  test-results-output.txt:2274:         |                                   ^
+  test-results-output.txt:2275:      86 |   });
+  test-results-output.txt:2276:      87 |
+  test-results-output.txt:2277:      88 |   test('4 answer options displayed per question', async ({ page }) => {
+  test-results-output.txt:2278:        at C:\Users\varun\avv\eapcetprep\tests\e2e\test-taking.spec.ts:85:35
+  test-results-output.txt:2279:
+  test-results-output.txt:2280:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2281:    
+test-results\e2e-test-taking-Test-Taking-UI-question-text-renders-chromium\test-failed-1.png
+  test-results-output.txt:2282:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2283:
+  test-results-output.txt:2284:    Error Context: 
+test-results\e2e-test-taking-Test-Taking-UI-question-text-renders-chromium\error-context.md
+  test-results-output.txt:2285:
+> test-results-output.txt:2286:  78) [chromium] ΓÇ║ tests\e2e\test-taking.spec.ts:88:7 ΓÇ║ Test Taking UI ΓÇ║ 4 answer 
+options displayed per question 
+  test-results-output.txt:2287:
+  test-results-output.txt:2288:    Error: 
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+  test-results-output.txt:2289:
+  test-results-output.txt:2290:    Expected: >= [32m4[39m
+  test-results-output.txt:2291:    Received:    [31m0[39m
+  test-results-output.txt:2292:
+  test-results-output.txt:2293:      92 |     });
+  test-results-output.txt:2294:      93 |     const count = await options.count();
+  test-results-output.txt:2295:    > 94 |     expect(count).toBeGreaterThanOrEqual(4);
+  test-results-output.txt:2296:         |                   ^
+  test-results-output.txt:2297:      95 |   });
+  test-results-output.txt:2298:      96 |
+  test-results-output.txt:2299:      97 |   test('selecting an option highlights it', async ({ page }) => {
+  test-results-output.txt:2300:        at C:\Users\varun\avv\eapcetprep\tests\e2e\test-taking.spec.ts:94:19
+  test-results-output.txt:2301:
+  test-results-output.txt:2302:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2303:    
+test-results\e2e-test-taking-Test-Takin-7f017-ions-displayed-per-question-chromium\test-failed-1.png
+  test-results-output.txt:2304:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2305:
+  test-results-output.txt:2306:    Error Context: 
+test-results\e2e-test-taking-Test-Takin-7f017-ions-displayed-per-question-chromium\error-context.md
+  test-results-output.txt:2307:
+> test-results-output.txt:2308:  79) [chromium] ΓÇ║ tests\responsive\mobile.spec.ts:82:7 ΓÇ║ Mobile - Dashboard ΓÇ║ 
+dashboard renders correctly on mobile 
+  test-results-output.txt:2309:
+  test-results-output.txt:2310:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:2311:
+  test-results-output.txt:2312:    Locator: locator('main, [class*="dashboard"]').first()
+  test-results-output.txt:2313:    Expected: visible
+  test-results-output.txt:2314:    Timeout: 5000ms
+  test-results-output.txt:2315:    Error: element(s) not found
+  test-results-output.txt:2316:
+  test-results-output.txt:2317:    Call log:
+  test-results-output.txt:2318:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:2319:    [2m  - waiting for locator('main, [class*="dashboard"]').first()[22m
+  test-results-output.txt:2320:
+  test-results-output.txt:2321:
+  test-results-output.txt:2322:      85 |     await page.waitForTimeout(3000);
+  test-results-output.txt:2323:      86 |     const content = page.locator('main, [class*="dashboard"]').first();
+  test-results-output.txt:2324:    > 87 |     await expect(content).toBeVisible();
+  test-results-output.txt:2325:         |                           ^
+  test-results-output.txt:2326:      88 |
+  test-results-output.txt:2327:      89 |     const viewportWidth = page.viewportSize()?.width ?? 0;
+  test-results-output.txt:2328:      90 |     const bodyWidth = await page.evaluate(() => document.body.scrollWidth);
+  test-results-output.txt:2329:        at C:\Users\varun\avv\eapcetprep\tests\responsive\mobile.spec.ts:87:27
+  test-results-output.txt:2330:
+  test-results-output.txt:2331:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2332:    
+test-results\responsive-mobile-Mobile---ce821-renders-correctly-on-mobile-chromium\test-failed-1.png
+  test-results-output.txt:2333:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2334:
+  test-results-output.txt:2335:    Error Context: 
+test-results\responsive-mobile-Mobile---ce821-renders-correctly-on-mobile-chromium\error-context.md
+  test-results-output.txt:2336:
+> test-results-output.txt:2337:  80) [chromium] ΓÇ║ tests\responsive\mobile.spec.ts:94:7 ΓÇ║ Mobile - Dashboard ΓÇ║ 
+bottom navigation is visible on mobile 
+  test-results-output.txt:2338:
+  test-results-output.txt:2339:    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m 
+failed
+  test-results-output.txt:2340:
+  test-results-output.txt:2341:    Locator: locator('nav').first()
+  test-results-output.txt:2342:    Expected: visible
+  test-results-output.txt:2343:    Timeout: 5000ms
+  test-results-output.txt:2344:    Error: element(s) not found
+  test-results-output.txt:2345:
+  test-results-output.txt:2346:    Call log:
+  test-results-output.txt:2347:    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+  test-results-output.txt:2348:    [2m  - waiting for locator('nav').first()[22m
+  test-results-output.txt:2349:
+  test-results-output.txt:2350:
+  test-results-output.txt:2351:       97 |     await page.waitForTimeout(3000);
+  test-results-output.txt:2352:       98 |     const nav = page.locator('nav').first();
+  test-results-output.txt:2353:    >  99 |     await expect(nav).toBeVisible();
+  test-results-output.txt:2354:          |                       ^
+  test-results-output.txt:2355:      100 |   });
+  test-results-output.txt:2356:      101 |
+  test-results-output.txt:2357:      102 |   test('profile page renders on mobile', async ({ page, request }) => {
+  test-results-output.txt:2358:        at C:\Users\varun\avv\eapcetprep\tests\responsive\mobile.spec.ts:99:23
+  test-results-output.txt:2359:
+  test-results-output.txt:2360:    attachment #1: screenshot (image/png) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇ
+  test-results-output.txt:2361:    
+test-results\responsive-mobile-Mobile---e1537-gation-is-visible-on-mobile-chromium\test-failed-1.png
+  test-results-output.txt:2362:    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  test-results-output.txt:2363:
+  test-results-output.txt:2364:    Error Context: 
+test-results\responsive-mobile-Mobile---e1537-gation-is-visible-on-mobile-chromium\error-context.md
+  test-results-output.txt:2365:
+  test-results-output.txt:2366:  80 failed
+  test-results-output.txt:2367:    [chromium] ΓÇ║ tests\api\affiliate.api.spec.ts:113:7 ΓÇ║ POST 
+/api/affiliate/auth/register ΓÇ║ returns error for existing affiliate user 
+
+

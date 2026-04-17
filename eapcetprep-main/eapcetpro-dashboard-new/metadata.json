@@ -1,0 +1,5 @@
+{
+  "name": "EapcetPro Dashboard",
+  "description": "Mobile dashboard for EapcetPro with chapter quizzes, mock tests, and recent activity.",
+  "requestFramePermissions": []
+}

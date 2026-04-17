@@ -1,0 +1,939 @@
+{
+  "lastUpdated": "2026-01-08T16:36:26.081Z",
+  "totalTests": 46,
+  "state": "AP",
+  "tests": [
+    {
+      "test_id": 108,
+      "test_name": "AP EAPCET 27 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-27",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 107,
+      "test_name": "AP EAPCET 26 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-26",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 104,
+      "test_name": "AP EAPCET 24 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-24",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 99,
+      "test_name": "AP EAPCET 23 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-23",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 100,
+      "test_name": "AP EAPCET 23 May 2025 Shift 2 Paper",
+      "test_date": "2025-05-23",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 95,
+      "test_name": "AP EAPCET 22 May 2025 Shift 2 Paper",
+      "test_date": "2025-05-22",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 94,
+      "test_name": "AP EAPCET 22 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-22",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 90,
+      "test_name": "AP EAPCET 21 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-21",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 91,
+      "test_name": "AP EAPCET 21 May 2025 Shift 2 Paper",
+      "test_date": "2025-05-21",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 98,
+      "test_name": "AP EAPCET 23 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-23",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 93,
+      "test_name": "AP EAPCET 22 May 2024 Shift 2 Paper",
+      "test_date": "2024-05-22",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 92,
+      "test_name": "AP EAPCET 22 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-22",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 89,
+      "test_name": "AP EAPCET 21 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-21",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 88,
+      "test_name": "AP EAPCET 20 May 2024 Shift 2 Paper",
+      "test_date": "2024-05-20",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 87,
+      "test_name": "AP EAPCET 20 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-20",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 83,
+      "test_name": "AP EAPCET 19 May 2024 Shift 2 Paper",
+      "test_date": "2024-05-19",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 78,
+      "test_name": "AP EAPCET 18 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-18",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 84,
+      "test_name": "AP EAPCET 19th May 2023 Shift 1 Paper",
+      "test_date": "2023-05-19",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 79,
+      "test_name": "AP EAPCET 18th May 2023 Shift 1 Paper",
+      "test_date": "2023-05-18",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 80,
+      "test_name": "AP EAPCET 18th May 2023 Shift 2 Paper",
+      "test_date": "2023-05-18",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 77,
+      "test_name": "AP EAPCET 17th May 2023 Shift 2 Paper",
+      "test_date": "2023-05-17",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 76,
+      "test_name": "AP EAPCET 17th May 2023 Shift 1 Paper",
+      "test_date": "2023-05-17",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 74,
+      "test_name": "AP EAPCET 16th May 2023 Shift 1 Paper",
+      "test_date": "2023-05-16",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 75,
+      "test_name": "AP EAPCET 16th May 2023 Shift 2 Paper",
+      "test_date": "2023-05-16",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 72,
+      "test_name": "AP EAPCET 15th May 2023 Shift 1 Paper",
+      "test_date": "2023-05-15",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 73,
+      "test_name": "AP EAPCET 15th May 2023 Shift 2 Paper",
+      "test_date": "2023-05-15",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 70,
+      "test_name": "AP EAPCET 08 Jul 2022 Shift 1 Paper",
+      "test_date": "2022-01-08",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 71,
+      "test_name": "AP EAPCET 08 Jul 2022 Shift 2 Paper",
+      "test_date": "2022-01-08",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 68,
+      "test_name": "AP EAPCET 07 Jul 2022 Shift 1 Paper",
+      "test_date": "2022-01-07",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 69,
+      "test_name": "AP EAPCET 07 Jul 2022 Shift 2 Paper",
+      "test_date": "2022-01-07",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 66,
+      "test_name": "AP EAPCET 06 Jul 2022 Shift 1 Paper",
+      "test_date": "2022-01-06",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 67,
+      "test_name": "AP EAPCET 06 Jul 2022 Shift 2 Paper",
+      "test_date": "2022-01-06",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 64,
+      "test_name": "AP EAPCET 05 Jul 2022 Shift 1 Paper",
+      "test_date": "2022-01-05",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 65,
+      "test_name": "AP EAPCET 05 Jul 2022 Shift 2 Paper",
+      "test_date": "2022-01-05",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 63,
+      "test_name": "AP EAPCET 04 Jul 2022 Shift 2 Paper",
+      "test_date": "2022-01-04",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 62,
+      "test_name": "AP EAPCET 04 Jul 2022 Shift 1 Paper",
+      "test_date": "2022-01-04",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 106,
+      "test_name": "AP EAPCET 25 Aug 2021 Shift 2 Paper",
+      "test_date": "2021-01-25",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 105,
+      "test_name": "AP EAPCET 25 Aug 2021 Shift 1 Paper",
+      "test_date": "2021-01-25",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 103,
+      "test_name": "AP EAPCET 24 Aug 2021 Shift 2 Paper",
+      "test_date": "2021-01-24",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 101,
+      "test_name": "AP EAPCET 24 Aug 2021 Shift 1 Paper",
+      "test_date": "2021-01-24",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 96,
+      "test_name": "AP EAPCET 23 Aug 2021 Shift 1 Paper",
+      "test_date": "2021-01-23",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 97,
+      "test_name": "AP EAPCET 23 Aug 2021 Shift 2 Paper",
+      "test_date": "2021-01-23",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 85,
+      "test_name": "AP EAPCET 20 Aug 2021 Shift 1 Paper",
+      "test_date": "2021-01-20",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 86,
+      "test_name": "AP EAPCET 20 Aug 2021 Shift 2 Paper",
+      "test_date": "2021-01-20",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 81,
+      "test_name": "AP EAPCET 19 Aug 2021 Shift 1 Paper",
+      "test_date": "2021-01-19",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    },
+    {
+      "test_id": 82,
+      "test_name": "AP EAPCET 19 Aug 2021 Shift 2 Paper",
+      "test_date": "2021-01-19",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "AP"
+    }
+  ],
+  "grouped": {
+    "2021": [
+      {
+        "test_id": 106,
+        "test_name": "AP EAPCET 25 Aug 2021 Shift 2 Paper",
+        "test_date": "2021-01-25",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 105,
+        "test_name": "AP EAPCET 25 Aug 2021 Shift 1 Paper",
+        "test_date": "2021-01-25",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 103,
+        "test_name": "AP EAPCET 24 Aug 2021 Shift 2 Paper",
+        "test_date": "2021-01-24",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 101,
+        "test_name": "AP EAPCET 24 Aug 2021 Shift 1 Paper",
+        "test_date": "2021-01-24",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 96,
+        "test_name": "AP EAPCET 23 Aug 2021 Shift 1 Paper",
+        "test_date": "2021-01-23",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 97,
+        "test_name": "AP EAPCET 23 Aug 2021 Shift 2 Paper",
+        "test_date": "2021-01-23",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 85,
+        "test_name": "AP EAPCET 20 Aug 2021 Shift 1 Paper",
+        "test_date": "2021-01-20",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 86,
+        "test_name": "AP EAPCET 20 Aug 2021 Shift 2 Paper",
+        "test_date": "2021-01-20",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 81,
+        "test_name": "AP EAPCET 19 Aug 2021 Shift 1 Paper",
+        "test_date": "2021-01-19",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 82,
+        "test_name": "AP EAPCET 19 Aug 2021 Shift 2 Paper",
+        "test_date": "2021-01-19",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "AP"
+      }
+    ],
+    "2022": [
+      {
+        "test_id": 70,
+        "test_name": "AP EAPCET 08 Jul 2022 Shift 1 Paper",
+        "test_date": "2022-01-08",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 71,
+        "test_name": "AP EAPCET 08 Jul 2022 Shift 2 Paper",
+        "test_date": "2022-01-08",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 68,
+        "test_name": "AP EAPCET 07 Jul 2022 Shift 1 Paper",
+        "test_date": "2022-01-07",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 69,
+        "test_name": "AP EAPCET 07 Jul 2022 Shift 2 Paper",
+        "test_date": "2022-01-07",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 66,
+        "test_name": "AP EAPCET 06 Jul 2022 Shift 1 Paper",
+        "test_date": "2022-01-06",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 67,
+        "test_name": "AP EAPCET 06 Jul 2022 Shift 2 Paper",
+        "test_date": "2022-01-06",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 64,
+        "test_name": "AP EAPCET 05 Jul 2022 Shift 1 Paper",
+        "test_date": "2022-01-05",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 65,
+        "test_name": "AP EAPCET 05 Jul 2022 Shift 2 Paper",
+        "test_date": "2022-01-05",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 63,
+        "test_name": "AP EAPCET 04 Jul 2022 Shift 2 Paper",
+        "test_date": "2022-01-04",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 62,
+        "test_name": "AP EAPCET 04 Jul 2022 Shift 1 Paper",
+        "test_date": "2022-01-04",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "AP"
+      }
+    ],
+    "2023": [
+      {
+        "test_id": 84,
+        "test_name": "AP EAPCET 19th May 2023 Shift 1 Paper",
+        "test_date": "2023-05-19",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 79,
+        "test_name": "AP EAPCET 18th May 2023 Shift 1 Paper",
+        "test_date": "2023-05-18",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 80,
+        "test_name": "AP EAPCET 18th May 2023 Shift 2 Paper",
+        "test_date": "2023-05-18",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 77,
+        "test_name": "AP EAPCET 17th May 2023 Shift 2 Paper",
+        "test_date": "2023-05-17",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 76,
+        "test_name": "AP EAPCET 17th May 2023 Shift 1 Paper",
+        "test_date": "2023-05-17",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 74,
+        "test_name": "AP EAPCET 16th May 2023 Shift 1 Paper",
+        "test_date": "2023-05-16",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 75,
+        "test_name": "AP EAPCET 16th May 2023 Shift 2 Paper",
+        "test_date": "2023-05-16",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 72,
+        "test_name": "AP EAPCET 15th May 2023 Shift 1 Paper",
+        "test_date": "2023-05-15",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 73,
+        "test_name": "AP EAPCET 15th May 2023 Shift 2 Paper",
+        "test_date": "2023-05-15",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "AP"
+      }
+    ],
+    "2024": [
+      {
+        "test_id": 98,
+        "test_name": "AP EAPCET 23 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-23",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 93,
+        "test_name": "AP EAPCET 22 May 2024 Shift 2 Paper",
+        "test_date": "2024-05-22",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 92,
+        "test_name": "AP EAPCET 22 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-22",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 89,
+        "test_name": "AP EAPCET 21 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-21",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 88,
+        "test_name": "AP EAPCET 20 May 2024 Shift 2 Paper",
+        "test_date": "2024-05-20",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 87,
+        "test_name": "AP EAPCET 20 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-20",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 83,
+        "test_name": "AP EAPCET 19 May 2024 Shift 2 Paper",
+        "test_date": "2024-05-19",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 78,
+        "test_name": "AP EAPCET 18 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-18",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "AP"
+      }
+    ],
+    "2025": [
+      {
+        "test_id": 108,
+        "test_name": "AP EAPCET 27 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-27",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 107,
+        "test_name": "AP EAPCET 26 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-26",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 104,
+        "test_name": "AP EAPCET 24 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-24",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 99,
+        "test_name": "AP EAPCET 23 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-23",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 100,
+        "test_name": "AP EAPCET 23 May 2025 Shift 2 Paper",
+        "test_date": "2025-05-23",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 95,
+        "test_name": "AP EAPCET 22 May 2025 Shift 2 Paper",
+        "test_date": "2025-05-22",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 94,
+        "test_name": "AP EAPCET 22 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-22",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 90,
+        "test_name": "AP EAPCET 21 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-21",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      },
+      {
+        "test_id": 91,
+        "test_name": "AP EAPCET 21 May 2025 Shift 2 Paper",
+        "test_date": "2025-05-21",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "AP"
+      }
+    ]
+  }
+}

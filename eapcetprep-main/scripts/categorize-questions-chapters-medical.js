@@ -1,0 +1,484 @@
+/**
+ * Categorize EAMCET Medical questions by chapter using Gemini 2.5 Flash.
+ *
+ * Uses EAMCET Medical syllabus: Physics, Chemistry, Botany, Zoology (no Mathematics).
+ * - Groups 5 questions together per API call (reduces API calls)
+ * - Uses section_id to determine subject and only sends relevant chapter list to save tokens
+ * - Resumable: skips questions that already have chapter set
+ * - Rate limiting: configurable delay between batches (default 1.2s = ~50 RPM)
+ *
+ * Run: node scripts/categorize-questions-chapters-medical.js
+ * Env: .env.local with NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GEMINI_API_KEY
+ *
+ * Options:
+ *   --limit N         Process only N questions (for testing)
+ *   --delay MS        Delay between API calls in ms (default 1200)
+ *   --batch-size N    Questions per API call (default 5)
+ *   --concurrency N   Parallel workers (default 1, use 3-5 for faster with paid tier)
+ *   --dry-run         Fetch and log only, don't update DB
+ *   --medical-only    Only process questions from medical tests (tests.field='medical').
+ *                     When set, loops until ALL medical questions are categorized.
+ */
+
+const { createClient } = require('@supabase/supabase-js');
+const { GoogleGenAI } = require('@google/genai');
+const path = require('path');
+
+try {
+  require('dotenv').config({ path: path.join(__dirname, '..', '.env.local') });
+} catch (e) {
+  console.log('Note: dotenv not found, using process.env');
+}
+
+// EAMCET Medical Syllabus - Chemistry
+const EAMCET_MEDICAL_CHEMISTRY = [
+  'Stoichiometry',
+  'Chemical Equilibrium and Acids-Bases',
+  'Hydrogen and its Compounds',
+  'States of Matter: Gases and Liquids',
+  'Atomic Structure',
+  'Thermodynamics',
+  'Classification of Elements and Periodicity in Properties',
+  'Chemical Bonding and Molecular Structure',
+  'The s-Block Elements',
+  'p-Block Elements group 13 (boron family)',
+  'p-Block Elements group 14 (carbon family)',
+  'Environmental Chemistry',
+  'Organic Chemistry – Some Basic Principles and Techniques',
+  'Hydrocarbons',
+  'Solid State',
+  'Solutions',
+  'Electrochemistry and Chemical Kinetics',
+  'Surface Chemistry',
+  'General Principles of Metallurgy',
+  'd and f Block Elements & Coordination Compounds',
+  'Polymers',
+  'Biomolecules',
+  'Chemistry in Everyday Life',
+  'Haloalkanes and Haloarenes',
+  'Organic Compounds containing C, H and O',
+  'Organic Compounds containing Nitrogen',
+];
+
+// EAMCET Medical Biology - Botany
+const EAMCET_MEDICAL_BOTANY = [
+  'Diversity in the Living World: The Living World',
+  'Morphology of Flowering Plants',
+  'Reproduction in Plants',
+  'Plant Systematics',
+  'Cell: The Unit of Life',
+  'Internal Organisation of Plants',
+  'Plant Ecology',
+  'Plant Physiology',
+  'Microbiology',
+  'Genetics: Principles of Inheritance and Variation',
+  'Molecular Biology: Molecular Basis of Inheritance',
+  'Biotechnology and its Application',
+  'Plants, Microbes and Human Welfare',
+];
+
+// EAMCET Medical Biology - Zoology
+const EAMCET_MEDICAL_ZOOLOGY = [
+  'Body Fluids and Circulation',
+  'Human Reproductive System',
+  'Study of Periplaneta Americana (Cockroach)',
+  'Zoology – Diversity of Living World',
+  'Digestion and Absorption',
+  'Breathing and Respiration',
+  'Muscular and Skeletal System',
+  'Organic Evolution',
+  'Immune System',
+  'Locomotion and Reproduction in Protozoa',
+  'Excretory Products & their Elimination',
+  'Reproductive Health, Genetics & Applied Biology',
+];
+
+// EAMCET Medical Physics
+const EAMCET_MEDICAL_PHYSICS = [
+  'Systems of Particles and Rotational Motion',
+  'Motion in a Straight Line',
+  'Motion in a Plane',
+  'Laws of Motion',
+  'Work, Energy and Power',
+  'Units and Measurements',
+  'Gravitation',
+  'Oscillations',
+  'Mechanical Properties of Solids',
+  'Thermal Properties of Matter',
+  'Kinetic Theory',
+  'Thermodynamics',
+  'Ray Optics and Optical Instruments',
+  'Waves',
+  'Wave Optics',
+  'Electric Charges and Fields',
+  'Communication Systems',
+  'Current Electricity',
+  'Moving Charges and Magnetism',
+  'Magnetism and Matter',
+  'Mechanical Properties of Fluids',
+  'Alternating Current',
+  'Dual Nature of Radiation and Matter',
+  'Electromagnetic Waves',
+  'Atomic Structure',
+  'Semiconductor Electronics',
+  'Nuclei',
+  'Electrostatics and Capacitance',
+];
+
+const EAMCET_MEDICAL_CHAPTERS = {
+  Physics: EAMCET_MEDICAL_PHYSICS,
+  Chemistry: EAMCET_MEDICAL_CHEMISTRY,
+  Botany: EAMCET_MEDICAL_BOTANY,
+  Zoology: EAMCET_MEDICAL_ZOOLOGY,
+};
+
+function getSubjectFromSectionId(sectionId) {
+  const s = (sectionId || '').toLowerCase();
+  if (s.includes('physics')) return 'Physics';
+  if (s.includes('chemistry') || s.includes('chem')) return 'Chemistry';
+  if (s.includes('botany') || s.includes('bot')) return 'Botany';
+  if (s.includes('zoology') || s.includes('zoo')) return 'Zoology';
+  return null;
+}
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+function parseArgs() {
+  const args = process.argv.slice(2);
+  const opts = { limit: null, delay: 1200, batchSize: 5, concurrency: 1, dryRun: false, medicalOnly: false };
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--limit' && args[i + 1]) opts.limit = parseInt(args[i + 1], 10);
+    if (args[i] === '--delay' && args[i + 1]) opts.delay = parseInt(args[i + 1], 10);
+    if (args[i] === '--batch-size' && args[i + 1]) opts.batchSize = parseInt(args[i + 1], 10);
+    if (args[i] === '--concurrency' && args[i + 1]) opts.concurrency = Math.max(1, parseInt(args[i + 1], 10));
+    if (args[i] === '--dry-run') opts.dryRun = true;
+    if (args[i] === '--medical-only') opts.medicalOnly = true;
+  }
+  return opts;
+}
+
+async function getMedicalSectionIds(supabase) {
+  const { data: tests, error: testsErr } = await supabase
+    .from('tests')
+    .select('test_id')
+    .eq('field', 'medical');
+  if (testsErr) {
+    console.log('Note: tests.field may not exist. Add migration to add field column to tests for --medical-only filter.');
+    return null;
+  }
+  if (!tests || tests.length === 0) {
+    console.log('No medical tests found (field=medical). Processing all Physics/Chemistry/Botany/Zoology questions.');
+    return null;
+  }
+  const testIds = tests.map((t) => t.test_id);
+  const { data: sections, error: sectionsErr } = await supabase
+    .from('sections')
+    .select('section_id')
+    .in('test_id', testIds);
+  if (sectionsErr || !sections || sections.length === 0) {
+    return null;
+  }
+  return sections.map((s) => s.section_id);
+}
+
+async function fetchQuestions(supabase, opts) {
+  let query = supabase
+    .from('questions')
+    .select('question_id, section_id, question_text')
+    .is('chapter', null);
+
+  if (opts.medicalOnly) {
+    const medicalSectionIds = await getMedicalSectionIds(supabase);
+    if (medicalSectionIds && medicalSectionIds.length > 0) {
+      query = query.in('section_id', medicalSectionIds);
+    }
+  }
+
+  if (opts.limit) query = query.limit(opts.limit);
+  const { data, error } = await query;
+
+  if (error && error.code === '42703') {
+    console.log('Chapter column not found - using all questions (run migration to add chapter column).');
+    query = supabase.from('questions').select('question_id, section_id, question_text');
+    if (opts.medicalOnly) {
+      const medicalSectionIds = await getMedicalSectionIds(supabase);
+      if (medicalSectionIds?.length) query = query.in('section_id', medicalSectionIds);
+    }
+    if (opts.limit) query = query.limit(opts.limit);
+    const res = await query;
+    return { data: res.data, error: res.error };
+  }
+  return { data, error };
+}
+
+async function categorizeBatch(ai, questions, subject) {
+  const chapters = EAMCET_MEDICAL_CHAPTERS[subject];
+  if (!chapters) return null;
+
+  const prompt = `You are categorizing EAMCET Medical exam questions by chapter. The subject is ${subject}.
+
+Valid chapters (pick EXACTLY one per question, must match exactly):
+${chapters.map((c) => `- ${c}`).join('\n')}
+
+Here are ${questions.length} questions. For each question, output ONLY the chapter name (exact match from the list above).
+Format: Return a JSON array of strings, one per question in order. Example: ["Laws of Motion","Atomic Structure","Chemical Bonding and Molecular Structure"]
+
+Questions:
+${questions
+  .map(
+    (q, i) =>
+      `[${i + 1}] ${(q.question_text || '').replace(/\s+/g, ' ').slice(0, 500)}`
+  )
+  .join('\n\n')}`;
+
+  const response = await ai.models.generateContent({
+    model: 'gemini-2.5-flash',
+    contents: prompt,
+  });
+
+  let text = '';
+  if (response?.candidates?.[0]?.content?.parts) {
+    for (const p of response.candidates[0].content.parts) {
+      if (p.text) text += p.text;
+    }
+  }
+  if (!text) return null;
+
+  const jsonMatch = text.match(/\[[\s\S]*\]/);
+  if (!jsonMatch) return null;
+  let arr;
+  try {
+    arr = JSON.parse(jsonMatch[0]);
+  } catch {
+    return null;
+  }
+  if (!Array.isArray(arr) || arr.length !== questions.length) return null;
+
+  return arr.map((ch) => (typeof ch === 'string' ? ch.trim() : null));
+}
+
+function validateChapter(ch, subject) {
+  const list = EAMCET_MEDICAL_CHAPTERS[subject];
+  if (!list) return null;
+  const s = (ch || '').trim();
+  if (!s) return null;
+  if (list.includes(s)) return s;
+  const match = list.find((c) => c.toLowerCase() === s.toLowerCase());
+  return match || null;
+}
+
+async function main() {
+  const opts = parseArgs();
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const geminiKey = process.env.GEMINI_API_KEY;
+
+  if (!supabaseUrl || !supabaseKey) {
+    console.error('Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY');
+    process.exit(1);
+  }
+  if (!geminiKey) {
+    console.error('Missing GEMINI_API_KEY');
+    process.exit(1);
+  }
+
+  const supabase = createClient(supabaseUrl, supabaseKey);
+  const ai = new GoogleGenAI({ apiKey: geminiKey });
+
+  const startTime = Date.now();
+  let totalProcessedAllRounds = 0;
+  let round = 0;
+
+  const runOneRound = async () => {
+    round++;
+    console.log(`\n--- Round ${round} ---`);
+    console.log('Fetching uncategorized questions...');
+    const { data: questions, error } = await fetchQuestions(supabase, opts);
+
+    if (error) {
+      console.error('Supabase error:', error);
+      throw error;
+    }
+
+    const total = questions?.length || 0;
+    if (total === 0) {
+      return { done: true, total };
+    }
+
+    console.log(`\n=== EAMCET Medical Question Categorization ===`);
+    console.log(`Round ${round} | Questions to categorize: ${total}`);
+    console.log(`Batch size: ${opts.batchSize} | Delay: ${opts.delay}ms | Concurrency: ${opts.concurrency}`);
+    if (opts.medicalOnly) console.log(`Filter: medical tests only (tests.field='medical')`);
+    if (opts.dryRun) console.log(`DRY RUN - no DB updates`);
+    console.log(`----------------------------------------\n`);
+
+    const bySubject = { Physics: [], Chemistry: [], Botany: [], Zoology: [] };
+    let unknown = 0;
+    for (const q of questions || []) {
+      const subj = getSubjectFromSectionId(q.section_id);
+      if (subj && bySubject[subj]) bySubject[subj].push(q);
+      else unknown++;
+    }
+    const flat = [
+      ...bySubject.Physics,
+      ...bySubject.Chemistry,
+      ...bySubject.Botany,
+      ...bySubject.Zoology,
+    ];
+
+    console.log(`Subject breakdown:`);
+    console.log(`  Physics:   ${bySubject.Physics.length} questions`);
+    console.log(`  Chemistry: ${bySubject.Chemistry.length} questions`);
+    console.log(`  Botany:    ${bySubject.Botany.length} questions`);
+    console.log(`  Zoology:   ${bySubject.Zoology.length} questions`);
+    if (unknown) console.log(`  Unknown:   ${unknown} (skipped - not Physics/Chemistry/Botany/Zoology)`);
+    const numBatches = Math.ceil(flat.length / opts.batchSize);
+    console.log(`\nTotal batches: ${numBatches} (estimated API calls)`);
+    console.log(`----------------------------------------\n`);
+
+    const stats = { processed: 0, failed: 0, apiCalls: 0, retries: 0, byChapter: {} };
+    let statsLock = Promise.resolve();
+    const withLock = (fn) => {
+      const p = statsLock.then(fn);
+      statsLock = p;
+      return p;
+    };
+    const batches = [];
+    for (let i = 0; i < flat.length; i += opts.batchSize) {
+      batches.push({ index: i, batch: flat.slice(i, i + opts.batchSize) });
+    }
+
+    async function processOneBatch(batchInfo) {
+      const { index, batch } = batchInfo;
+      const subject = getSubjectFromSectionId(batch[0]?.section_id);
+      if (!subject) {
+        stats.failed += batch.length;
+        return { batchIndex: index, ok: false, reason: 'unknown_subject' };
+      }
+
+      let chapters = await categorizeBatch(ai, batch, subject);
+      await withLock(() => { stats.apiCalls++; return Promise.resolve(); });
+      if (!chapters) {
+        await withLock(() => { stats.retries++; return Promise.resolve(); });
+        await sleep(opts.delay * 2);
+        chapters = await categorizeBatch(ai, batch, subject);
+        await withLock(() => { stats.apiCalls++; return Promise.resolve(); });
+      }
+      if (!chapters) {
+        await withLock(() => { stats.failed += batch.length; return Promise.resolve(); });
+        return { batchIndex: index, ok: false, reason: 'gemini_failed' };
+      }
+
+      let batchOk = 0;
+      let batchFail = 0;
+      const chapterCounts = {};
+      for (let j = 0; j < batch.length; j++) {
+        const rawCh = chapters[j];
+        const ch = validateChapter(rawCh, subject);
+        if (!ch) {
+          batchFail++;
+          if (opts.dryRun) {
+            console.log(`  [${subject}] INVALID: "${rawCh}" for Q: ${(batch[j].question_text || '').replace(/\s+/g, ' ').slice(0, 60)}...`);
+          }
+          continue;
+        }
+        chapterCounts[ch] = (chapterCounts[ch] || 0) + 1;
+        if (!opts.dryRun) {
+          const { error: updErr } = await supabase
+            .from('questions')
+            .update({ chapter: ch })
+            .eq('question_id', batch[j].question_id)
+            .eq('section_id', batch[j].section_id);
+          if (updErr) {
+            batchFail++;
+          } else {
+            batchOk++;
+          }
+        } else {
+          batchOk++;
+          if (opts.dryRun) {
+            console.log(`  [${subject}] Q: ${(batch[j].question_text || '').replace(/\s+/g, ' ').slice(0, 80)}... => ${ch}`);
+          }
+        }
+      }
+      await withLock(() => {
+        stats.processed += batchOk;
+        stats.failed += batchFail;
+        for (const [ch, c] of Object.entries(chapterCounts)) {
+          stats.byChapter[ch] = (stats.byChapter[ch] || 0) + c;
+        }
+        return Promise.resolve();
+      });
+      return { batchIndex: index, ok: true, batchOk, batchFail };
+    }
+
+    const delayBetweenStarts = Math.max(1, Math.floor(opts.delay / opts.concurrency)) | 0;
+
+    async function runWithConcurrency() {
+      let nextIndex = 0;
+
+      async function worker() {
+        while (true) {
+          const i = nextIndex++;
+          if (i >= batches.length) break;
+          await processOneBatch(batches[i]);
+          const done = stats.processed + stats.failed;
+          const elapsed = ((Date.now() - startTime) / 1000) | 0;
+          const rate = done > 0 ? elapsed / done : 0;
+          const eta = flat.length - done > 0 ? Math.ceil((flat.length - done) * rate / opts.concurrency) : 0;
+          if (done % 50 === 0 || done >= flat.length) {
+            console.log(`[${new Date().toLocaleTimeString()}] Progress: ${done}/${flat.length} | OK: ${stats.processed} | Failed: ${stats.failed} | API: ${stats.apiCalls} | Elapsed: ${elapsed}s | ETA: ~${eta}s`);
+          }
+          if (nextIndex < batches.length) await sleep(delayBetweenStarts);
+        }
+      }
+
+      await Promise.all(Array.from({ length: opts.concurrency }, () => worker()));
+    }
+
+    await runWithConcurrency();
+
+    const elapsedMs = Date.now() - startTime;
+    const elapsedSec = (elapsedMs / 1000).toFixed(1);
+    console.log(`\n----------------------------------------`);
+    console.log(`=== Round ${round} DONE ===`);
+    console.log(`Processed: ${stats.processed}`);
+    console.log(`Failed:    ${stats.failed}`);
+    console.log(`API calls: ${stats.apiCalls} (retries: ${stats.retries})`);
+    console.log(`Elapsed:   ${elapsedSec}s`);
+    console.log(`Rate:      ${(stats.processed / (elapsedMs / 1000)).toFixed(1)} questions/sec`);
+    if (Object.keys(stats.byChapter).length > 0) {
+      console.log(`\nChapters tagged (top 15):`);
+      const sorted = Object.entries(stats.byChapter).sort((a, b) => b[1] - a[1]).slice(0, 15);
+      sorted.forEach(([ch, count]) => console.log(`  ${ch}: ${count}`));
+    }
+    console.log(`----------------------------------------\n`);
+
+    totalProcessedAllRounds += stats.processed;
+    return { done: false, total: stats.processed };
+  };
+
+  // Loop until all medical questions are categorized (when --medical-only)
+  while (true) {
+    const result = await runOneRound();
+    if (result.done) {
+      if (opts.medicalOnly) {
+        console.log(totalProcessedAllRounds > 0
+          ? `\n✓ All medical questions are now categorized! (${totalProcessedAllRounds} total processed)`
+          : `\n✓ No uncategorized medical questions found.`);
+      }
+      break;
+    }
+    if (!opts.medicalOnly) break; // Single run when not medical-only
+  }
+
+  const totalElapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`\nTotal elapsed: ${totalElapsed}s\n`);
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

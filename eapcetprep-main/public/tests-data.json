@@ -1,0 +1,1111 @@
+{
+  "lastUpdated": "2026-01-08T16:36:25.791Z",
+  "totalTests": 54,
+  "state": "TS",
+  "tests": [
+    {
+      "test_id": 36,
+      "test_name": "TS EAMCET 2016 Code A Paper",
+      "test_date": "2025-12-27",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2016",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 35,
+      "test_name": "TS EAMCET 2015 Paper",
+      "test_date": "2025-12-27",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2015",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 37,
+      "test_name": "TS EAMCET 2017 Code A Paper",
+      "test_date": "2025-12-27",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2017",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 12,
+      "test_name": "TG EAMCET 4 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-04",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 13,
+      "test_name": "TG EAMCET 4 May 2025 Shift 2 Paper",
+      "test_date": "2025-05-04",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 11,
+      "test_name": "TG EAMCET 3 May 2025 Shift 2 Paper",
+      "test_date": "2025-05-03",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 10,
+      "test_name": "TG EAMCET 3 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-03",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 9,
+      "test_name": "TG EAMCET 2 May 2025 Shift 2 Paper",
+      "test_date": "2025-05-02",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 8,
+      "test_name": "TG EAMCET 2 May 2025 Shift 1 Paper",
+      "test_date": "2025-05-02",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2025",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 24,
+      "test_name": "TS EAMCET 11 May 2024 Shift 2 Paper",
+      "test_date": "2024-05-11",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 23,
+      "test_name": "TS EAMCET 11 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-11",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 20,
+      "test_name": "TS EAMCET 10 May 2024 Shift 2 Paper",
+      "test_date": "2024-05-10",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 19,
+      "test_name": "TS EAMCET 10 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-10",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 53,
+      "test_name": "TS EAMCET 9 May 2024 Shift 2 Paper",
+      "test_date": "2024-05-09",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 52,
+      "test_name": "TS EAMCET 9 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-09",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 51,
+      "test_name": "TS EAMCET 8 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-08",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 49,
+      "test_name": "TS EAMCET 7 May 2024 Shift 1 Paper",
+      "test_date": "2024-05-07",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 50,
+      "test_name": "TS EAMCET 7 May 2024 Shift 2 Paper",
+      "test_date": "2024-05-07",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2024",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 61,
+      "test_name": "TS EAMCET Engineering 14 May 2023 Shift 2 Paper",
+      "test_date": "2023-05-14",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 60,
+      "test_name": "TS EAMCET Engineering 14 May 2023 Shift 1 Paper",
+      "test_date": "2023-05-14",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 58,
+      "test_name": "TS EAMCET Engineering 13 May 2023 Shift 1 Paper",
+      "test_date": "2023-05-13",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 59,
+      "test_name": "TS EAMCET Engineering 13 May 2023 Shift 2 Paper",
+      "test_date": "2023-05-13",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 57,
+      "test_name": "TS EAMCET Engineering 12 May 2023 Shift 2 Paper",
+      "test_date": "2023-05-12",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 56,
+      "test_name": "TS EAMCET Engineering 12 May 2023 Shift 1 Paper",
+      "test_date": "2023-05-12",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2023",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 33,
+      "test_name": "TS EAMCET 20 July 2022 Shift 1 Paper",
+      "test_date": "2022-07-20",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 34,
+      "test_name": "TS EAMCET 20 July 2022 Shift 2 Paper",
+      "test_date": "2022-07-20",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 32,
+      "test_name": "TS EAMCET 19 July 2022 Shift 2 Paper",
+      "test_date": "2022-07-19",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 31,
+      "test_name": "TS EAMCET 19 July 2022 Shift 1 Paper",
+      "test_date": "2022-07-19",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 30,
+      "test_name": "TS EAMCET 18 July 2022 Shift 2 Paper",
+      "test_date": "2022-07-18",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 29,
+      "test_name": "TS EAMCET 18 July 2022 Shift 1 Paper",
+      "test_date": "2022-07-18",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2022",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 46,
+      "test_name": "TS EAMCET 6 Aug 2021 Shift 1 Paper",
+      "test_date": "2021-01-06",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 47,
+      "test_name": "TS EAMCET 6 Aug 2021 Shift 2 Paper",
+      "test_date": "2021-01-06",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 42,
+      "test_name": "TS EAMCET 5 Aug 2021 Shift 1 Paper",
+      "test_date": "2021-01-05",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 43,
+      "test_name": "TS EAMCET 5 Aug 2021 Shift 2 Paper",
+      "test_date": "2021-01-05",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 39,
+      "test_name": "TS EAMCET 4 Aug 2021 Shift 2 Paper",
+      "test_date": "2021-01-04",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 38,
+      "test_name": "TS EAMCET 4 Aug 2021 Shift 1 Paper",
+      "test_date": "2021-01-04",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2021",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 27,
+      "test_name": "TS EAMCET 14 Sep 2020 Shift 1 Paper",
+      "test_date": "2020-01-14",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2020",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 28,
+      "test_name": "TS EAMCET 14 Sep 2020 Shift 2 Paper",
+      "test_date": "2020-01-14",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2020",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 25,
+      "test_name": "TS EAMCET 11 Sep 2020 Shift 1 Paper",
+      "test_date": "2020-01-11",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2020",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 26,
+      "test_name": "TS EAMCET 11 Sep 2020 Shift 2 Paper",
+      "test_date": "2020-01-11",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2020",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 21,
+      "test_name": "TS EAMCET 10 Sep 2020 Shift 1 Paper",
+      "test_date": "2020-01-10",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2020",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 22,
+      "test_name": "TS EAMCET 10 Sep 2020 Shift 2 Paper",
+      "test_date": "2020-01-10",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2020",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 55,
+      "test_name": "TS EAMCET 9 Sep 2020 Shift 2 Paper",
+      "test_date": "2020-01-09",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2020",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 54,
+      "test_name": "TS EAMCET 9 Sep 2020 Shift 1 Paper",
+      "test_date": "2020-01-09",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2020",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 18,
+      "test_name": "TS EAMCET 06 May 2019 Shift 1 Paper",
+      "test_date": "2019-05-06",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2019",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 16,
+      "test_name": "TS EAMCET 04 May 2019 Shift 1 Paper",
+      "test_date": "2019-05-04",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2019",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 17,
+      "test_name": "TS EAMCET 04 May 2019 Shift 2 Paper",
+      "test_date": "2019-05-04",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2019",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 14,
+      "test_name": "TS EAMCET 03 May 2019 Shift 1 Paper",
+      "test_date": "2019-05-03",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2019",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 15,
+      "test_name": "TS EAMCET 03 May 2019 Shift 2 Paper",
+      "test_date": "2019-05-03",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2019",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 48,
+      "test_name": "TS EAMCET 7 May 2018 Shift 1 Paper",
+      "test_date": "2018-05-07",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2018",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 45,
+      "test_name": "TS EAMCET 5 May 2018 Shift 2 Paper",
+      "test_date": "2018-05-05",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2018",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 44,
+      "test_name": "TS EAMCET 5 May 2018 Shift 1 Paper",
+      "test_date": "2018-05-05",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2018",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 41,
+      "test_name": "TS EAMCET 4 May 2018 Shift 2 Paper",
+      "test_date": "2018-05-04",
+      "shift": "2",
+      "test_type": "previous_year",
+      "year": "2018",
+      "set_name": null,
+      "state": "TS"
+    },
+    {
+      "test_id": 40,
+      "test_name": "TS EAMCET 4 May 2018 Shift 1 Paper",
+      "test_date": "2018-05-04",
+      "shift": "1",
+      "test_type": "previous_year",
+      "year": "2018",
+      "set_name": null,
+      "state": "TS"
+    }
+  ],
+  "grouped": {
+    "2015": [
+      {
+        "test_id": 35,
+        "test_name": "TS EAMCET 2015 Paper",
+        "test_date": "2025-12-27",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2015",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2016": [
+      {
+        "test_id": 36,
+        "test_name": "TS EAMCET 2016 Code A Paper",
+        "test_date": "2025-12-27",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2016",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2017": [
+      {
+        "test_id": 37,
+        "test_name": "TS EAMCET 2017 Code A Paper",
+        "test_date": "2025-12-27",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2017",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2018": [
+      {
+        "test_id": 48,
+        "test_name": "TS EAMCET 7 May 2018 Shift 1 Paper",
+        "test_date": "2018-05-07",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2018",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 45,
+        "test_name": "TS EAMCET 5 May 2018 Shift 2 Paper",
+        "test_date": "2018-05-05",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2018",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 44,
+        "test_name": "TS EAMCET 5 May 2018 Shift 1 Paper",
+        "test_date": "2018-05-05",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2018",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 41,
+        "test_name": "TS EAMCET 4 May 2018 Shift 2 Paper",
+        "test_date": "2018-05-04",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2018",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 40,
+        "test_name": "TS EAMCET 4 May 2018 Shift 1 Paper",
+        "test_date": "2018-05-04",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2018",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2019": [
+      {
+        "test_id": 18,
+        "test_name": "TS EAMCET 06 May 2019 Shift 1 Paper",
+        "test_date": "2019-05-06",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2019",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 16,
+        "test_name": "TS EAMCET 04 May 2019 Shift 1 Paper",
+        "test_date": "2019-05-04",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2019",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 17,
+        "test_name": "TS EAMCET 04 May 2019 Shift 2 Paper",
+        "test_date": "2019-05-04",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2019",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 14,
+        "test_name": "TS EAMCET 03 May 2019 Shift 1 Paper",
+        "test_date": "2019-05-03",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2019",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 15,
+        "test_name": "TS EAMCET 03 May 2019 Shift 2 Paper",
+        "test_date": "2019-05-03",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2019",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2020": [
+      {
+        "test_id": 27,
+        "test_name": "TS EAMCET 14 Sep 2020 Shift 1 Paper",
+        "test_date": "2020-01-14",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2020",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 28,
+        "test_name": "TS EAMCET 14 Sep 2020 Shift 2 Paper",
+        "test_date": "2020-01-14",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2020",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 25,
+        "test_name": "TS EAMCET 11 Sep 2020 Shift 1 Paper",
+        "test_date": "2020-01-11",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2020",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 26,
+        "test_name": "TS EAMCET 11 Sep 2020 Shift 2 Paper",
+        "test_date": "2020-01-11",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2020",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 21,
+        "test_name": "TS EAMCET 10 Sep 2020 Shift 1 Paper",
+        "test_date": "2020-01-10",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2020",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 22,
+        "test_name": "TS EAMCET 10 Sep 2020 Shift 2 Paper",
+        "test_date": "2020-01-10",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2020",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 55,
+        "test_name": "TS EAMCET 9 Sep 2020 Shift 2 Paper",
+        "test_date": "2020-01-09",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2020",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 54,
+        "test_name": "TS EAMCET 9 Sep 2020 Shift 1 Paper",
+        "test_date": "2020-01-09",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2020",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2021": [
+      {
+        "test_id": 46,
+        "test_name": "TS EAMCET 6 Aug 2021 Shift 1 Paper",
+        "test_date": "2021-01-06",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 47,
+        "test_name": "TS EAMCET 6 Aug 2021 Shift 2 Paper",
+        "test_date": "2021-01-06",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 42,
+        "test_name": "TS EAMCET 5 Aug 2021 Shift 1 Paper",
+        "test_date": "2021-01-05",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 43,
+        "test_name": "TS EAMCET 5 Aug 2021 Shift 2 Paper",
+        "test_date": "2021-01-05",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 39,
+        "test_name": "TS EAMCET 4 Aug 2021 Shift 2 Paper",
+        "test_date": "2021-01-04",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 38,
+        "test_name": "TS EAMCET 4 Aug 2021 Shift 1 Paper",
+        "test_date": "2021-01-04",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2021",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2022": [
+      {
+        "test_id": 33,
+        "test_name": "TS EAMCET 20 July 2022 Shift 1 Paper",
+        "test_date": "2022-07-20",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 34,
+        "test_name": "TS EAMCET 20 July 2022 Shift 2 Paper",
+        "test_date": "2022-07-20",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 32,
+        "test_name": "TS EAMCET 19 July 2022 Shift 2 Paper",
+        "test_date": "2022-07-19",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 31,
+        "test_name": "TS EAMCET 19 July 2022 Shift 1 Paper",
+        "test_date": "2022-07-19",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 30,
+        "test_name": "TS EAMCET 18 July 2022 Shift 2 Paper",
+        "test_date": "2022-07-18",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 29,
+        "test_name": "TS EAMCET 18 July 2022 Shift 1 Paper",
+        "test_date": "2022-07-18",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2022",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2023": [
+      {
+        "test_id": 61,
+        "test_name": "TS EAMCET Engineering 14 May 2023 Shift 2 Paper",
+        "test_date": "2023-05-14",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 60,
+        "test_name": "TS EAMCET Engineering 14 May 2023 Shift 1 Paper",
+        "test_date": "2023-05-14",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 58,
+        "test_name": "TS EAMCET Engineering 13 May 2023 Shift 1 Paper",
+        "test_date": "2023-05-13",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 59,
+        "test_name": "TS EAMCET Engineering 13 May 2023 Shift 2 Paper",
+        "test_date": "2023-05-13",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 57,
+        "test_name": "TS EAMCET Engineering 12 May 2023 Shift 2 Paper",
+        "test_date": "2023-05-12",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 56,
+        "test_name": "TS EAMCET Engineering 12 May 2023 Shift 1 Paper",
+        "test_date": "2023-05-12",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2023",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2024": [
+      {
+        "test_id": 24,
+        "test_name": "TS EAMCET 11 May 2024 Shift 2 Paper",
+        "test_date": "2024-05-11",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 23,
+        "test_name": "TS EAMCET 11 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-11",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 20,
+        "test_name": "TS EAMCET 10 May 2024 Shift 2 Paper",
+        "test_date": "2024-05-10",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 19,
+        "test_name": "TS EAMCET 10 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-10",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 53,
+        "test_name": "TS EAMCET 9 May 2024 Shift 2 Paper",
+        "test_date": "2024-05-09",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 52,
+        "test_name": "TS EAMCET 9 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-09",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 51,
+        "test_name": "TS EAMCET 8 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-08",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 49,
+        "test_name": "TS EAMCET 7 May 2024 Shift 1 Paper",
+        "test_date": "2024-05-07",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 50,
+        "test_name": "TS EAMCET 7 May 2024 Shift 2 Paper",
+        "test_date": "2024-05-07",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2024",
+        "set_name": null,
+        "state": "TS"
+      }
+    ],
+    "2025": [
+      {
+        "test_id": 12,
+        "test_name": "TG EAMCET 4 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-04",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 13,
+        "test_name": "TG EAMCET 4 May 2025 Shift 2 Paper",
+        "test_date": "2025-05-04",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 11,
+        "test_name": "TG EAMCET 3 May 2025 Shift 2 Paper",
+        "test_date": "2025-05-03",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 10,
+        "test_name": "TG EAMCET 3 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-03",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 9,
+        "test_name": "TG EAMCET 2 May 2025 Shift 2 Paper",
+        "test_date": "2025-05-02",
+        "shift": "2",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "TS"
+      },
+      {
+        "test_id": 8,
+        "test_name": "TG EAMCET 2 May 2025 Shift 1 Paper",
+        "test_date": "2025-05-02",
+        "shift": "1",
+        "test_type": "previous_year",
+        "year": "2025",
+        "set_name": null,
+        "state": "TS"
+      }
+    ]
+  }
+}

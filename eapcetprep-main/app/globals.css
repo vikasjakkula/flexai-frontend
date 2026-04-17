@@ -1,0 +1,203 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========================================
+   SPRITE & MATH CONTENT STYLES
+   ======================================== */
+
+/* Base sprite class - sprites from Supabase CSS will extend this */
+.sprite {
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+/* Question content container */
+.question-content {
+  font-size: 1rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.question-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Math formula styles (fmath elements from scraped HTML) */
+fmath,
+.fm-math {
+  font-family: STIXGeneral, 'DejaVu Serif', 'DejaVu Sans', Times, 'Times New Roman', serif;
+  line-height: 1.2;
+}
+
+fmath mtext {
+  line-height: normal;
+}
+
+.fm-mo,
+.ma-sans-serif,
+fmath mi[mathvariant*="sans-serif"],
+fmath mn[mathvariant*="sans-serif"],
+fmath mo,
+fmath ms[mathvariant*="sans-serif"],
+fmath mtext[mathvariant*="sans-serif"] {
+  font-family: STIXGeneral, 'DejaVu Sans', 'DejaVu Serif', 'Arial Unicode MS', 'Lucida Grande', Times, sans-serif;
+}
+
+.fm-separator {
+  padding: 0 0.56ex 0 0;
+}
+
+.fm-infix-loose {
+  padding: 0 0.56ex;
+}
+
+.fm-infix {
+  padding: 0 0.44ex;
+}
+
+.fm-vert,
+fmath menclose {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fm-large-op {
+  font-size: 1.3em;
+}
+
+.fm-frac {
+  padding: 0 1px !important;
+}
+
+td.fm-den-frac {
+  border-top: solid thin !important;
+}
+
+.fm-root {
+  font-size: 0.6em;
+}
+
+.fm-radicand {
+  padding: 0 1px 0 0;
+  border-top: solid;
+  margin-top: 0.1em;
+}
+
+.fm-script {
+  font-size: 0.71em;
+}
+
+fmath table,
+fmath tbody,
+fmath td,
+fmath tr {
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+fmath table {
+  border-collapse: collapse !important;
+  text-align: center !important;
+}
+
+td.fm-mtd {
+  padding: 0.5ex 0.4em !important;
+  vertical-align: baseline !important;
+}
+
+/* ========================================
+   SCROLLBAR UTILITIES
+   ======================================== */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Testimonials conveyor / marquee scroll animation */
+@keyframes testimonial-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-testimonial-scroll {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  animation: testimonial-scroll 30s linear infinite;
+}
+
+.animate-testimonial-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* Spin wheel "Free" badge vibrate */
+@keyframes vibrate {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  75% { transform: translateX(2px); }
+}
+.animate-vibrate {
+  animation: vibrate 0.5s ease-in-out infinite;
+}
+
+/* Hero CTA – subtle attention-grabbing shake */
+@keyframes cta-shake {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(-2px, 0); }
+  75% { transform: translate(2px, 0); }
+}
+.animate-cta-shake {
+  animation: cta-shake 1s ease-in-out infinite;
+}
+.animate-cta-shake:hover {
+  animation-duration: 0.7s;
+  box-shadow: 0 0 12px 2px rgba(37, 99, 235, 0.25);
+}
+
+/* Hero CTA arrow – squiggly bounce to draw attention */
+@keyframes arrow-bounce {
+  0%, 100% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(-4px) translateY(-3px); }
+  50% { transform: translateX(-2px) translateY(2px); }
+  75% { transform: translateX(-6px) translateY(-1px); }
+}
+.animate-arrow-bounce {
+  animation: arrow-bounce 1.2s ease-in-out infinite;
+}

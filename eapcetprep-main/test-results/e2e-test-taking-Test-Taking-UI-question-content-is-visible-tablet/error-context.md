@@ -1,0 +1,234 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - generic [ref=e10]:
+      - text: Compiling
+      - generic [ref=e11]:
+        - generic [ref=e12]: .
+        - generic [ref=e13]: .
+        - generic [ref=e14]: .
+  - alert [ref=e15]
+  - generic [ref=e16]:
+    - banner [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: eamcetpro
+        - generic [ref=e20]: TS EAMCET 9 May 2024 Shift 1 Paper
+      - generic [ref=e21]:
+        - generic [ref=e23]: "Time: 02:59:53"
+        - button "Close question palette" [ref=e24]:
+          - img [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: Sections |
+          - button "Chemistry" [ref=e33]
+          - button "Mathematics" [ref=e34]
+          - button "Physics" [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Question 1
+            - generic [ref=e40]: Time:00:35
+          - generic [ref=e41]:
+            - generic [ref=e43]:
+              - text: "Correct Marks : 1 Wrong Marks : 0"
+              - text: If
+              - generic [ref=e45]:
+                - generic [ref=e46]:
+                  - text: f
+                  - generic [ref=e47]: (x)
+                - text: =
+                - table [ref=e51]:
+                  - rowgroup [ref=e52]:
+                    - row "2x−3" [ref=e53]:
+                      - cell "2x−3" [ref=e54]:
+                        - generic [ref=e55]:
+                          - generic [ref=e56]: 2x
+                          - text: −3
+                    - row "3x−2" [ref=e57]:
+                      - cell "3x−2" [ref=e58]:
+                        - generic [ref=e59]:
+                          - generic [ref=e60]: 3x
+                          - text: −2
+              - text: and
+              - generic [ref=e62]:
+                - generic [ref=e63]:
+                  - generic [ref=e64]:
+                    - text: f
+                    - generic [ref=e65]: "n"
+                  - generic [ref=e66]: (x)
+                - text: =(
+              - text: fo fo fo..... ntimes
+              - generic [ref=e68]:
+                - text: )
+                - generic [ref=e69]: (x)
+              - text: ", then"
+              - generic [ref=e71]:
+                - generic [ref=e72]:
+                  - generic [ref=e73]:
+                    - text: f
+                    - generic [ref=e74]: "32"
+                  - generic [ref=e75]: (x)
+                - text: =
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - radio "a. 2x−3 3x−2" [ref=e78]
+                - generic [ref=e79]:
+                  - text: a.
+                  - table [ref=e85]:
+                    - rowgroup [ref=e86]:
+                      - row "2x−3" [ref=e87]:
+                        - cell "2x−3" [ref=e88]:
+                          - generic [ref=e89]:
+                            - generic [ref=e90]: 2x
+                            - text: −3
+                      - row "3x−2" [ref=e91]:
+                        - cell "3x−2" [ref=e92]:
+                          - generic [ref=e93]:
+                            - generic [ref=e94]: 3x
+                            - text: −2
+              - generic [ref=e95]:
+                - radio "b.x" [ref=e96]
+                - generic [ref=e97]:
+                  - text: b.
+                  - generic [ref=e99]: x
+              - generic [ref=e100]:
+                - radio "c. 3x+2 2x+3" [ref=e101]
+                - generic [ref=e102]:
+                  - text: c.
+                  - table [ref=e108]:
+                    - rowgroup [ref=e109]:
+                      - row "3x+2" [ref=e110]:
+                        - cell "3x+2" [ref=e111]:
+                          - generic [ref=e112]:
+                            - generic [ref=e113]: 3x
+                            - text: "+2"
+                      - row "2x+3" [ref=e114]:
+                        - cell "2x+3" [ref=e115]:
+                          - generic [ref=e116]:
+                            - generic [ref=e117]: 2x
+                            - text: "+3"
+              - generic [ref=e118]:
+                - radio "d.f23(x)" [ref=e119]
+                - generic [ref=e120]:
+                  - text: d.
+                  - generic [ref=e123]:
+                    - generic [ref=e124]:
+                      - text: f
+                      - generic [ref=e125]: "23"
+                    - generic [ref=e126]: (x)
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - button "Mark for Review & Next" [ref=e129]
+              - button "Clear Response" [ref=e130]
+            - button "Save & Next" [ref=e131]
+        - generic [ref=e132]:
+          - button "Previous" [disabled] [ref=e133]:
+            - img [ref=e134]
+            - generic [ref=e136]: Previous
+          - button "Next" [ref=e137]:
+            - generic [ref=e138]: Next
+            - img [ref=e139]
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]: Question Palette
+          - button "Close sidebar" [ref=e145]:
+            - img [ref=e146]
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - img [ref=e153]
+              - generic [ref=e155]: Test User
+            - generic [ref=e156]:
+              - generic [ref=e157]: 2Attempted
+              - generic [ref=e158]: 0Marked
+              - generic [ref=e159]: 159Not Visited
+              - generic [ref=e160]: "-1Not Answered"
+              - generic [ref=e161]: 0Marked & Answered
+          - 'heading "Section: Maths" [level=3] [ref=e163]'
+          - generic [ref=e164]:
+            - button "1" [ref=e165]
+            - button "2" [ref=e166]
+            - button "3" [ref=e167]
+            - button "4" [ref=e168]
+            - button "5" [ref=e169]
+            - button "6" [ref=e170]
+            - button "7" [ref=e171]
+            - button "8" [ref=e172]
+            - button "9" [ref=e173]
+            - button "10" [ref=e174]
+            - button "11" [ref=e175]
+            - button "12" [ref=e176]
+            - button "13" [ref=e177]
+            - button "14" [ref=e178]
+            - button "15" [ref=e179]
+            - button "16" [ref=e180]
+            - button "17" [ref=e181]
+            - button "18" [ref=e182]
+            - button "19" [ref=e183]
+            - button "20" [ref=e184]
+            - button "21" [ref=e185]
+            - button "22" [ref=e186]
+            - button "23" [ref=e187]
+            - button "24" [ref=e188]
+            - button "25" [ref=e189]
+            - button "26" [ref=e190]
+            - button "27" [ref=e191]
+            - button "28" [ref=e192]
+            - button "29" [ref=e193]
+            - button "30" [ref=e194]
+            - button "31" [ref=e195]
+            - button "32" [ref=e196]
+            - button "33" [ref=e197]
+            - button "34" [ref=e198]
+            - button "35" [ref=e199]
+            - button "36" [ref=e200]
+            - button "37" [ref=e201]
+            - button "38" [ref=e202]
+            - button "39" [ref=e203]
+            - button "40" [ref=e204]
+            - button "41" [ref=e205]
+            - button "42" [ref=e206]
+            - button "43" [ref=e207]
+            - button "44" [ref=e208]
+            - button "45" [ref=e209]
+            - button "46" [ref=e210]
+            - button "47" [ref=e211]
+            - button "48" [ref=e212]
+            - button "49" [ref=e213]
+            - button "50" [ref=e214]
+            - button "51" [ref=e215]
+            - button "52" [ref=e216]
+            - button "53" [ref=e217]
+            - button "54" [ref=e218]
+            - button "55" [ref=e219]
+            - button "56" [ref=e220]
+            - button "57" [ref=e221]
+            - button "58" [ref=e222]
+            - button "59" [ref=e223]
+            - button "60" [ref=e224]
+            - button "61" [ref=e225]
+            - button "62" [ref=e226]
+            - button "63" [ref=e227]
+            - button "64" [ref=e228]
+            - button "65" [ref=e229]
+            - button "66" [ref=e230]
+            - button "67" [ref=e231]
+            - button "68" [ref=e232]
+            - button "69" [ref=e233]
+            - button "70" [ref=e234]
+            - button "71" [ref=e235]
+            - button "72" [ref=e236]
+            - button "73" [ref=e237]
+            - button "74" [ref=e238]
+            - button "75" [ref=e239]
+            - button "76" [ref=e240]
+            - button "77" [ref=e241]
+            - button "78" [ref=e242]
+            - button "79" [ref=e243]
+            - button "80" [ref=e244]
+        - generic [ref=e245]:
+          - button "Instructions" [ref=e246]
+          - button "SUBMIT TEST" [ref=e247]
+```
