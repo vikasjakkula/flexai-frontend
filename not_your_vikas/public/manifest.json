@@ -1,0 +1,35 @@
+{
+  "short_name": "Vikas's Blog",
+  "name": "Jakkula Vikas Yadav - Full Stack Developer & Tech Blogger",
+  "description": "Personal portfolio and tech blog of Jakkula Vikas Yadav, a Full Stack Developer specializing in React, Node.js, and Game Development.",
+  "icons": [
+    {
+      "src": "Dp.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "Dp.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Dp.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "author": "Jakkula Vikas Yadav",
+  "categories": ["portfolio", "blog", "technology", "programming"],
+  "screenshots": [
+    {
+      "src": "Dp.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ]
+}

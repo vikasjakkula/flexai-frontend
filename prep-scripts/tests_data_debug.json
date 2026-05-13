@@ -1,0 +1,188 @@
+{
+  "_summary": {
+    "total_tests_with_empty_strings_or_divs": 59,
+    "total_empty_string_or_div_occurrences": 9419,
+    "totals_by_field": {
+      "option_d": 1,
+      "solution_html": 9418
+    }
+  },
+  "ap-eapcet-04-jul-2022-shift-1-paper": {
+    "solution_html": 1
+  },
+  "ap-eapcet-04-jul-2022-shift-2-paper": {
+    "solution_html": 1
+  },
+  "ap-eapcet-06-jul-2022-shift-1-paper": {
+    "solution_html": 1
+  },
+  "ap-eapcet-07-jul-2022-shift-1-paper": {
+    "solution_html": 5
+  },
+  "ap-eapcet-07-jul-2022-shift-2-paper": {
+    "solution_html": 2
+  },
+  "ap-eapcet-08-jul-2022-shift-2-paper": {
+    "solution_html": 1
+  },
+  "ap-eapcet-15th-may-2023-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-15th-may-2023-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-16th-may-2023-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-16th-may-2023-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-17th-may-2023-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-17th-may-2023-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-18th-may-2023-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-18th-may-2023-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-19-may-2024-shift-2-solved-paper": {
+    "solution_html": 157
+  },
+  "ap-eapcet-19th-may-2023-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-20-aug-2021-shift-1-paper": {
+    "solution_html": 1
+  },
+  "ap-eapcet-20-aug-2021-shift-2-paper": {
+    "solution_html": 2
+  },
+  "ap-eapcet-20-may-2024-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-20-may-2024-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-21-may-2024-shift-1-solved-paper": {
+    "solution_html": 51
+  },
+  "ap-eapcet-22-may-2024-shift-1-solved-paper": {
+    "solution_html": 148
+  },
+  "ap-eapcet-22-may-2024-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-22-may-2025-shift-1-paper": {
+    "solution_html": 1
+  },
+  "ap-eapcet-22-may-2025-shift-2-paper": {
+    "option_d": 1,
+    "solution_html": 1
+  },
+  "ap-eapcet-23-aug-2021-shift-2-paper": {
+    "solution_html": 1
+  },
+  "ap-eapcet-23-may-2024-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-23-may-2025-shift-1-paper": {
+    "solution_html": 1
+  },
+  "ap-eapcet-23-may-2025-shift-2-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-24-may-2025-shift-1-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-26-may-2025-shift-1-paper": {
+    "solution_html": 160
+  },
+  "ap-eapcet-27-may-2025-shift-1-paper": {
+    "solution_html": 160
+  },
+  "all_questions": {
+    "solution_html": 3162
+  },
+  "tg-eamcet-3-may-2025-shift-1-paper": {
+    "solution_html": 160
+  },
+  "tg-eamcet-3-may-2025-shift-2-paper": {
+    "solution_html": 160
+  },
+  "tg-eamcet-4-may-2025-shift-1-paper": {
+    "solution_html": 160
+  },
+  "tg-eamcet-4-may-2025-shift-2-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-03-may-2019-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-06-may-2019-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-10-may-2024-shift-1-solved-paper": {
+    "solution_html": 118
+  },
+  "ts-eamcet-10-may-2024-shift-2-solved-paper": {
+    "solution_html": 120
+  },
+  "ts-eamcet-10-sep-2020-shift-2-solved-paper": {
+    "solution_html": 2
+  },
+  "ts-eamcet-11-may-2024-shift-1-solved-paper": {
+    "solution_html": 121
+  },
+  "ts-eamcet-11-may-2024-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-14-sep-2020-shift-2-solved-paper": {
+    "solution_html": 1
+  },
+  "ts-eamcet-18-july-2022-shift-1-solved-paper": {
+    "solution_html": 1
+  },
+  "ts-eamcet-18-july-2022-shift-2-solved-paper": {
+    "solution_html": 1
+  },
+  "ts-eamcet-6-aug-2021-shift-2-question-paper": {
+    "solution_html": 1
+  },
+  "ts-eamcet-7-may-2024-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-7-may-2024-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-8-may-2024-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-9-may-2024-shift-1-solved-paper": {
+    "solution_html": 120
+  },
+  "ts-eamcet-9-may-2024-shift-2-solved-paper": {
+    "solution_html": 118
+  },
+  "ts-eamcet-engineering-12-may-2023-shift-1-solved-paper": {
+    "solution_html": 159
+  },
+  "ts-eamcet-engineering-12-may-2023-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-engineering-13-may-2023-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-engineering-13-may-2023-shift-2-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-engineering-14-may-2023-shift-1-solved-paper": {
+    "solution_html": 160
+  },
+  "ts-eamcet-engineering-14-may-2023-shift-2-solved-paper": {
+    "solution_html": 160
+  }
+}

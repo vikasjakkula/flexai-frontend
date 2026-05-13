@@ -1,0 +1,222 @@
+{
+  "muscleGroups": [
+    {
+      "id": "chest",
+      "name": "Chest",
+      "types": [
+        {
+          "id": "chest-barbell",
+          "name": "Barbell",
+          "exercises": [
+            { "id": "bench-press", "name": "Flat Barbell Bench Press", "notes": "4x10, 90s rest" },
+            { "id": "incline-bench", "name": "Incline Barbell Bench Press", "notes": "3x10, 90s rest" },
+            { "id": "decline-bench", "name": "Decline Barbell Bench Press", "notes": "3x10, 90s rest" }
+          ]
+        },
+        {
+          "id": "chest-dumbbell",
+          "name": "Dumbbell",
+          "exercises": [
+            { "id": "db-press", "name": "Dumbbell Chest Press", "notes": "4x12, 60s rest" },
+            { "id": "db-fly", "name": "Dumbbell Fly", "notes": "3x15, 60s rest" },
+            { "id": "incline-db-press", "name": "Incline Dumbbell Press", "notes": "3x12, 60s rest" }
+          ]
+        },
+        {
+          "id": "chest-cable",
+          "name": "Cable",
+          "exercises": [
+            { "id": "cable-fly", "name": "Cable Crossover Fly", "notes": "3x15, 45s rest" },
+            { "id": "low-cable-fly", "name": "Low Cable Fly", "notes": "3x15, 45s rest" }
+          ]
+        },
+        {
+          "id": "chest-bodyweight",
+          "name": "Bodyweight",
+          "exercises": [
+            { "id": "pushup", "name": "Push-Up", "notes": "4x20" },
+            { "id": "wide-pushup", "name": "Wide Push-Up", "notes": "4x15" },
+            { "id": "diamond-pushup", "name": "Diamond Push-Up", "notes": "3x12" },
+            { "id": "decline-pushup", "name": "Decline Push-Up", "notes": "3x15" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "name": "Back",
+      "types": [
+        {
+          "id": "back-barbell",
+          "name": "Barbell",
+          "exercises": [
+            { "id": "deadlift", "name": "Deadlift", "notes": "4x5, 3min rest" },
+            { "id": "bent-over-row", "name": "Bent Over Barbell Row", "notes": "4x8, 90s rest" },
+            { "id": "pendlay-row", "name": "Pendlay Row", "notes": "4x6, 2min rest" }
+          ]
+        },
+        {
+          "id": "back-dumbbell",
+          "name": "Dumbbell",
+          "exercises": [
+            { "id": "db-row", "name": "Single Arm Dumbbell Row", "notes": "4x10 each, 60s rest" },
+            { "id": "db-shrug", "name": "Dumbbell Shrug", "notes": "3x15, 45s rest" }
+          ]
+        },
+        {
+          "id": "back-pullup",
+          "name": "Pull-Up / Bodyweight",
+          "exercises": [
+            { "id": "pullup", "name": "Pull-Up", "notes": "4x8, 90s rest" },
+            { "id": "chinup", "name": "Chin-Up", "notes": "3x10, 90s rest" },
+            { "id": "inverted-row", "name": "Inverted Row", "notes": "3x12, 60s rest" }
+          ]
+        },
+        {
+          "id": "back-cable",
+          "name": "Cable / Machine",
+          "exercises": [
+            { "id": "lat-pulldown", "name": "Lat Pulldown", "notes": "4x10, 60s rest" },
+            { "id": "seated-row", "name": "Seated Cable Row", "notes": "4x10, 60s rest" },
+            { "id": "face-pull", "name": "Face Pull", "notes": "3x15, 45s rest" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legs",
+      "name": "Legs",
+      "types": [
+        {
+          "id": "legs-barbell",
+          "name": "Barbell",
+          "exercises": [
+            { "id": "squat", "name": "Barbell Back Squat", "notes": "4x8, 2min rest" },
+            { "id": "front-squat", "name": "Front Squat", "notes": "3x8, 2min rest" },
+            { "id": "rdl", "name": "Romanian Deadlift", "notes": "4x10, 90s rest" },
+            { "id": "lunges-barbell", "name": "Barbell Lunges", "notes": "3x10 each, 90s rest" }
+          ]
+        },
+        {
+          "id": "legs-dumbbell",
+          "name": "Dumbbell",
+          "exercises": [
+            { "id": "goblet-squat", "name": "Goblet Squat", "notes": "4x12, 60s rest" },
+            { "id": "db-lunge", "name": "Dumbbell Lunge", "notes": "3x12 each, 60s rest" }
+          ]
+        },
+        {
+          "id": "legs-machine",
+          "name": "Machine",
+          "exercises": [
+            { "id": "leg-press", "name": "Leg Press", "notes": "4x12, 90s rest" },
+            { "id": "leg-extension", "name": "Leg Extension", "notes": "3x15, 60s rest" },
+            { "id": "leg-curl", "name": "Leg Curl", "notes": "3x15, 60s rest" },
+            { "id": "calf-raise", "name": "Standing Calf Raise", "notes": "4x20, 45s rest" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoulders",
+      "name": "Shoulders",
+      "types": [
+        {
+          "id": "shoulders-press",
+          "name": "Press",
+          "exercises": [
+            { "id": "ohp", "name": "Overhead Press (Barbell)", "notes": "4x8, 90s rest" },
+            { "id": "db-ohp", "name": "Dumbbell Shoulder Press", "notes": "4x10, 60s rest" },
+            { "id": "arnold-press", "name": "Arnold Press", "notes": "3x12, 60s rest" }
+          ]
+        },
+        {
+          "id": "shoulders-lateral",
+          "name": "Lateral / Isolation",
+          "exercises": [
+            { "id": "lateral-raise", "name": "Lateral Raise", "notes": "4x15, 30s rest" },
+            { "id": "front-raise", "name": "Front Raise", "notes": "3x12, 30s rest" },
+            { "id": "rear-delt-fly", "name": "Rear Delt Fly", "notes": "4x15, 30s rest" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arms",
+      "name": "Arms",
+      "types": [
+        {
+          "id": "arms-biceps",
+          "name": "Biceps",
+          "exercises": [
+            { "id": "barbell-curl", "name": "Barbell Curl", "notes": "4x10, 60s rest" },
+            { "id": "hammer-curl", "name": "Hammer Curl", "notes": "3x12, 60s rest" },
+            { "id": "incline-db-curl", "name": "Incline Dumbbell Curl", "notes": "3x12, 60s rest" },
+            { "id": "concentration-curl", "name": "Concentration Curl", "notes": "3x12 each, 45s rest" }
+          ]
+        },
+        {
+          "id": "arms-triceps",
+          "name": "Triceps",
+          "exercises": [
+            { "id": "skullcrusher", "name": "Skullcrusher (EZ Bar)", "notes": "4x10, 60s rest" },
+            { "id": "tricep-pushdown", "name": "Tricep Pushdown", "notes": "4x12, 45s rest" },
+            { "id": "overhead-tricep", "name": "Overhead Tricep Extension", "notes": "3x12, 45s rest" },
+            { "id": "dips", "name": "Tricep Dips", "notes": "4x15, 60s rest" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "types": [
+        {
+          "id": "core-abs",
+          "name": "Abs",
+          "exercises": [
+            { "id": "plank", "name": "Plank", "notes": "3x60s" },
+            { "id": "crunch", "name": "Crunches", "notes": "4x20" },
+            { "id": "leg-raise", "name": "Hanging Leg Raise", "notes": "3x15" },
+            { "id": "cable-crunch", "name": "Cable Crunch", "notes": "4x15" },
+            { "id": "ab-wheel", "name": "Ab Wheel Rollout", "notes": "3x10" }
+          ]
+        },
+        {
+          "id": "core-obliques",
+          "name": "Obliques",
+          "exercises": [
+            { "id": "russian-twist", "name": "Russian Twist", "notes": "4x20 total" },
+            { "id": "side-plank", "name": "Side Plank", "notes": "3x45s each" },
+            { "id": "woodchop", "name": "Cable Wood Chop", "notes": "3x12 each" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardio",
+      "name": "Cardio",
+      "types": [
+        {
+          "id": "cardio-steady",
+          "name": "Steady State",
+          "exercises": [
+            { "id": "treadmill-run", "name": "Treadmill Run", "notes": "30 min, moderate pace" },
+            { "id": "cycling", "name": "Stationary Bike", "notes": "30 min, moderate resistance" },
+            { "id": "elliptical", "name": "Elliptical", "notes": "30 min" },
+            { "id": "rowing", "name": "Rowing Machine", "notes": "20 min" }
+          ]
+        },
+        {
+          "id": "cardio-hiit",
+          "name": "HIIT",
+          "exercises": [
+            { "id": "sprint-interval", "name": "Sprint Intervals", "notes": "8x30s sprint / 90s walk" },
+            { "id": "jump-rope", "name": "Jump Rope HIIT", "notes": "10x1min on / 30s off" },
+            { "id": "burpee-circuit", "name": "Burpee Circuit", "notes": "5 rounds: 10 burpees, 30s rest" }
+          ]
+        }
+      ]
+    }
+  ]
+}

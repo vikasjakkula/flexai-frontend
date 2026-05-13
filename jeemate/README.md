@@ -1,0 +1,2 @@
+# saas digital product using gemini api key
+# using gemini-vision-pro model analysis all the pdfs inside the src/assets folders called mathamatics, physics, chemistry and used for generated a sofesticated answers formated answers liked by many students and much easier and effient to study ( $5 for generating anything source to output i need and build a digital product)

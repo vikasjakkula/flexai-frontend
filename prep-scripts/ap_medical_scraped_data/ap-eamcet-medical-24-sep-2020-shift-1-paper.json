@@ -1,0 +1,1602 @@
+{
+  "title": "AP EAMCET Medical 24 Sep 2020 Shift 1 Paper",
+  "slug": "ap-eamcet-medical-24-sep-2020-shift-1-paper",
+  "url": "/test/ap-eamcet-medical-24-sep-2020-shift-1-paper",
+  "total_questions": 159,
+  "sprite_css_url": "https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eamcet_medical_24_sep_2020_shift_1_paper.css",
+  "sprite_sheet_url": "https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eamcet_medical_24_sep_2020_shift_1_paper.png",
+  "sprite_status": "ok",
+  "sprite_message": "Uploaded via upload_and_verify_sprites.py",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_html": "Cilium and Flagellum emerge from centriole like structures called",
+      "option_a": "Plasma membrane",
+      "option_b": "Basal bodies",
+      "option_c": "Radial bodies",
+      "option_d": "Axoneme",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 2,
+      "question_html": "Match the following <br> <div class=\"hscrollenable\"><table class=\"table-bordered\"><tbody><tr><th> &nbsp;Transgenic Plant</th><th> &nbsp;Resistant to</th></tr><tr><td> &nbsp;a. Potato</td><td> &nbsp;i. Herbicide tolerant</td></tr><tr><td> &nbsp;b. Tomato</td><td> &nbsp;ii. Phytophthora</td></tr><tr><td> &nbsp;c. Basmati rice</td><td> &nbsp;iii. Pseudomonas</td></tr><tr><td> &nbsp;d. Round up ready soya bean</td><td> &nbsp;iv. Biotic, abiotic stress</td></tr></tbody></table></div>",
+      "option_a": "(a - ii), (b - iii), (c - iv), (d - i)",
+      "option_b": "(a - i), (b - ii), (c - iii), (d - iv)",
+      "option_c": "(a - ii), (b - iii), (c - i), (d - iv)",
+      "option_d": "(a - i), (b - ii), (c - iv), (d - iii)",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 3,
+      "question_html": "Epipetalous and syngenesiuos stamen occurs in_________",
+      "option_a": "Solanaceae",
+      "option_b": "Brassieaceae",
+      "option_c": "Fabaceae",
+      "option_d": "Asteraceae",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 4,
+      "question_html": "Functional xylem of dicot tree is_________",
+      "option_a": "Spring wood",
+      "option_b": "Sap wood",
+      "option_c": "Autumn wood",
+      "option_d": "Heart wood",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 5,
+      "question_html": "Identify the parts labelled 1,2,3,4 in the given figure <br> <div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_5_Q \"></span></div>",
+      "option_a": "1. Sheath <br>  2. Head <br>  3. Tail fiber  <br> 4. Collar",
+      "option_b": "1. Head <br>  2. Sheath  <br> 3. Tail fiber <br> 4. Collar",
+      "option_c": "1. Collar <br>  2. Tail fiber  <br> 3. Sheath <br> 4. Head",
+      "option_d": "1. Tail fiber <br> 2. Collar <br> 3. Sheath  <br> 4. Head",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 6,
+      "question_html": "Chondriosome was discovered by ________",
+      "option_a": "Benda",
+      "option_b": "Sutton",
+      "option_c": "Tatum",
+      "option_d": "Palade",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 7,
+      "question_html": "Select the correct steps involved in amplification of gene",
+      "option_a": "Denaturation- Annealing - Extension- Amplification",
+      "option_b": "Annealing -Denaturation- Extension- Amplification",
+      "option_c": "Amplification -Denaturation- Annealing - Extension",
+      "option_d": "Extension- Amplification- Annealing -Denaturation",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 8,
+      "question_html": "Z- scheme is connected with _______",
+      "option_a": "<fmath alttext=\"\\C_4\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></fmath> Pathway",
+      "option_b": "<fmath alttext=\"\\C_3\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></fmath> Pathway",
+      "option_c": "Cyclic photophosphorylation",
+      "option_d": "Non cyclic photophosphorylaton",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 9,
+      "question_html": "Which of the following is the first step for genetically modifying an organism?",
+      "option_a": "Amplification of the desired gene",
+      "option_b": "Identification of DNA with desirable gene",
+      "option_c": "Introduction of the DNA into the host",
+      "option_d": "Maintenance of introduced DNA in the host",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 10,
+      "question_html": "Yeast cell can progress through the cell cycle in about_________",
+      "option_a": "20 hours",
+      "option_b": "24 hours",
+      "option_c": "90 minutes",
+      "option_d": "60 minutes",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 11,
+      "question_html": "",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": null,
+      "solution_html": ""
+    },
+    {
+      "question_number": 12,
+      "question_html": "Colletotrichum falcatum is a fungus causing the disease_________",
+      "option_a": "Smut of wheat",
+      "option_b": "Wilt disease of cotton",
+      "option_c": "Red rot of sugar cane",
+      "option_d": "Late blight of sugar cane",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 13,
+      "question_html": "Match the following: <br> <div class=\"hscrollenable\"><table border=\"\"><tbody><tr><td> &nbsp;a. Pyruvic acid</td><td> &nbsp;i. End products in respiration</td></tr><tr><td> &nbsp;b. Acetyle Co-A</td><td> &nbsp;ii. End products in an aerobic respiration</td></tr><tr><td> &nbsp;c. <fmath alttext=\"\\C_2\\H_5\\OH+\\H_2\\O\" class=\"fm-inline\"><mrow><mrow class=\"ma-repel-adj\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>5</mn></span></msub></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">OH</mi></mrow><mo class=\"fm-infix\">+</mo><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi></mrow></mrow></fmath> </td><td> &nbsp;iii. Connecting link between glycolysis &amp; Krebs</td></tr><tr><td> &nbsp;d. <fmath alttext=\"\\CO_2+\\H_2\\O+\\ATP+\\Δ \" class=\"fm-inline\"><mrow><mrow><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix\">+</mo><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi></mrow></mrow><mo class=\"fm-infix\">+</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">ATP</mi></mrow><mo class=\"fm-infix\">+</mo><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">Δ</mi></mrow></fmath></td><td> &nbsp;iv. End product in Glycolysis</td></tr></tbody></table></div>",
+      "option_a": "(a - ii), (b - i), (c - iii), (d - iv)",
+      "option_b": "(a - i), (b - ii), (c - iii), (d - iv)",
+      "option_c": "(a - iv), (b - iii), (c - ii), (d - i)",
+      "option_d": "(a - iv), (b - iii), (c - i), (d - ii)",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 14,
+      "question_html": "Match the following: <br> <div class=\"hscrollenable\"><table><tbody><tr><th> &nbsp;Column-I</th><th> &nbsp;Column-II</th></tr><tr><td> &nbsp;1. Alkaloids</td><td> &nbsp;i. Vinblastine</td></tr><tr><td> &nbsp;2. Toxins</td><td> &nbsp;ii. Morphine</td></tr><tr><td> &nbsp;3. Drugs</td><td> &nbsp;iii. Ricin</td></tr><tr><td> &nbsp;4, Polymeric substances</td><td> &nbsp;iv. Rubber</td></tr><tr><td> &nbsp;</td><td> &nbsp;v. Conecanavalin</td></tr></tbody></table></div>",
+      "option_a": "(1 - ii), (2 - iii), (3 - i), (4 - iv)",
+      "option_b": "(1 - iii), (2 - iv), (3 - ii), (4 - i)",
+      "option_c": "(1 - i), (2 - iii), (3 - v), (4 - iv)",
+      "option_d": "(1 - iv), (2 - i), (3 - iii), (4 - v)",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 15,
+      "question_html": "Which among the following is not dedifferentiated?",
+      "option_a": "Tracheid",
+      "option_b": "Inter fascicular cambium",
+      "option_c": "Intra fascicular cambium",
+      "option_d": "Cork cambium",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 16,
+      "question_html": "Which one of the following is not a bacterial disease?",
+      "option_a": "Citrus Canker",
+      "option_b": "Blight of rice",
+      "option_c": "Crown gall of apples",
+      "option_d": "Root knot in Tobacco",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 17,
+      "question_html": "Which among the following is not true for Endoplasmic Reticulum?",
+      "option_a": "ATP synthesis",
+      "option_b": "Protein Synthesis",
+      "option_c": "Lipid Synthesis",
+      "option_d": "Secretion",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 18,
+      "question_html": "Which of the following is not a benefit of organic farming?",
+      "option_a": "Complete eradication of pests",
+      "option_b": "Reduced use of toxic chemicals",
+      "option_c": "Maintaining an eco-system in field",
+      "option_d": "Preservation of beneficial insects",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 19,
+      "question_html": "Which of the following is a 6-carbon compound?",
+      "option_a": "Succinic acid",
+      "option_b": "Fumaric acid",
+      "option_c": "Citric acid",
+      "option_d": "Pyruvic acid",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 20,
+      "question_html": "Ti plasmid is obtained from _______",
+      "option_a": "Agrobacterium",
+      "option_b": "Azetobacler",
+      "option_c": "Clostridium",
+      "option_d": "E.coli",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 21,
+      "question_html": "Ubisch bodies are produced from __________",
+      "option_a": "Tapetum",
+      "option_b": "Vascular bundles",
+      "option_c": "Endothecium",
+      "option_d": "Sporogenous tissue",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 22,
+      "question_html": "Point mutation is caused in which o f the following diseases'?",
+      "option_a": "Phenylketonuria",
+      "option_b": "Sickle cell anemia",
+      "option_c": "Hemophilia",
+      "option_d": "Thalassemia",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 23,
+      "question_html": "Which of the following statements is incorrect?",
+      "option_a": "Rafflesia is incomplete parasite",
+      "option_b": "Striga is a partial parasite",
+      "option_c": "Mycobacterium is a parasite",
+      "option_d": "Albugo is a parasite",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 24,
+      "question_html": "The microbe which is opted for narrow spectrum insecticide is _______",
+      "option_a": "Bacillus thuringiensis",
+      "option_b": "Nucleo polyhedro virus",
+      "option_c": "Meloidogyne",
+      "option_d": "Saccharomyces",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 25,
+      "question_html": "Match the following: <br> <div class=\"hscrollenable\"><table border=\"\"><tbody><tr><th> &nbsp;Column-I</th><th> &nbsp;Column-II</th></tr><tr><td> &nbsp;1. Lederberg &amp; Zender</td><td> &nbsp;i. Transformations</td></tr><tr><td> &nbsp;2. Lederberg &amp; Tatum</td><td> &nbsp;ii. Germ theory of disease</td></tr><tr><td> &nbsp;3. Robert Koch</td><td> &nbsp;iii. Transduction</td></tr><tr><td> &nbsp;4. Frederick Griffith</td><td> &nbsp;iv. Conjugation</td></tr></tbody></table></div>",
+      "option_a": "(1 - iv), (2 - iii), (3 - i), (4 - ii)",
+      "option_b": "(1 - ii), (2 - i), (3 - iv), (4 - iii)",
+      "option_c": "(1 - iii), (2 - iv), (3 - ii), (4 - i)",
+      "option_d": "(1 - i), (2 - iv), (3 - iii), (4 - ii)",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 26,
+      "question_html": "If we explore anther wall from outside to inside then which sequence will be correct <br> A- Endothelium <br>  B- Tapetum <br> C- Epidermis <br> D- Middle Layer",
+      "option_a": "C - D - A - B",
+      "option_b": "C - A - D - B",
+      "option_c": "B - D - A - C",
+      "option_d": "C - D - B - A",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 27,
+      "question_html": "Avena curvature test is a bioassay for examining the activity of ______",
+      "option_a": "Auxins",
+      "option_b": "Gibberellins",
+      "option_c": "Cytokinins",
+      "option_d": "Ethylene",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 28,
+      "question_html": "The capsid of tobacco mosaic virus (TMV) has capsomere numbering_______",
+      "option_a": "2130",
+      "option_b": "1230",
+      "option_c": "2310",
+      "option_d": "3120",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 29,
+      "question_html": "Match the following: <br> <div class=\"hscrollenable\"><table border=\"\"><tbody><tr><td> &nbsp;a. Pitch of Helix</td><td> &nbsp;i. 10 bP</td></tr><tr><td> &nbsp;b. Number of bP per each turn</td><td> &nbsp;ii. 3.5 nm</td></tr><tr><td> &nbsp;c. Distance between 2 successive bP</td><td> &nbsp;iii. 0.34</td></tr><tr><td> &nbsp;d. Nature of the Helix</td><td> &nbsp;iv. Right-handed</td></tr></tbody></table></div>",
+      "option_a": "(a - i), (b - ii), (c - iii), (d - iv)",
+      "option_b": "(a - ii), (b - i), (c - iii), (d - iv)",
+      "option_c": "(a - i), (b - ii), (c - iv), (d - iii)",
+      "option_d": "(a - ii), (b - i), (c - iv), (d - iii)",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 30,
+      "question_html": "Match the following: <br> <div class=\"hscrollenable\"><table border=\"\"><tbody><tr><th> &nbsp;Column-I</th><th> &nbsp;Column-II</th></tr><tr><td> &nbsp;1, Trichoderma</td><td> &nbsp;i. Citric acid</td></tr><tr><td> &nbsp;2. Saccharomyces</td><td> &nbsp;ii. Acetic acid</td></tr><tr><td> &nbsp;3. Aspergillus Niger</td><td> &nbsp;iii. Statin</td></tr><tr><td> &nbsp;4. Acetobacter</td><td> &nbsp;iv. Toddy</td></tr></tbody></table></div>",
+      "option_a": "(1 - iii), (2 - ii), (3 - iv), (4 - i)",
+      "option_b": "(1 - iv), (2 - iii), (3 - ii), (4 - i)",
+      "option_c": "(1 - ii), (2 - i), (3 - iii), (4 - iv)",
+      "option_d": "(1 - iii), (2 - iv), (3 - i), (4 - ii)",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 31,
+      "question_html": "Respiratory quotient is maximum when respiratory substrate is________",
+      "option_a": "Fats",
+      "option_b": "Glucose",
+      "option_c": "Malic Acid",
+      "option_d": "Proteins",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 32,
+      "question_html": "Which of the following is called drosophila of plant kingdom?",
+      "option_a": "E.coli",
+      "option_b": "Acetabularia",
+      "option_c": "Neurospora",
+      "option_d": "Chlorella",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 33,
+      "question_html": "Cytokinin such, as zeatin was isolated from __________",
+      "option_a": "Oat seedlings",
+      "option_b": "Rice seedlings",
+      "option_c": "Senescent cells",
+      "option_d": "Coconut milk",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 34,
+      "question_html": "Schizocarpic fruits means________",
+      "option_a": "Fleshy endocarp",
+      "option_b": "Fruit containing many seeds",
+      "option_c": "Fruit which dehisce at maturity",
+      "option_d": "Fruit which split into many one seeded parts after complete ripening",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 35,
+      "question_html": "In which of the following groups are neurospora and penicillium included?",
+      "option_a": "Phycomycetes",
+      "option_b": "Basidiomycetes",
+      "option_c": "Zygomycetes",
+      "option_d": "Ascomycetes",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 36,
+      "question_html": "Match the following: <br> <div class=\"hscrollenable\"><table border=\"\"><tbody><tr><td> &nbsp;a, AUG</td><td> &nbsp;i. Phenyl alanine</td></tr><tr><td> &nbsp;b. UAA</td><td> &nbsp;ii, Tryptophan</td></tr><tr><td> &nbsp;c. UUU</td><td> &nbsp;iii, Initiation codon</td></tr><tr><td> &nbsp;d. UGG</td><td> &nbsp;iv. Stop codon</td></tr></tbody></table></div>",
+      "option_a": "(a - iii), (b - iv), (c - i), (d - ii)",
+      "option_b": "(a - iii), (b - iv), (c - ii), (d - i)",
+      "option_c": "(a - iv), (b - iii), (c - i), (d - ii)",
+      "option_d": "(a - i), (b - ii), (c - iii), (d - iv)",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 37,
+      "question_html": "Fungus without any mycelium is _______",
+      "option_a": "Albugo",
+      "option_b": "Phytophthora",
+      "option_c": "Agarius",
+      "option_d": "Sacchoromyces",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 38,
+      "question_html": "Lack or low levels of Potassium, Nitrogen, Sulphur and Molybdenum causes",
+      "option_a": "Chlorosis",
+      "option_b": "Necrosis",
+      "option_c": "Premature leaf fall",
+      "option_d": "Inhibition of cell division",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 39,
+      "question_html": "The Campylotropous ovule is characterized by __________",
+      "option_a": "Chelza &amp; Funicle on the same vertical line",
+      "option_b": "Micropyle lies close to funiculus",
+      "option_c": "Micropyle comes towards funiculus",
+      "option_d": "Completely inverted",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 40,
+      "question_html": "The salting of pickles is an example for",
+      "option_a": "Deplasmolysis",
+      "option_b": "Plasmolysis",
+      "option_c": "Flaccidity",
+      "option_d": "Turgidity",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 41,
+      "question_html": "Union of Pronuclei of the gametes is called_________",
+      "option_a": "Homomixis",
+      "option_b": "Holomixis",
+      "option_c": "Amphimixis",
+      "option_d": "Herkogamy",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 42,
+      "question_html": "Vas deferens starts from which part of epididymis ?",
+      "option_a": "Cauda epididymis",
+      "option_b": "Corpus epididymis",
+      "option_c": "Caput epididymis",
+      "option_d": "None of these options are correct",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 43,
+      "question_html": "A sponge harmful to oystar industry is_______",
+      "option_a": "Cliona",
+      "option_b": "Euspongia",
+      "option_c": "Spongilla",
+      "option_d": "Hyalonema",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 44,
+      "question_html": "Who proposed that ecosystem is the symbol of structure and function of nature?",
+      "option_a": "Tansley",
+      "option_b": "Odom",
+      "option_c": "Reiter",
+      "option_d": "Gardner",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 45,
+      "question_html": "Oligodendrocytes and astrocytes are neuro cells found in_____ <br> a) Peripheral nervous system involved in formation of myelin sheath <br>b) Central nervous system in which oligodendrocytes form myelin sheath and astrocytes bind neurons with capillaries <br> c) Autonomic nervous system in which both cells provide support <br> d) Sympathetic nervous system in which the two cells help in conduction",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 46,
+      "question_html": "Identify the correct differences between Chondrichthyes and Osteichthyes: <br> a) Chondrichthyes have gill slits covered by operculum and Osteichthyes have gill slits without operculum <br> b) Chondrichthyes have swim bladder and Osteichthyes do not have swim bladder <br> c) Chondrichthyes contain placoid scales and Osteichthyes contain cycloid scales <br> d) Chondrichthyes contain terminal mouth and Osteichthyes contain ventral mouth",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 47,
+      "question_html": "Descent of man &amp; selection in relation to sex was written by __________",
+      "option_a": "Linnaeus",
+      "option_b": "Copernicus",
+      "option_c": "Darwin",
+      "option_d": "Mendel",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 48,
+      "question_html": "One of the following is incorrect regarding WBC: <br> a) Monocytes migrate from the bloodstream to other tissues and differentiate into tissue resident macrophages, Kupffer cells in the liver <br> b) Eosinophils Modulate allergic inflammatory responses <br> c) Basophils Release histamine for inflammatory response <br> d) Natural killer cells are type of phagocytic erythrocytes",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 49,
+      "question_html": "Identify the elements which lead to much variation in the physical and chemical conditions of different habitals. <br> a) Only components such as Temperature, water, light and soil. <br> b) Only components such as pathogens, parasites, predators and competitors of the organism with which they interact constantly. <br> c) The physiology and anatomy of organisms <br> d) Both a and b",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 50,
+      "question_html": "Arrange the following statements regarding Amoebiasis infection: <br> 1) The trophozoites multiply by binary fission and produce cysts and both stages are passed in the feces <br> 2) Trophozoites migrate to the large intestine. <br> 3) Excystation occurs in the small intestine and trophozoites are released <br> 4) Infection by Entamoeba histolytica occurs by ingestion of mature cysts in fecally contaminated food, water, or hands.",
+      "option_a": "1 - 3 - 2 - 4",
+      "option_b": "4 - 3 - 2 - 1",
+      "option_c": "4 - 2 - 3 - 1",
+      "option_d": "2 - 3 - 4 -1",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 51,
+      "question_html": "In human being, brown eye (B) is dominant over blue eye (b). A brown-eyed couple has a blue-eyed child. What are the possible genotypes of the  couple?",
+      "option_a": "Bb X bb",
+      "option_b": "Bb X bB",
+      "option_c": "BB X bb",
+      "option_d": "BB X bB",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 52,
+      "question_html": "Biogeochemical Cycle having a small gaseous component is found in _________",
+      "option_a": "Sulphur",
+      "option_b": "Nitrogen",
+      "option_c": "Carbon",
+      "option_d": "Phosphorous",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 53,
+      "question_html": "Identify the incorrect matching:",
+      "option_a": "Crack- interferes with the transport of the neuro-transmitter dopamine",
+      "option_b": "Benzodiazepines- hypnotic(sleep-inducing). anxiolytic",
+      "option_c": "smack- addictive and considered most dangerous opiate",
+      "option_d": "Pethidine- Semi synthetic opiates",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 54,
+      "question_html": "Which of the following is not a character of red muscle?",
+      "option_a": "It contains more red colored oxygen storing pigment myoglobin.",
+      "option_b": "Myoglobin retains more oxygen",
+      "option_c": "Exhibit aerobic respiration",
+      "option_d": "Contains less mitochondria but contains more sarcoplasmic reticulum",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 55,
+      "question_html": "Convergent evolution is illustrated by ____________",
+      "option_a": "Dog fish &amp; whale",
+      "option_b": "Rat &amp; Dog",
+      "option_c": "Star fish and cuttlefish",
+      "option_d": "Bacterium &amp; Protozoan",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> Convergent evolution is the independent evolution of similar features in species of different lineages. Convergent evolution creates analogous structures that have similar form or function, but that were not present in the last common ancestor of those groups. Dogfish is a cartilaginous fish and a whale is a mammal both have streamlined body and show vivipary but belong to totally different groups. The former is a fish and later being a tetrapod mammal. Dogfish and whale are the examples of convergent evolution in animals as both of them have more or less similar body organization. </div>"
+    },
+    {
+      "question_number": 56,
+      "question_html": "Name the classes of Tetrapoda that exhibit the following characters <br> <div class=\"hscrollenable\"><table border=\"\"><tbody><tr><th> &nbsp;Column (A)</th><th> &nbsp;Column (B)</th></tr><tr><td> &nbsp;Acrodout</td><td> &nbsp;Thecodont</td></tr><tr><td> &nbsp;10 cranial nerves</td><td> &nbsp;12 pairs cranial nerves</td></tr><tr><td> &nbsp;Cold blooded</td><td> &nbsp;Warm blooded</td></tr><tr><td> &nbsp;Amphicoelous vertebrae</td><td> &nbsp;amphiplatyan vertebrae</td></tr></tbody></table></div>",
+      "option_a": "(A)- Amphibia <br> (B)- Reptilia",
+      "option_b": "(A )- Aves <br> (B)- Amphibia",
+      "option_c": "(A)- Reptilia <br> (B)- Mammalia",
+      "option_d": "(A)- Amphibia <br> (B)- Mammalia",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 57,
+      "question_html": "Identify wrongly matched Scientific name and common name: <br> <div class=\"hscrollenable\"><table border=\"\"><tbody><tr><th> &nbsp;Scientific name</th><th> &nbsp;Common name</th></tr><tr><td> &nbsp;a) Bangarus</td><td> &nbsp;Krait</td></tr><tr><td> &nbsp;b) Exocoetus</td><td> &nbsp;Flying fish</td></tr><tr><td> &nbsp;c) Trygon</td><td> &nbsp;Electric ray</td></tr><tr><td> &nbsp;d) Carcharodon</td><td> &nbsp;Dog fish</td></tr><tr><td> &nbsp;e) Myxine</td><td> &nbsp;Hagfish</td></tr></tbody></table></div>",
+      "option_a": "Only (c), (d)",
+      "option_b": "(a), (b), (c) and (e)",
+      "option_c": "Only (c)",
+      "option_d": "Only (d)",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 58,
+      "question_html": "In our body, the largest number of neuron cells can be found in _________",
+      "option_a": "Eye",
+      "option_b": "Tongue",
+      "option_c": "Brain",
+      "option_d": "Spinal cord",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 59,
+      "question_html": "Match the following: <br> <div class=\"hscrollenable\"><table border=\"\"><tbody><tr><th> &nbsp;Column 1</th><th> &nbsp;Column 2</th></tr><tr><td> &nbsp;a. Testes in males</td><td> &nbsp;p. 4th -6th abdominal segments</td></tr><tr><td> &nbsp;b. Mushroom shaped gland</td><td> &nbsp;q. 6th-7th abdominal segments</td></tr><tr><td> &nbsp;c. ovaries in females</td><td> &nbsp;r. 2nd - 6th abdominal segments</td></tr><tr><td> &nbsp;d. anal cerci</td><td> &nbsp;s. 10th segment</td></tr></tbody></table></div>",
+      "option_a": "(a - p), (b - r), (c - q), (d - s)",
+      "option_b": "(a - q), (b - p), (c - r), (d - s)",
+      "option_c": "(a - p), (b - q), (c - r), (d - s)",
+      "option_d": "(a - s), (b - q), (c - r), (d - p)",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 60,
+      "question_html": "Acrosome of sperm contains_______",
+      "option_a": "Mitochondria",
+      "option_b": "DNA",
+      "option_c": "Hyaluronidase enzyme",
+      "option_d": "Fructose",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 61,
+      "question_html": "Vitelline membrane is a________",
+      "option_a": "Secondary egg membrane",
+      "option_b": "Primary egg membrane",
+      "option_c": "Tertiary egg membrane",
+      "option_d": "None of these options are correct",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 62,
+      "question_html": "Which of the following points are important for successful bee-keeping? <br> i. Knowledge of the nature and haibits of bess. <br> ii. Selection of suitable location for keeping the beehives. <br> iii. Management of beehives during different seasons. <br> iv. Cross hybridization among selected parents.",
+      "option_a": "(i), (ii) and (iv)",
+      "option_b": "Only (ii) and (iii)",
+      "option_c": "(i), (ii) and (iii)",
+      "option_d": "Only (iii) and (iv)",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 63,
+      "question_html": "With increasing age. the linkage___________",
+      "option_a": "Terminates",
+      "option_b": "Becomes strong",
+      "option_c": "Becomes Weak",
+      "option_d": "Remains unchanged",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 64,
+      "question_html": "<b>Statement 1: </b>Complementary pairing between nucleotides is exploited to diagnose presence of a specific DNA segment in a mixture. <br> <b>Statement 2: </b> DNA probes having radioactive isotopes help to detect DNA by autoradiography.",
+      "option_a": "Both statements 1 and 2 are correct and statement 2 is the correct explanation of statement 1.",
+      "option_b": "Both statement 1 and 2 are correct but statement 2 is not the correct  explanation of statement 1",
+      "option_c": "Statement 1 is correct and statement 2 is incorrect",
+      "option_d": "Both statements 1 and 2 are incorrect",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 65,
+      "question_html": "The term Ecology was coined by_______",
+      "option_a": "Lamarck",
+      "option_b": "Bateson",
+      "option_c": "Haeckel",
+      "option_d": "Spencer",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 66,
+      "question_html": "Which of the following statements is/are incorrect? <br> 1) The human liver fluke, a nemotode parasite, depends on two intermediate hosts (a small and a fish) to complete its life cycle. <br> 2) The malarial parasite needs a vector (mosquito) to spread to other host organisms. <br> 3) In case of brood parasitism, the eggs of parasitic birds (e.g.. cuckoo) are not detected and removed from the nest because the parasite's eggs resemble the host's eggs in morphology and colour. <br> 4) A population of frogs protected from all predators would increase indefinitely.",
+      "option_a": "(1) and (4)",
+      "option_b": "(3) and (4)",
+      "option_c": "Only (1)",
+      "option_d": "All given statements are correct",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 67,
+      "question_html": "Amazon Rain Forest is known as______",
+      "option_a": "Lungs of Forest",
+      "option_b": "Lungs of our Planet",
+      "option_c": "Lungs of Plants",
+      "option_d": "Lungs of Mars",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 68,
+      "question_html": "Bacteria and fungi developing on dead decaying organisms are___________",
+      "option_a": "Symbionts",
+      "option_b": "Saprophytes",
+      "option_c": "Parasites",
+      "option_d": "Commensals",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 69,
+      "question_html": "Which of the following statements is correct regarding the principle of safe blood transfusion?",
+      "option_a": "The donor's red blood corpuscles should not contain antibodies against the recipient’s serum",
+      "option_b": "The recipient's serum should not contain antigens against the donor's antibodies",
+      "option_c": "The recipient's serum should not contain the antibodies against the red blood corpuscles of the donor",
+      "option_d": "The recipients red blood corpuscles should not contain antibodies against the donor's antigen",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 70,
+      "question_html": "In a mating two mulattos, each heterozygous at all three gene loci for the skin colour, what is the chance their child will have light skin?",
+      "option_a": "<fmath alttext=\"1/4\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>4</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_b": "<fmath alttext=\"5/8\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>5</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>8</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_c": "<fmath alttext=\"9/16\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>9</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>16</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_d": "<fmath alttext=\"1/64\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>64</mn></td></tr></tbody></table></span></span></fmath>",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 71,
+      "question_html": "Identify the incorrect matching",
+      "option_a": "Thyroxin - Iodination of amino acid called tyrosine",
+      "option_b": "Melatonin and serotonin - Derived from Tryptophan",
+      "option_c": "Epinephrine - Transformed from an amino acid Phenyl alanine.",
+      "option_d": "Corticoids and sex steroids - Derived from Cholesterol",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 72,
+      "question_html": "Aeronematic flagella are seen in ___________",
+      "option_a": "Eugleua",
+      "option_b": "Chlamydomonas",
+      "option_c": "Astasia",
+      "option_d": "None of these options are correct",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 73,
+      "question_html": "In TS of human small intestine Serosa is the outermost layer and is made up of a thin ___ A___ . Muscularis is formed by smooth muscles arranged outer__ B__ and inner__ C___ layers. Sub-mucosa is formed by __ D___ . Mucosa is  the innermost layer made of __ E__ .",
+      "option_a": "A- Endothelium, B- longitudinal, C-circular, D- loose connective tissues, E- Mesothelium",
+      "option_b": "A- Squamous epithelium, B- Circular, C-Longitudinal, D- loose connective tissues, E- Columnar epithelium",
+      "option_c": "A- Mesotheliiun, B- longitudinal, C-circular, D- loose connective tissues, E- Brush border epithelium",
+      "option_d": "A- Mesothelium, B- longitudinal, C-circular, D- Endothelium, E- connective tissues",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 74,
+      "question_html": "A sample of blood shows clumping with antiserum A but not with antiserum B. The blood group would be______",
+      "option_a": "O",
+      "option_b": "A",
+      "option_c": "B",
+      "option_d": "AB",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 75,
+      "question_html": "The endocrine gland, responsible for immunity is ___________",
+      "option_a": "Adernal",
+      "option_b": "Pineal",
+      "option_c": "Thymus",
+      "option_d": "Pituitary",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 76,
+      "question_html": "Water vascular system is found in_________",
+      "option_a": "Sea Pen",
+      "option_b": "Sea Anemone",
+      "option_c": "Sea Cucumber",
+      "option_d": "Sea Horse",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 77,
+      "question_html": "<b>Assertion:</b> The portion of the myofibril between two successive  'Z‘ lines is considered as the functional unit of contraction called sacromere. <br><b> Reason: </b>During contraction, 'T' bands get reduced whercas 'A' bands retain the length, thereby causing shortening of the sacromere.",
+      "option_a": "Assertion and reason are true and reason is correct explanation of assertion",
+      "option_b": "Assertion and reason are true but reason is not correct explanation of assertion",
+      "option_c": "Assertion is true and reason is fake",
+      "option_d": "Both assertion and reason are false",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 78,
+      "question_html": "Enterohepatic circulation of bile salts refers to <br> a) Circulation of bile juice between gall bladder and liver through cystic duct <br> b) Combining of bile acids with sodium to form bile salts <br> c) Bile salts after emulsification are absorbed back into blood and are used in liver for bile juice <br> d) Bile salts of cliilomicrons are released into blood and are earned to liver where they are not used in formation of bile juice.",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 79,
+      "question_html": "Consider the following three statements with blanks. Which of the options correctly fills all the blanks in these statements? <br> a) The ascending limb of loop of henle is impermeable to ___(1)___ but allows transport of ___(2)___ <br> b) ___(3)___and___(4)___ play  a significant role  in producing a concentrated urine. <br> c) A fall in glomerular blood flow/glomerular blood pressure/GFR can active at the JG cells to release___(5___",
+      "option_a": "(a)- (1) Water(2) Sodium Potassium ions <br> (b)- (3) Helens loop (4) Vasa recta <br> (c)- (5) Renin",
+      "option_b": "(a)- (1) Sodium Potassium ions(2) Water <br> (b)- (3) Bowman capsule   (4) Glomerulus <br> (c)- (5) Erythropoietin",
+      "option_c": "(a)- (1) Water(2) Sodium Potassium ions <br> (b)- (3) Helens loop (4) Vasa recta <br> (e)- (5) Erythropoietin",
+      "option_d": "None of these options satisfy all blanks",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 80,
+      "question_html": "Which of the following pairs correctly matches a hormone with the conditions resulting from its deficiency?",
+      "option_a": "Parathyroid hormone- Diabetes Mellitus",
+      "option_b": "Luteinizing hormone- Failure of Ovulation",
+      "option_c": "Insulin- Diabetes insipidus",
+      "option_d": "Thyroxine- Tetany",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 81,
+      "question_html": "Faraday's law among the following is___________",
+      "option_a": "<fmath alttext=\"\\ϕE.dA=\\Q/ε_0\" class=\"fm-inline\"><mrow><mrow><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">ϕ</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">E</mi></mrow><mo class=\"fm-infix\">.</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">A</mi></mrow></mrow><mo class=\"fm-infix-loose\">=</mo><span mtagname=\"mfrac\" style=\"vertical-align: -0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">Q</mi></td></tr><tr><td class=\"fm-den-frac fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">ε</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>0</mn></span></msub></td></tr></tbody></table></span></span></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\ϕB.dA=\\0\" class=\"fm-inline\"><mrow><mrow><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">ϕ</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">B</mi></mrow><mo class=\"fm-infix\">.</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">A</mi></mrow></mrow><mo class=\"fm-infix-loose\">=</mo><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">0</mi></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\ϕE.dl={\\-dϕ_B}/{dt\" class=\"fm-inline\"><mrow><mrow><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">ϕ</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">E</mi></mrow><mo class=\"fm-infix\">.</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi></mrow></mrow><mo class=\"fm-infix-loose\">=</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mo class=\"fm-prefix-tight\">-</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">ϕ</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">B</mi></span></msub></mrow></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">t</mi></mrow></td></tr></tbody></table></span></span></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\ϕB.dl=μ_0i_c+μ _0ε_0{\\dϕ_B}/{dt\" class=\"fm-inline\"><mrow><mrow><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">ϕ</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">B</mi></mrow><mo class=\"fm-infix\">.</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi></mrow></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">μ</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>0</mn></span></msub><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">i</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">c</mi></span></msub></mrow><mo class=\"fm-infix\">+</mo><mrow><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">μ</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>0</mn></span></msub><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">ε</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>0</mn></span></msub></mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">d</mi><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">ϕ</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">B</mi></span></msub></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">t</mi></mrow></td></tr></tbody></table></span></span></mrow></mrow></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 82,
+      "question_html": "Sound waves of wavelength λ  and velocity v in medium- 1 enter medium-2. If their velocity in medium-2 is 4v, the wavelength in medium-2 is______",
+      "option_a": "4 λ",
+      "option_b": "λ",
+      "option_c": "<fmath alttext=\"λ/4\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">λ</mi></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>4</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_d": "16 λ",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 83,
+      "question_html": "The coefficient of self-induction of a closely wound coil of 100 turns and area of cross-section 1  <fmath alttext=\"\\cm_2\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">cm</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath>  is 1 mH. Find the magnetic induction at the centre of its core when a current  of 2 A flows in it.",
+      "option_a": "0.022  <fmath alttext=\"\\Wb.m^{-2}\" class=\"fm-inline\"><mrow><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Wb</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>2</mn></mrow></span></msup></mrow></fmath>",
+      "option_b": "0.04 <fmath alttext=\"\\Wb.m^{-2}\" class=\"fm-inline\"><mrow><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Wb</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>2</mn></mrow></span></msup></mrow></fmath>",
+      "option_c": "0.08  <fmath alttext=\"\\Wb.m^{-2}\" class=\"fm-inline\"><mrow><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Wb</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>2</mn></mrow></span></msup></mrow></fmath>",
+      "option_d": "0.01  <fmath alttext=\"\\Wb.m^{-2}\" class=\"fm-inline\"><mrow><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Wb</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>2</mn></mrow></span></msup></mrow></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 84,
+      "question_html": "The average emf induced in a coil, when the current in it changes from 2 A to 4 A in 0.05 s. is 8 V. Find the self-inductance of this coil.",
+      "option_a": "0.8 H",
+      "option_b": "0.4 H",
+      "option_c": "0.2 H",
+      "option_d": "0.1 H",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 85,
+      "question_html": "The pair with same dimension is ____________",
+      "option_a": "Pressure and density",
+      "option_b": "Impulse and momentum",
+      "option_c": "Stress and strain",
+      "option_d": "Momentum and inertia",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 86,
+      "question_html": "A disc of mass M and radius R rolls without slipping on a level surface with a linear speed v. Its kinetic energy will be given by________",
+      "option_a": "<fmath alttext=\"3/4Mv^2\" class=\"fm-inline\"><mrow><mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>3</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>4</mn></td></tr></tbody></table></span></span><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">M</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow></fmath>",
+      "option_b": "<fmath alttext=\"4/3Mv^2\" class=\"fm-inline\"><mrow><mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>4</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>3</mn></td></tr></tbody></table></span></span><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">M</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow></fmath>",
+      "option_c": "<fmath alttext=\"2Mv^2\" class=\"fm-inline\"><mrow><mrow><mn>2</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">M</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow></fmath>",
+      "option_d": "<fmath alttext=\"3Mv^2\" class=\"fm-inline\"><mrow><mrow><mn>3</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">M</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 87,
+      "question_html": "The peak current through a 200 mH inductor connected to an AC source of peak value 210 V and frequency 50 Hz is_______",
+      "option_a": "1.5 A",
+      "option_b": "3.3 A",
+      "option_c": "8.5 A",
+      "option_d": "5.5 A",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 88,
+      "question_html": "If the energy released in the fission of one nucleus is 3.2 X  <fmath alttext=\"10^{-11}\\J\" class=\"fm-inline\"><mrow><msup><mn>10</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>11</mn></mrow></span></msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">J</mi></mrow></fmath> . then number of nuclei required per second in a 16 kW power plant is",
+      "option_a": "<fmath alttext=\"5\\ \\x\\ \\10^14\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>5</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>14</mn></span></msup></mrow></fmath>",
+      "option_b": "<fmath alttext=\"5\\ \\x\\ \\10^12\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>5</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>12</mn></span></msup></mrow></fmath>",
+      "option_c": "<fmath alttext=\"0.5\\ \\x\\ \\10^12\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>0.5</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>12</mn></span></msup></mrow></fmath>",
+      "option_d": "<fmath alttext=\"0.5\\ \\x\\ \\10^14\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>0.5</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>14</mn></span></msup></mrow></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 89,
+      "question_html": "A body is moved along a straight line by a machine delivering constant power. The distance moved by the body in time 't' is proportional to_______",
+      "option_a": "<fmath alttext=\"{t^}1/2\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">t</mi><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span></mrow></fmath>",
+      "option_b": "<fmath alttext=\"t^2\" class=\"fm-inline\"><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">t</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></fmath>",
+      "option_c": "<fmath alttext=\"{t^}3/2\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">t</mi><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>3</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span></mrow></fmath>",
+      "option_d": "<fmath alttext=\"{t^}3/4\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">t</mi><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>3</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>4</mn></td></tr></tbody></table></span></span></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 90,
+      "question_html": "The potential difference between points A and B of adjoining figure is _____ <br> <div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_90_Q \"></span></div>",
+      "option_a": "<fmath alttext=\"2/3 \\V\" class=\"fm-inline\"><mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>2</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>3</mn></td></tr></tbody></table></span></span><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">V</mi></mrow></fmath>",
+      "option_b": "<fmath alttext=\"8/9 \\V\" class=\"fm-inline\"><mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>8</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>9</mn></td></tr></tbody></table></span></span><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">V</mi></mrow></fmath>",
+      "option_c": "<fmath alttext=\"4/3 \\V\" class=\"fm-inline\"><mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>4</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>3</mn></td></tr></tbody></table></span></span><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">V</mi></mrow></fmath>",
+      "option_d": "2 V",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 91,
+      "question_html": "When a tyre pumped to a pressure 3.3375 atm at 27°C suddenly bursts, find its final temperature (γ = 1.5).",
+      "option_a": "27 °C",
+      "option_b": "-27 °C",
+      "option_c": "0 °C",
+      "option_d": "-73 °C",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 92,
+      "question_html": "A force of 0.03 N acts on a body of mass 0.5 kg. which is initially at rest, for a duration of 10 seconds. Then find the momentum acquired by the body.",
+      "option_a": "0.15 kg. <fmath alttext=\"m.s^{-1}\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_b": "0.3 kg. <fmath alttext=\"m.s^{-1}\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_c": "0.015 kg. <fmath alttext=\"m.s^{-1}\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_d": "0.05 kg. <fmath alttext=\"m.s^{-1}\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 93,
+      "question_html": "The radius of curvature of the curved surface of a plano-convex lens is 10 cm. If the refractive index of the material of lens is 1.5, then it will_________",
+      "option_a": "Act as a convex lens only for the object that lie on its curved side.",
+      "option_b": "Act as a concave lens for the object that lie on its curved surface.",
+      "option_c": "Act as a convex lens irrespective of side on which the object lies,",
+      "option_d": "Act as a concave lens irrespective of side on which the object lies.",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 94,
+      "question_html": "Which of the following statements is fake?",
+      "option_a": "Momentum is conserved in all types of collisions",
+      "option_b": "Energy is conserved in all types of collisions",
+      "option_c": "During elastic collisions conservative forces are involved",
+      "option_d": "Work-energy theorem is not applicable to inelastic collisions",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 95,
+      "question_html": "A transverse wave along a stretched string has a speed of 30  <fmath alttext=\"m.s^{-1}\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>  and a frequency of 250 Hz. The phase difference between two points on the string. 10 cm apart. at the same instant is",
+      "option_a": "0",
+      "option_b": "<fmath alttext=\"π/2\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_c": "<fmath alttext=\"{5π}/3\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mn>5</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>3</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_d": "<fmath alttext=\"{8π}/3\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mn>8</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>3</mn></td></tr></tbody></table></span></span></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 96,
+      "question_html": "The potential at the centre of a hollow, charged metal sphere of radius 5 cm. so that the potential on its surface 10 V, is________",
+      "option_a": "0 V",
+      "option_b": "10 V",
+      "option_c": "Same as at point 5 cm away from the surface",
+      "option_d": "Same as at point 25 cm away from the surface",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 97,
+      "question_html": "An intrinsic Semiconductor is:",
+      "option_a": "Neutral",
+      "option_b": "Positively charged",
+      "option_c": "Negatively Charged",
+      "option_d": "Sometimes positive and sometimes negative.",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 98,
+      "question_html": "The rapid changes in pressure and volume of an ideal gas under thermal isolation are governed by  <fmath alttext=\"\\TP^{-2/5}\" class=\"fm-inline\"><msup><mi mathvariant=\"normal\" class=\"ma-repel-adj\">TP</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 1.33em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>2</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>5</mn></td></tr></tbody></table></span></span></mrow></span></msup></fmath> = constant. The gas may be_________",
+      "option_a": "monoatomic",
+      "option_b": "diatomic",
+      "option_c": "triatomic",
+      "option_d": "polyatomic",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 99,
+      "question_html": "The meniscus of a liquid contained in one of the limbs of a narrow U-tube is placed between the poles of an electromagnet with the meniscus in a line with the field. The liquid is seen to rise to the line, This indicate that the liquid is________",
+      "option_a": "Ferromagnetic",
+      "option_b": "Paramegnetic",
+      "option_c": "Diamagnetic",
+      "option_d": "Non magnetic",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 100,
+      "question_html": "When a light of wavelength 6328  <fmath alttext=\"\\A↖{\\o}\" class=\"fm-inline\"><span mtagname=\"mover\" style=\"vertical-align: 0.426em;\"><span class=\"fm-vert\"><table><tbody><tr><td class=\"fm-script fm-inline\"><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">o</mi></td></tr><tr><td class=\"fm-underover-base\"><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">A</mi></td></tr></tbody></table></span></span></fmath>  is incident on a slit of width 0.2 mm perpendicularly. the angular width of central maxima will be_____",
+      "option_a": "0.36°",
+      "option_b": "0.18°",
+      "option_c": "0.72°",
+      "option_d": "0.09°",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 101,
+      "question_html": "Which of the following statement is correct?",
+      "option_a": "Airplane works on Newton's laws of motion and Laser on Raman’s Effects",
+      "option_b": "Hydroelectric power is based on laws of thermodynamics and rocket propulsion on Bernoulli's theorem.",
+      "option_c": "Computers are based on digital logic gates while electric generators on  Faraday’s laws of electromagnetic induction.",
+      "option_d": "Hydraulic lift on Pascal’s law and electric generators on Newton’s law's of motion.",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 102,
+      "question_html": "With rise in temperature, young's modulus of elasticity________",
+      "option_a": "Decreases",
+      "option_b": "Increases",
+      "option_c": "Changes erratically",
+      "option_d": "Remains unchanged",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 103,
+      "question_html": "The center of mass on combining two masses m and M (M &gt; m) will be________",
+      "option_a": "Towards m",
+      "option_b": "Towards M",
+      "option_c": "At the center of line joining m and M",
+      "option_d": "At centre of mass of m",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 104,
+      "question_html": "Work done on (or) by a thermodynamic system is zero in which of the following processes?",
+      "option_a": "isothermal",
+      "option_b": "isobaric",
+      "option_c": "isochoric",
+      "option_d": "adiabatic",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 105,
+      "question_html": "Equal volumes of hydrogen and oxygen gasses of atomic weights 1 and 16 respectively are found to exert equal pressure on the walls of two separate containers. The rms velocities of  the two gasses are in the ratio_______",
+      "option_a": "1 : 4",
+      "option_b": "4 : 1",
+      "option_c": "1 : 32",
+      "option_d": "32 : 1",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 106,
+      "question_html": "A body moving along a circular path due to a centripetal force having constant magnitude is an example of motion with______",
+      "option_a": "Constant speed and constant velocity",
+      "option_b": "Variable speed and variable velocity",
+      "option_c": "Variable speed and constant velocity",
+      "option_d": "Constant speed and variable velocity",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 107,
+      "question_html": "According to Bohr's theory of the hydrogen atom, the radii  <fmath alttext=\"\\r_n\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">r</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi></span></msub></fmath>  of stationary electron orbits are related to the principal quantum number n as",
+      "option_a": "<fmath alttext=\"\\r_n∝ (1{/n^2})\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">r</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi></span></msub><mo class=\"fm-infix-loose\">∝</mo><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow><mn>1</mn><mrow><mo>/</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\r_n∝ n^2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">r</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi></span></msub><mo class=\"fm-infix-loose\">∝</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\r_n∝ n^\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">r</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi></span></msub><mo class=\"fm-infix-loose\">∝</mo><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\r_n∝ (1{/n})\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">r</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi></span></msub><mo class=\"fm-infix-loose\">∝</mo><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow><mn>1</mn><mrow><mo>/</mo><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">n</mi></mrow></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></mrow></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 108,
+      "question_html": "Two spheres of equal masses are attached to a string of length 2 m as  shown in figure. The string and the sphere are then whirled in a horizontal circle about 0 at a constant rate. What is the value of the ratio? <br>  <fmath alttext=\"{(\\Tension\\ \\in\\ \\the\\ \\string\\ \\between\\ \\P\\ \\and\\ \\Q)}/{(\\Tension\\ \\in\\ \\the\\ \\string\\ \\between\\ \\P\\ \\and\\ \\O)}=?\" class=\"fm-inline\"><mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Tension</mi><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">in</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">the</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">string</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">between</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">P</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">and</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">Q</mi></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Tension</mi><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">in</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">the</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">string</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">between</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">P</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">and</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></td></tr></tbody></table></span></span><mo class=\"fm-infix-loose\">=</mo><mo>?</mo></mrow></fmath>  <br> <div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_108_Q \"></span></div>",
+      "option_a": "<fmath alttext=\"1/2\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_b": "<fmath alttext=\"2/3\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>2</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>3</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_c": "<fmath alttext=\"3/2\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>3</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span></fmath>",
+      "option_d": "2",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 109,
+      "question_html": "The centre of mass of a ring is __________",
+      "option_a": "Outside the material of the body, at the centre of symmetry,",
+      "option_b": "Within the material of the body, at the centre of symmetry",
+      "option_c": "Along a tangent of the ring.",
+      "option_d": "Perpendicular to edge of a ring,",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 110,
+      "question_html": "The coefficient of linear expansion of crystal in one direction is  <fmath alttext=\"a_1\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></fmath>  and that in every direction perpendicular to it is  <fmath alttext=\"a_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath> . The coefficient of cubical expansion is",
+      "option_a": "<fmath alttext=\"a_1+a_2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mo class=\"fm-infix\">+</mo><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></fmath>",
+      "option_b": "<fmath alttext=\"2a_1+a_2\" class=\"fm-inline\"><mrow><mrow><mn>2</mn><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></mrow><mo class=\"fm-infix\">+</mo><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></fmath>",
+      "option_c": "<fmath alttext=\"a_1+2a_2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mo class=\"fm-infix\">+</mo><mrow><mn>2</mn><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></mrow></fmath>",
+      "option_d": "<fmath alttext=\"a_1+3a_2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mo class=\"fm-infix\">+</mo><mrow><mn>3</mn><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 111,
+      "question_html": "The kinetic energy of an electron which is accelerated though a potential difference of 100 V will be__________",
+      "option_a": "<fmath alttext=\"6.626\\ \\x\\ \\10^{-34}\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>6.626</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>34</mn></mrow></span></msup></mrow></fmath> J",
+      "option_b": "<fmath alttext=\"1.16\\ \\x\\ \\10^4\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>1.16</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>4</mn></span></msup></mrow></fmath> J",
+      "option_c": "418.6 J",
+      "option_d": "<fmath alttext=\"1.6\\ \\x\\ \\10^{-17}\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>1.6</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>17</mn></mrow></span></msup></mrow></fmath> J",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 112,
+      "question_html": "The percentage volume of ice-cube outside the water when it is floating in water is _________(Density of ice 900 kg. <fmath alttext=\"m^{-3}\" class=\"fm-inline\"><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>3</mn></mrow></span></msup></fmath> , Density of water 1000 kg.<fmath alttext=\"m^{-3}\" class=\"fm-inline\"><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>3</mn></mrow></span></msup></fmath>)",
+      "option_a": "20%",
+      "option_b": "35%",
+      "option_c": "10%",
+      "option_d": "25%",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 113,
+      "question_html": "Two small metal spheres A and B charged positively are separated by 2 m in air. The force on a charge of + 1 C placed on the line joining the centres of the spheres and at a  distance of 0.5 m from A is found to be zero. The ratio  <fmath alttext=\"\\q_A : \\q_B\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">q</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">A</mi></span></msub><mo class=\"fm-infix-loose\">:</mo><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">q</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">B</mi></span></msub></mrow></fmath>  of charges on A and B is",
+      "option_a": "1 : 3",
+      "option_b": "3 : 1",
+      "option_c": "5 : 1",
+      "option_d": "1 : 9",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 114,
+      "question_html": "A body of density  <fmath alttext=\"\\d_1\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></fmath>  is counter poised by M g of weights of density  <fmath alttext=\"\\d_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath>  in air of density d. Then the true mass of the body is",
+      "option_a": "M",
+      "option_b": "<fmath alttext=\"\\M({d_2-d}/d_2)\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">M</mi><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix\">−</mo><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\M({d_2-d}/d_1)\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">M</mi><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix\">−</mo><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow></mrow></fmath>",
+      "option_d": "<fmath alttext=\"{\\Md_1(\\d_2-\\d)}/{\\d_2(d_1-d)}\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Md</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix\">−</mo><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">d</mi></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mo class=\"fm-infix\">−</mo><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></mrow></td></tr></tbody></table></span></span></fmath>",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 115,
+      "question_html": "A conductor carries a current of 300 mA. The number of electrons passing through it in 1 minute are_______",
+      "option_a": "1.125 x  <fmath alttext=\"10^17\" class=\"fm-inline\"><msup><mn>10</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>17</mn></span></msup></fmath>",
+      "option_b": "1.125 x  <fmath alttext=\"10^20\" class=\"fm-inline\"><msup><mn>10</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>20</mn></span></msup></fmath>",
+      "option_c": "1.125 x  <fmath alttext=\"10^23\" class=\"fm-inline\"><msup><mn>10</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>23</mn></span></msup></fmath>",
+      "option_d": "125 x  <fmath alttext=\"10^25\" class=\"fm-inline\"><msup><mn>10</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>25</mn></span></msup></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 116,
+      "question_html": "Two projectiles A and B are projected with the same initial speed, A is launched at an angle ϕ  with the horizontal and B at an angle ϕ  with the vertical. If A has a range  <fmath alttext=\"R_1\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></fmath>  and B has a range  <fmath alttext=\"\\R_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath> , then",
+      "option_a": "<fmath alttext=\"R_1=2\\R_2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mo class=\"fm-infix-loose\">=</mo><mrow><mn>2</mn><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></mrow></fmath>",
+      "option_b": "<fmath alttext=\"R_1=0.5\\R_2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mo class=\"fm-infix-loose\">=</mo><mrow><mn>0.5</mn><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></mrow></fmath>",
+      "option_c": "<fmath alttext=\"R_1=\\R_2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mo class=\"fm-infix-loose\">=</mo><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></fmath>",
+      "option_d": "<fmath alttext=\"R_1=0.25\\R_2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub><mo class=\"fm-infix-loose\">=</mo><mrow><mn>0.25</mn><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">R</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 117,
+      "question_html": "In the circuit diagram shown in the adjoining figure, the resultant capacitance between P and Q is <br> <div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_117_Q \"></span></div>",
+      "option_a": "47 μF",
+      "option_b": "3 μF",
+      "option_c": "60 μF",
+      "option_d": "10 μF",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 118,
+      "question_html": "A simple pendulum oscillates harmonically about x - 0 with an amplitude A and time period T. Its speed at x = A/2 is_____",
+      "option_a": "<fmath alttext=\"{πA√3}/T\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0.086em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">A</mi></mrow><mrow mtagname=\"msqrt\"><mo class=\"fm-radic\">√</mo><span style=\"vertical-align: 0.086em;\"><span class=\"fm-vert fm-radicand\" style=\"border-top-width: 0.072em;\"><mn>3</mn></span></span></mrow></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">T</mi></td></tr></tbody></table></span></span></fmath>",
+      "option_b": "<fmath alttext=\"{πA}/T\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">A</mi></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">T</mi></td></tr></tbody></table></span></span></fmath>",
+      "option_c": "<fmath alttext=\"{πA√3}/{2T}\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0.086em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">A</mi></mrow><mrow mtagname=\"msqrt\"><mo class=\"fm-radic\">√</mo><span style=\"vertical-align: 0.086em;\"><span class=\"fm-vert fm-radicand\" style=\"border-top-width: 0.072em;\"><mn>3</mn></span></span></mrow></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mn>2</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">T</mi></mrow></td></tr></tbody></table></span></span></fmath>",
+      "option_d": "<fmath alttext=\"{3π^2A}/T\" class=\"fm-inline\"><span mtagname=\"mfrac\" style=\"vertical-align: 0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mrow><mn>3</mn><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">A</mi></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">T</mi></td></tr></tbody></table></span></span></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 119,
+      "question_html": "If the moon is to escape from the gravitational field of the earth forever, it will require a velocity _________",
+      "option_a": "<fmath alttext=\"11.2\\ \\km.s^{-1}\" class=\"fm-inline\"><mrow><mrow class=\"ma-repel-adj\"><mrow><mn>11.2</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">km</mi></mrow><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_b": "less than <fmath alttext=\"11.2\\ \\km.s^{-1}\" class=\"fm-inline\"><mrow><mrow class=\"ma-repel-adj\"><mrow><mn>11.2</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">km</mi></mrow><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_c": "slightly more than <fmath alttext=\"11.2\\ \\km.s^{-1}\" class=\"fm-inline\"><mrow><mrow class=\"ma-repel-adj\"><mrow><mn>11.2</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">km</mi></mrow><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_d": "<fmath alttext=\"22.4\\ \\km.s^{-1}\" class=\"fm-inline\"><mrow><mrow class=\"ma-repel-adj\"><mrow><mn>22.4</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">km</mi></mrow><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 120,
+      "question_html": "Point charges each equal to +q are placed at the vertices of an equilateral triangle of side T . The net force on a charge  <fmath alttext=\"\\q_1\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">q</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></fmath>  placed at the  circumcentre of the triangle is",
+      "option_a": "<fmath alttext=\"\\F=1/{4π ε _0}({3qq_1}/l_2)\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">F</mi><mo class=\"fm-infix-loose\">=</mo><mrow><span mtagname=\"mfrac\" style=\"vertical-align: -0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mrow><mn>4</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">ε</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>0</mn></span></msub></mrow></td></tr></tbody></table></span></span><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mrow><mn>3</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">q</mi></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">q</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow></mrow></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\F=1/{4π ε _0}({qq_1}/{3l_2})\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">F</mi><mo class=\"fm-infix-loose\">=</mo><mrow><span mtagname=\"mfrac\" style=\"vertical-align: -0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mrow><mn>4</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">ε</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>0</mn></span></msub></mrow></td></tr></tbody></table></span></span><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">q</mi><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">q</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mn>3</mn><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow></mrow></mrow></fmath>",
+      "option_c": "F = 0",
+      "option_d": "<fmath alttext=\"\\F=1/{4π ε _0}({2qq_1}/{3l_2})\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">F</mi><mo class=\"fm-infix-loose\">=</mo><mrow><span mtagname=\"mfrac\" style=\"vertical-align: -0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mrow><mn>4</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">ε</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>0</mn></span></msub></mrow></td></tr></tbody></table></span></span><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mrow><mrow><mn>2</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">q</mi></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">q</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></mrow></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mrow><mn>3</mn><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.47em; vertical-align: -0.149em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow></mrow></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 121,
+      "question_html": "Using Bredig’s arc method, which of the following metallic sols cannot be prepared_______",
+      "option_a": "Silver",
+      "option_b": "Sodium",
+      "option_c": "Platinum",
+      "option_d": "Gold",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 122,
+      "question_html": "<fmath alttext=\"\\NH_3+\\NaOCl\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><mo class=\"fm-infix\">+</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NaOCl</mi></mrow></fmath> ──────▶ ?",
+      "option_a": "<fmath alttext=\"\\NH_2\\OH\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">OH</mi></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\NH_2\\Cl\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Cl</mi></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\NH_2+\\NH_2\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix\">+</mo><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\N_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">N</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 123,
+      "question_html": "Which of the following elements has the most negative election gain enthalpy?",
+      "option_a": "<fmath alttext=\"[\\Ne]3s^2\\3p^2\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mo class=\"fm-mo-Luc\">[</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Ne</mi><mo class=\"fm-mo-Luc\">]</mo></mrow><mn>3</mn></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">3</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow></fmath>",
+      "option_b": "<fmath alttext=\"[\\Ne]3s^2\\3p^4\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mo class=\"fm-mo-Luc\">[</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Ne</mi><mo class=\"fm-mo-Luc\">]</mo></mrow><mn>3</mn></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">3</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>4</mn></span></msup></mrow></fmath>",
+      "option_c": "<fmath alttext=\"[\\Ne]3s^2\\3p^5\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mo class=\"fm-mo-Luc\">[</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Ne</mi><mo class=\"fm-mo-Luc\">]</mo></mrow><mn>3</mn></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">3</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>5</mn></span></msup></mrow></fmath>",
+      "option_d": "<fmath alttext=\"[\\Ne]3s^2\\3p^6\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mo class=\"fm-mo-Luc\">[</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Ne</mi><mo class=\"fm-mo-Luc\">]</mo></mrow><mn>3</mn></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>2</mn></span></msup></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">3</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>6</mn></span></msup></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 124,
+      "question_html": "Which of the following statement is incorrect from the view point of molecular orbital theory? <br> a) <fmath alttext=\"\\Be_2\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Be</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath> is not a stable molecule <br> b)<fmath alttext=\"\\He_2\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">He</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath> is not stable but <fmath alttext=\"\\He^{2+\" class=\"fm-inline\"><msup><mi mathvariant=\"normal\" class=\"ma-repel-adj\">He</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mn>2</mn><mo class=\"fm-postfix-tight\">+</mo></mrow></span></msup></fmath> is expected to exits <br> c) Bond strenght of <fmath alttext=\"\\N_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">N</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath> is maximum amogst the homonuclear diatomic molecules belonging to the second period <br> d)The order of energies of molecular orbitals in <fmath alttext=\"\\N_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">N</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath> molecule is <br> <fmath alttext=\"σ2s &lt; σ°2s &lt; σ2p_z &lt; (π2p_x=π2p_y)&lt;(π'2p_x=π'2p_y)&lt;σ° 2p_z\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">σ</mi><mn>2</mn></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi></mrow><mo class=\"fm-infix-loose\">&lt;</mo><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">σ</mi><mo>°</mo></mrow><mn>2</mn></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi></mrow></mrow><mo class=\"fm-infix-loose\">&lt;</mo><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">σ</mi><mn>2</mn></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">z</mi></span></msub></mrow></mrow><mo class=\"fm-infix-loose\">&lt;</mo><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi><mn>2</mn></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">x</mi></span></msub></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi><mn>2</mn></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">y</mi></span></msub></mrow></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></mrow><mo class=\"fm-infix-loose\">&lt;</mo><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi><mo>′</mo></mrow><mn>2</mn></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">x</mi></span></msub></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">π</mi><mo>′</mo></mrow><mn>2</mn></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">y</mi></span></msub></mrow></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></mrow><mo class=\"fm-infix-loose\">&lt;</mo><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">σ</mi><mo>°</mo></mrow><mn>2</mn></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">z</mi></span></msub></mrow></mrow></fmath>",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 125,
+      "question_html": "Products P and Q in the following reactions, respectively are <br> <div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_125_Q \"></span></div>",
+      "option_a": "P: Cyclohexane <br>Q: Benzoquinone",
+      "option_b": "P: Cyclohexane <br> Q: Cyclohexenone",
+      "option_c": "P: Benzene <br> Q: Cyclohexanol",
+      "option_d": "P: Benzene <br>Q: Benzoquinone",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 126,
+      "question_html": "The role of catalyst in a reversible reaction is ___________",
+      "option_a": "Changes the entropy of the reaction",
+      "option_b": "Increases the rate of forward reaction",
+      "option_c": "Reduces the time required for reaching the reaction equilibrium state",
+      "option_d": "Decreases the rate of reverse reaction",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 127,
+      "question_html": "In a face cantered cubic arrangement of A &amp; B atoms where A atoms are at the corners of  the unit cell and B atoms are at the face center, two A atoms are missing. The simplest  formula for this compound is_________",
+      "option_a": "<fmath alttext=\"\\A_7\\B_24\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">A</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>7</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">B</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>24</mn></span></msub></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\A_2\\B\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">A</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">B</mi></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\AB_4\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">AB</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></fmath>",
+      "option_d": "<fmath alttext=\"\\A_6\\B\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">A</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">B</mi></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 128,
+      "question_html": "The structure of Marshall's acid among the following is",
+      "option_a": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_128_O_1 \"></span></div>",
+      "option_b": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_128_O_2 \"></span></div>",
+      "option_c": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_128_O_3 \"></span></div>",
+      "option_d": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_128_O_4 \"></span></div>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 129,
+      "question_html": "Find the electrode potential for given half-cell reaction given below at pH = 4. <br>  <fmath alttext=\"2\\H_2\\O→\\O_2+4\\H^{+}+4\\e^{-},E_{red}^0=1.23 V(\\Given\\ \\R=8.314\\ \\J.\\K^{-1}.mol^{-1}\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mn>2</mn><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi></mrow><mo class=\"fm-infix-loose\">→</mo><mrow><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix\">+</mo><mrow><mn>4</mn><msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mo>+</mo></span></msup></mrow></mrow><mo class=\"fm-infix\">+</mo><mrow><mn>4</mn><msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">e</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mo>−</mo></span></msup></mrow></mrow></mrow><mo class=\"fm-separator\">,</mo><mrow><msubsup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">E</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">d</mi></mrow></span><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>0</mn></span></msubsup><mo class=\"fm-infix-loose\">=</mo><mrow class=\"ma-repel-adj\"><mrow><mn>1.23</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">V</mi></mrow><mrow class=\"ma-repel-adj\"><mo class=\"fm-mo-Luc fm-prefix\">(</mo><mrow><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Given</mi><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">R</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mrow><mrow><mrow><mn>8.314</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">J</mi></mrow><mo class=\"fm-infix\">.</mo><msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">K</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow><mo class=\"fm-infix\">.</mo><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">o</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></mrow></mrow></mrow></mrow></mrow></mrow></fmath> , <br> Temperature = 298 K, Oxygen is under standard atmosphere pressure of 1 bar)",
+      "option_a": "1.53 V",
+      "option_b": "-0.99 V",
+      "option_c": "-1.01 V",
+      "option_d": "-1.23 V",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 130,
+      "question_html": "If solubility is represented as 'S' mol/litre and solubility product as  <fmath alttext=\"K_{sp\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">K</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">s</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">p</mi></mrow></span></msub></fmath>  .the relation between the two for  <fmath alttext=\"\\Zr_3(\\PO_4)_4\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Zr</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mrow><mo class=\"fm-mo-Luc\">(</mo><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">PO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub><mo class=\"fm-mo-Luc\">)</mo></mrow><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath> is",
+      "option_a": "<fmath alttext=\"\\S=(K_{SP}/108)^{1{/7\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi><mo class=\"fm-infix-loose\">=</mo><msup><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.26em; vertical-align: -0.084em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">K</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">S</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">P</mi></mrow></span></msub></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>108</mn></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.26em; vertical-align: -0.084em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow><span class=\"fm-script fm-inline\" style=\"vertical-align: 1.59em;\"><mrow><mn>1</mn><mrow><mo>/</mo><mn>7</mn></mrow></mrow></span></msup></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\S=(K_{SP}/27)^{1{/3\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi><mo class=\"fm-infix-loose\">=</mo><msup><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.26em; vertical-align: -0.084em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">K</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">S</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">P</mi></mrow></span></msub></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>27</mn></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.26em; vertical-align: -0.084em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow><span class=\"fm-script fm-inline\" style=\"vertical-align: 1.59em;\"><mrow><mn>1</mn><mrow><mo>/</mo><mn>3</mn></mrow></mrow></span></msup></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\S=(K_{SP}/6912)^{1{/7\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi><mo class=\"fm-infix-loose\">=</mo><msup><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.26em; vertical-align: -0.084em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">K</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">S</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">P</mi></mrow></span></msub></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>6912</mn></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.26em; vertical-align: -0.084em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow><span class=\"fm-script fm-inline\" style=\"vertical-align: 1.59em;\"><mrow><mn>1</mn><mrow><mo>/</mo><mn>7</mn></mrow></mrow></span></msup></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\S=(K_{SP}/108)^{1{/5\" class=\"fm-inline\"><mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi><mo class=\"fm-infix-loose\">=</mo><msup><mrow><mo class=\"fm-mo-Luc\" style=\"font-size: 2.26em; vertical-align: -0.084em; display: inline-block; transform: scaleX(0.5);\">(</mo><span mtagname=\"mfrac\" style=\"vertical-align: 0.126em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">K</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">S</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">P</mi></mrow></span></msub></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>108</mn></td></tr></tbody></table></span></span><mo class=\"fm-mo-Luc\" style=\"font-size: 2.26em; vertical-align: -0.084em; display: inline-block; transform: scaleX(0.5);\">)</mo></mrow><span class=\"fm-script fm-inline\" style=\"vertical-align: 1.59em;\"><mrow><mn>1</mn><mrow><mo>/</mo><mn>5</mn></mrow></mrow></span></msup></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 131,
+      "question_html": "<fmath alttext=\"\\MnO_2+\\KOH{───────▶}↖{Air} ?\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">MnO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix\">+</mo><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">KOH</mi><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mrow><span mtagname=\"mover\" style=\"vertical-align: 0.426em;\"><span class=\"fm-vert\"><table><tbody><tr><td class=\"fm-script fm-inline\"><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">A</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">i</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></mrow></td></tr><tr><td class=\"fm-underover-base\"><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mo class=\"fm-postfix-tight\">▶</mo></mrow></td></tr></tbody></table></span></span><mo>?</mo></mrow></mrow></mrow></fmath>",
+      "option_a": "<fmath alttext=\"\\Mn_3\\O_4\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Mn</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\KMn\\O_4\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">KMn</mi><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\K_2\\Mn\\O_4\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">K</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Mn</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\Mn(\\OH)_2\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Mn</mi><msub><mrow><mo class=\"fm-mo-Luc\">(</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">OH</mi><mo class=\"fm-mo-Luc\">)</mo></mrow><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 132,
+      "question_html": "Which of the following statements is false?  <br> A)  <fmath alttext=\"BiCl_5\" class=\"fm-inline\"><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">B</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">i</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">C</mi></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>5</mn></span></msub></mrow></fmath> does not exist <br> b)Ammonia is a Lewis base <br> c) <fmath alttext=\"\\SF_4\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">SF</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></fmath> has square planer shape <br> d) <fmath alttext=\"\\BF_3\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">BF</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></fmath>  has zero dipole moment",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 133,
+      "question_html": "Which of the following pairs exhibit diagonal relationship?",
+      "option_a": "Li, Na",
+      "option_b": "Li, Mg",
+      "option_c": "Mg, Al",
+      "option_d": "Be, B",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 134,
+      "question_html": "The monomers of Terylene are",
+      "option_a": "Phenol and formaldehyde",
+      "option_b": "Ethylene glycol and phthalic acid",
+      "option_c": "Adipic acid and hexamethylene diamine",
+      "option_d": "Ethylene glycol and terephthalic acid",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 135,
+      "question_html": "The molecular formula of malachite ore is ________",
+      "option_a": "<fmath alttext=\"\\Cu(\\OH)_2.\\CuCO_3\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Cu</mi><msub><mrow><mo class=\"fm-mo-Luc\">(</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">OH</mi><mo class=\"fm-mo-Luc\">)</mo></mrow><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2.</mn></span></msub></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CuCO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\Mn_3\\O_4\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Mn</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath>",
+      "option_c": "NiAs",
+      "option_d": "<fmath alttext=\"\\Fe_3\\O_4\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Fe</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 136,
+      "question_html": "Which of the following can be considered as the definition/principle of energy?",
+      "option_a": "First law of thermodynamics",
+      "option_b": "Second law of thermodynamics",
+      "option_c": "Third law of thermodynamics",
+      "option_d": "∆G = ∆H - T∆S",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 137,
+      "question_html": "Formaldehyde reacts with concentrated alkali to form ___________",
+      "option_a": "A resinous mass",
+      "option_b": "A mixture of methanol and a salt of formic acid",
+      "option_c": "Foimic acid",
+      "option_d": "Methanol",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 138,
+      "question_html": "The internal energy of one mole of an ideal gas is given by the expression__________",
+      "option_a": "<fmath alttext=\"3/2\\RT\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>3</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">RT</mi></mrow></fmath>",
+      "option_b": "<fmath alttext=\"1/2\\kT\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">kT</mi></mrow></fmath>",
+      "option_c": "<fmath alttext=\"1/2\\RT\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">RT</mi></mrow></fmath>",
+      "option_d": "<fmath alttext=\"3/2\\kT\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>3</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">kT</mi></mrow></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 139,
+      "question_html": "An aqueous solution consists of  <fmath alttext=\"\\Pb^{2+\" class=\"fm-inline\"><msup><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Pb</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mn>2</mn><mo class=\"fm-postfix-tight\">+</mo></mrow></span></msup></fmath>  and <fmath alttext=\"\\Cu^{2+\" class=\"fm-inline\"><msup><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Cu</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mn>2</mn><mo class=\"fm-postfix-tight\">+</mo></mrow></span></msup></fmath> ions. Which of the following reagents is suitable for the separating them?",
+      "option_a": "<fmath alttext=\"\\NH_4\\NO_3(aq.)\" class=\"fm-inline\"><mrow><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">a</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">q</mi></mrow><mo class=\"fm-postfix-tight\">.</mo></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow></mrow></fmath>",
+      "option_b": "Diluted <fmath alttext=\"\\H_2\\SO_4\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">SO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath>",
+      "option_c": "Diluted <fmath alttext=\"\\H_2\\S\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi></mrow></fmath>",
+      "option_d": "Concentrated <fmath alttext=\"\\HNO_3\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">HNO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 140,
+      "question_html": "How many primary amines with empirical formula  <fmath alttext=\"\\C_4\\H_11\\N\" class=\"fm-inline\"><mrow><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>11</mn></span></msub></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">N</mi></mrow></fmath>  are possible?",
+      "option_a": "3",
+      "option_b": "4",
+      "option_c": "1",
+      "option_d": "2",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 141,
+      "question_html": "What product is formed when H F reacts with glass?",
+      "option_a": "<fmath alttext=\"\\SiF_4\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">SiF</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></fmath>",
+      "option_b": "<fmath alttext=\"\\H_2\\SiF_6\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">SiF</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\Na_3\\AlF_6\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Na</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">AlF</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\H_2\\SiO_3\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">SiO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 142,
+      "question_html": "The major product of the following reaction is <br>  <fmath alttext=\"\\CH_2=\\CHBr{──────────────▶}↖{\\NaNH_2}↙{\\Red\\ \\hot\\ \\iron\\ \\tube,873K}\\P \" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix-loose\">=</mo><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CHBr</mi><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><span mtagname=\"munderover\" style=\"vertical-align: 0.089em;\"><span class=\"fm-vert\"><table><tbody><tr><td class=\"fm-script fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NaNH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></td></tr><tr><td class=\"fm-underover-base\"><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">─</mi></mrow><mo class=\"fm-postfix-tight\">▶</mo></mrow></td></tr><tr><td class=\"fm-script fm-inline\"><mrow><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Red</mi><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">hot</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">iron</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">tube</mi></mrow><mo class=\"fm-separator\">,</mo><mrow><mn>873</mn><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">K</mi></mrow></mrow></td></tr></tbody></table></span></span></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">P</mi></mrow></mrow></fmath>",
+      "option_a": "<fmath alttext=\"\\CH_2=\\CH-\\CH=\\CH-\\C≡ \\CH\" class=\"fm-inline\"><mrow><mrow><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mo class=\"fm-infix-loose\">=</mo><mrow><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CH</mi><mo class=\"fm-infix\">−</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CH</mi></mrow></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CH</mi><mo class=\"fm-infix\">−</mo><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi></mrow></mrow><mo class=\"fm-infix-loose\">≡</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CH</mi></mrow></fmath>",
+      "option_b": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_142_O_2 \"></span></div>",
+      "option_c": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_142_O_3 \"></span></div>",
+      "option_d": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_142_O_4 \"></span></div>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 143,
+      "question_html": "Which among the following shows most affinity towards haemoglobin?",
+      "option_a": "<fmath alttext=\"\\CO_2\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath>",
+      "option_b": "NO",
+      "option_c": "CO",
+      "option_d": "<fmath alttext=\"\\U_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">U</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 144,
+      "question_html": "If the value of  <fmath alttext=\"\\K_\\P\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">K</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">P</mi></span></msub></fmath>  for the reaction  <fmath alttext=\"1/2\\N_2+3/2\\H_2⇌ 2\\NH_3\" class=\"fm-inline\"><mrow><mrow><mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>1</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">N</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow><mo class=\"fm-infix\">+</mo><mrow><span mtagname=\"mfrac\" style=\"vertical-align: 0em;\"><span class=\"fm-vert fm-frac\"><table><tbody><tr><td class=\"fm-num-frac fm-inline\"><mn>3</mn></td></tr><tr><td class=\"fm-den-frac fm-inline\"><mn>2</mn></td></tr></tbody></table></span></span><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></mrow><mo class=\"fm-infix-loose\">⇌</mo><mrow><mn>2</mn><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">NH</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow></mrow></fmath> is found to be 100 atm, calculate ∆G° at 298 K.",
+      "option_a": "<fmath alttext=\"11.42\\ \\kJ.mol^{-1\" class=\"fm-inline\"><mrow><mrow class=\"ma-repel-adj\"><mrow><mn>11.42</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">kJ</mi></mrow><mo class=\"fm-infix\">.</mo><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">o</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></mrow></fmath>",
+      "option_b": "<fmath alttext=\"-11.42\\ \\kJ.mol^{-1\" class=\"fm-inline\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mrow><mrow class=\"ma-repel-adj\"><mrow><mn>11.42</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">kJ</mi></mrow><mo class=\"fm-infix\">.</mo><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">o</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></mrow></mrow></fmath>",
+      "option_c": "<fmath alttext=\"5.71\\ \\kJ.mol^{-1\" class=\"fm-inline\"><mrow><mrow class=\"ma-repel-adj\"><mrow><mn>5.71</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">kJ</mi></mrow><mo class=\"fm-infix\">.</mo><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">o</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></mrow></fmath>",
+      "option_d": "<fmath alttext=\"-5.71\\ \\kJ.mol^{-1\" class=\"fm-inline\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mrow><mrow class=\"ma-repel-adj\"><mrow><mn>5.71</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">kJ</mi></mrow><mo class=\"fm-infix\">.</mo><mrow><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">m</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">o</mi></mrow><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></mrow></mrow></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 145,
+      "question_html": "Which of the following vitamins is water-soluble and can be stored in our body?",
+      "option_a": "Vitamin  <fmath alttext=\"\\B_12\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">B</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>12</mn></span></msub></fmath>",
+      "option_b": "Vitamin  <fmath alttext=\"\\B_6\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">B</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub></fmath>",
+      "option_c": "Vitamin  <fmath alttext=\"\\B_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">B</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath>",
+      "option_d": "Vitamin  <fmath alttext=\"\\B_1\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">B</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>1</mn></span></msub></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 146,
+      "question_html": "Which of the following statements about hydrogen is incorrect? <br> a) Hydrogen never acts as cation in ionic salts <br> b) Hydronium ion,  <fmath alttext=\"\\H_3\\O^{+\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mo>+</mo></span></msup></mrow></fmath> exists freely in solution <br> c) Dihydrogen does not act as a reducing agent <br> d) Hydrogen has three isotypes of which protium is the most common",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 147,
+      "question_html": "Calculate the number of sulphate ions present in 100 ml of 0.001 M  <fmath alttext=\"\\H_2\\SO_4\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">SO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath> ?",
+      "option_a": "<fmath alttext=\"6.022\\ \\x\\ \\10^19\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>6.022</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>19</mn></span></msup></mrow></fmath>",
+      "option_b": "<fmath alttext=\"6.022\\ \\x\\ \\10^18\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>6.022</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>18</mn></span></msup></mrow></fmath>",
+      "option_c": "<fmath alttext=\"3.011\\ \\x\\ \\10^19\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>3.011</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>19</mn></span></msup></mrow></fmath>",
+      "option_d": "<fmath alttext=\"3.011\\ \\x\\ \\10^18\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mn>3.011</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>18</mn></span></msup></mrow></fmath>",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 148,
+      "question_html": "Calculate the concentration of the 2% (w/w) NaCl solution in terms of molality.",
+      "option_a": "0.7 m",
+      "option_b": "0.34 m",
+      "option_c": "0.17 m",
+      "option_d": "1 m",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 149,
+      "question_html": "In diborane __________are present",
+      "option_a": "4 bridged hydrogens and 2 terminal hydrogens",
+      "option_b": "2 bridged hydrogens and 4 terminal hydrogens",
+      "option_c": "3 bridged hydrogens and 3 terminal hydrogens",
+      "option_d": "2 bridged hydrogens and 2 terminal hydrogens",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 150,
+      "question_html": "The correct statement regarding  <fmath alttext=\"\\H_3\\PO_3\\ \\and\\ \\H_3\\PO_4\" class=\"fm-inline\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow class=\"ma-repel-adj\"><mrow><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">PO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi mathvariant=\"normal\" class=\"ma-repel-adj\">and</mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow><mspace width=\".17em\" style=\"margin-right: 0.17em; padding-right: 0.001em; visibility: hidden;\">‌</mspace><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">PO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath> : among the following is",
+      "option_a": "<fmath alttext=\"\\H_3\\PO_3\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">PO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow></fmath> is tribasic and is reducing",
+      "option_b": "<fmath alttext=\"\\H_3\\PO_3\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">PO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow></fmath> is tribasic and is non-reducing",
+      "option_c": "<fmath alttext=\"\\H_3\\PO_4\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">PO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath> is tribasic and is reducing",
+      "option_d": "<fmath alttext=\"\\H_3\\PO_3\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">PO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>3</mn></span></msub></mrow></fmath> is dibasic and  reducing",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 151,
+      "question_html": "Among the following aryl halides, which one will react fastest with diluted NaOH at high pressure and temperatures?",
+      "option_a": "<fmath alttext=\"\\C_6\\H_5-\\Br\" class=\"fm-inline\"><mrow><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>5</mn></span></msub></mrow><mo class=\"fm-infix\">−</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Br</mi></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\C_6\\H_5-I\" class=\"fm-inline\"><mrow><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>5</mn></span></msub></mrow><mo class=\"fm-infix\">−</mo><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">I</mi></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\C_6\\H_5-\\F\" class=\"fm-inline\"><mrow><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>5</mn></span></msub></mrow><mo class=\"fm-infix\">−</mo><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">F</mi></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\C_6\\H_5-Cl\" class=\"fm-inline\"><mrow><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>5</mn></span></msub></mrow><mo class=\"fm-infix\">−</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">C</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi></mrow></mrow></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 152,
+      "question_html": "Which of the following statements is correct? <br> a) Neither pure  <fmath alttext=\"\\H_2\\SO_4\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">SO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath>, nor pure  <fmath alttext=\"\\HClO_4\" class=\"fm-inline\"><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">HClO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></fmath> nor their mixture can conduct electricity <br> b) Electrolysis of 50%  <fmath alttext=\"\\H_2\\SO_4\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">SO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></fmath>  (cold) produces  <fmath alttext=\"\\H_2.\\O_2\" class=\"fm-inline\"><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2.</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></fmath> at cathode and anode respectively <br> c) DC current is used for conductivity measurement <br> d) Graphite is better lubricant on earth than on the moon",
+      "option_a": "a",
+      "option_b": "b",
+      "option_c": "c",
+      "option_d": "d",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 153,
+      "question_html": "Which of the following conditions is suitable for  electrophilic addition reaction over an alkene?",
+      "option_a": "<fmath alttext=\"\\H_2\" class=\"fm-inline\"><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></fmath> ,Pd/C",
+      "option_b": "HBr,  <fmath alttext=\"(\\C_6\\H_5-\\CO)_2\\O_2\" class=\"fm-inline\"><mrow><msub><mrow><mo class=\"fm-mo-Luc\">(</mo><mrow><mrow><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">C</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>6</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>5</mn></span></msub></mrow><mo class=\"fm-infix\">−</mo><mi mathvariant=\"normal\" class=\"ma-repel-adj\">CO</mi></mrow><mo class=\"fm-mo-Luc\">)</mo></mrow><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">O</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\Br_2{/CCl_4\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">Br</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>2</mn></span></msub><mrow><mrow><mrow><mo>/</mo><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">C</mi></mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">C</mi></mrow><msub><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">l</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub></mrow></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\KMnO_4{/H^{+\" class=\"fm-inline\"><mrow><msub><mi mathvariant=\"normal\" class=\"ma-repel-adj\">KMnO</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mn>4</mn></span></msub><mrow><mo>/</mo><msup><mi class=\"fm-mi-length-1\" mathvariant=\"italic\" style=\"padding-right: 0.44ex;\">H</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mo>+</mo></span></msup></mrow></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 154,
+      "question_html": "For a reaction to be spontaneous at all the temperatures, what are the required thermodynamic quantities?",
+      "option_a": "<fmath alttext=\"\\∆_r\\G=+ve;\\∆_r\\H=+ve;∆_r\\S=+ve \" class=\"fm-inline\"><mrow><mrow><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">G</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">+</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow><mo class=\"fm-separator\">;</mo><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">+</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow></mrow><mo class=\"fm-separator\">;</mo><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">+</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow></mrow></fmath>",
+      "option_b": "<fmath alttext=\"\\∆_r\\G=-ve;\\∆_r\\H=+ve;∆_r\\S=-ve \" class=\"fm-inline\"><mrow><mrow><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">G</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">−</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow><mo class=\"fm-separator\">;</mo><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">+</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow></mrow><mo class=\"fm-separator\">;</mo><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">−</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow></mrow></fmath>",
+      "option_c": "<fmath alttext=\"\\∆_r\\G=-ve;\\∆_r\\H=-ve;∆_r\\S=+ve \" class=\"fm-inline\"><mrow><mrow><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">G</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">−</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow><mo class=\"fm-separator\">;</mo><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">−</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow></mrow><mo class=\"fm-separator\">;</mo><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">+</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow></mrow></fmath>",
+      "option_d": "<fmath alttext=\"\\∆_r\\G=+ve;\\∆_r\\H=-ve;∆_r\\S=+ve \" class=\"fm-inline\"><mrow><mrow><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">G</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">+</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow><mo class=\"fm-separator\">;</mo><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">H</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">−</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow></mrow><mo class=\"fm-separator\">;</mo><mrow><mrow><msub class=\"fm-prefix-tight\"><mo>∆</mo><span class=\"fm-script fm-inline\" style=\"vertical-align: -0.5em;\"><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">r</mi></span></msub><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">S</mi></mrow><mo class=\"fm-infix-loose\">=</mo><mrow><mo class=\"fm-prefix-tight\">+</mo><mrow><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">v</mi><mi class=\"fm-mi-length-1\" mathvariant=\"italic\">e</mi></mrow></mrow></mrow></mrow></fmath>",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 155,
+      "question_html": "The effective nuclear chaise for an electron in n = 2 shell in a fluorine atom, calculated according to Slater’s rules will be",
+      "option_a": "8.5",
+      "option_b": "6.8",
+      "option_c": "5.2",
+      "option_d": "4.9",
+      "correct_option": "c",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 156,
+      "question_html": "A 1000-Watt bulb emits a monochromatic light of wavelength 400 nm. Calculate the number of photons emitted per second by the bulb.",
+      "option_a": "<fmath alttext=\"2.01\\ \\x\\ \\10^20\\s^{-1\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mn>2.01</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>20</mn></span></msup></mrow><msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_b": "<fmath alttext=\"20.12\\ \\x\\ \\10^20\\s^{-1\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mn>20.12</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>20</mn></span></msup></mrow><msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_c": "<fmath alttext=\"10.06\\ \\x\\ \\10^20\\s^{-1\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mn>10.06</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>20</mn></span></msup></mrow><msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "option_d": "<fmath alttext=\"3.00\\ \\x\\ \\10^20\\s^{-1\" class=\"fm-inline\"><mrow><mrow><mrow><mrow><mrow><mrow><mn>3.00</mn><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">x</mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\"> </mi></mrow><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">1</mi></mrow><msup><mn>0</mn><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mn>20</mn></span></msup></mrow><msup><mi class=\"fm-mi-length-1 ma-upright\" mathvariant=\"normal\" style=\"padding-right: 0px;\">s</mi><span class=\"fm-script fm-inline\" style=\"vertical-align: 0.7em;\"><mrow><mo class=\"fm-prefix-tight\">−</mo><mn>1</mn></mrow></span></msup></mrow></fmath>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 157,
+      "question_html": "Which of the following graphs represents Charle's law?",
+      "option_a": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_157_O_1 \"></span></div>",
+      "option_b": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_157_O_2 \"></span></div>",
+      "option_c": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_157_O_3 \"></span></div>",
+      "option_d": "<div class=\"hscrollenable\"><span class=\"sprite AP_24_SEP_SHIFT_1_157_O_4 \"></span></div>",
+      "correct_option": "b",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 158,
+      "question_html": "Calculate the percentage by weight of oxygen in a mole of water?",
+      "option_a": "88.79 %",
+      "option_b": "80.00 %",
+      "option_c": "75.00 %",
+      "option_d": "60.75 %",
+      "correct_option": "a",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    },
+    {
+      "question_number": 159,
+      "question_html": "Name the process Which leads to the formation of RNA from DNA?",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "d",
+      "solution_html": "<div style=\"position: relative;z-index:1\"> </div>"
+    }
+  ]
+}

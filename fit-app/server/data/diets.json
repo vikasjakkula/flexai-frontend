@@ -1,0 +1,75 @@
+{
+  "schema": "Add objects to the `items` array — same shape as below.",
+  "items": [
+    {
+      "id": "diet-avocado",
+      "name": "Avocado-focused meal plan",
+      "summary": "Healthy fats, fiber; use as template and adjust calories with your coach.",
+      "foods": ["avocado", "leafy greens", "eggs"],
+      "tags": ["whole-food", "high-fat-friendly"]
+    },
+    {
+      "id": "diet-muscle-gain",
+      "name": "Muscle Gain High-Protein",
+      "summary": "5-6 meals/day, ~3000 kcal, 200g+ protein. Rice, chicken, eggs, whey.",
+      "foods": ["chicken breast", "white rice", "eggs", "whey protein", "oats", "sweet potato", "broccoli"],
+      "tags": ["high-protein", "bulk", "muscle-gain"]
+    },
+    {
+      "id": "diet-weight-loss",
+      "name": "Caloric Deficit Fat-Loss",
+      "summary": "500 kcal deficit, ~1800 kcal, high protein to preserve muscle.",
+      "foods": ["lean chicken", "vegetables", "greek yogurt", "berries", "egg whites", "quinoa", "salad"],
+      "tags": ["low-calorie", "weight-loss", "high-protein"]
+    },
+    {
+      "id": "diet-keto",
+      "name": "Ketogenic Diet",
+      "summary": "High fat, very low carb. Keeps insulin low for fat burning.",
+      "foods": ["beef", "bacon", "cheese", "butter", "nuts", "leafy greens", "avocado", "salmon"],
+      "tags": ["keto", "low-carb", "high-fat"]
+    },
+    {
+      "id": "diet-vegetarian",
+      "name": "Vegetarian Athlete Plan",
+      "summary": "Plant-based complete proteins for active vegetarians.",
+      "foods": ["lentils", "chickpeas", "tofu", "tempeh", "quinoa", "paneer", "milk", "nuts", "seeds"],
+      "tags": ["vegetarian", "high-protein", "plant-based"]
+    },
+    {
+      "id": "diet-vegan",
+      "name": "Vegan Performance Plan",
+      "summary": "100% plant-based, optimized with B12 and iron sources.",
+      "foods": ["edamame", "lentils", "chickpeas", "tofu", "tempeh", "brown rice", "nutritional yeast", "hemp seeds"],
+      "tags": ["vegan", "plant-based", "performance"]
+    },
+    {
+      "id": "diet-mediterranean",
+      "name": "Mediterranean Diet",
+      "summary": "Heart-healthy, anti-inflammatory. Excellent for endurance athletes.",
+      "foods": ["olive oil", "fish", "whole grains", "legumes", "tomatoes", "cucumber", "nuts", "feta"],
+      "tags": ["mediterranean", "heart-healthy", "endurance"]
+    },
+    {
+      "id": "diet-carb-cycle",
+      "name": "Carb Cycling Plan",
+      "summary": "High carb on training days, low carb on rest days for body recomp.",
+      "foods": ["oats", "white rice", "sweet potato", "chicken", "broccoli", "eggs", "protein shake"],
+      "tags": ["carb-cycling", "recomp", "intermediate"]
+    },
+    {
+      "id": "diet-endurance",
+      "name": "Endurance Athlete Fuel",
+      "summary": "High carb, moderate protein for marathon runners and cyclists.",
+      "foods": ["pasta", "rice", "banana", "sports drink", "chicken", "sourdough", "honey"],
+      "tags": ["endurance", "high-carb", "performance"]
+    },
+    {
+      "id": "diet-intermittent-fasting",
+      "name": "Intermittent Fasting (16:8)",
+      "summary": "Eat within 8-hour window. Helps fat loss while preserving muscle.",
+      "foods": ["eggs", "chicken", "nuts", "salad", "avocado", "berries", "protein shake"],
+      "tags": ["IF", "weight-loss", "intermittent-fasting"]
+    }
+  ]
+}

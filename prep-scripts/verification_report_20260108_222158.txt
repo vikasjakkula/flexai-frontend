@@ -1,0 +1,4155 @@
+================================================================================
+TEST VERIFICATION REPORT
+Generated: 2026-01-08 22:21:58
+================================================================================
+
+================================================================================
+TS STATE TESTS
+================================================================================
+
+Total Tests: 54
+
+────────────────────────────────────────────────────────────────────────────────
+Test 1: TG EAMCET 2 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 8
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/tg_eamcet_2_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 2: TG EAMCET 2 May 2025 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 9
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/tg_eamcet_2_may_2025_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 3: TG EAMCET 3 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 10
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/tg_eamcet_3_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 4: TG EAMCET 3 May 2025 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 11
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/tg_eamcet_3_may_2025_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 5: TG EAMCET 4 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 12
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/tg_eamcet_4_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 6: TG EAMCET 4 May 2025 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 13
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/tg_eamcet_4_may_2025_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 7: TS EAMCET 03 May 2019 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 14
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_03_may_2019_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 8: TS EAMCET 03 May 2019 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 15
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_03_may_2019_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 9: TS EAMCET 04 May 2019 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 16
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_04_may_2019_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 10: TS EAMCET 04 May 2019 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 17
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_04_may_2019_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 11: TS EAMCET 06 May 2019 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 18
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_06_may_2019_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 12: TS EAMCET 10 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 19
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_10_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 118
+
+Questions with Empty/Null Fields Details:
+  Question 35: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 13: TS EAMCET 10 May 2024 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 20
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_10_may_2024_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 120
+
+Questions with Empty/Null Fields Details:
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 14: TS EAMCET 10 Sep 2020 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 21
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_10_sep_2020_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 15: TS EAMCET 10 Sep 2020 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 22
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_10_sep_2020_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 2
+
+Questions with Empty/Null Fields Details:
+  Question 41: Missing fields - answer
+  Question 119: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 16: TS EAMCET 11 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 23
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_11_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 121
+
+Questions with Empty/Null Fields Details:
+  Question 16: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 17: TS EAMCET 11 May 2024 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 24
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_11_may_2024_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 18: TS EAMCET 11 Sep 2020 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 25
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_11_sep_2020_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 19: TS EAMCET 11 Sep 2020 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 26
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_11_sep_2020_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 20: TS EAMCET 14 Sep 2020 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 27
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_14_sep_2020_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 21: TS EAMCET 14 Sep 2020 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 28
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_14_sep_2020_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 1
+
+Questions with Empty/Null Fields Details:
+  Question 159: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 22: TS EAMCET 18 July 2022 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 29
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_18_july_2022_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 1
+
+Questions with Empty/Null Fields Details:
+  Question 16: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 23: TS EAMCET 18 July 2022 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 30
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_18_july_2022_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 1
+
+Questions with Empty/Null Fields Details:
+  Question 141: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 24: TS EAMCET 19 July 2022 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 31
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_19_july_2022_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 25: TS EAMCET 19 July 2022 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 32
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_19_july_2022_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 26: TS EAMCET 20 July 2022 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 33
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_20_july_2022_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 27: TS EAMCET 20 July 2022 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 34
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_20_july_2022_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 28: TS EAMCET 2015 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 35
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_2015_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 29: TS EAMCET 2016 Code A Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 36
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_2016_code_a_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 30: TS EAMCET 2017 Code A Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 37
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_2017_code_a_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 31: TS EAMCET 4 Aug 2021 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 38
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_4_aug_2021_shift_1_question_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 32: TS EAMCET 4 Aug 2021 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 39
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_4_aug_2021_shift_2_question_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 33: TS EAMCET 4 May 2018 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 40
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_4_may_2018_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 34: TS EAMCET 4 May 2018 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 41
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_4_may_2018_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 35: TS EAMCET 5 Aug 2021 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 42
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_5_aug_2021_shift_1_question_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 36: TS EAMCET 5 Aug 2021 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 43
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_5_aug_2021_shift_2_question_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 37: TS EAMCET 5 May 2018 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 44
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_5_may_2018_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 38: TS EAMCET 5 May 2018 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 45
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_5_may_2018_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 39: TS EAMCET 6 Aug 2021 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 46
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_6_aug_2021_shift_1_question_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 40: TS EAMCET 6 Aug 2021 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 47
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_6_aug_2021_shift_2_question_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 1
+
+Questions with Empty/Null Fields Details:
+  Question 110: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 41: TS EAMCET 7 May 2018 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 48
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_7_may_2018_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 42: TS EAMCET 7 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 49
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_7_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 43: TS EAMCET 7 May 2024 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 50
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_7_may_2024_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 44: TS EAMCET 8 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 51
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_8_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 45: TS EAMCET 9 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 52
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_9_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 120
+
+Questions with Empty/Null Fields Details:
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 46: TS EAMCET 9 May 2024 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 53
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_9_may_2024_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 118
+
+Questions with Empty/Null Fields Details:
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 47: TS EAMCET 9 Sep 2020 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 54
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_9_sep_2020_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 48: TS EAMCET 9 Sep 2020 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 55
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_9_sep_2020_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 49: TS EAMCET Engineering 12 May 2023 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 56
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_engineering_12_may_2023_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 159
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 50: TS EAMCET Engineering 12 May 2023 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 57
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_engineering_12_may_2023_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 51: TS EAMCET Engineering 13 May 2023 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 58
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_engineering_13_may_2023_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 52: TS EAMCET Engineering 13 May 2023 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 59
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_engineering_13_may_2023_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 53: TS EAMCET Engineering 14 May 2023 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 60
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_engineering_14_may_2023_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+────────────────────────────────────────────────────────────────────────────────
+Test 54: TS EAMCET Engineering 14 May 2023 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 61
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ts_eamcet_engineering_14_may_2023_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 160
+
+Questions with Empty/Null Fields Details:
+  Question 1: Missing fields - answer
+  Question 2: Missing fields - answer
+  Question 3: Missing fields - answer
+  Question 4: Missing fields - answer
+  Question 5: Missing fields - answer
+  Question 6: Missing fields - answer
+  Question 7: Missing fields - answer
+  Question 8: Missing fields - answer
+  Question 9: Missing fields - answer
+  Question 10: Missing fields - answer
+  Question 11: Missing fields - answer
+  Question 12: Missing fields - answer
+  Question 13: Missing fields - answer
+  Question 14: Missing fields - answer
+  Question 15: Missing fields - answer
+  Question 16: Missing fields - answer
+  Question 17: Missing fields - answer
+  Question 18: Missing fields - answer
+  Question 19: Missing fields - answer
+  Question 20: Missing fields - answer
+  Question 21: Missing fields - answer
+  Question 22: Missing fields - answer
+  Question 23: Missing fields - answer
+  Question 24: Missing fields - answer
+  Question 25: Missing fields - answer
+  Question 26: Missing fields - answer
+  Question 27: Missing fields - answer
+  Question 28: Missing fields - answer
+  Question 29: Missing fields - answer
+  Question 30: Missing fields - answer
+  Question 31: Missing fields - answer
+  Question 32: Missing fields - answer
+  Question 33: Missing fields - answer
+  Question 34: Missing fields - answer
+  Question 35: Missing fields - answer
+  Question 36: Missing fields - answer
+  Question 37: Missing fields - answer
+  Question 38: Missing fields - answer
+  Question 39: Missing fields - answer
+  Question 40: Missing fields - answer
+  Question 41: Missing fields - answer
+  Question 42: Missing fields - answer
+  Question 43: Missing fields - answer
+  Question 44: Missing fields - answer
+  Question 45: Missing fields - answer
+  Question 46: Missing fields - answer
+  Question 47: Missing fields - answer
+  Question 48: Missing fields - answer
+  Question 49: Missing fields - answer
+  Question 50: Missing fields - answer
+  Question 51: Missing fields - answer
+  Question 52: Missing fields - answer
+  Question 53: Missing fields - answer
+  Question 54: Missing fields - answer
+  Question 55: Missing fields - answer
+  Question 56: Missing fields - answer
+  Question 57: Missing fields - answer
+  Question 58: Missing fields - answer
+  Question 59: Missing fields - answer
+  Question 60: Missing fields - answer
+  Question 61: Missing fields - answer
+  Question 62: Missing fields - answer
+  Question 63: Missing fields - answer
+  Question 64: Missing fields - answer
+  Question 65: Missing fields - answer
+  Question 66: Missing fields - answer
+  Question 67: Missing fields - answer
+  Question 68: Missing fields - answer
+  Question 69: Missing fields - answer
+  Question 70: Missing fields - answer
+  Question 71: Missing fields - answer
+  Question 72: Missing fields - answer
+  Question 73: Missing fields - answer
+  Question 74: Missing fields - answer
+  Question 75: Missing fields - answer
+  Question 76: Missing fields - answer
+  Question 77: Missing fields - answer
+  Question 78: Missing fields - answer
+  Question 79: Missing fields - answer
+  Question 80: Missing fields - answer
+  Question 81: Missing fields - answer
+  Question 82: Missing fields - answer
+  Question 83: Missing fields - answer
+  Question 84: Missing fields - answer
+  Question 85: Missing fields - answer
+  Question 86: Missing fields - answer
+  Question 87: Missing fields - answer
+  Question 88: Missing fields - answer
+  Question 89: Missing fields - answer
+  Question 90: Missing fields - answer
+  Question 91: Missing fields - answer
+  Question 92: Missing fields - answer
+  Question 93: Missing fields - answer
+  Question 94: Missing fields - answer
+  Question 95: Missing fields - answer
+  Question 96: Missing fields - answer
+  Question 97: Missing fields - answer
+  Question 98: Missing fields - answer
+  Question 99: Missing fields - answer
+  Question 100: Missing fields - answer
+  Question 101: Missing fields - answer
+  Question 102: Missing fields - answer
+  Question 103: Missing fields - answer
+  Question 104: Missing fields - answer
+  Question 105: Missing fields - answer
+  Question 106: Missing fields - answer
+  Question 107: Missing fields - answer
+  Question 108: Missing fields - answer
+  Question 109: Missing fields - answer
+  Question 110: Missing fields - answer
+  Question 111: Missing fields - answer
+  Question 112: Missing fields - answer
+  Question 113: Missing fields - answer
+  Question 114: Missing fields - answer
+  Question 115: Missing fields - answer
+  Question 116: Missing fields - answer
+  Question 117: Missing fields - answer
+  Question 118: Missing fields - answer
+  Question 119: Missing fields - answer
+  Question 120: Missing fields - answer
+  Question 121: Missing fields - answer
+  Question 122: Missing fields - answer
+  Question 123: Missing fields - answer
+  Question 124: Missing fields - answer
+  Question 125: Missing fields - answer
+  Question 126: Missing fields - answer
+  Question 127: Missing fields - answer
+  Question 128: Missing fields - answer
+  Question 129: Missing fields - answer
+  Question 130: Missing fields - answer
+  Question 131: Missing fields - answer
+  Question 132: Missing fields - answer
+  Question 133: Missing fields - answer
+  Question 134: Missing fields - answer
+  Question 135: Missing fields - answer
+  Question 136: Missing fields - answer
+  Question 137: Missing fields - answer
+  Question 138: Missing fields - answer
+  Question 139: Missing fields - answer
+  Question 140: Missing fields - answer
+  Question 141: Missing fields - answer
+  Question 142: Missing fields - answer
+  Question 143: Missing fields - answer
+  Question 144: Missing fields - answer
+  Question 145: Missing fields - answer
+  Question 146: Missing fields - answer
+  Question 147: Missing fields - answer
+  Question 148: Missing fields - answer
+  Question 149: Missing fields - answer
+  Question 150: Missing fields - answer
+  Question 151: Missing fields - answer
+  Question 152: Missing fields - answer
+  Question 153: Missing fields - answer
+  Question 154: Missing fields - answer
+  Question 155: Missing fields - answer
+  Question 156: Missing fields - answer
+  Question 157: Missing fields - answer
+  Question 158: Missing fields - answer
+  Question 159: Missing fields - answer
+  Question 160: Missing fields - answer
+
+
+================================================================================
+AP STATE TESTS
+================================================================================
+
+Total Tests: 46
+
+────────────────────────────────────────────────────────────────────────────────
+Test 1: AP EAPCET 04 Jul 2022 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 62
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_04_jul_2022_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 2: AP EAPCET 04 Jul 2022 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 63
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_04_jul_2022_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 3: AP EAPCET 05 Jul 2022 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 64
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_05_jul_2022_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 4: AP EAPCET 05 Jul 2022 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 65
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_05_jul_2022_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 5: AP EAPCET 06 Jul 2022 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 66
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_06_jul_2022_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 6: AP EAPCET 06 Jul 2022 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 67
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_06_jul_2022_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 7: AP EAPCET 07 Jul 2022 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 68
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_07_jul_2022_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 8: AP EAPCET 07 Jul 2022 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 69
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_07_jul_2022_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 9: AP EAPCET 08 Jul 2022 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 70
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_08_jul_2022_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 10: AP EAPCET 08 Jul 2022 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 71
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_08_jul_2022_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 11: AP EAPCET 15th May 2023 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 72
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_15th_may_2023_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 12: AP EAPCET 15th May 2023 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 73
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_15th_may_2023_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 13: AP EAPCET 16th May 2023 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 74
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_16th_may_2023_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 14: AP EAPCET 16th May 2023 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 75
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_16th_may_2023_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 15: AP EAPCET 17th May 2023 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 76
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_17th_may_2023_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 16: AP EAPCET 17th May 2023 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 77
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_17th_may_2023_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 17: AP EAPCET 18 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 78
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_18_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 18: AP EAPCET 18th May 2023 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 79
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_18th_may_2023_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 19: AP EAPCET 18th May 2023 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 80
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_18th_may_2023_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 20: AP EAPCET 19 Aug 2021 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 81
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_19_aug_2021_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 21: AP EAPCET 19 Aug 2021 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 82
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_19_aug_2021_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 22: AP EAPCET 19 May 2024 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 83
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_19_may_2024_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 23: AP EAPCET 19th May 2023 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 84
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_19th_may_2023_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 24: AP EAPCET 20 Aug 2021 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 85
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_20_aug_2021_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 25: AP EAPCET 20 Aug 2021 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 86
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_20_aug_2021_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 26: AP EAPCET 20 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 87
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_20_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 27: AP EAPCET 20 May 2024 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 88
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_20_may_2024_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 28: AP EAPCET 21 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 89
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_21_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 51
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 29: AP EAPCET 21 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 90
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_21_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 30: AP EAPCET 21 May 2025 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 91
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_21_may_2025_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 31: AP EAPCET 22 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 92
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_22_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 148
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 32: AP EAPCET 22 May 2024 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 93
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_22_may_2024_shift_2_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 159
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 33: AP EAPCET 22 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 94
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_22_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 34: AP EAPCET 22 May 2025 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 95
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_22_may_2025_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 1
+
+Questions with Empty/Null Fields Details:
+  Question 3: Missing fields - option_d
+
+────────────────────────────────────────────────────────────────────────────────
+Test 35: AP EAPCET 23 Aug 2021 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 96
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_23_aug_2021_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 36: AP EAPCET 23 Aug 2021 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 97
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_23_aug_2021_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 37: AP EAPCET 23 May 2024 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 98
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_23_may_2024_shift_1_solved_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 38: AP EAPCET 23 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 99
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_23_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 39: AP EAPCET 23 May 2025 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 100
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_23_may_2025_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 40: AP EAPCET 24 Aug 2021 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 101
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_24_aug_2021_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 41: AP EAPCET 24 Aug 2021 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 103
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_24_aug_2021_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 42: AP EAPCET 24 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 104
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_24_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 43: AP EAPCET 25 Aug 2021 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 105
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_25_aug_2021_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 44: AP EAPCET 25 Aug 2021 Shift 2 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 106
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_25_aug_2021_shift_2_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 45: AP EAPCET 26 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 107
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_26_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+────────────────────────────────────────────────────────────────────────────────
+Test 46: AP EAPCET 27 May 2025 Shift 1 Paper
+────────────────────────────────────────────────────────────────────────────────
+Test ID: 108
+Sprite CSS URL: https://bnnpmfdnsngxhxydvecx.supabase.co/storage/v1/object/public/images/sprites/ap_eapcet_27_may_2025_shift_1_paper.css
+Sprite CSS URL Status: 200 (Code: 200)
+Total Questions: 160
+Questions with Empty/Null Fields: 0
+
+
+================================================================================
+SUMMARY
+================================================================================
+
+TS Tests: 54
+TS Total Questions: 8640
+TS Questions with Empty/Null Fields: 3162
+TS Sprite CSS URLs (200): 54
+TS Sprite CSS URLs (404): 0
+
+AP Tests: 46
+AP Total Questions: 7238
+AP Questions with Empty/Null Fields: 1
+AP Sprite CSS URLs (200): 46
+AP Sprite CSS URLs (404): 0
+
+================================================================================
+END OF REPORT
+================================================================================
