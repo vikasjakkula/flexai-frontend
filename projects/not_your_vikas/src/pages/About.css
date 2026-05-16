@@ -1,0 +1,130 @@
+.about {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.about h1 {
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px var(--shadow-color);
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.about-section {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  position: relative;
+  z-index: 0;
+  transition: all 0.3s ease;
+}
+
+.about-section::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #FF0000, #FF7300, #FFFB00, #48FF00,
+    #00FFD5, #002BFF, #FF00C8, #FF0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+@keyframes glowing {
+  0% {background-position: 0 0;}
+  50% {background-position: 400% 0;}
+  100% {background-position: 0 0;}
+}
+
+.about-section:hover::before {
+  opacity: 1;
+}
+
+.about-section:hover {
+  transform: translateY(-5px);
+}
+
+.about-section h2 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.about-section p {
+  color: var(--text-color);
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.about-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-section li {
+  color: var(--text-color);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.about-section li:last-child {
+  border-bottom: none;
+}
+
+.about-section:hover li {
+  color: var(--text-color);
+}
+
+.about-section a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.about-section a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .about {
+    padding: 1rem;
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+  }
+  
+  .about-section {
+    padding: 1.5rem;
+  }
+} 

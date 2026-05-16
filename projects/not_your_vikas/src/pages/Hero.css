@@ -1,0 +1,44 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px var(--shadow-color);
+}
+
+.hero a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: var(--card-bg);
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.hero a:hover {
+  color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 1rem;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+  }
+} 

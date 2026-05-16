@@ -1,0 +1,1 @@
+# Simple React + vite project on api fetching
