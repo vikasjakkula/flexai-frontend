@@ -1,0 +1,449 @@
+/* ============================================
+   Introduction to Web Programming — Stylesheet
+   Student: Jakkula Vikas Yadav | NGIT
+   ============================================ */
+
+/* ---------- Design Tokens ---------- */
+:root {
+    /* Brand palette: high-contrast blue + orange (productivity/fitness app feel) */
+    --blue:        #2563EB;
+    --blue-dark:   #1D4ED8;
+    --blue-soft:   #EFF6FF;
+    --orange:      #F97316;
+    --orange-dark: #EA580C;
+    --orange-soft: #FFF7ED;
+  
+    /* Neutrals */
+    --black:       #001E2B;   /* heading color */
+    --gray:        #5D6C74;   /* paragraph color */
+    --gray-soft:   #F8FAFC;
+    --border:      #E2E8F0;
+    --white:       #FFFFFF;
+  
+    /* Type */
+    --font-heading: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --font-body:    "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+    /* Layout */
+    --max-width: 1200px;
+    --radius: 14px;
+    --radius-sm: 8px;
+  }
+  
+  /* ---------- Reset ---------- */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html { scroll-behavior: smooth; }
+  
+  body {
+    background: var(--white);
+    color: var(--gray);
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    overflow-wrap: break-word;
+  }
+  
+  /* ---------- Typography ---------- */
+  h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--black);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 6px 0 18px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 22px 0 10px;
+  }
+  
+  p {
+    color: var(--gray);
+    font-size: 18px;
+    line-height: 32px;
+  }
+  
+  a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  strong { color: var(--black); font-weight: 600; }
+  
+  /* ---------- HEADER ---------- */
+  .site-header {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 24px 36px;
+  }
+  
+  .header-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+  
+  .header-logo {
+    flex-shrink: 0;
+    width: 96px;
+    height: 96px;
+    background: var(--blue-soft);
+    border: 2px solid var(--blue);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-content { flex: 1; }
+  
+  .header-content .college {
+    color: var(--gray);
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 6px;
+  }
+  
+  .header-content .meta {
+    color: var(--gray);
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    align-items: center;
+  }
+  
+  .header-content .divider {
+    color: var(--border);
+    font-weight: 700;
+  }
+  
+  /* ---------- NAV ---------- */
+  .navbar {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  
+  .navbar ul {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 12px;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    padding: 10px 18px;
+    color: var(--black);
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    border-radius: var(--radius-sm);
+  }
+  
+  .navbar a.active {
+    background: var(--blue);
+    color: var(--white);
+  }
+  
+  /* ---------- MAIN GRID ---------- */
+  .main-grid {
+    max-width: var(--max-width);
+    margin: 32px auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+  
+  .main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  /* ---------- CARDS ---------- */
+  .card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    position: relative;
+  }
+  
+  .section-card { border-top: 4px solid var(--blue); }
+  .article-card { border-top: 4px solid var(--orange); }
+  .aside-card   { border-top: 4px solid var(--orange); }
+  
+  /* Badges */
+  .badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  
+  .badge-blue {
+    background: var(--blue-soft);
+    color: var(--blue-dark);
+    border: 1px solid var(--blue);
+  }
+  
+  .badge-orange {
+    background: var(--orange-soft);
+    color: var(--orange-dark);
+    border: 1px solid var(--orange);
+  }
+  
+  /* ---------- INTRO (image beside text, display:flex) ---------- */
+  .intro-flex {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .intro-flex p { flex: 1; }
+  
+  .intro-image {
+    flex: 0 0 200px;
+    background: var(--blue-soft);
+    border: 1px solid var(--blue);
+    border-radius: var(--radius-sm);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* ---------- TABLE ---------- */
+  .concepts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .concepts-table th {
+    background: var(--orange-soft);
+    color: var(--black);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    padding: 12px 16px;
+    border: 1px solid var(--orange);
+  }
+  
+  .concepts-table td {
+    padding: 12px 16px;
+    border: 1px solid var(--border);
+    color: var(--gray);
+  }
+  
+  .concepts-table tbody tr:nth-child(even) td {
+    background: var(--gray-soft);
+  }
+  
+  .concepts-table tbody tr td:first-child {
+    font-weight: 600;
+    color: var(--black);
+  }
+  
+  /* ---------- ASIDE ---------- */
+  .aside-card video,
+  .aside-card audio {
+    width: 100%;
+    margin-top: 6px;
+    border-radius: var(--radius-sm);
+  }
+  
+  .aside-card video {
+    background: var(--gray-soft);
+    border: 1px solid var(--border);
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  
+  .quick-links {
+    list-style: none;
+    margin-top: 6px;
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .quick-links a {
+    color: var(--blue);
+    font-weight: 500;
+  }
+  
+  .quick-links a::before {
+    content: "→";
+    color: var(--orange);
+    margin-right: 10px;
+    font-weight: 700;
+  }
+  
+  /* ---------- FORMS ---------- */
+  .forms-section {
+    max-width: var(--max-width);
+    margin: 0 auto 32px;
+    padding: 32px;
+    border-top: 4px solid var(--blue);
+  }
+  
+  .forms-section .form-intro {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  
+  .forms-section form {
+    display: grid;
+    gap: 16px;
+    max-width: 560px;
+  }
+  
+  .form-row label {
+    display: block;
+    color: var(--black);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    margin-bottom: 6px;
+  }
+  
+  .form-row input,
+  .form-row textarea {
+    width: 100%;
+    padding: 12px 14px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--black);
+    background: var(--gray-soft);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    outline: none;
+  }
+  
+  .form-row input:focus,
+  .form-row textarea:focus {
+    border-color: var(--blue);
+    background: var(--white);
+  }
+  
+  .form-row textarea {
+    resize: vertical;
+    min-height: 110px;
+    line-height: 26px;
+  }
+  
+  .submit-btn {
+    justify-self: start;
+    padding: 12px 28px;
+    background: var(--orange);
+    color: var(--white);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+  }
+  
+  .submit-btn:active { background: var(--orange-dark); }
+  
+  .form-status {
+    margin-top: 4px;
+    font-size: 15px;
+    color: var(--blue);
+    font-weight: 500;
+    min-height: 22px;
+  }
+  
+  /* ---------- FOOTER ---------- */
+  .site-footer {
+    background: var(--blue);
+    color: var(--white);
+    text-align: center;
+    padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .site-footer p {
+    color: var(--white);
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+  }
+  
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 960px) {
+    .main-grid { grid-template-columns: 1fr; }
+  }
+  
+  @media (max-width: 700px) {
+    h1 { font-size: 34px; line-height: 42px; }
+    h2 { font-size: 26px; line-height: 34px; }
+  
+    .site-header { padding: 32px 20px 24px; }
+    .header-inner { flex-direction: column; text-align: center; gap: 18px; }
+    .header-content .meta { justify-content: center; }
+  
+    .intro-flex { flex-direction: column; }
+    .intro-image { flex: 0 0 auto; width: 100%; max-width: 220px; }
+  
+    .card { padding: 22px; }
+    .forms-section { padding: 24px; margin: 0 16px 32px; }
+  
+    .navbar ul { gap: 4px; padding: 8px; }
+    .navbar a { padding: 8px 14px; font-size: 14px; }
+  }

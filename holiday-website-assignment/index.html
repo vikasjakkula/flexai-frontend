@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introduction to Web Programming</title>
+
+  <!-- Fonts: serif for headings (MongoDB-Value-Serif feel), Inter for body (Euclid feel) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <div class="header-logo" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="48" height="48" fill="none">
+          <rect x="6" y="12" width="52" height="36" rx="4" stroke="#2563EB" stroke-width="3"/>
+          <path d="M6 44h52" stroke="#2563EB" stroke-width="3"/>
+          <path d="M24 24l-6 6 6 6M40 24l6 6-6 6M34 22l-4 16"
+                stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="header-content">
+        <h1>Introduction to Web Programming</h1>
+        <p class="college">NGIT &mdash; Neil Gogte Institute of Technology</p>
+        <div class="meta">
+          <span><strong>Subject:</strong> Web Programming</span>
+          <span class="divider">|</span>
+          <span><strong>Student Name:</strong> Jakkula Vikas Yadav</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#concepts">Concepts</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#forms">Forms</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============ MAIN GRID ============ -->
+  <main class="main-grid">
+
+    <!-- LEFT COLUMN -->
+    <div class="main-left">
+
+      <!-- SECTION: Introduction -->
+      <section class="card section-card" id="introduction">
+        <span class="badge badge-blue">SECTION</span>
+        <h2>Introduction</h2>
+
+        <div class="intro-flex">
+          <p>
+            Web programming is the process of creating websites and web applications
+            using technologies like HTML, CSS, JavaScript and more. It powers everything
+            from simple static pages to large, interactive platforms that we use every day
+            on the modern web.
+          </p>
+
+          <div class="intro-image" aria-hidden="true">
+            <svg viewBox="0 0 200 160" width="100%" height="auto">
+              <rect x="20" y="20" width="160" height="100" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+              <rect x="20" y="20" width="160" height="18" rx="6" fill="#2563EB"/>
+              <circle cx="32" cy="29" r="3" fill="#FFFFFF"/>
+              <circle cx="44" cy="29" r="3" fill="#FFFFFF"/>
+              <circle cx="56" cy="29" r="3" fill="#FFFFFF"/>
+              <text x="100" y="78" text-anchor="middle" font-family="Inter, sans-serif"
+                    font-size="22" font-weight="700" fill="#F97316">HTML</text>
+              <line x1="50" y1="95" x2="150" y2="95" stroke="#E2E8F0" stroke-width="3"/>
+              <line x1="60" y1="105" x2="140" y2="105" stroke="#E2E8F0" stroke-width="3"/>
+              <rect x="70" y="130" width="60" height="6" rx="2" fill="#2563EB"/>
+              <rect x="60" y="140" width="80" height="6" rx="2" fill="#F97316"/>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- ARTICLE: Web Concepts -->
+      <article class="card article-card" id="concepts">
+        <span class="badge badge-orange">ARTICLE</span>
+        <h2>Web Concepts</h2>
+
+        <table class="concepts-table">
+          <thead>
+            <tr>
+              <th>Concept</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Web Server</td>
+              <td>Stores and delivers web pages to users.</td>
+            </tr>
+            <tr>
+              <td>HTTP Request</td>
+              <td>A request sent by the browser to the server.</td>
+            </tr>
+            <tr>
+              <td>GET Method</td>
+              <td>Retrieves data from the server.</td>
+            </tr>
+            <tr>
+              <td>POST Method</td>
+              <td>Sends data securely to the server.</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+    </div>
+
+    <!-- RIGHT COLUMN: ASIDE -->
+    <aside class="card aside-card" id="media">
+      <span class="badge badge-orange">ASIDE</span>
+      <h2>Media Section</h2>
+
+      <h3>Video</h3>
+      <video controls poster="" preload="metadata">
+        <!-- Replace sample.mp4 with your video file -->
+        <source src="sample.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <h3>Audio</h3>
+      <audio controls preload="metadata">
+        <!-- Replace sample.mp3 with your audio file -->
+        <source src="sample.mp3" type="audio/mpeg" />
+        Your browser does not support the audio tag.
+      </audio>
+
+      <h3 id="resources">Quick Links</h3>
+      <ul class="quick-links">
+        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener">W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">Learn HTML</a></li>
+        <li><a href="https://www.javascripttutorial.net" target="_blank" rel="noopener">JavaScript Tutorial</a></li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <!-- ============ FORMS SECTION ============ -->
+  <section class="forms-section card" id="forms">
+    <span class="badge badge-blue">FORMS</span>
+    <h2>Get in Touch</h2>
+    <p class="form-intro">
+      A simple contact form built with the &lt;form&gt;, &lt;input&gt;, &lt;textarea&gt; and &lt;button&gt; tags.
+    </p>
+
+    <form id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+      <p id="formStatus" class="form-status" role="status"></p>
+    </form>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <circle cx="12" cy="12" r="10"/>
+      <line x1="2" y1="12" x2="22" y2="12"/>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+    </svg>
+    <p>&copy; <span id="year">2026</span> Web Programming Assignment &middot; Jakkula Vikas Yadav, NGIT</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

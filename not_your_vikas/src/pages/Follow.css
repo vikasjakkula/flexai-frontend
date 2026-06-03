@@ -1,0 +1,28 @@
+.follow {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.follow h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.follow-list {
+  list-style: none;
+  padding: 0;
+}
+
+.follow-list li {
+  margin: 0.5rem 0;
+}
+
+.follow-list a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.follow-list a:hover {
+  text-decoration: underline;
+}
