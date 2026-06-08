@@ -1,8 +1,0 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background with rounded square (modern look) -->
-  <rect x="2" y="2" width="28" height="28" rx="6" fill="#2563EB"/>
-  <!-- Letter E - bold and clean -->
-  <path d="M9 8 L9 24 L20 24 L20 20 L13 20 L13 18 L20 18 L20 14 L13 14 L13 12 L20 12 L20 8 Z" fill="white"/>
-  <!-- Small star/accent for "pro" -->
-  <circle cx="23" cy="9" r="1.5" fill="white"/>
-</svg>
