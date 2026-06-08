@@ -4,31 +4,31 @@
   flex-direction: column;
   background-color: var(--bg-color);
   color: var(--text-color);
+  transition: background-color 320ms var(--ease-out), color 320ms var(--ease-out);
 }
 
 .main-content {
   flex: 1;
-  padding: 20px;
-  max-width: 1200px;
+  padding: clamp(0.75rem, 2vw, 1.25rem);
+  max-width: 1280px;
   margin: 0 auto;
   width: 100%;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .main-content {
-    padding: 15px;
+    padding: 0.75rem;
   }
 }
 
-/* Animation for page transitions */
+/* Page transition (used by route fades, when wired in) */
 .fade-enter {
   opacity: 0;
 }
 
 .fade-enter-active {
   opacity: 1;
-  transition: opacity 300ms ease-in;
+  transition: opacity 280ms var(--ease-out);
 }
 
 .fade-exit {
@@ -37,46 +37,11 @@
 
 .fade-exit-active {
   opacity: 0;
-  transition: opacity 300ms ease-in;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transition: opacity 220ms var(--ease-out);
 }
 
 .App .main-content h1 {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .App .main-content p {
@@ -84,33 +49,11 @@
   color: hsl(var(--muted-foreground));
 }
 
-.api-test {
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #61dafb;
-  border-radius: 5px;
-}
-
-/* Add any additional global styles here */
-
-.App,
-.App * {
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Selection color */
-::selection {
-  background-color: hsl(var(--primary));
-  color: hsl(var(--primary-foreground));
-}
-
-/* blur component css goes here */
-
+/* Gradual blur overlay */
 .gradual-blur-inner {
   position: relative;
   width: 100%;

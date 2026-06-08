@@ -52,6 +52,25 @@
   --border-color: hsl(var(--border));
   --card-bg: hsl(var(--card));
   --shadow-color: hsl(var(--foreground) / 0.08);
+
+  /* Refined design tokens */
+  --muted-text: hsl(var(--muted-foreground));
+  --hairline: hsl(var(--foreground) / 0.08);
+  --ring-focus: 0 0 0 3px hsl(var(--ring) / 0.35);
+  --shadow-sm: 0 1px 2px hsl(var(--foreground) / 0.04);
+  --shadow-md: 0 4px 12px hsl(var(--foreground) / 0.06),
+               0 1px 3px hsl(var(--foreground) / 0.04);
+  --shadow-lg: 0 16px 40px -8px hsl(var(--foreground) / 0.12),
+               0 4px 12px -4px hsl(var(--foreground) / 0.06);
+  --gradient-accent: linear-gradient(135deg,
+                       hsl(217 91% 60%) 0%,
+                       hsl(262 83% 58%) 50%,
+                       hsl(330 81% 60%) 100%);
+  --gradient-border: linear-gradient(135deg,
+                       hsl(var(--foreground) / 0.18),
+                       hsl(var(--foreground) / 0.02));
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 [data-theme="dark"] {
@@ -85,6 +104,22 @@
   --border-color: hsl(var(--border));
   --card-bg: hsl(var(--card));
   --shadow-color: hsl(0 0% 0% / 0.35);
+
+  --muted-text: hsl(var(--muted-foreground));
+  --hairline: hsl(var(--foreground) / 0.10);
+  --ring-focus: 0 0 0 3px hsl(var(--ring) / 0.45);
+  --shadow-sm: 0 1px 2px hsl(0 0% 0% / 0.30);
+  --shadow-md: 0 4px 14px hsl(0 0% 0% / 0.35),
+               0 1px 3px hsl(0 0% 0% / 0.30);
+  --shadow-lg: 0 20px 50px -10px hsl(0 0% 0% / 0.55),
+               0 6px 16px -6px hsl(0 0% 0% / 0.40);
+  --gradient-accent: linear-gradient(135deg,
+                       hsl(217 91% 65%) 0%,
+                       hsl(262 83% 70%) 50%,
+                       hsl(330 81% 70%) 100%);
+  --gradient-border: linear-gradient(135deg,
+                       hsl(0 0% 100% / 0.18),
+                       hsl(0 0% 100% / 0.02));
 }
 
 html {
@@ -225,4 +260,26 @@ img {
   padding: 20px;
   box-shadow: 0 2px 4px var(--shadow-color);
   margin-bottom: 20px;
+}
+
+::selection {
+  background: hsl(var(--primary) / 0.20);
+  color: hsl(var(--foreground));
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--ring-focus);
+  border-radius: var(--radius);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }
